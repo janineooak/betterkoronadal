@@ -100,7 +100,14 @@ const Government: React.FC = () => {
                 {categoryIndex.description}
               </Text>
             )}
-            {categoryIndex.layout === 'grid' ? (
+            {subcategories.length === 0 ? (
+              <Banner
+                type="info"
+                title="Content coming soon"
+                description={`We're still adding content to the ${categoryData.category} section. In the meantime, explore the City Government and Services sections.`}
+                icon
+              />
+            ) : categoryIndex.layout === 'grid' ? (
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {subcategories.map(subcategory => (
                   <Link

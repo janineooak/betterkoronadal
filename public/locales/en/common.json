@@ -1,9 +1,9 @@
 {
-  "site_name": "City of Koronadal",
-  "site_description": "Official website of the City Government of Koronadal",
+  "site_name": "betterKoronadal",
+  "site_description": "Community portal for the City of Koronadal (unofficial)",
   "hero": {
-    "title": "Welcome to the City of Koronadal",
-    "subtitle": "Your gateway to services and information from the City Government of Koronadal — Hub of the South, capital of South Cotabato.",
+    "title": "betterKoronadal",
+    "subtitle": "An independent, community-built portal that makes information and services for the City of Koronadal easier to find. This is not the official city website.",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Business Registration"
@@ -29,7 +29,7 @@
     "title": "Latest News & Updates"
   },
   "footer": {
-    "copyright": "© 2026 City Government of Koronadal. Content is public domain unless otherwise specified."
+    "copyright": "© 2026 betterKoronadal — an independent community project. Not affiliated with the City Government of Koronadal."
   },
   "navbar": {
     "government": "Government",

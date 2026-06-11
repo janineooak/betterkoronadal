@@ -88,8 +88,8 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img
-                src="/koronadal-seal.png"
-                alt="City of Koronadal official seal"
+                src="/Better.png"
+                alt="betterKoronadal logo"
                 className="h-12 w-12 mr-3"
               />
               <div>

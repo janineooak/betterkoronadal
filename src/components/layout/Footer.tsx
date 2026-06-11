@@ -29,22 +29,35 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <img
-                src="/koronadal-seal.png"
-                alt="City of Koronadal official seal"
+                src="/Better.png"
+                alt="betterKoronadal logo"
                 className="h-12 w-12 mr-3"
               />
 
               <div>
                 <div className="font-bold">{t('site_name')}</div>
                 <div className="text-xs text-gray-400">
-                  Official City Government Portal
+                  Community Portal · Unofficial
                 </div>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              The official portal of the City Government of Koronadal, providing
-              residents, businesses, and visitors with city services and
-              information.
+              An independent, community-built portal that makes information and
+              services for the City of Koronadal easier to find.{' '}
+              <strong className="text-gray-300">
+                Not affiliated with, operated by, or endorsed by the City
+                Government of Koronadal.
+              </strong>{' '}
+              The official city website is{' '}
+              <a
+                href="https://koronadal.gov.ph"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-white"
+              >
+                koronadal.gov.ph
+              </a>
+              .
             </p>
             <div className="flex space-x-4">
               {footerNavigation.socialLinks.map(link => (
