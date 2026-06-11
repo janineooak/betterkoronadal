@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Menu, ChevronDown, Globe, Search } from 'lucide-react';
+import { X, Menu, ChevronDown, Globe } from 'lucide-react';
 import { mainNavigation } from '../../data/navigation';
 import type { LanguageType } from '../../types/index';
 import { Link } from 'react-router-dom';
@@ -37,35 +37,33 @@ const Navbar: React.FC = () => {
       <div className="border-b border-gray-200">
         <div className="container mx-auto px-4 flex justify-end items-center h-10">
           <div className="flex items-center space-x-4">
-            <a
-              href="https://bettergov.ph/join-us"
-              className="text-xs text-primary-600 hover:text-primary-700 font-semibold transition-colors"
-              target="_blank"
+            <Link
+              to="/hotlines"
+              className="text-xs text-red-600 hover:text-red-700 font-semibold transition-colors"
             >
-              🚀 Join Us
-            </a>
+              🚨 Hotlines
+            </Link>
+            <Link
+              to="/about"
+              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
+            >
+              About the City
+            </Link>
             <a
-              href="https://bettergov.ph/about"
+              href="https://southcotabato.gov.ph"
               className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
               target="_blank"
+              rel="noreferrer"
             >
-              About BetterGov
+              South Cotabato
             </a>
             <a
               href="https://www.gov.ph"
               className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
               target="_blank"
-            >
-              Official Gov.ph
-            </a>
-
-            <a
-              href="https://bettergov.ph/philippines/hotlines"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
-              target="_blank"
               rel="noreferrer"
             >
-              Hotlines
+              Official Gov.ph
             </a>
             <div className="hidden md:block">
               <select
@@ -149,18 +147,17 @@ const Navbar: React.FC = () => {
               About
             </Link>
             <Link
-              to="/search"
+              to="/contact"
               className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
             >
-              <Search className="h-4 w-4 mr-1" />
-              Search
+              Contact
             </Link>
-            {/* <Link
-              to="/sitemap"
+            <Link
+              to="/hotlines"
               className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
             >
-              Sitemap
-            </Link> */}
+              Hotlines
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -215,13 +212,6 @@ const Navbar: React.FC = () => {
             </div>
           ))}
           <Link
-            to="/join-us"
-            onClick={closeMenu}
-            className="block px-4 py-2 text-base font-semibold text-primary-600 hover:bg-primary-50 hover:text-primary-700"
-          >
-            🚀 Join Us
-          </Link>
-          <Link
             to="/about"
             onClick={closeMenu}
             className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
@@ -229,18 +219,18 @@ const Navbar: React.FC = () => {
             About
           </Link>
           <Link
-            to="/search"
+            to="/contact"
             onClick={closeMenu}
             className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
           >
-            Search
+            Contact
           </Link>
           <Link
-            to="/sitemap"
+            to="/hotlines"
             onClick={closeMenu}
-            className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
+            className="block px-4 py-2 text-base font-semibold text-red-600 hover:bg-red-50 hover:text-red-700"
           >
-            Sitemap
+            🚨 Hotlines
           </Link>
           <div className="px-4 py-3 border-t border-gray-200">
             <div className="flex items-center">

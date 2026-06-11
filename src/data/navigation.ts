@@ -32,12 +32,10 @@ export const footerNavigation = {
     {
       title: 'About',
       links: [
-        { label: 'About the Portal', href: '/about' },
-        // { label: 'Privacy Policy', href: '/privacy' },
-        // { label: 'Terms of Use', href: '/terms' },
-        { label: 'Accessibility', href: '/accessibility' },
-        { label: 'Contact Us', href: '/about' },
-        { label: 'Community Discord', href: '/discord' },
+        { label: 'About the City', href: '/about' },
+        { label: 'City Government', href: '/government/departments' },
+        { label: 'Contact Us', href: '/contact' },
+        { label: 'Emergency Hotlines', href: '/hotlines' },
       ],
     },
     {
@@ -50,8 +48,6 @@ export const footerNavigation = {
             label: category.category,
             href: `/services/${category.slug}`,
           })),
-        { label: 'Hotlines', href: '/philippines/hotlines' },
-        { label: 'Holidays', href: '/philippines/holidays' },
       ],
     },
     {
