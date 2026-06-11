@@ -1,12 +1,12 @@
-# Renew Permits and Pay Local Business Taxes — Lapu-Lapu City
+# Renew Permits and Pay Local Business Taxes — City of Koronadal
 
-Use this guide to renew your **Mayor’s/Business Permit** and **Local Business Taxes (LBT)** with the City Government.
+Use this guide to renew your **Mayor's/Business Permit** and **Local Business Taxes (LBT)** with the City Government of Koronadal through the **Business Permits and Licensing Office (BPLO)** and the **City Treasurer's Office**.
 
 ---
 
 ## Who Must Renew
 
-- All businesses operating in Lapu-Lapu City: **sole proprietors, partnerships, corporations, NGOs, cooperatives, online sellers with local presence**, and professionals with a business office.
+- All businesses operating in the City of Koronadal: **sole proprietors, partnerships, corporations, NGOs, cooperatives, online sellers with local presence**, and professionals with a business office.
 - Renewal applies to **main office and each branch**.
 
 ---
@@ -87,7 +87,7 @@ Use this guide to renew your **Mayor’s/Business Permit** and **Local Business 
 
 ## How Your Dues Are Computed
 
-- **Local Business Tax (LBT):** Based on **gross sales/receipts** of the prior year and your **business category** (rates and brackets per local tax ordinance).
+- **Local Business Tax (LBT):** Based on **gross sales/receipts** of the prior year and your **business category** (rates and brackets per the city's Revenue Code).
 - **Regulatory/Service Fees:** e.g., **Sanitary**, **Zoning**, **Garbage**, **Signage**, **Occupational**, and **Fire** fees/clearances.
 - **Other Assessments:** May apply for **delivery vehicles**, **storage/stockrooms**, **machinery**, or **special permits**.
 
@@ -95,7 +95,7 @@ Use this guide to renew your **Mayor’s/Business Permit** and **Local Business 
 
 ## Penalties for Late Renewal
 
-- **Surcharge** (commonly up to **25%** of the tax due) **plus** **monthly interest** (commonly up to **2% per month**) until fully paid, subject to the city’s ordinance caps.
+- A **surcharge** plus **monthly interest** on the unpaid tax until fully settled, applied per the city's Revenue Code (which follows the ceilings set by the Local Government Code — up to 25% surcharge and up to 2% interest per month).
 - Possible **closure/tagging** and **inspection findings** if you continue operations without a valid permit.
 
 ---
@@ -130,3 +130,15 @@ Use this guide to renew your **Mayor’s/Business Permit** and **Local Business 
 - [ ] **Valid ID** / **SPA or Board Resolution** for representative
 - [ ] Payment (cash/card) for **taxes & fees**
 - [ ] Collect **Permit**, **Stickers/Plates**, post on site
+
+---
+
+## Contact Information
+
+- **Office**: Business Permits and Licensing Office (BPLO) and City Treasurer's Office (Marloun C. Gumbao, City Treasurer)
+- **Address**: New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506
+- **Phone**: (083) 228-6095 (City Hall trunkline; ask to be connected to the BPLO or City Treasurer's Office)
+- **Email**: info.koronadalcity@gmail.com
+- **Hours**: Monday to Friday, 8:00 a.m. to 5:00 p.m.
+- **Facebook**: [City Government of Koronadal](https://facebook.com/CityGovernmentofKoronadal)
+- **Website**: [koronadal.gov.ph](https://koronadal.gov.ph)

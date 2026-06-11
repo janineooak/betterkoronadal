@@ -1,6 +1,6 @@
-# Check Garbage Collection Schedules and Request Pickup — Lapu-Lapu City
+# Check Garbage Collection Schedules and Request Pickup — City of Koronadal
 
-The City Government of Lapu-Lapu manages **regular garbage collection** through the **City Environment and Natural Resources Office (CENRO)** and barangays. Residents and business owners are encouraged to follow the schedule and proper segregation rules.
+The City of Koronadal manages **regular garbage collection** through the **City Environment and Natural Resources Office (CENRO)**, the **City General Services Office (CGSO)**, and the barangays. Residents and business owners are encouraged to follow their barangay schedule and the city's waste segregation rules.
 
 ---
 
@@ -8,17 +8,17 @@ The City Government of Lapu-Lapu manages **regular garbage collection** through 
 
 **How it works**
 
-- Collection schedules vary **by barangay** (usually **every other day** or **3 times per week**).
-- Trucks assigned to barangays cover **household waste**, **biodegradable**, and **residual/non-recyclable** garbage.
+- Collection schedules vary **by barangay** — check with your barangay for the days and route covering your area.
+- Trucks cover **household waste**: biodegradable, recyclable, and residual/non-recyclable garbage are collected separately.
 - Segregation at source is **mandatory** — separate biodegradable, recyclable, residual, and special/hazardous waste.
 
 **Where to check schedules**
 
-1. **Barangay Hall** — each barangay posts its official collection schedule.
-2. **Barangay Facebook Pages** — most update residents when trucks are delayed or rescheduled.
-3. **City Information Office (CIO)** or **CENRO** announcements for citywide advisories (e.g., during holidays or typhoon disruptions).
+1. **Barangay Hall** — each barangay posts its official collection schedule and route.
+2. **Barangay Facebook Pages** — most post updates when trucks are delayed or rescheduled.
+3. **City Government of Koronadal** advisories — citywide announcements (e.g., during holidays or weather disruptions) are posted on the official Facebook page.
 
-> Tip: Post the collection calendar on your fridge or gate to remind the household which days to take bins out.
+> Tip: Post your barangay collection calendar on your fridge or gate to remind the household which days to take bins out.
 
 ---
 
@@ -28,10 +28,10 @@ For **bulk waste** (e.g., furniture, appliances, construction debris, yard trimm
 
 **How to request**
 
-1. Visit your **Barangay Hall** or contact the **Barangay Environment Committee**.
+1. Visit your **Barangay Hall** or contact your barangay's environment/solid waste desk.
 2. Provide details: type of waste, estimated volume, and address.
-3. Barangay coordinates with **CENRO** for scheduling a **special truck pickup**.
-4. Some barangays may require a **minimal fee** for bulk or special disposal.
+3. The barangay coordinates with **CENRO** or the **CGSO** for a **special truck pickup**.
+4. A **minimal fee** may apply for bulk or special disposal — confirm with your barangay or the responsible city office.
 
 **Items usually needing special pickup**
 
@@ -43,32 +43,39 @@ For **bulk waste** (e.g., furniture, appliances, construction debris, yard trimm
 
 ## 3) Contact Information
 
-- **City Environment and Natural Resources Office (CENRO)**  
-  Lapu-Lapu City Hall, Government Complex, Brgy. Pajo  
-  Phone: (032) 340-0004 (City Hall trunkline, ask for CENRO)  
-  Updates: via **City Information Office** FB page
+- **City Environment and Natural Resources Office (CENRO)** — Augustus L. Bretaña, Head
+  Reach CENRO through the City Hall trunkline.
+- **City General Services Office (CGSO)** — Gemma Amor E. Panza, Head
+  Coordinates hauling and city service vehicles.
 
-- **Barangay Halls** — each barangay has an Environment/ Solid Waste desk for local schedules and pickup requests.
+**City Government of Koronadal**
+
+- **Address:** New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506
+- **Trunkline:** (083) 228-6095
+- **Email:** info.koronadalcity@gmail.com
+- **Facebook:** facebook.com/CityGovernmentofKoronadal
+
+**Barangay Halls** — each barangay has an environment/solid waste desk for local schedules and pickup requests.
 
 ---
 
 ## 4) Quick Tips for Residents
 
-- Put garbage out **only on collection day**, early morning or night before.
-- Use durable, closed containers to prevent animal scattering.
+- Put garbage out **only on your collection day**, early morning or the night before.
+- Use durable, closed containers to prevent animals from scattering waste.
 - For recyclables, check if your barangay has a **Materials Recovery Facility (MRF)** or partner junkshop.
-- During **rainy season/typhoons**, expect **schedule adjustments** — follow CIO or barangay announcements.
-- Avoid burning waste (strictly prohibited under RA 9003 / Clean Air Act).
+- During **rainy season**, expect **schedule adjustments** — follow your barangay and city announcements.
+- Do not burn waste — open burning is prohibited under **RA 9003** and the Clean Air Act.
 
 ---
 
-## 5) Businesses & Establishments
+## 5) Businesses and Establishments
 
-- Businesses must comply with **segregation** and may need to contract **accredited private haulers** for bulk/industrial waste.
+- Businesses must comply with **waste segregation** rules and may need to contract **accredited private haulers** for bulk or industrial waste.
 - Keep proof of disposal (receipts/hauling contracts) for compliance inspections by CENRO.
 
 ---
 
 ### Key Reminder
 
-Following your barangay’s **garbage collection schedule** and properly requesting **special pickups** keeps the city clean and prevents flooding, pests, and health risks.
+Following your barangay's **garbage collection schedule** and properly requesting **special pickups** keeps Koronadal City clean and prevents flooding, pests, and health risks.

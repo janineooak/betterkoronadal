@@ -1,6 +1,6 @@
-# Enroll Children in LGU Daycare or Preschool Programs — Lapu-Lapu City
+# Enroll Children in LGU Daycare or Preschool Programs — City of Koronadal
 
-The Lapu-Lapu City Government, through the **City Social Welfare and Development Office (CSWDO)** and barangays, operates **daycare centers** and supports **public preschool education**.
+The City Government of Koronadal, through the **City Social Welfare and Development Office (CSWDO)** — headed by Jennifer D. Magbanua — and the barangays, operates **daycare/child development centers** and supports **public preschool education**.
 
 ---
 
@@ -65,9 +65,17 @@ The Lapu-Lapu City Government, through the **City Social Welfare and Development
 
 ## Contact & Updates
 
-- **Barangay Daycare Centers** — Enrollment schedules and requirements are usually announced by barangay officials.
-- **City Social Welfare and Development Office (CSWDO)** — Oversees daycare programs.
-- **DepEd Lapu-Lapu City Division** — Manages public kindergarten enrollment.
+- **Barangay Daycare / Child Development Centers** — Enrollment schedules and requirements are usually announced by barangay officials.
+- **City Social Welfare and Development Office (CSWDO)** — Oversees the city's daycare/child development program. Reach the office through the City Hall trunkline.
+- **DepEd Koronadal City Division** — Manages public kindergarten enrollment (DepEd is a national agency; coordinate with your nearest public elementary school or the Division office).
+
+**City Hall contact**
+
+- **Address**: New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506
+- **Phone**: (083) 228-6095 (trunkline; ask to be connected to the CSWDO)
+- **Email**: info.koronadalcity@gmail.com
+- **Facebook**: [City Government of Koronadal](https://facebook.com/CityGovernmentofKoronadal)
+- **Website**: [koronadal.gov.ph](https://koronadal.gov.ph)
 
 ---
 

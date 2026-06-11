@@ -1,65 +1,99 @@
-# How to Set Up a Business Partnership
+# Apply for Barangay Clearance and Mayor's Business Permit — City of Koronadal
 
-## Step 1: Register with SEC
+Use this guide to get the **barangay clearance** and **mayor's (business) permit** you need to legally operate a new business in the City of Koronadal. Permits are processed through the **Business Permits and Licensing Office (BPLO)** at City Hall.
 
-**Prepare documents:**
+---
 
-- Partnership name (check via [SEC eSPARC](https://espac.sec.gov.ph/))
-- Notarized Articles of Partnership
-- IDs/TINs of partners, office address, capital structure
+## What You Need to Know
 
-**File online** through [SEC eSPARC](https://espac.sec.gov.ph/) and pay fees.
+| Information         | Details                                                                                           |
+| ------------------- | ------------------------------------------------------------------------------------------------- |
+| **Where**           | Business Permits and Licensing Office (BPLO), New City Hall, Brgy. Zone III, Koronadal City       |
+| **When**            | Monday to Friday, 8:00 a.m. to 5:00 p.m. (a Business One-Stop Shop is set up during peak periods) |
+| **Requirements**    | Barangay business clearance, business registration (DTI/SEC/CDA), proof of address, valid IDs     |
+| **Cost**            | Fees are computed based on the city's current Revenue Code and the nature/size of your business   |
+| **Processing Time** | Varies by business type; ask BPLO during pre-assessment                                           |
 
-**Output:** SEC Certificate of Recording + Approved Business Name
+---
 
-## Step 2: Apply for Business Permit
+## How to Apply
 
-Go to **Lapu-Lapu City BPLO** (Business Permit and Licensing Office).
+### Step 1: Register your business name
 
-**Requirements:**
+- For a sole proprietorship, register with **DTI** (online via the DTI Business Name Registration System).
+- For a partnership or corporation, register with the **SEC**; for a cooperative, register with the **CDA**.
+- Keep your registration certificate; you will need it for the next steps.
 
-- Unified Application Form
-- SEC Certificate of Registration + Articles of Partnership
-- Occupancy Permit (if owner) OR Lease Contract (if renting)
-- Community Tax Certificate (CTC)
+### Step 2: Secure a Barangay Business Clearance
 
-Apply in person or online via [Lapu-Lapu Online Business Permit Portal](https://businesspermit.lapulapucity.gov.ph/).
+- Go to the **barangay hall** where your business will be located.
+- Bring your business registration, proof of business address (lease contract or land title/tax declaration), and a valid ID.
+- Pay the barangay clearance fee and claim your clearance.
 
-> Note: Inspections may include zoning, sanitary, and fire safety checks.
+### Step 3: File your application at the BPLO
 
-## Step 3: Register with BIR
+- Go to the **Business Permits and Licensing Office** at the New City Hall.
+- Fill out the **Unified Business Permit Application Form**.
+- Submit your barangay clearance, business registration, proof of address, and valid IDs.
 
-File at the **BIR Revenue District Office (RDO)** where your office is located.
+### Step 4: Complete inspections and clearances
 
-- Fill out [BIR Form 1903](https://www.bir.gov.ph/images/1903%20Jan%202024.pdf)
-- Submit SEC Certificate + Articles of Partnership + valid IDs
-- Pay registration fee + Documentary Stamp Tax (DST)
+- Your application may be routed for **zoning**, **sanitary** (City Health Office), and **fire safety** (Bureau of Fire Protection) checks.
+- Some clearances are issued after an on-site inspection, depending on the nature of your business.
 
-**Within 30 days of receiving BIR Certificate:**
+### Step 5: Pay and claim your permit
 
-- Apply for Authority to Print Receipts (Form 1906) OR enroll in e-invoicing
-- Register your Books of Accounts
+- The BPLO computes your business tax and regulatory fees based on the city's Revenue Code.
+- Pay at the **City Treasurer's Office** cashier and keep your official receipt.
+- Claim your **Mayor's Business Permit**, plate/sticker, and any accompanying clearances, then post the permit conspicuously at your place of business.
 
-## Step 4: Register as Employer (if hiring)
+---
 
-Enroll with:
+## Requirements
 
-- [SSS](https://www.sss.gov.ph/)
-- [PhilHealth](https://www.philhealth.gov.ph/)
-- [Pag-IBIG](https://www.pagibigfund.gov.ph/)
+### Documents Needed
 
-## Process Flow
+- [ ] Barangay business clearance — from the barangay where you will operate
+- [ ] Business name registration — DTI (sole proprietor), SEC (partnership/corporation), or CDA (cooperative)
+- [ ] Proof of business address — lease contract, or land title/tax declaration if you own the property
+- [ ] Valid government-issued ID of the owner or authorized representative
+- [ ] BIR Certificate of Registration (Form 2303), if already secured
+- [ ] Special Power of Attorney or Board Resolution, if filing on behalf of the owner
 
-1. SEC name check + register via [SEC eSPARC](https://espac.sec.gov.ph/)
-2. Secure Barangay Certification + site/lease documents
-3. Apply for Business Permit at [Lapu-Lapu BPLO](https://businesspermit.lapulapucity.gov.ph/)
-4. File BIR Form 1903 → apply ATP → register books
+### Eligibility
 
-## Document Checklist
+- Any individual or entity that will operate a business within the City of Koronadal.
+- A separate permit is required for the main office and for each branch.
 
-- [ ] SEC Articles of Partnership + SEC Certificate
-- [ ] Lease Contract OR Occupancy/Building docs
-- [ ] Lapu-Lapu BPLO Unified Application Form + CTC
-- [ ] BIR Form 1903, IDs, ATP/Books
+---
 
-With these steps, your partnership in Lapu-Lapu City will be fully compliant and ready to operate!
+## Contact Information
+
+- **Office**: Business Permits and Licensing Office (BPLO)
+- **Address**: New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506
+- **Phone**: (083) 228-6095 (City Hall trunkline; ask to be connected to the BPLO)
+- **Email**: info.koronadalcity@gmail.com
+- **Hours**: Monday to Friday, 8:00 a.m. to 5:00 p.m.
+- **Facebook**: [City Government of Koronadal](https://facebook.com/CityGovernmentofKoronadal)
+- **Website**: [koronadal.gov.ph](https://koronadal.gov.ph)
+
+---
+
+## Frequently Asked Questions
+
+**Q: Do I need the barangay clearance before going to City Hall?**
+A: Yes. Secure your barangay business clearance first, as the BPLO requires it as part of your application.
+
+**Q: How much will my permit cost?**
+A: Fees depend on the nature and size of your business and are computed using the city's current Revenue Code. Ask the BPLO for a pre-assessment.
+
+**Q: Can someone file on my behalf?**
+A: Yes. Your representative must bring a Special Power of Attorney (for sole proprietors) or a Board Resolution (for corporations), plus their own valid ID.
+
+---
+
+## Related Services
+
+- Renew permits and pay local business taxes
+- Rent stalls in public markets
+- Join trade fairs, business expos, or tourism promotions

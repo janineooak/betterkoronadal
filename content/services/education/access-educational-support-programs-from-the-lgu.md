@@ -1,116 +1,102 @@
-# Access Educational Support Programs from the LGU — Lapu-Lapu City
+# Access Educational Support Programs from the LGU — City of Koronadal
 
-Below are **city-led** or **LGU-facilitated** programs you can use for study support: free school supplies, e-library access, student employment (SPES) via PESO, scholarships, and cash/education assistance. Links point to official pages or recent announcements.
-
----
-
-## 1) Free School Supplies (SEF-funded)
-
-**What it is**
-
-- The City provides **free school supplies** to public school learners using the **Special Education Fund (SEF)**, announced each school year with distribution schedules.
-
-**How to access**
-
-1. Watch your school’s advisory and the **DepEd Lapu-Lapu** Division memos for **distribution schedules**.
-2. Learners (with parent/guardian) claim supplies at the school on the announced date.
-
-**Links**
-
-- DepEd Lapu-Lapu memo: **Distribution of School Supplies (SEF)** (2025 schedule) — depedlapulapu.net.ph
-- News: **City to distribute free school supplies** — SunStar Cebu (June 7, 2025)
-- City info posts often echo the distribution dates via DepEd/City channels.
+Below are **city-led** and **LGU-facilitated** programs you can use for study support in the City of Koronadal: school supplies funded by the Special Education Fund, the City Library, student employment through PESO, scholarships, and educational/cash assistance coordinated with national agencies. For schedules and application windows, follow the city's official channels and ask the responsible office through the City Hall trunkline.
 
 ---
 
-## 2) City e-Library (Free Study Space, Wi-Fi, Computers & Printing)
+## 1) School Supplies and SEF-Funded Support
 
 **What it is**
 
-- A **government-run e-Library** offering **free internet, computer use, and printing** for students; open **daily 8:00 a.m.–12:00 midnight** at **Hoops Dome, Brgy. Gun-ob**.
+- The City supports public school learners using the **Special Education Fund (SEF)**, which may fund school supplies, learning materials, and other education projects, announced per school year.
 
 **How to access**
 
-1. Go to the **Lapu-Lapu City e-Library (Hoops Dome)** during operating hours.
-2. Sign the logbook; follow usage limits (to give everyone a turn).
-
-**Links**
-
-- SunStar: **E-Library reopens; open daily 8 a.m.–12 midnight** (July 26, 2025)
-- The POST: **City library reopens, free digital access & printing** (July 28, 2025)
-- Background: **City launched first gov’t e-Library** (2019) — Cebu Daily News
+1. Watch your school's advisories and **DepEd Koronadal City Division** memos for distribution schedules.
+2. Learners (with a parent or guardian) claim the support at the school on the announced date.
 
 ---
 
-## 3) Student Employment (SPES) via PESO Lapu-Lapu
+## 2) City Library (Study Space and Reference Services)
 
 **What it is**
 
-- The **Special Program for the Employment of Students (SPES)** lets poor but deserving **students/OSYs (15–30)** work during breaks to earn and gain experience.
-- Implemented locally through the **Public Employment Service Office (PESO)** with DOLE.
+- The **Koronadal City Library**, headed by Erwin H. Lagustan, provides a study space and reference services for students and the public.
 
 **How to access**
 
-1. Follow **PESO Lapu-Lapu City** on Facebook for **SPES application windows** and job fair advisories.
-2. Prepare IDs, school docs, and income/indigency proofs per announcement.
-3. Submit online or at the PESO office; attend orientation when shortlisted.
+1. Visit the City Library during its operating hours.
+2. Sign the logbook and follow library usage rules.
 
-**Links**
-
-- **PESO Lapu-Lapu City** Facebook page (official announcements)
-- DepEd/BLSS-YFD: **SPES 2025 guidelines & timelines**
-- City press: **PESO career fair / youth employment events** — City Information Office
+> Confirm the current location, hours, and available services (such as computer or internet access) with the City Library or the City Hall trunkline.
 
 ---
 
-## 4) LGU-linked Scholarships & Incentives
+## 3) Student Employment (SPES) through PESO Koronadal
 
 **What it is**
 
-- The City (and Congressional office) **periodically opens scholarship calls** or **educational incentives** for local students, separate from school-based grants.
+- The **Special Program for the Employment of Students (SPES)** lets poor but deserving **students and out-of-school youth (ages 15–30)** work during breaks to earn income and gain experience.
+- It is implemented locally through the **Public Employment Service Office (PESO)** in partnership with DOLE.
 
 **How to access**
 
-1. Monitor the **Lapu-Lapu City Government / City Information Office** and the **Office of the Mayor / Congresswoman** for official **calls**.
-2. Prepare residency and academic documents; submit by deadline; attend screening/orientation.
-
-**Links (examples & history)**
-
-- News: **Lapu-Lapu City offers college scholarship to poor residents** — The Freeman/Philstar (program history)
-- Sample: **Cindi “Skwela” Scholarship** highlights via official pages (video updates)
-- Also check school-based options in-city (e.g., **LCIC scholarships**, **UC scholarships**) which can complement LGU aid.
+1. Follow **PESO Koronadal** announcements for SPES application windows and job fair advisories.
+2. Prepare IDs, school documents, and income/indigency proofs as required.
+3. Submit your application at the PESO office and attend orientation when shortlisted.
 
 ---
 
-## 5) Educational / Cash Assistance (LGU-facilitated with DSWD)
+## 4) LGU-Linked Scholarships and Educational Assistance
 
 **What it is**
 
-- **Educational assistance pay-outs** (e.g., AICS) are nationally run by DSWD but are often **coordinated locally** with the **City** for venue and beneficiary management.
+- The City periodically opens **scholarship calls** or **educational assistance** for local students, separate from school-based grants. These are coordinated through the **City Mayor's Office** and the **City Social Welfare and Development Office (CSWDO)**.
 
 **How to access**
 
-1. Watch announcements from **DSWD-7** and the **City Information Office** for **Lapu-Lapu payout schedules**.
-2. Bring student ID, enrollment proof, and required forms on your assigned date.
+1. Monitor the **City Government of Koronadal**, the **City Information Office**, and the **City Mayor's Office** for official calls.
+2. Prepare your residency and academic documents, submit by the deadline, and attend screening or orientation.
 
-**Links (context)**
+> See the "Apply for local scholarships" page for the requirements checklist and step-by-step flow.
 
-- SunStar Cebu: **Education assistance payout in Lapu-Lapu** (local coverage)
-- Cebu Daily News: **DSWD-7 educational assistance** (program overview & amounts)
+---
+
+## 5) Educational / Cash Assistance (LGU-Facilitated with DSWD)
+
+**What it is**
+
+- **Educational assistance pay-outs** such as AICS (Assistance to Individuals in Crisis Situations) are run nationally by the **DSWD** but are often coordinated locally with the City for venue and beneficiary management.
+
+**How to access**
+
+1. Watch announcements from **DSWD Region XII** and the **City Information Office** for payout schedules.
+2. Bring your student ID, enrollment proof, and the required forms on your assigned date.
 
 ---
 
 ## Quick Directory
 
-- **City Information Office (Lapu-Lapu City)** — city-wide program announcements
-- **PESO Lapu-Lapu City** — SPES, job fairs, recruitment & youth work programs
-- **DepEd Lapu-Lapu Division** — school memos (SEF supplies, schedules)
-- **Lapu-Lapu City e-Library (Hoops Dome, Gun-ob)** — free study space & digital access
+- **City Information Office** — city-wide program announcements
+- **City Mayor's Office / CSWDO** — scholarships and educational assistance
+- **PESO Koronadal** — SPES, job fairs, and youth work programs
+- **DepEd Koronadal City Division** — school memos and schedules (DepEd is a national agency)
+- **Koronadal City Library** — study space and reference services
+
+---
+
+## Contact Information
+
+- **Address**: New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506
+- **Phone**: (083) 228-6095 (trunkline; ask for the office you need)
+- **Email**: info.koronadalcity@gmail.com
+- **Facebook**: [City Government of Koronadal](https://facebook.com/CityGovernmentofKoronadal)
+- **Website**: [koronadal.gov.ph](https://koronadal.gov.ph)
 
 ---
 
 ## Tips to Maximize Support
 
-- **Stack benefits** where allowed: e.g., SEF school supplies **+** SPES stipend **+** school-based scholarship.
-- Keep a folder with **PSA Birth Cert**, **Barangay Residency**, **School ID**, **Report Cards/COE**, and **2x2 photos** ready.
-- Turn on notifications for **PESO** and **City Information** pages so you don’t miss application windows.
+- **Stack benefits** where allowed: for example, SEF-funded support, an SPES stipend, and a school-based scholarship.
+- Keep a folder ready with your **PSA Birth Certificate**, **Barangay Residency Certificate**, **School ID**, **Report Cards/COE**, and **2×2 photos**.
+- Turn on notifications for the **PESO** and **City Government of Koronadal** pages so you don't miss application windows.

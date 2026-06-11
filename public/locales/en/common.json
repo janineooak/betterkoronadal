@@ -1,23 +1,23 @@
 {
-  "site_name": "Lapu Lapu City Portal",
-  "site_description": "A community-run portal for the Lapu Lapu City",
+  "site_name": "City of Koronadal",
+  "site_description": "Official website of the City Government of Koronadal",
   "hero": {
-    "title": "Welcome to BetterGov.ph",
-    "subtitle": "A community-run portal to find information of the Lapu Lapu City Government",
+    "title": "Welcome to the City of Koronadal",
+    "subtitle": "Your gateway to services and information from the City Government of Koronadal — Hub of the South, capital of South Cotabato.",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Business Registration"
   },
   "services": {
     "title": "Services & Information",
-    "governmentServices": "Government Services",
-    "description": "Access official government services quickly and easily. Find what you need for citizenship, business, education, and more.",
+    "governmentServices": "City Government Services",
+    "description": "Access Koronadal City services quickly and easily. Find what you need for health, business, education, social welfare, and more.",
     "viewAll": "View All Services",
     "viewAllCategory": "View All"
   },
   "governmentActivity": {
     "title": "Government Activity",
-    "description": "Stay updated with the latest government activities and announcements."
+    "description": "Stay updated with the latest news, announcements, and programs of the City Government of Koronadal."
   },
   "weather": {
     "title": "Weather Updates"
@@ -29,7 +29,7 @@
     "title": "Latest News & Updates"
   },
   "footer": {
-    "copyright": "© 2025 BetterGov. All content is public domain unless otherwise specified."
+    "copyright": "© 2026 City Government of Koronadal. Content is public domain unless otherwise specified."
   },
   "navbar": {
     "government": "Government",

@@ -8,8 +8,8 @@ const Home: React.FC = () => {
     <>
       <SEO
         title="Home"
-        description="Official website of your local government. Access government services, information, and resources."
-        keywords="government, local government, services, public services, civic services"
+        description="Official website of the City Government of Koronadal — capital of South Cotabato and regional center of SOCCSKSARGEN. Access city services, news, and information."
+        keywords="Koronadal, City of Koronadal, Marbel, South Cotabato, SOCCSKSARGEN, city government, public services, permits, hotlines"
       />
       <main className="flex-grow">
         <Hero />

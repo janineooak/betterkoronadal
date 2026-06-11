@@ -1,6 +1,6 @@
-# Participate in Local Trade Fairs, Business Expos, and Tourism Promotion Activities — Lapu-Lapu City
+# Participate in Local Trade Fairs, Business Expos, and Tourism Promotion Activities — City of Koronadal
 
-Showcase your products and services, meet buyers, and boost your brand by joining **city- and region-led trade fairs, business expos, and tourism promotions**.
+Showcase your products and services, meet buyers, and boost your brand by joining **city- and region-led trade fairs, business expos, and tourism promotions** in the City of Koronadal, the regional center of SOCCSKSARGEN.
 
 ---
 
@@ -11,16 +11,16 @@ Showcase your products and services, meet buyers, and boost your brand by joinin
 - **Cultural creators** (handicrafts, fashion, food, wellness, creative tech)
 - **LGU-accredited community groups** (livelihood associations, women/youth groups)
 
-**Priority is often given** to registered local businesses, OTOP-branded products, startups with export potential, and tourism enterprises aligned with the city’s events calendar.
+**Priority is often given** to registered local businesses, OTOP-branded products, startups with export potential, and tourism enterprises aligned with the city's events calendar.
 
 ---
 
-## Event Types You’ll See
+## Event Types You'll See
 
-- **City/Barangay Trade Fairs** – usually tied to festivals, holidays, and civic celebrations
-- **Business Expos & Startup Showcases** – buyers’ meets, B2B networking, product launches
+- **City/Barangay Trade Fairs** – usually tied to festivals, holidays, and civic celebrations (such as the city's anniversary and fiesta)
+- **Business Expos & Startup Showcases** – buyers' meets, B2B networking, product launches
 - **Tourism Promotion Activities** – travel marts, familiarization (Fam) tours, festivals, MICE activations
-- **Sector-Specific Bazaars** – food & beverage, fashion & crafts, wellness & health, marine/leisure
+- **Sector-Specific Bazaars** – food & beverage, fashion & crafts, wellness & health, agri-products
 
 ---
 
@@ -28,7 +28,7 @@ Showcase your products and services, meet buyers, and boost your brand by joinin
 
 1. **Prepare eligibility documents**
    - DTI/SEC/CDA registration, BIR 2303
-   - Mayor’s/Business Permit (current year)
+   - Mayor's/Business Permit (current year)
    - Tourism accreditation/registration (if applicable)
    - Product compliance (FDA/LTO/CPR for food & cosmetics; IPOPHL for trademarks if any)
 
@@ -48,7 +48,7 @@ Showcase your products and services, meet buyers, and boost your brand by joinin
 
 5. **Event days**
    - Arrive early for ingress; follow booth rules, safety, and waste management.
-   - Capture leads (name, company, email, WhatsApp/FB), offer show promos.
+   - Capture leads (name, company, email, mobile/FB), offer show promos.
 
 6. **Post-event follow-up (within 72 hours)**
    - Send thank-you notes/price lists, confirm orders, schedule product trials or site visits.
@@ -59,7 +59,7 @@ Showcase your products and services, meet buyers, and boost your brand by joinin
 ## Typical Requirements Checklist
 
 - [ ] Government IDs of owner/representative
-- [ ] DTI/SEC/CDA, BIR 2303, current **Mayor’s/Business Permit**
+- [ ] DTI/SEC/CDA, BIR 2303, current **Mayor's/Business Permit**
 - [ ] Barangay/City clearance (if requested)
 - [ ] **Product compliance** (FDA for food/cosmetics; HALAL/organic if claimed)
 - [ ] Tourism accreditation/registration (if a tourism enterprise)
@@ -78,15 +78,9 @@ Showcase your products and services, meet buyers, and boost your brand by joinin
 
 ---
 
-## Cost Planning (Sample)
+## Cost Planning (General Guide)
 
-| Item               | Budget Hint                              |
-| ------------------ | ---------------------------------------- |
-| Booth fee (if any) | ₱0–₱15,000 (depends on event)            |
-| Build/branding     | ₱1,000–₱10,000 (tarps, standees, lights) |
-| Samples/giveaways  | 2–5% of target sales                     |
-| Staff & logistics  | Transport, meals, ingress/egress         |
-| Contingency        | 10% of total budget                      |
+Booth fees, build costs, and logistics vary by event and organizer. Plan a budget that covers the booth fee (if any), branding/build-out, samples and giveaways, staffing and transport, and a contingency allowance. Confirm the exact booth fee with the organizer or the responsible city office before committing.
 
 ---
 
@@ -110,44 +104,43 @@ Showcase your products and services, meet buyers, and boost your brand by joinin
 
 ---
 
-## Where to Watch for Calls & Schedules (Lapu-Lapu / Cebu)
+## Where to Watch for Calls & Schedules
 
-- **Lapu-Lapu City**: City Information Office, Business Permits & Licensing Office (BOSS announcements), City Tourism & Cultural Affairs
-- **Negosyo Center / MSME Office**: product dev, fairs, OTOP activities
-- **Tourism Bodies**: city/regional tourism offices for travel marts, festivals, Fam tours, MICE events
-- **Chambers & Associations**: local chamber of commerce, hotel/resort associations, exporters’ groups
-- **Schools & Malls**: seasonal bazaars, startup fairs, internship & career expos
-
----
-
-# Key Local Contacts — Lapu-Lapu City
-
-Use these offices when coordinating for **trade fairs, business expos, permits, and tourism promotion activities**.
+- **City Tourism and Cultural Affairs Office** (Elric M. Batilaran) — trade fairs, festivals, travel marts, Fam tours, and tourism promotion events
+- **City Economic Enterprise Development Office (CEEDO)** (Kirbie Mae Pacinabao-Obando) — economic enterprise programs and city-run venues used for expos and bazaars
+- **Business Permits and Licensing Office (BPLO)** — permit requirements for participating enterprises
+- **City Information Office** (Romar A. Olivares) — official announcements of city-led events
+- **Negosyo Center / DTI South Cotabato** — MSME product development, OTOP activities, and regional trade fairs
+- **Chambers & Associations** — local chamber of commerce and industry/exporters' groups
+- **Schools & Malls** — seasonal bazaars, startup fairs, and career expos
 
 ---
 
-| Office / Role                                                                 | Address / Location                                    | Contact Number  | Email / Other Contact Info                                                                                                                                   |
-| ----------------------------------------------------------------------------- | ----------------------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Business Permit & Licensing Office (BPLO)**                                 | City Hall Main Building, Lapu-Lapu Government Complex | (032) 340-0004  | —                                                                                                                                                            |
-| **PESO Lapu-Lapu City** (Student Employment, Local Promotions)                | Pajo, Lapu-Lapu City, Cebu 6015                       | (032) 340-8264  | Facebook: [PESO Lapu-Lapu City](https://ph.locale.online/peso-lapu-lapu-city-47947610.html)                                                                  |
-| **City Information Office / Treasurer’s Office**                              | Lapu-Lapu City Hall / Hoops Dome during events        | (032) 340-1615  | Updates: [Official Facebook Page](https://www.facebook.com/photo.php?fbid=122128211810564979&id=61566949391179&set=a.122105111324564979)                     |
-| **Lapu-Lapu City Tourism Office**                                             | City Government / Tourism Department                  | +63 32 495-5593 | Email: llctourism.inquiry@gmail.com • [Instagram Location Page](https://www.instagram.com/explore/locations/2149053888682923/lapu-lapu-city-tourism-office/) |
-| **City-Wide Trade Fair / Renewal Venue** (used for permit renewals and expos) | Hoops Dome, Barangay Gun-ob                           | —               | News: [SunStar — Biz Permit Renewals at Hoops Dome](https://www.sunstar.com.ph/cebu/lapu-launches-new-system-for-biz-permit-renewals)                        |
+## Key Local Contacts — City of Koronadal
+
+Use the City Hall trunkline and ask to be connected to the office that fits your need. Most trade fair and expo announcements are posted first on the city's official Facebook page.
+
+| Office / Role                                           | Address / Location                            | How to Reach                                                                             |
+| ------------------------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **City Tourism and Cultural Affairs Office**            | New City Hall, Brgy. Zone III, Koronadal City | (083) 228-6095 (trunkline) • info.koronadalcity@gmail.com                                |
+| **City Economic Enterprise Development Office (CEEDO)** | New City Hall, Brgy. Zone III, Koronadal City | (083) 228-6095 (trunkline) • info.koronadalcity@gmail.com                                |
+| **Business Permits and Licensing Office (BPLO)**        | New City Hall, Brgy. Zone III, Koronadal City | (083) 228-6095 (trunkline) • info.koronadalcity@gmail.com                                |
+| **City Information Office**                             | New City Hall, Brgy. Zone III, Koronadal City | [facebook.com/CityGovernmentofKoronadal](https://facebook.com/CityGovernmentofKoronadal) |
 
 ---
 
-✅ Tip: Save these contacts and follow their **Facebook pages** — most trade fair and expo announcements in Lapu-Lapu are posted there first.
+Tip: Save these contacts and follow the official **City Government of Koronadal** Facebook page — most trade fair and expo announcements are posted there first.
 
 ---
 
 ## Sample Email to Join an Event
 
-> **Subject:** Participation Inquiry – [Your Brand] for [Event Name/Date]  
-> Hello [Organizer Name],  
-> We’re a Lapu-Lapu–based [business type] offering [brief product/service]. We’d like to apply for a booth at **[Event Name]** on **[Date]**.  
-> **Attachments:** Business registration, product list/prices, photos, compliance (FDA/accreditation).  
-> **Needs:** [table + 1 outlet + 500W], ingress day-before preferred.  
-> Thank you and we look forward to promoting Lapu-Lapu products/tourism at your event.  
+> **Subject:** Participation Inquiry – [Your Brand] for [Event Name/Date]
+> Hello [Organizer Name],
+> We're a Koronadal-based [business type] offering [brief product/service]. We'd like to apply for a booth at **[Event Name]** on **[Date]**.
+> **Attachments:** Business registration, product list/prices, photos, compliance (FDA/accreditation).
+> **Needs:** [table + 1 outlet + 500W], ingress day-before preferred.
+> Thank you and we look forward to promoting Koronadal products and tourism at your event.
 > **Contact:** [Name, Mobile, Email, Links]
 
 ---
@@ -156,4 +149,4 @@ Use these offices when coordinating for **trade fairs, business expos, permits, 
 
 - Follow **fire safety**, **ingress/egress**, and **electrical load** limits.
 - For food: secure **permits**, maintain **temperature control**, and practice **safe sampling**.
-- Respect IP: don’t use copyrighted music/images without permission; avoid counterfeit or misbranded goods.
+- Respect IP: don't use copyrighted music/images without permission; avoid counterfeit or misbranded goods.
