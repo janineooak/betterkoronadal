@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Menu, ChevronDown, Globe } from 'lucide-react';
+import { X, Menu, ChevronDown, Globe, Search } from 'lucide-react';
 import { mainNavigation } from '../../data/navigation';
 import type { LanguageType } from '../../types/index';
 import { Link } from 'react-router-dom';
@@ -141,6 +141,13 @@ const Navbar: React.FC = () => {
           </div>
           <div className="hidden lg:flex items-center space-x-6">
             <Link
+              to="/search"
+              className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
+            >
+              <Search className="h-4 w-4 mr-1" />
+              Search
+            </Link>
+            <Link
               to="/about"
               className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
             >
@@ -211,6 +218,14 @@ const Navbar: React.FC = () => {
               )}
             </div>
           ))}
+          <Link
+            to="/search"
+            onClick={closeMenu}
+            className="flex items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
+          >
+            <Search className="h-4 w-4 mr-2" />
+            Search
+          </Link>
           <Link
             to="/about"
             onClick={closeMenu}

@@ -10,6 +10,7 @@ import Government from './pages/Government';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
+import Search from './pages/Search';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/hotlines" element={<Hotlines />} />
+              <Route path="/search" element={<Search />} />
               <Route path="/services/:category" element={<Services />} />
               <Route path="/services" element={<Services />} />
               <Route
