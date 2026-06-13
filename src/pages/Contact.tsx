@@ -15,7 +15,7 @@ const Contact: React.FC = () => {
     <>
       <SEO
         title="Contact the City Government of Koronadal"
-        description="Public contact details for the City Government of Koronadal — City Hall address, trunkline, email, Facebook page, and office hours — compiled by betterKoronadal for residents' convenience."
+        description="Public contact details for the City Government of Koronadal — City Hall address, trunkline, email, Facebook page, and office hours — compiled by BetterKoronadal.org for residents' convenience."
         keywords="Koronadal city hall contact, Koronadal trunkline, Koronadal city government email, Koronadal address"
       />
       <main className="flex-grow">
@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
             <strong>
               public contact details of the City Government of Koronadal
             </strong>
-            , compiled here for your convenience. betterKoronadal is an
+            , compiled here for your convenience. BetterKoronadal.org is an
             independent community portal and cannot process city transactions on
             the city&rsquo;s behalf. For life-threatening emergencies, call the{' '}
             <Link to="/hotlines" className="text-primary-600 underline">

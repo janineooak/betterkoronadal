@@ -1,8 +1,8 @@
 {
-  "site_name": "betterKoronadal",
+  "site_name": "BetterKoronadal.org",
   "site_description": "Community portal for the City of Koronadal (unofficial)",
   "hero": {
-    "title": "betterKoronadal",
+    "title": "BetterKoronadal.org",
     "subtitle": "An independent, community-built portal that makes information and services for the City of Koronadal easier to find. This is not the official city website.",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
@@ -29,7 +29,7 @@
     "title": "Latest News & Updates"
   },
   "footer": {
-    "copyright": "© 2026 betterKoronadal — an independent community project. Not affiliated with the City Government of Koronadal."
+    "copyright": "© 2026 BetterKoronadal.org — an independent community project. Not affiliated with the City Government of Koronadal."
   },
   "navbar": {
     "government": "Government",

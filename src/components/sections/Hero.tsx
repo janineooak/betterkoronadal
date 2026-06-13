@@ -34,7 +34,7 @@ export default function Hero() {
                   value={query}
                   onChange={e => setQuery(e.target.value)}
                   placeholder="Search services and information…"
-                  aria-label="Search betterKoronadal"
+                  aria-label="Search BetterKoronadal.org"
                   className="w-full bg-transparent py-1.5 text-gray-900 outline-none placeholder:text-gray-400"
                 />
                 <button

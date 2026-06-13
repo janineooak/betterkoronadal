@@ -54,8 +54,8 @@ const Search: React.FC = () => {
     <>
       <SEO
         title="Search"
-        description="Search betterKoronadal for city services, government pages, and information for the City of Koronadal."
-        keywords="search Koronadal services, find city services, betterKoronadal search"
+        description="Search BetterKoronadal.org for city services, government pages, and information for the City of Koronadal."
+        keywords="search Koronadal services, find city services, BetterKoronadal.org search"
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">

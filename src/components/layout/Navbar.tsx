@@ -89,7 +89,7 @@ const Navbar: React.FC = () => {
             <Link to="/" className="flex items-center">
               <img
                 src="/Better.png"
-                alt="betterKoronadal logo"
+                alt="BetterKoronadal.org logo"
                 className="h-12 w-12 mr-3"
               />
               <div>

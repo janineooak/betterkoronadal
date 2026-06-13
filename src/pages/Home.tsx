@@ -9,8 +9,8 @@ const Home: React.FC = () => {
     <>
       <SEO
         title="Home"
-        description="betterKoronadal is an independent, community-built portal that makes information and services for the City of Koronadal easier to find. Not the official city website."
-        keywords="betterKoronadal, Koronadal, Marbel, South Cotabato, SOCCSKSARGEN, community portal, unofficial, city services, hotlines"
+        description="BetterKoronadal.org is an independent, community-built portal that makes information and services for the City of Koronadal easier to find. Not the official city website."
+        keywords="BetterKoronadal.org, Koronadal, Marbel, South Cotabato, SOCCSKSARGEN, community portal, unofficial, city services, hotlines"
       />
       <main className="flex-grow">
         <Hero />

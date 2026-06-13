@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center mb-4">
               <img
                 src="/Better.png"
-                alt="betterKoronadal logo"
+                alt="BetterKoronadal.org logo"
                 className="h-12 w-12 mr-3"
               />
 
