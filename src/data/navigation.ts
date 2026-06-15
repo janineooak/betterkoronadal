@@ -24,6 +24,25 @@ export const mainNavigation: NavigationItem[] = [
   {
     label: 'Government',
     href: '/government/departments',
+    children: [
+      { label: 'Departments & Offices', href: '/government/departments' },
+      {
+        label: 'Office of the City Mayor',
+        href: '/government/departments/executive',
+      },
+      {
+        label: 'Sangguniang Panlungsod',
+        href: '/government/departments/legislative',
+      },
+      {
+        label: 'Guides & Regulations',
+        href: '/government/guides-and-regulations',
+      },
+      {
+        label: 'Reports & Statistics',
+        href: '/government/reports-and-statistics',
+      },
+    ],
   },
 ];
 

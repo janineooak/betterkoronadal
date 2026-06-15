@@ -1,0 +1,16 @@
+# Reports and Statistics Pages
+# Each entry maps to a markdown file: content/government/reports-and-statistics/{slug}.md
+
+layout: grid
+title: 'Reports and Statistics'
+description: 'Key facts, figures, and reference data about the City of Koronadal — demographics, geography, governance, and the local economy.'
+pages:
+  - name: 'Koronadal City Profile & Key Statistics'
+    slug: 'city-profile-and-statistics'
+    description: 'A data snapshot of Koronadal: population, land area, the 27 barangays, geography, economy, and governance figures.'
+  - name: 'Population and Demographics'
+    slug: 'population-and-demographics'
+    description: 'Population counts, growth, household data, and how Koronadal compares within South Cotabato and Region XII.'
+  - name: 'Barangay Directory'
+    slug: 'barangay-directory'
+    description: 'The 27 barangays of Koronadal, including the most populous barangays and basic reference information.'
