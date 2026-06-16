@@ -42,6 +42,10 @@ export const mainNavigation: NavigationItem[] = [
         label: 'Reports & Statistics',
         href: '/government/reports-and-statistics',
       },
+      {
+        label: 'Transparency & Full Disclosure',
+        href: '/transparency',
+      },
     ],
   },
 ];
@@ -52,6 +56,7 @@ export const footerNavigation = {
       title: 'About',
       links: [
         { label: 'About the City', href: '/about' },
+        { label: 'Visit Koronadal', href: '/tourism' },
         { label: 'City Government', href: '/government/departments' },
         { label: 'Contact Us', href: '/contact' },
         { label: 'Emergency Hotlines', href: '/hotlines' },
@@ -72,12 +77,10 @@ export const footerNavigation = {
     {
       title: 'Government',
       links: [
+        { label: 'Transparency & Full Disclosure', href: '/transparency' },
+        { label: 'Sources & References', href: '/sources' },
         { label: 'Open Data', href: 'https://data.gov.ph' },
         { label: 'Freedom of Information', href: 'https://www.foi.gov.ph' },
-        {
-          label: 'Contact Center',
-          href: 'https://contactcenterngbayan.gov.ph',
-        },
         {
           label: 'Official Gazette',
           href: 'https://www.officialgazette.gov.ph',

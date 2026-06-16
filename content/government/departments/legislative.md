@@ -72,3 +72,14 @@ Koronadal City, South Cotabato 9506
 - **Phone:** (083) 228-6095
 - **Email:** info.koronadalcity@gmail.com
 - **Facebook:** facebook.com/CityGovernmentofKoronadal
+
+---
+
+## Sources
+
+Council membership and contact details on this page were last verified in June 2026. Elected and ex-officio members should be re-verified after each election or change in leadership.
+
+- [City Government of Koronadal](https://koronadal.gov.ph) — Sangguniang Panlungsod membership and contact details
+- [Philippine News Agency (PNA)](https://www.pna.gov.ph) — news on local officials
+
+See the full [list of sources](/sources) for how this information was compiled.
