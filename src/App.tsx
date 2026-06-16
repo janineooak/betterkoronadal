@@ -16,7 +16,12 @@ import Transparency from './pages/Transparency';
 import CitizensCharter from './pages/CitizensCharter';
 import Sources from './pages/Sources';
 import Search from './pages/Search';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
 
 function App() {
   return (
@@ -43,6 +48,10 @@ function App() {
                 element={<Document categoryType="service" />}
               />
               <Route path="/government/news" element={<News />} />
+              <Route
+                path="/government/transparency-documents"
+                element={<Navigate to="/transparency" replace />}
+              />
               <Route path="/government/:category" element={<Government />} />
               <Route path="/government" element={<Government />} />
               <Route
