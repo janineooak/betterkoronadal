@@ -7,6 +7,7 @@ import ScrollToTop from './components/ui/ScrollToTop';
 import Services from './pages/Services';
 import Document from './pages/Document';
 import Government from './pages/Government';
+import News from './pages/News';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
@@ -15,7 +16,12 @@ import Transparency from './pages/Transparency';
 import CitizensCharter from './pages/CitizensCharter';
 import Sources from './pages/Sources';
 import Search from './pages/Search';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
 
 function App() {
   return (
@@ -40,6 +46,11 @@ function App() {
               <Route
                 path="/services/:category/:documentSlug"
                 element={<Document categoryType="service" />}
+              />
+              <Route path="/government/news" element={<News />} />
+              <Route
+                path="/government/transparency-documents"
+                element={<Navigate to="/transparency" replace />}
               />
               <Route path="/government/:category" element={<Government />} />
               <Route path="/government" element={<Government />} />
