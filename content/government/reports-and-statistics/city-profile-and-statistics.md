@@ -47,4 +47,12 @@ The name "Koronadal" is derived from two Blaan words: "koron" (cogon grass) and 
 
 ---
 
-> Note: Figures on this page are sourced from the Philippine Statistics Authority (PSA) and official City Government of Koronadal sources. Please verify against the latest official data before citing.
+## Sources
+
+Figures and history on this page are compiled from the following sources and were last verified in June 2026. Please verify against the latest official data before citing.
+
+- [City Government of Koronadal](https://koronadal.gov.ph) — official city profile and history
+- [Philippine Statistics Authority (PSA)](https://psa.gov.ph) — population (2024: 201,844; 2020: 195,398) and land area
+- [Koronadal, South Cotabato — Wikipedia](https://en.wikipedia.org/wiki/Koronadal) — legislative history: EO 82 (1947), RA 4849 (1966), RA 8803 (2000)
+
+See the full [list of sources](/sources) for how this information was compiled.

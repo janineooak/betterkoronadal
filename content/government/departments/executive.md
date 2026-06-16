@@ -133,3 +133,14 @@ facebook.com/CityGovernmentofKoronadal
 
 **Website:**
 https://koronadal.gov.ph
+
+---
+
+## Sources
+
+Officials and contact details on this page were last verified in June 2026. Succession and elected officials should be re-verified after each election or change in leadership.
+
+- [City Government of Koronadal](https://koronadal.gov.ph) — officials and contact details
+- [Philippine News Agency (PNA)](https://www.pna.gov.ph) — news on local officials and succession
+
+See the full [list of sources](/sources) for how this information was compiled.

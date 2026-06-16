@@ -2,6 +2,7 @@ import Section from '../components/ui/Section';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Heading } from '../components/ui/Heading';
 import SEO from '../components/SEO';
+import SourceNote from '../components/ui/SourceNote';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Link } from 'react-router-dom';
 import { MapPin, Users, Landmark, CalendarDays } from 'lucide-react';
@@ -219,6 +220,27 @@ const About: React.FC = () => {
               </Card>
             </Link>
           </div>
+
+          <SourceNote
+            verified="June 2026"
+            sources={[
+              {
+                label: 'City Government of Koronadal — official website',
+                href: 'https://koronadal.gov.ph',
+                note: 'Profile, history, vision',
+              },
+              {
+                label: 'Philippine Statistics Authority (PSA)',
+                href: 'https://psa.gov.ph',
+                note: '2024 census (201,844); 2020 census (195,398); land area',
+              },
+              {
+                label: 'Koronadal, South Cotabato — Wikipedia',
+                href: 'https://en.wikipedia.org/wiki/Koronadal',
+                note: 'History: EO 82 (1947), RA 4849 (1966), RA 8803 (2000)',
+              },
+            ]}
+          />
         </Section>
       </main>
     </>

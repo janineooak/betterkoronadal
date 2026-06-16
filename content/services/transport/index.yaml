@@ -1,0 +1,19 @@
+# Transport & Franchising Category Pages
+# This file contains all the pages/services available under the Transport & Franchising category
+
+pages:
+  - name: 'Apply for or renew a tricycle franchise (MTOP)'
+    slug: 'apply-for-or-renew-a-tricycle-franchise-mtop'
+    description: "New, renew, substitute, transfer, comply annually, or drop a Motorized Tricycle Operator's Permit."
+
+  - name: 'Get an MTOP certification, fare matrix, or duplicate'
+    slug: 'get-an-mtop-certification-fare-matrix-or-duplicate'
+    description: 'Request MTOP certifications, duplicate copies of approved permits and fare matrices, or MTOP data.'
+
+  - name: 'Request traffic assistance or report violations'
+    slug: 'request-traffic-assistance-or-report-violations'
+    description: 'Get traffic assistance for events, file complaints, or request a traffic rules orientation seminar.'
+
+  - name: 'Register a vehicle and pay terminal fees'
+    slug: 'register-a-vehicle-and-pay-terminal-fees'
+    description: 'Register public utility vehicles at the city terminal and pay per-entry terminal fees.'

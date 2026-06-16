@@ -1,0 +1,19 @@
+# Building & Construction Category Pages
+# This file contains all the pages/services available under the Building & Construction category
+
+pages:
+  - name: 'Apply for a building permit'
+    slug: 'apply-for-a-building-permit'
+    description: "Get the Office of the Building Official's permit to build, renovate, add to, repair, or alter a structure under the National Building Code."
+
+  - name: 'Apply for a certificate of occupancy'
+    slug: 'apply-for-a-certificate-of-occupancy'
+    description: 'Secure the occupancy permit confirming your finished building is safe and compliant so you can legally use it.'
+
+  - name: 'Apply for fencing, electrical, or demolition permits'
+    slug: 'apply-for-fencing-electrical-or-demolition-permits'
+    description: 'Get the OBO ancillary permits to build a fence, wire a traditional indigenous dwelling, or demolish a structure.'
+
+  - name: 'Secure a zoning or locational clearance'
+    slug: 'secure-a-zoning-or-locational-clearance'
+    description: 'Confirm your land or project conforms to the city Zoning Ordinance through CPDO–Zoning certifications and locational clearances.'

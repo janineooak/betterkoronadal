@@ -1,0 +1,19 @@
+# Civil Registry Category Pages
+# This file contains all the pages/services available under the Civil Registry category
+
+pages:
+  - name: 'Apply for a marriage license'
+    slug: 'apply-for-a-marriage-license'
+    description: 'How to file for a marriage license at the CCRO, including the required pre-marriage counseling, fees, and the 10-day posting period.'
+
+  - name: 'Register a birth, death, or marriage'
+    slug: 'register-a-birth-death-or-marriage'
+    description: 'Register births, marriages, and deaths — timely, delayed, out-of-town, and for children of unmarried parents — with requirements and fees.'
+
+  - name: 'Request civil registry documents'
+    slug: 'request-civil-registry-documents'
+    description: 'Get certified copies of birth, marriage, and death certificates, plus authenticated PSA (SECPA) copies and CENOMAR.'
+
+  - name: 'Correct or amend a civil registry record'
+    slug: 'correct-or-amend-a-civil-registry-record'
+    description: "Fix clerical errors, change a first name, legitimate a child, register a court decree, use the father's surname (AUSF), or file a supplemental report."

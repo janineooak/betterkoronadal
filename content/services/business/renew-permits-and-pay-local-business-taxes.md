@@ -142,3 +142,14 @@ Use this guide to renew your **Mayor's/Business Permit** and **Local Business Ta
 - **Hours**: Monday to Friday, 8:00 a.m. to 5:00 p.m.
 - **Facebook**: [City Government of Koronadal](https://facebook.com/CityGovernmentofKoronadal)
 - **Website**: [koronadal.gov.ph](https://koronadal.gov.ph)
+
+---
+
+## Sources
+
+This guide is based on the **City of Koronadal Citizen's Charter (2026 edition)**. Requirements, fees, and processing times can change — confirm with the BPLO and City Treasurer's Office before transacting.
+
+- [Citizen's Charter 2026 (PDF)](https://koronadal.gov.ph/wp-content/uploads/2026/05/CitizensCharter2026-1.pdf)
+- [City Government of Koronadal](https://koronadal.gov.ph)
+
+See the full [list of sources](/sources) for how this information was compiled.

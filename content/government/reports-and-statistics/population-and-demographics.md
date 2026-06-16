@@ -34,4 +34,12 @@ Detailed demographic breakdowns — including age and sex distribution, househol
 
 ---
 
-> Note: Figures on this page are sourced from the Philippine Statistics Authority (PSA) and official City Government of Koronadal sources. Please verify against the latest official data before citing.
+## Sources
+
+Population figures on this page come from the following sources and were last verified in June 2026. Please verify against the latest official data before citing.
+
+- [Philippine Statistics Authority (PSA)](https://psa.gov.ph) — 2024 census (201,844) and 2020 census (195,398)
+- [PSA SOCCSKSARGEN (Region XII)](https://rsso12.psa.gov.ph) — regional census releases
+- [City Government of Koronadal](https://koronadal.gov.ph) — official city data
+
+See the full [list of sources](/sources) for how this information was compiled.

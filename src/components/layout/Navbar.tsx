@@ -49,6 +49,12 @@ const Navbar: React.FC = () => {
             >
               About the City
             </Link>
+            <Link
+              to="/tourism"
+              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
+            >
+              Visit
+            </Link>
             <a
               href="https://southcotabato.gov.ph"
               className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
