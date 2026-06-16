@@ -8,10 +8,15 @@ import { Link } from 'react-router-dom';
 import {
   PartyPopper,
   Trees,
-  Building2,
   Mountain,
   Landmark,
   Utensils,
+  Waves,
+  Droplets,
+  Sprout,
+  ShoppingBag,
+  Church,
+  Tent,
 } from 'lucide-react';
 
 interface Attraction {
@@ -20,7 +25,8 @@ interface Attraction {
   Icon: React.ComponentType<{ className?: string }>;
 }
 
-const attractions: Attraction[] = [
+// Places in or right around Koronadal City.
+const cityAttractions: Attraction[] = [
   {
     name: 'Koronadal City Plaza (Rizal Park)',
     description:
@@ -30,32 +36,72 @@ const attractions: Attraction[] = [
   {
     name: 'South Cotabato Provincial Capitol',
     description:
-      'The seat of the provincial government. Koronadal serves as the capital of South Cotabato and the regional center of SOCCSKSARGEN.',
+      'The seat of the provincial government. Koronadal is the capital of South Cotabato and the regional center of SOCCSKSARGEN.',
+    Icon: Landmark,
+  },
+  {
+    name: 'South Cotabato Community Museum',
+    description:
+      'On the Capitol grounds, the provincial museum houses artifacts and crafts of the Blaan, T’boli, and settler communities that shaped the region.',
     Icon: Landmark,
   },
   {
     name: 'Kalon Barak Skyline Ridge',
     description:
-      'An elevated viewpoint offering a panoramic look over the Koronadal valley — a popular spot for sunrise, sunset, and a sea of clouds on cool mornings.',
+      'An elevated viewpoint at roughly 2,375 ft offering panoramic views toward Mt. Matutum, Mt. Apo, and a sea of clouds on cool mornings — a favourite for sunrise and sunset.',
     Icon: Mountain,
+  },
+  {
+    name: 'Paraiso Verde Resort & Water Park',
+    description:
+      'Billed as the largest recreational water park in the SOCCSKSARGEN region, with pools, slides, and accommodations for a family day out.',
+    Icon: Waves,
+  },
+  {
+    name: 'The Farm at Carpenter Hill',
+    description:
+      'A highland agri-tourism spot in Brgy. Carpenter Hill with pineapple plantations and farm views, a short drive from the city centre.',
+    Icon: Sprout,
+  },
+  {
+    name: 'KCC Mall of Marbel',
+    description:
+      'The city’s main shopping mall — local restaurants, regional produce like mangoes and tilapia, and SOCCSKSARGEN souvenirs.',
+    Icon: ShoppingBag,
   },
   {
     name: 'Diocese of Marbel & city churches',
     description:
       'Koronadal is the seat of the Catholic Diocese of Marbel. Parish churches across the city anchor major religious feasts and patronal fiestas.',
-    Icon: Building2,
-  },
-  {
-    name: 'Museums & heritage sites',
-    description:
-      'Provincial and university museums (including those of Notre Dame of Marbel University) showcase the heritage of the Blaan, settlers, and the wider SOCCSKSARGEN region.',
-    Icon: Landmark,
+    Icon: Church,
   },
   {
     name: 'Local markets & cuisine',
     description:
       'As the "Hub of the South," Koronadal is a trade center for South Cotabato — explore its public markets, agricultural produce, and Mindanao flavors.',
     Icon: Utensils,
+  },
+];
+
+// Famous provincial spots that are outside the city but commonly visited from it.
+const dayTrips: Attraction[] = [
+  {
+    name: 'Seven Falls & Zipline, Lake Sebu',
+    description:
+      'Lake Sebu’s crown jewel: seven cascading waterfalls and one of the highest zipline rides in the country, about a 1–1.5 hr drive from Koronadal.',
+    Icon: Droplets,
+  },
+  {
+    name: 'Lake Sebu',
+    description:
+      'A highland lake at ~1,000 m and the cultural home of the T’boli dreamweavers — known for tilapia, lotus blooms, and the T’boli Museum.',
+    Icon: Waves,
+  },
+  {
+    name: 'Lake Holon (Lake Maughan), T’boli',
+    description:
+      'A pristine crater lake on Mt. Melibingoy reached by a guided trek — turquoise waters, camping, and stargazing for more adventurous visitors.',
+    Icon: Tent,
   },
 ];
 
@@ -119,7 +165,26 @@ const Tourism: React.FC = () => {
           {/* Places & highlights */}
           <Heading level={2}>Places &amp; Highlights</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-12">
-            {attractions.map(({ name, description, Icon }) => (
+            {cityAttractions.map(({ name, description, Icon }) => (
+              <Card key={name} className="h-full">
+                <CardContent>
+                  <Icon className="h-6 w-6 text-primary-600 mb-2" />
+                  <p className="font-semibold text-gray-900">{name}</p>
+                  <p className="mt-1 text-sm text-gray-600">{description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          {/* Day trips beyond the city */}
+          <Heading level={2}>Day Trips from Koronadal</Heading>
+          <p className="text-gray-600 mb-4 max-w-3xl">
+            Koronadal is the gateway to South Cotabato&rsquo;s natural wonders.
+            These famous spots are outside the city but easily reached on a day
+            trip.
+          </p>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-12">
+            {dayTrips.map(({ name, description, Icon }) => (
               <Card key={name} className="h-full">
                 <CardContent>
                   <Icon className="h-6 w-6 text-primary-600 mb-2" />
@@ -189,6 +254,10 @@ const Tourism: React.FC = () => {
               {
                 label: 'Camella — Top Things to Do in Koronadal City',
                 href: 'https://www.camella.com.ph/top-things-to-do-in-koronadal-city-south-cotabato-philippines/',
+              },
+              {
+                label: 'Out of Town Blog — Top Things to Do in Koronadal City',
+                href: 'https://outoftownblog.com/things-to-do-in-koronadal-city/',
               },
             ]}
           />

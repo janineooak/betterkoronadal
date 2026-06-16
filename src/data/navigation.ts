@@ -94,10 +94,5 @@ export const footerNavigation = {
       ],
     },
   ],
-  socialLinks: [
-    {
-      label: 'Facebook',
-      href: 'https://facebook.com/CityGovernmentofKoronadal',
-    },
-  ],
+  socialLinks: [] as { label: string; href: string }[],
 };

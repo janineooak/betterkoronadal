@@ -40,7 +40,7 @@ Charles Ronn C. Trinidad (SK Federation President)
 
 | Office                                              | Head                          |
 | --------------------------------------------------- | ----------------------------- |
-| City Administrator's Office                         | Atty. Rene B. Jumilla         |
+| City Administrator's Office                         | Vicente De Jesus              |
 | DILG (City)                                         | Jennifer C. Fernandez         |
 | City Planning & Development Office (CPDO)           | Jonathan B. Enmanuel          |
 | City Information Office                             | Romar A. Olivares             |

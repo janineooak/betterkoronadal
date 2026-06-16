@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { LANGUAGES } from '../../i18n/languages';
 
+// Toggle to re-enable the language switcher once translations are ready.
+const SHOW_LANGUAGE_SWITCHER = false;
+
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
@@ -71,19 +74,29 @@ const Navbar: React.FC = () => {
             >
               Official Gov.ph
             </a>
-            <div className="hidden md:block">
-              <select
-                value={i18n.language}
-                onChange={e => changeLanguage(e.target.value as LanguageType)}
-                className="text-xs border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
-              >
-                {Object.entries(LANGUAGES).map(([code, lang]) => (
-                  <option key={code} value={code}>
-                    {lang.nativeName}
-                  </option>
-                ))}
-              </select>
-            </div>
+            <a
+              href="https://koronadal.gov.ph"
+              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Official Website
+            </a>
+            {SHOW_LANGUAGE_SWITCHER && (
+              <div className="hidden md:block">
+                <select
+                  value={i18n.language}
+                  onChange={e => changeLanguage(e.target.value as LanguageType)}
+                  className="text-xs border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
+                >
+                  {Object.entries(LANGUAGES).map(([code, lang]) => (
+                    <option key={code} value={code}>
+                      {lang.nativeName}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -253,22 +266,24 @@ const Navbar: React.FC = () => {
           >
             🚨 Hotlines
           </Link>
-          <div className="px-4 py-3 border-t border-gray-200">
-            <div className="flex items-center">
-              <Globe className="h-5 w-5 text-gray-800 mr-2" />
-              <select
-                value={i18n.language}
-                onChange={e => changeLanguage(e.target.value as LanguageType)}
-                className="text-sm border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
-              >
-                {Object.entries(LANGUAGES).map(([code, lang]) => (
-                  <option key={code} value={code}>
-                    {lang.nativeName}
-                  </option>
-                ))}
-              </select>
+          {SHOW_LANGUAGE_SWITCHER && (
+            <div className="px-4 py-3 border-t border-gray-200">
+              <div className="flex items-center">
+                <Globe className="h-5 w-5 text-gray-800 mr-2" />
+                <select
+                  value={i18n.language}
+                  onChange={e => changeLanguage(e.target.value as LanguageType)}
+                  className="text-sm border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
+                >
+                  {Object.entries(LANGUAGES).map(([code, lang]) => (
+                    <option key={code} value={code}>
+                      {lang.nativeName}
+                    </option>
+                  ))}
+                </select>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
     </nav>

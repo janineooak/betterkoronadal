@@ -19,6 +19,7 @@ interface Category {
   subcategories: Subcategory[];
   description: string;
   icon: string;
+  href?: string;
 }
 
 interface GovernmentActivitySectionProps {
@@ -56,7 +57,7 @@ export default function GovernmentActivitySection({
             className="border-t-4 border-primary-500"
           >
             <Link
-              to={`/government/${category.slug}`}
+              to={category.href ?? `/government/${category.slug}`}
               className="mt-auto text-primary-600 hover:text-primary-700 font-medium transition-colors inline-flex items-center"
             >
               <CardContent className="flex flex-col h-full p-6">

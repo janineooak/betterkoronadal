@@ -39,15 +39,17 @@ categories:
         slug: 'reports'
       - name: 'Statistics'
         slug: 'statistics'
-  - category: 'Public Consultations'
-    slug: 'public-consultations'
-    description: 'Participate in public consultations and provide feedback on local government decisions.'
-    icon: 'MessagesSquare'
-    subcategories:
-      - name: 'Public Consultations'
-        slug: 'public-consultations'
+# Hidden for now — no content yet. Uncomment to restore.
+#  - category: 'Public Consultations'
+#    slug: 'public-consultations'
+#    description: 'Participate in public consultations and provide feedback on local government decisions.'
+#    icon: 'MessagesSquare'
+#    subcategories:
+#      - name: 'Public Consultations'
+#        slug: 'public-consultations'
   - category: 'Transparency Documents'
     slug: 'transparency-documents'
+    href: '/transparency'
     description: 'Access Freedom of Information releases and transparency documents for local government accountability.'
     icon: 'FileText'
     subcategories:

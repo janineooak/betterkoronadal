@@ -1,5 +1,4 @@
 import Hero from '../components/sections/Hero';
-import TopTasks from '../components/home/TopTasks';
 import WeatherWidget from '../components/home/WeatherWidget';
 import ServicesSection from '../components/home/ServicesSection';
 import GovernmentActivitySection from '../components/home/GovernmentActivitySection';
@@ -15,7 +14,6 @@ const Home: React.FC = () => {
       />
       <main className="flex-grow">
         <Hero />
-        <TopTasks />
         <WeatherWidget />
         <ServicesSection />
         <GovernmentActivitySection />

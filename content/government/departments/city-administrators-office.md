@@ -8,7 +8,7 @@ The City Administrator's Office coordinates the day-to-day operations of all cit
 
 | Information     | Details                                                                                    |
 | --------------- | ------------------------------------------------------------------------------------------ |
-| **Office Head** | Atty. Rene B. Jumilla                                                                      |
+| **Office Head** | Vicente De Jesus                                                                           |
 | **Office**      | City Administrator's Office                                                                |
 | **Address**     | New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506 |
 | **Trunkline**   | (083) 228-6095                                                                             |
