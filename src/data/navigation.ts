@@ -26,6 +26,7 @@ export const mainNavigation: NavigationItem[] = [
     href: '/government/departments',
     children: [
       { label: 'Departments & Offices', href: '/government/departments' },
+      { label: 'News & Announcements', href: '/government/news' },
       {
         label: 'Office of the City Mayor',
         href: '/government/departments/executive',

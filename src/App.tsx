@@ -7,6 +7,7 @@ import ScrollToTop from './components/ui/ScrollToTop';
 import Services from './pages/Services';
 import Document from './pages/Document';
 import Government from './pages/Government';
+import News from './pages/News';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
@@ -41,6 +42,7 @@ function App() {
                 path="/services/:category/:documentSlug"
                 element={<Document categoryType="service" />}
               />
+              <Route path="/government/news" element={<News />} />
               <Route path="/government/:category" element={<Government />} />
               <Route path="/government" element={<Government />} />
               <Route
