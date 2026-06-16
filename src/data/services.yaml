@@ -63,4 +63,33 @@ categories:
     slug: 'housing-land-use'
     description: 'How to apply for housing projects, what zoning and building permits are needed, and where relocation sites are available.'
     icon: 'Home'
-  
+
+  # Civil Registry Services
+  - category: 'Civil Registry'
+    slug: 'civil-registry'
+    description: 'Birth, marriage, and death certificates — register events, get certified copies, and correct records at the City Civil Registry Office.'
+    icon: 'FileText'
+
+  # Taxes & Property Services
+  - category: 'Taxes & Property'
+    slug: 'taxes-and-property'
+    description: "Pay your real property and business taxes, and request tax declarations, property certificates, and assessment updates from the City Treasurer's and Assessor's Offices."
+    icon: 'Receipt'
+
+  # Building & Construction Services
+  - category: 'Building & Construction'
+    slug: 'building-construction'
+    description: 'Building permits, occupancy certificates, fencing, electrical, and demolition permits, and zoning or locational clearances.'
+    icon: 'HardHat'
+
+  # Transport & Franchising Services
+  - category: 'Transport & Franchising'
+    slug: 'transport'
+    description: 'Tricycle franchises (MTOP), traffic assistance and complaints, and city terminal vehicle registration and fees.'
+    icon: 'Bus'
+
+  # Employment & Cooperatives Services
+  - category: 'Employment & Cooperatives'
+    slug: 'employment'
+    description: 'Find jobs, apply for student and emergency-employment programs, get OFW assistance, and register or strengthen a cooperative.'
+    icon: 'Briefcase'

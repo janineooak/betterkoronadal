@@ -92,6 +92,17 @@ A: Yes. Your representative must bring a Special Power of Attorney (for sole pro
 
 ---
 
+## Sources
+
+This guide is based on the **City of Koronadal Citizen's Charter (2026 edition)**. Requirements, fees, and processing times can change — confirm with the BPLO before transacting.
+
+- [Citizen's Charter 2026 (PDF)](https://koronadal.gov.ph/wp-content/uploads/2026/05/CitizensCharter2026-1.pdf)
+- [City Government of Koronadal](https://koronadal.gov.ph)
+
+See the full [list of sources](/sources) for how this information was compiled.
+
+---
+
 ## Related Services
 
 - Renew permits and pay local business taxes

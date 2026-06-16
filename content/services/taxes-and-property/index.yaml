@@ -1,0 +1,19 @@
+# Taxes & Property Category Pages
+# This file contains all the pages/services available under the Taxes & Property category
+
+pages:
+  - name: 'Pay your real property tax'
+    slug: 'pay-real-property-tax'
+    description: "Pay land, building, and machinery taxes at the City Treasurer's Office, with discounts for early payment, plus how to get a tax clearance."
+
+  - name: 'Pay business and other local taxes'
+    slug: 'pay-business-and-other-local-taxes'
+    description: 'Pay business tax, transfer tax, situs tax, weights-and-measures fees, idle land tax, cedula, and other local taxes and charges.'
+
+  - name: 'Get a tax declaration or property certificate'
+    slug: 'get-a-tax-declaration-or-property-certificate'
+    description: 'Request certified copies of your Tax Declaration and certifications like No Landholding, Total Landholding, or No Improvement from the City Assessor.'
+
+  - name: 'Request a property assessment or tax declaration update'
+    slug: 'request-a-property-assessment-or-tax-declaration-update'
+    description: 'Have new buildings, machinery, or land assessed, or update your Tax Declaration for transfers, segregation, consolidation, or lien annotations.'

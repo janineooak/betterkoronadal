@@ -47,6 +47,10 @@ export const mainNavigation: NavigationItem[] = [
         label: 'Transparency & Full Disclosure',
         href: '/transparency',
       },
+      {
+        label: "Citizen's Charter",
+        href: '/citizens-charter',
+      },
     ],
   },
 ];
@@ -78,6 +82,7 @@ export const footerNavigation = {
     {
       title: 'Government',
       links: [
+        { label: "Citizen's Charter", href: '/citizens-charter' },
         { label: 'Transparency & Full Disclosure', href: '/transparency' },
         { label: 'Sources & References', href: '/sources' },
         { label: 'Open Data', href: 'https://data.gov.ph' },

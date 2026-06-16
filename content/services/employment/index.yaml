@@ -1,0 +1,19 @@
+# Employment & Cooperatives Category Pages
+# This file contains all the pages/services available under the Employment & Cooperatives category
+
+pages:
+  - name: 'Find a job through PESO'
+    slug: 'find-a-job-through-peso'
+    description: 'Register as a jobseeker, get matched to employers, and receive a PESO referral letter or join a local job fair.'
+
+  - name: 'Apply for the SPES student employment program'
+    slug: 'apply-for-the-spes-student-employment-program'
+    description: 'Temporary, paid summer/Christmas employment for poor but deserving students and out-of-school youth, facilitated by PESO with DOLE.'
+
+  - name: 'Get assistance for overseas or displaced workers'
+    slug: 'get-assistance-for-overseas-or-displaced-workers'
+    description: 'File OFW welfare complaints with OWWA, apply for TUPAD emergency employment, or arrange overseas recruitment activities through PESO.'
+
+  - name: 'Register or strengthen a cooperative'
+    slug: 'register-or-strengthen-a-cooperative'
+    description: 'Get help registering a co-op, applying for a CLAP capital loan, attending mandatory trainings, or securing an endorsement letter.'

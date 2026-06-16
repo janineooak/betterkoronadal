@@ -52,3 +52,14 @@ The City Government of Koronadal offers free **check-ups, basic medicines, and v
 - **Email:** info.koronadalcity@gmail.com
 - **Facebook:** facebook.com/CityGovernmentofKoronadal
 - **Emergency:** Korona-911 (city emergency hotline managed by CDRRMO)
+
+---
+
+## Sources
+
+This guide is based on the **City of Koronadal Citizen's Charter (2026 edition)** and official City Health Office information. Services and schedules can change — confirm with the CHO before going.
+
+- [Citizen's Charter 2026 (PDF)](https://koronadal.gov.ph/wp-content/uploads/2026/05/CitizensCharter2026-1.pdf)
+- [City Government of Koronadal](https://koronadal.gov.ph)
+
+See the full [list of sources](/sources) for how this information was compiled.
