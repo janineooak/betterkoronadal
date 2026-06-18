@@ -136,22 +136,39 @@ const Navbar: React.FC = () => {
                   )}
                 </a>
                 {item.children && (
-                  <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                    <div
-                      className="py-1"
-                      role="menu"
-                      aria-orientation="vertical"
-                    >
-                      {item.children.map(child => (
+                  <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 w-[640px] max-w-[92vw] opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 z-50">
+                    <div className="rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 p-4">
+                      <div className="flex items-center justify-between mb-3 pb-2 border-b border-gray-100">
+                        <span className="text-sm font-semibold text-gray-900">
+                          {t(
+                            `navbar.${item.label
+                              .replace(' ', '')
+                              .toLowerCase()}`
+                          )}
+                        </span>
                         <Link
-                          key={child.label}
-                          to={child.href}
-                          className="text-left block px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600"
-                          role="menuitem"
+                          to={item.href}
+                          className="text-xs font-medium text-primary-600 hover:text-primary-700"
                         >
-                          {child.label}
+                          View all &rarr;
                         </Link>
-                      ))}
+                      </div>
+                      <div
+                        className="grid grid-cols-3 gap-x-4 gap-y-1"
+                        role="menu"
+                        aria-orientation="horizontal"
+                      >
+                        {item.children.map(child => (
+                          <Link
+                            key={child.label}
+                            to={child.href}
+                            className="block rounded px-3 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
+                            role="menuitem"
+                          >
+                            {child.label}
+                          </Link>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 )}
