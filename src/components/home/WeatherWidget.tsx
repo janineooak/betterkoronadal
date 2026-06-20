@@ -17,6 +17,7 @@ import {
   Sunrise,
   Sunset,
   AlertCircle,
+  ChevronDown,
 } from 'lucide-react';
 import { Heading } from '../ui/Heading';
 import { fetchWithTimeout } from '../../lib/utils';
@@ -141,6 +142,7 @@ export default function WeatherWidget() {
   const [data, setData] = useState<WeatherData | null>(null);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [showForecast, setShowForecast] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -223,73 +225,92 @@ export default function WeatherWidget() {
         )}
 
         {data && (
-          <div className="grid gap-6 lg:grid-cols-[auto_1fr] lg:items-center">
-            {/* Current conditions */}
-            <div className="flex items-center gap-4">
+          <div className="flex h-full flex-col justify-center">
+            {/* Current conditions — given the full width of the card */}
+            <div className="flex flex-wrap items-center gap-6">
               {(() => {
                 const { Icon, label } = describeWeather(data.code, t);
                 return (
                   <>
-                    <Icon className="h-16 w-16 text-primary-600" />
-                    <div>
-                      <p className="text-4xl font-bold text-gray-900">
-                        {data.temperature}°C
-                      </p>
-                      <p className="text-gray-600">{label}</p>
-                      <p className="flex items-center gap-1 text-sm text-gray-500">
-                        <Thermometer className="h-4 w-4" />{' '}
-                        {t('home.weather.feelsLike', {
-                          temp: data.feelsLike,
-                        })}
-                      </p>
-                      <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-sm text-gray-500">
-                        <span className="flex items-center gap-1">
-                          <Droplets className="h-4 w-4" /> {data.humidity}%
-                        </span>
-                        <span className="flex items-center gap-1">
-                          <Wind className="h-4 w-4" /> {data.windSpeed} km/h
-                          {data.windGusts > data.windSpeed && (
-                            <span className="text-gray-400">
-                              {' '}
-                              {t('home.weather.gusts', {
-                                value: data.windGusts,
-                              })}
-                            </span>
-                          )}
-                        </span>
-                        <span className="flex items-center gap-1">
-                          <Umbrella className="h-4 w-4" /> {data.precipitation}{' '}
-                          mm
-                        </span>
+                    <div className="flex items-center gap-4">
+                      <Icon className="h-20 w-20 text-primary-600" />
+                      <div>
+                        <p className="text-5xl font-bold text-gray-900">
+                          {data.temperature}°C
+                        </p>
+                        <p className="text-gray-600">{label}</p>
+                        <p className="flex items-center gap-1 text-sm text-gray-500">
+                          <Thermometer className="h-4 w-4" />{' '}
+                          {t('home.weather.feelsLike', {
+                            temp: data.feelsLike,
+                          })}
+                        </p>
                       </div>
-                      <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-sm text-gray-500">
-                        <span className="flex items-center gap-1">
-                          <Sun className="h-4 w-4" />{' '}
-                          {t('home.weather.uv', { value: data.uvMax })}
-                        </span>
-                        <span className="flex items-center gap-1">
-                          <Sunrise className="h-4 w-4" />{' '}
-                          {clockTime(data.sunrise)}
-                        </span>
-                        <span className="flex items-center gap-1">
-                          <Sunset className="h-4 w-4" />{' '}
-                          {clockTime(data.sunset)}
-                        </span>
-                      </div>
+                    </div>
+
+                    {/* Detail metrics fill the remaining width */}
+                    <div className="grid flex-1 grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-600 sm:grid-cols-3">
+                      <span className="flex items-center gap-1.5">
+                        <Droplets className="h-4 w-4 text-primary-500" />{' '}
+                        {data.humidity}%
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <Wind className="h-4 w-4 text-primary-500" />{' '}
+                        {data.windSpeed} km/h
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <Umbrella className="h-4 w-4 text-primary-500" />{' '}
+                        {data.precipitation} mm
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <Sun className="h-4 w-4 text-primary-500" />{' '}
+                        {t('home.weather.uv', { value: data.uvMax })}
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <Sunrise className="h-4 w-4 text-primary-500" />{' '}
+                        {clockTime(data.sunrise)}
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <Sunset className="h-4 w-4 text-primary-500" />{' '}
+                        {clockTime(data.sunset)}
+                      </span>
                     </div>
                   </>
                 );
               })()}
             </div>
+          </div>
+        )}
+      </div>
 
-            {/* Multi-day forecast */}
-            <div className="grid grid-cols-4 gap-3 border-t border-gray-100 pt-4 lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0">
+      {/* Daily forecast lives behind a disclosure link so the main widget
+          stays uncluttered. */}
+      {data && (
+        <div className="mt-3">
+          <button
+            type="button"
+            onClick={() => setShowForecast(v => !v)}
+            aria-expanded={showForecast}
+            className="inline-flex items-center gap-1 text-sm font-medium text-primary-700 hover:text-primary-800"
+          >
+            {showForecast
+              ? t('home.weather.hideForecast')
+              : t('home.weather.showForecast')}
+            <ChevronDown
+              className={`h-4 w-4 transition-transform ${
+                showForecast ? 'rotate-180' : ''
+              }`}
+            />
+          </button>
+
+          {showForecast && (
+            <div className="mt-3 grid grid-cols-2 gap-3 rounded-lg border border-gray-200 bg-white p-4 sm:grid-cols-4">
               {data.daily.map((day, i) => {
                 const { Icon, label } = describeWeather(day.code, t);
                 return (
                   <div
                     key={day.date}
-                    className="flex flex-col items-center text-center"
+                    className="flex flex-col items-center rounded-lg bg-gray-50 py-3 text-center"
                   >
                     <span className="text-xs font-medium text-gray-500">
                       {dayLabel(day.date, i, t)}
@@ -310,9 +331,9 @@ export default function WeatherWidget() {
                 );
               })}
             </div>
-          </div>
-        )}
-      </div>
+          )}
+        </div>
+      )}
 
       <p className="mt-2 text-xs text-gray-500">
         {t('home.weather.attributionBefore')}{' '}

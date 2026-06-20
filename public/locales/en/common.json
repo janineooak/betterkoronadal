@@ -86,7 +86,9 @@
       "errorTitle": "Weather data is unavailable right now.",
       "feelsLike": "Feels like {{temp}}°C",
       "gusts": "gusts {{value}} km/h",
+      "hideForecast": "Hide 4-day forecast",
       "loading": "Loading weather…",
+      "showForecast": "Show 4-day forecast",
       "subtitle": "Current conditions and a four-day forecast for Koronadal City.",
       "title": "Weather Updates",
       "today": "Today",
@@ -539,6 +541,7 @@
     "transparency": {
       "breadcrumbHome": "Home",
       "breadcrumbTransparency": "Transparency",
+      "disclaimer": "<strong>Note:</strong> BetterKoronadal.org is an independent community project and does not host official financial documents. The links below point to the official government portals that publish them.",
       "heading": "Transparency & Open Data",
       "intro": "Local government units in the Philippines are required to publish their budgets, finances, and projects under the <strong>Full Disclosure Policy (FDP)</strong>. This page gathers the official channels where you can review how the City of Koronadal manages public funds.",
       "seoDescription": "Where to find Koronadal's budgets, financial reports, bids, and procurement notices — the Full Disclosure Policy (FDP) Portal, PhilGEPS, COA reports, and Freedom of Information.",

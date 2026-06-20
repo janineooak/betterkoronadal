@@ -86,7 +86,9 @@
       "errorTitle": "Wala makuha ang impormasyon sang panahon subong.",
       "feelsLike": "Daw mabatyagan nga {{temp}}°C",
       "gusts": "hangin tubtob {{value}} km/h",
+      "hideForecast": "Itago ang tagna sa 4 ka adlaw",
       "loading": "Ginakuha ang impormasyon sang panahon…",
+      "showForecast": "Ipakita ang tagna sa 4 ka adlaw",
       "subtitle": "Kahimtangan sang panahon subong kag tagna para sa apat ka adlaw sa Dakbanwa sang Koronadal.",
       "title": "Mga Update sa Panahon",
       "today": "Subong",
@@ -539,6 +541,7 @@
     "transparency": {
       "breadcrumbHome": "Panimalay",
       "breadcrumbTransparency": "Transparensya",
+      "disclaimer": "<strong>Pahinumdom:</strong> Ang BetterKoronadal.org isa ka independyente nga proyekto sang komunidad kag wala nagatago sang opisyal nga mga dokumento pinansyal. Ang mga link sa idalom nagatudlo sa mga opisyal nga portal sang gobyerno nga nagapagua sini.",
       "heading": "Transparensya kag Bukas nga Datos",
       "intro": "Ginakinahanglan sang mga local government unit sa Pilipinas nga ipakita ang ila mga badyet, pinansya, kag mga proyekto sa idalom sang <strong>Full Disclosure Policy (FDP)</strong>. Ginatipon sini nga pahina ang mga opisyal nga kanal kon diin mo matan-aw kon paano ginadumala sang Dakbanwa sang Koronadal ang pondo sang publiko.",
       "seoDescription": "Kon diin makita ang mga badyet, financial report, bids, kag mga pahibalo sa procurement sang Koronadal — ang Full Disclosure Policy (FDP) Portal, PhilGEPS, mga report sang COA, kag Freedom of Information.",
