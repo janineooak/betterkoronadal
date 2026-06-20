@@ -1,4 +1,11 @@
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
+
+// Maps an i18next language code to (htmlLang, ogLocale, metaLanguage).
+const localeMeta: Record<string, [string, string, string]> = {
+  en: ['en', 'en_US', 'English'],
+  hil: ['hil', 'hil_PH', 'Hiligaynon'],
+};
 
 interface SEOProps {
   title?: string;
@@ -19,6 +26,9 @@ export default function SEO({
   type = 'website',
   siteName = import.meta.env.VITE_GOVERNMENT_NAME || 'Local Government Website',
 }: SEOProps) {
+  const { i18n } = useTranslation();
+  const [htmlLang, ogLocale, metaLanguage] =
+    localeMeta[i18n.language] ?? localeMeta.en;
   const defaultTitle = `${siteName} - Community Portal for the City of Koronadal`;
   const defaultDescription =
     import.meta.env.VITE_SITE_DESCRIPTION ||
@@ -37,13 +47,14 @@ export default function SEO({
 
   return (
     <Helmet>
+      <html lang={htmlLang} />
       {/* Basic Meta Tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={fullDescription} />
       <meta name="keywords" content={fullKeywords} />
       <meta name="author" content={siteName} />
       <meta name="robots" content="index, follow" />
-      <meta name="language" content="English" />
+      <meta name="language" content={metaLanguage} />
       <meta name="revisit-after" content="7 days" />
 
       {/* Open Graph / Facebook */}
@@ -53,7 +64,7 @@ export default function SEO({
       <meta property="og:description" content={fullDescription} />
       <meta property="og:image" content={fullImage} />
       <meta property="og:site_name" content={siteName} />
-      <meta property="og:locale" content="en_US" />
+      <meta property="og:locale" content={ogLocale} />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
