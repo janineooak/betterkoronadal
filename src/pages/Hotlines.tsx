@@ -4,6 +4,7 @@ import { Heading } from '../components/ui/Heading';
 import SEO from '../components/SEO';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Phone, Siren, Info } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface Hotline {
   name: string;
@@ -230,28 +231,31 @@ function HotlineCard({ hotline }: { hotline: Hotline }) {
 }
 
 const Hotlines: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <SEO
-        title="Emergency Hotlines"
-        description="Emergency hotlines for the City of Koronadal — Korona-911, CDRRMO, City Health Office, PNP, BFP, the city trunkline, per-barangay BHERT numbers, and national emergency numbers."
-        keywords="Koronadal hotlines, Korona-911, Koronadal emergency, CDRRMO, BHERT, barangay health emergency, Koronadal PNP, Koronadal BFP, South Cotabato emergency numbers"
+        title={t('pages.hotlines.seoTitle')}
+        description={t('pages.hotlines.seoDescription')}
+        keywords={t('pages.hotlines.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'Hotlines', href: '/hotlines' },
+              { label: t('pages.hotlines.breadcrumbHome'), href: '/' },
+              {
+                label: t('pages.hotlines.breadcrumbHotlines'),
+                href: '/hotlines',
+              },
             ]}
           />
 
-          <Heading>Emergency Hotlines</Heading>
+          <Heading>{t('pages.hotlines.title')}</Heading>
           <p className="text-gray-600 mb-6 max-w-3xl">
-            Keep these numbers handy. In a life-threatening emergency in
-            Koronadal, call <strong>Korona-911</strong> or the national
-            emergency number <strong>911</strong>.
+            {t('pages.hotlines.introBefore')} <strong>Korona-911</strong>{' '}
+            {t('pages.hotlines.introMiddle')} <strong>911</strong>.
           </p>
 
           {/* Prominent emergency banner */}
@@ -260,7 +264,7 @@ const Hotlines: React.FC = () => {
               <Siren className="h-8 w-8 shrink-0" />
               <div>
                 <p className="text-sm uppercase tracking-wide opacity-90">
-                  City Emergency Hotline
+                  {t('pages.hotlines.cityEmergencyHotline')}
                 </p>
                 <a href="tel:911" className="text-3xl font-extrabold underline">
                   Korona-911
@@ -270,7 +274,7 @@ const Hotlines: React.FC = () => {
           </div>
 
           {/* City hotlines */}
-          <Heading level={2}>City of Koronadal</Heading>
+          <Heading level={2}>{t('pages.hotlines.cityOfKoronadal')}</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 mb-12">
             {cityHotlines.map(h => (
               <HotlineCard key={h.name} hotline={h} />
@@ -278,12 +282,9 @@ const Hotlines: React.FC = () => {
           </div>
 
           {/* Barangay BHERT hotlines */}
-          <Heading level={2}>Barangay Health Emergency Response Teams</Heading>
+          <Heading level={2}>{t('pages.hotlines.bhertTitle')}</Heading>
           <p className="text-gray-600 mb-6 max-w-3xl">
-            Each barangay operates a 24-hour Barangay Health Emergency Response
-            Team (BHERT). Call your barangay&rsquo;s team for health
-            emergencies, assistance reaching the hospital, and coordination with
-            the City Health Office.
+            {t('pages.hotlines.bhertIntro')}
           </p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-12">
             {barangayHotlines.map(h => (
@@ -292,7 +293,7 @@ const Hotlines: React.FC = () => {
           </div>
 
           {/* National hotlines */}
-          <Heading level={2}>National Hotlines</Heading>
+          <Heading level={2}>{t('pages.hotlines.nationalHotlines')}</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-12">
             {nationalHotlines.map(h => (
               <HotlineCard key={h.name} hotline={h} />
@@ -306,27 +307,26 @@ const Hotlines: React.FC = () => {
                 <Info className="h-6 w-6 shrink-0 text-amber-600" />
                 <div className="text-sm text-gray-700">
                   <p className="font-semibold text-gray-900">
-                    Numbers change — verify before you rely on them
+                    {t('pages.hotlines.verifyTitle')}
                   </p>
                   <p className="mt-1">
-                    These numbers are compiled from official City Government of
-                    Koronadal advisories. If a line is unreachable, call{' '}
-                    <strong>Korona-911</strong> or the city trunkline{' '}
+                    {t('pages.hotlines.verifyBefore')}{' '}
+                    <strong>Korona-911</strong>{' '}
+                    {t('pages.hotlines.verifyTrunkline')}{' '}
                     <a
                       href="tel:+63832286095"
                       className="text-primary-600 underline"
                     >
                       (083) 228-6095
                     </a>{' '}
-                    and ask to be connected. The latest verified directory is
-                    also posted on the city&rsquo;s official{' '}
+                    {t('pages.hotlines.verifyMiddle')}{' '}
                     <a
                       href="https://facebook.com/CityGovernmentofKoronadal"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary-600 underline"
                     >
-                      Facebook page
+                      {t('pages.hotlines.facebookPage')}
                     </a>
                     .
                   </p>

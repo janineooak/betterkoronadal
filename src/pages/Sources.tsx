@@ -4,6 +4,7 @@ import { Heading } from '../components/ui/Heading';
 import SEO from '../components/SEO';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Info } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface Reference {
   label: string;
@@ -132,29 +133,27 @@ const sourceGroups: SourceGroup[] = [
 ];
 
 const Sources: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <SEO
-        title="Sources & References"
-        description="The sources behind BetterKoronadal.org — official City Government of Koronadal pages, the Philippine Statistics Authority, DILG, PhilGEPS, PAGASA, and other references used to compile the information on this site."
-        keywords="Koronadal sources, references, citations, PSA, DILG, koronadal.gov.ph, data sources"
+        title={t('pages.sources.seoTitle')}
+        description={t('pages.sources.seoDescription')}
+        keywords={t('pages.sources.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'Sources', href: '/sources' },
+              { label: t('pages.sources.breadcrumbHome'), href: '/' },
+              { label: t('pages.sources.breadcrumbSources'), href: '/sources' },
             ]}
           />
 
-          <Heading>Sources &amp; References</Heading>
+          <Heading>{t('pages.sources.title')}</Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            BetterKoronadal.org is an independent, community-built portal. The
-            information here is compiled from official government sources and
-            reputable references, and re-verified periodically. The facts on
-            this site were last reviewed in <strong>June 2026</strong>.
+            {t('pages.sources.intro', { date: 'June 2026' })}
           </p>
 
           <Card className="mb-10 border-l-4 border-amber-500">
@@ -163,11 +162,9 @@ const Sources: React.FC = () => {
                 <Info className="h-6 w-6 shrink-0 text-amber-600" />
                 <p className="text-sm text-gray-700">
                   <strong className="text-gray-900">
-                    Always confirm time-sensitive details with the official
-                    source.
+                    {t('pages.sources.confirmStrong')}
                   </strong>{' '}
-                  Officials, contact numbers, schedules, and fees can change.
-                  For anything official, refer to{' '}
+                  {t('pages.sources.confirmBody')}{' '}
                   <a
                     href="https://koronadal.gov.ph"
                     target="_blank"

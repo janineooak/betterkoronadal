@@ -5,6 +5,7 @@ export interface Subcategory {
   name: string;
   slug: string;
   description?: string;
+  subcategory?: string; // Optional grouping label within a category page
 }
 
 export interface Category {

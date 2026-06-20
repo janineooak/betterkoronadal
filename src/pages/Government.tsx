@@ -15,8 +15,10 @@ import SEO from '../components/SEO';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Banner } from '@bettergov/kapwa/banner';
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Government: React.FC = () => {
+  const { t } = useTranslation();
   const { category } = useParams();
   const [categoryIndex, setCategoryIndex] = useState<CategoryIndex>({
     layout: 'list',
@@ -34,6 +36,69 @@ const Government: React.FC = () => {
     categoryData?.icon as keyof typeof LucideIcons
   ] as React.ComponentType<{ className?: string }>;
 
+  // Group pages by their optional `subcategory` label, preserving first-seen
+  // order. Pages without a subcategory fall under an empty-string group, which
+  // renders without a heading (backward compatible with ungrouped categories).
+  const groupedSubcategories = subcategories.reduce<
+    Array<{ label: string; pages: Subcategory[] }>
+  >((groups, page) => {
+    const label = page.subcategory ?? '';
+    const existing = groups.find(g => g.label === label);
+    if (existing) {
+      existing.pages.push(page);
+    } else {
+      groups.push({ label, pages: [page] });
+    }
+    return groups;
+  }, []);
+  const hasGroups = groupedSubcategories.some(g => g.label !== '');
+
+  const renderCards = (pages: Subcategory[]) => {
+    const Wrapper = ({ children }: { children: React.ReactNode }) =>
+      categoryIndex.layout === 'grid' ? (
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {children}
+        </div>
+      ) : (
+        <div className="space-y-4">{children}</div>
+      );
+
+    return (
+      <Wrapper>
+        {pages.map(subcategory => (
+          <Link
+            key={subcategory.slug}
+            to={`/government/${category}/${subcategory.slug}`}
+          >
+            <Card
+              hoverable
+              className={
+                categoryIndex.layout === 'grid'
+                  ? 'h-full border-t-4 border-primary-500'
+                  : 'mb-4'
+              }
+            >
+              <CardContent>
+                <h4 className="flex items-center gap-2 text-lg font-medium text-gray-900">
+                  <Icon className="h-5 w-5 shrink-0 text-primary-600" />
+                  <span>{subcategory.name}</span>
+                </h4>
+                {subcategory.description && (
+                  <p className="mt-2 text-sm text-gray-600">
+                    {subcategory.description}
+                  </p>
+                )}
+                <span className="inline-block px-2 py-1 mt-2 text-xs font-medium rounded-sm bg-gray-100 text-gray-800">
+                  {categoryData?.category || category}
+                </span>
+              </CardContent>
+            </Card>
+          </Link>
+        ))}
+      </Wrapper>
+    );
+  };
+
   useEffect(() => {
     if (category && categoryData) {
       setLoading(true);
@@ -48,13 +113,17 @@ const Government: React.FC = () => {
     return (
       <>
         <SEO
-          title="Services"
-          description={`All services provided by the ${import.meta.env.VITE_GOVERNMENT_NAME} government. Find what you need for citizenship, business, education, and more.`}
-          keywords="government services, public services, local government, civic services"
+          title={t('pages.services.seoTitle')}
+          description={t('pages.services.seoDescription', {
+            government: import.meta.env.VITE_GOVERNMENT_NAME,
+          })}
+          keywords={t('pages.services.seoKeywords')}
         />
         <GovernmentActivitySection
-          title={`All local government services`}
-          description={`All services provided by the ${import.meta.env.VITE_GOVERNMENT_NAME} government. Find what you need for citizenship, business, education, and more.`}
+          title={t('pages.services.allServicesTitle')}
+          description={t('pages.services.seoDescription', {
+            government: import.meta.env.VITE_GOVERNMENT_NAME,
+          })}
         />
       </>
     );
@@ -65,8 +134,8 @@ const Government: React.FC = () => {
         <Breadcrumbs className="mb-8" />
         <Banner
           type="error"
-          title="Category not found"
-          description="The category you are looking for does not exist."
+          title={t('pages.government.categoryNotFoundTitle')}
+          description={t('pages.government.categoryNotFoundDescription')}
           icon
         />
       </Section>
@@ -78,7 +147,9 @@ const Government: React.FC = () => {
       <SEO
         title={categoryData.category || category}
         description={categoryData.description}
-        keywords={`${categoryData.category}, government services, public services, local government`}
+        keywords={t('pages.services.categoryKeywords', {
+          category: categoryData.category,
+        })}
       />
       <Section className="p-3 mb-12">
         <Breadcrumbs className="mb-8" />
@@ -88,7 +159,7 @@ const Government: React.FC = () => {
 
         {loading ? (
           <div className="flex justify-center items-center p-8">
-            <Text>Loading services...</Text>
+            <Text>{t('pages.services.loading')}</Text>
           </div>
         ) : (
           <>
@@ -103,65 +174,27 @@ const Government: React.FC = () => {
             {subcategories.length === 0 ? (
               <Banner
                 type="info"
-                title="Content coming soon"
-                description={`We're still adding content to the ${categoryData.category} section. In the meantime, explore the City Government and Services sections.`}
+                title={t('pages.government.comingSoonTitle')}
+                description={t('pages.government.comingSoonDescription', {
+                  category: categoryData.category,
+                })}
                 icon
               />
-            ) : categoryIndex.layout === 'grid' ? (
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {subcategories.map(subcategory => (
-                  <Link
-                    key={subcategory.slug}
-                    to={`/government/${category}/${subcategory.slug}`}
-                  >
-                    <Card
-                      hoverable
-                      className="h-full border-t-4 border-primary-500"
-                    >
-                      <CardContent>
-                        <h4 className="flex items-center gap-2 text-lg font-medium text-gray-900">
-                          <Icon className="h-5 w-5 shrink-0 text-primary-600" />
-                          <span>{subcategory.name}</span>
-                        </h4>
-                        {subcategory.description && (
-                          <p className="mt-2 text-sm text-gray-600">
-                            {subcategory.description}
-                          </p>
-                        )}
-                        <span className="inline-block px-2 py-1 mt-2 text-xs font-medium rounded-sm bg-gray-100 text-gray-800">
-                          {categoryData.category || category}
-                        </span>
-                      </CardContent>
-                    </Card>
-                  </Link>
+            ) : hasGroups ? (
+              <div className="space-y-8">
+                {groupedSubcategories.map(group => (
+                  <div key={group.label || 'ungrouped'}>
+                    {group.label && (
+                      <Heading level={3} className="mb-4">
+                        {group.label}
+                      </Heading>
+                    )}
+                    {renderCards(group.pages)}
+                  </div>
                 ))}
               </div>
             ) : (
-              <div className="space-y-4">
-                {subcategories.map(subcategory => (
-                  <Link
-                    key={subcategory.slug}
-                    to={`/government/${category}/${subcategory.slug}`}
-                  >
-                    <Card hoverable className="mb-4">
-                      <CardContent>
-                        <h4 className="flex items-center gap-2 text-lg font-medium text-gray-900">
-                          <Icon className="h-5 w-5 shrink-0 text-primary-600" />
-                          <span>{subcategory.name}</span>
-                        </h4>
-                        {subcategory.description && (
-                          <p className="mt-2 text-sm text-gray-600">
-                            {subcategory.description}
-                          </p>
-                        )}
-                        <span className="inline-block px-2 py-1 mt-2 text-xs font-medium rounded-sm bg-gray-100 text-gray-800">
-                          {categoryData.category || category}
-                        </span>
-                      </CardContent>
-                    </Card>
-                  </Link>
-                ))}
-              </div>
+              renderCards(subcategories)
             )}
           </>
         )}

@@ -14,6 +14,9 @@ import CityOfficials from './pages/CityOfficials';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
 import Barangays from './pages/Barangays';
+import Procurements from './pages/Procurements';
+import FloodControl from './pages/FloodControl';
+import RegionalDirectory from './pages/RegionalDirectory';
 import Tourism from './pages/Tourism';
 import Transparency from './pages/Transparency';
 import CitizensCharter from './pages/CitizensCharter';
@@ -52,6 +55,12 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/hotlines" element={<Hotlines />} />
               <Route path="/barangays" element={<Barangays />} />
+              <Route path="/procurements" element={<Procurements />} />
+              <Route path="/flood-control" element={<FloodControl />} />
+              <Route
+                path="/regional-directory"
+                element={<RegionalDirectory />}
+              />
               <Route path="/tourism" element={<Tourism />} />
               <Route path="/transparency" element={<Transparency />} />
               <Route path="/citizens-charter" element={<CitizensCharter />} />

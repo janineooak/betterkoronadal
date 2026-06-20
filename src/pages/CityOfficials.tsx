@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import SourceNote from '../components/ui/SourceNote';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 interface Official {
   name: string;
@@ -123,37 +124,45 @@ const OfficialCard: React.FC<{ official: Official; featured?: boolean }> = ({
 );
 
 const CityOfficials: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <SEO
-        title="City Officials of Koronadal"
-        description="Meet the elected officials of the City of Koronadal — Mayor Erlinda “Bing” Pabi-Araquil, Vice Mayor Ma. Ester M. Catorce, and the members of the Sangguniang Panlungsod (City Council) for the 2025–2028 term."
-        keywords="Koronadal city officials, Koronadal mayor, vice mayor, Sangguniang Panlungsod, city councilors, Koronadal directory"
+        title={t('pages.cityOfficials.seoTitle')}
+        description={t('pages.cityOfficials.seoDescription')}
+        keywords={t('pages.cityOfficials.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'Government', href: '/government/departments' },
+              { label: t('pages.cityOfficials.breadcrumbHome'), href: '/' },
               {
-                label: 'City Officials',
+                label: t('pages.cityOfficials.breadcrumbGovernment'),
+                href: '/government/departments',
+              },
+              {
+                label: t('pages.cityOfficials.breadcrumbCityOfficials'),
                 href: '/government/city-officials',
               },
             ]}
           />
 
-          <Heading>City Officials of Koronadal</Heading>
+          <Heading>{t('pages.cityOfficials.title')}</Heading>
           <p className="text-gray-600 mb-12 max-w-3xl">
-            Meet the elected leaders of the <strong>City of Koronadal</strong> —
-            the City Mayor, the Vice Mayor, and the members of the{' '}
-            <strong>Sangguniang Panlungsod (City Council)</strong> for the{' '}
-            <strong>2025&ndash;2028 term</strong>.
+            {t('pages.cityOfficials.introBefore')}{' '}
+            <strong>{t('pages.cityOfficials.cityOfKoronadal')}</strong>{' '}
+            {t('pages.cityOfficials.introMiddle')}{' '}
+            <strong>{t('pages.cityOfficials.sangguniangPanlungsod')}</strong>{' '}
+            {t('pages.cityOfficials.introFor')}{' '}
+            <strong>{t('pages.cityOfficials.term')}</strong>.
           </p>
 
           {/* Executive */}
-          <Heading level={2}>Office of the City Mayor</Heading>
+          <Heading level={2}>
+            {t('pages.cityOfficials.officeOfCityMayor')}
+          </Heading>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 max-w-3xl mb-12">
             {executives.map(official => (
               <OfficialCard key={official.name} official={official} featured />
@@ -161,10 +170,11 @@ const CityOfficials: React.FC = () => {
           </div>
 
           {/* Council */}
-          <Heading level={2}>Sangguniang Panlungsod (City Council)</Heading>
+          <Heading level={2}>
+            {t('pages.cityOfficials.sangguniangPanlungsodCouncil')}
+          </Heading>
           <p className="text-gray-600 mb-6 max-w-3xl">
-            The ten regular members of the City Council, elected by the people
-            of Koronadal.
+            {t('pages.cityOfficials.councilIntro')}
           </p>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 mb-12">
             {councilors.map(official => (
@@ -173,10 +183,11 @@ const CityOfficials: React.FC = () => {
           </div>
 
           {/* Ex-officio */}
-          <Heading level={2}>Ex-Officio Members</Heading>
+          <Heading level={2}>
+            {t('pages.cityOfficials.exOfficioMembers')}
+          </Heading>
           <p className="text-gray-600 mb-6 max-w-3xl">
-            Representing the barangays, indigenous peoples, and the youth of
-            Koronadal.
+            {t('pages.cityOfficials.exOfficioIntro')}
           </p>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 mb-12">
             {exOfficio.map(official => (
@@ -185,17 +196,16 @@ const CityOfficials: React.FC = () => {
           </div>
 
           {/* Links */}
-          <Heading level={2}>Learn More</Heading>
+          <Heading level={2}>{t('pages.cityOfficials.learnMore')}</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 max-w-3xl">
             <Link to="/government/departments/executive">
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
                   <p className="font-semibold text-gray-900">
-                    Office of the City Mayor
+                    {t('pages.cityOfficials.officeOfCityMayor')}
                   </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    The Mayor&rsquo;s mandate, programs, and how to reach the
-                    office.
+                    {t('pages.cityOfficials.mayorCardDesc')}
                   </p>
                 </CardContent>
               </Card>
@@ -204,11 +214,10 @@ const CityOfficials: React.FC = () => {
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
                   <p className="font-semibold text-gray-900">
-                    Sangguniang Panlungsod
+                    {t('pages.cityOfficials.sangguniangPanlungsod')}
                   </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    The City Council&rsquo;s mandate, sessions, and contact
-                    details.
+                    {t('pages.cityOfficials.councilCardDesc')}
                   </p>
                 </CardContent>
               </Card>
@@ -217,10 +226,10 @@ const CityOfficials: React.FC = () => {
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
                   <p className="font-semibold text-gray-900">
-                    Departments &amp; Offices
+                    {t('pages.cityOfficials.departmentsOffices')}
                   </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    The offices that deliver the city&rsquo;s services.
+                    {t('pages.cityOfficials.departmentsCardDesc')}
                   </p>
                 </CardContent>
               </Card>
@@ -231,16 +240,14 @@ const CityOfficials: React.FC = () => {
             verified="June 2026"
             sources={[
               {
-                label: 'City Government of Koronadal — City Officials',
+                label: t('pages.cityOfficials.sourceLabel'),
                 href: 'https://koronadal.gov.ph/city-officials/',
-                note: 'Names, positions, and official photographs',
+                note: t('pages.cityOfficials.sourceNote'),
               },
             ]}
           />
           <p className="mt-4 text-xs text-gray-500 max-w-3xl">
-            Official photographs are courtesy of the City Government of
-            Koronadal. Elected and ex-officio members should be re-verified
-            after each election or change in leadership.
+            {t('pages.cityOfficials.photoCredit')}
           </p>
         </Section>
       </main>

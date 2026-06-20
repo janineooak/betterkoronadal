@@ -3,6 +3,7 @@ import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Heading } from '../components/ui/Heading';
 import SEO from '../components/SEO';
 import SourceNote from '../components/ui/SourceNote';
+import { useTranslation, Trans } from 'react-i18next';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import {
   FileText,
@@ -68,31 +69,33 @@ const resources: Resource[] = [
 ];
 
 const Transparency: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <SEO
-        title="Transparency & Full Disclosure"
-        description="Find transparency and Full Disclosure Policy resources for the City of Koronadal — budgets, bids and procurement, FOI requests, and COA audit reports, with links to the official DILG, PhilGEPS, FOI, and COA portals."
-        keywords="Koronadal transparency, Full Disclosure Policy, FDP, DILG, PhilGEPS, bids and procurement, FOI, COA, Koronadal budget"
+        title={t('pages.transparency.seoTitle')}
+        description={t('pages.transparency.seoDescription')}
+        keywords={t('pages.transparency.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'Transparency', href: '/transparency' },
+              { label: t('pages.transparency.breadcrumbHome'), href: '/' },
+              {
+                label: t('pages.transparency.breadcrumbTransparency'),
+                href: '/transparency',
+              },
             ]}
           />
 
-          <Heading>Transparency &amp; Full Disclosure</Heading>
+          <Heading>{t('pages.transparency.heading')}</Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            Philippine local government units are required to make key financial
-            and project information public under the{' '}
-            <strong>Full Disclosure Policy</strong> (DILG Memorandum Circular
-            2011-134) and the <strong>Government Procurement Reform Act</strong>{' '}
-            (RA 9184). This page gathers the official channels where you can
-            find Koronadal&rsquo;s budgets, bids, audit reports, and records.
+            <Trans
+              i18nKey="pages.transparency.intro"
+              components={{ strong: <strong /> }}
+            />
           </p>
 
           {/* Disclaimer banner */}
@@ -101,20 +104,21 @@ const Transparency: React.FC = () => {
               <div className="flex items-start gap-3">
                 <Info className="h-6 w-6 shrink-0 text-amber-600" />
                 <p className="text-sm text-gray-700">
-                  <strong className="text-gray-900">
-                    These documents are published by official government
-                    portals.
-                  </strong>{' '}
-                  BetterKoronadal.org is an independent community portal and
-                  does not host or certify these records — the links below point
-                  to the authoritative sources.
+                  <Trans
+                    i18nKey="pages.transparency.disclaimer"
+                    components={{
+                      strong: <strong className="text-gray-900" />,
+                    }}
+                  />
                 </p>
               </div>
             </CardContent>
           </Card>
 
           {/* Resource grid */}
-          <Heading level={2}>Where to Find the Documents</Heading>
+          <Heading level={2}>
+            {t('pages.transparency.whereToFindHeading')}
+          </Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-12">
             {resources.map(({ name, description, href, Icon }) => (
               <a
@@ -138,21 +142,12 @@ const Transparency: React.FC = () => {
           </div>
 
           {/* What FDP covers */}
-          <Heading level={2}>What the Full Disclosure Policy Covers</Heading>
+          <Heading level={2}>
+            {t('pages.transparency.whatFdpCoversHeading')}
+          </Heading>
           <div className="max-w-3xl space-y-3 text-gray-700 mb-6">
-            <p>
-              Under the policy, LGUs post documents such as their annual budget,
-              statement of receipts and expenditures, the annual procurement
-              plan, bid results and awarded contracts, the status of local
-              development projects, and reports on the use of special funds
-              (e.g. the Local Disaster Risk Reduction and Management Fund).
-            </p>
-            <p>
-              These must be displayed in conspicuous public places, on the
-              LGU&rsquo;s website, and/or in print media, and submitted through
-              the DILG&rsquo;s FDP Portal so any citizen can review how public
-              funds are managed and spent.
-            </p>
+            <p>{t('pages.transparency.whatFdpCoversP1')}</p>
+            <p>{t('pages.transparency.whatFdpCoversP2')}</p>
           </div>
 
           <SourceNote

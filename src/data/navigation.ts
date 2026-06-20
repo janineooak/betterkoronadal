@@ -75,6 +75,21 @@ export const mainNavigation: NavigationItem[] = [
         icon: 'FileSearch',
       },
       {
+        label: 'Procurement Opportunities',
+        href: '/procurements',
+        icon: 'FileText',
+      },
+      {
+        label: 'Flood Control Projects',
+        href: '/flood-control',
+        icon: 'Waves',
+      },
+      {
+        label: 'Regional LGU Directory',
+        href: '/regional-directory',
+        icon: 'Building2',
+      },
+      {
         label: "Citizen's Charter",
         href: '/citizens-charter',
         icon: 'ScrollText',

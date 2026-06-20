@@ -13,6 +13,7 @@ import {
   Award,
   ScrollText,
 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 // Key milestones in the city's history. `era` colours the timeline marker.
 const milestones = [
@@ -199,46 +200,40 @@ const MayorList: React.FC<{ mayors: Mayor[] }> = ({ mayors }) => (
 );
 
 const History: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <SEO
-        title="History of the City of Koronadal"
-        description="The history of Koronadal — from the Marbel Settlement District of 1939 and its eighteen pioneer settlers, through municipality and cityhood, to the present day — including a complete timeline of the city's mayors."
-        keywords="Koronadal history, Marbel, Marbel Settlement District, Koronadal mayors, RA 8803 cityhood, South Cotabato capital, SOCCSKSARGEN regional center"
+        title={t('pages.history.seoTitle')}
+        description={t('pages.history.seoDescription')}
+        keywords={t('pages.history.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'About', href: '/about' },
-              { label: 'City History', href: '/history' },
+              { label: t('pages.history.breadcrumbHome'), href: '/' },
+              { label: t('pages.history.breadcrumbAbout'), href: '/about' },
+              { label: t('pages.history.breadcrumbHistory'), href: '/history' },
             ]}
           />
 
-          <Heading>History of the City of Koronadal</Heading>
+          <Heading>{t('pages.history.heroTitle')}</Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            From the wide cogon plains that gave it its name to its place today
-            as the regional center of SOCCSKSARGEN, the story of{' '}
-            <strong>Koronadal</strong> — long known as <strong>Marbel</strong> —
-            is the story of settlers who turned a frontier valley into the{' '}
-            <em>&ldquo;Hub of the South.&rdquo;</em>
+            {t('pages.history.intro')}
           </p>
 
           {/* Etymology */}
           <Heading level={2} className="mt-12">
-            What&rsquo;s in a Name
+            {t('pages.history.nameHeading')}
           </Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-3xl mb-12">
             <Card className="h-full border-t-4 border-primary-500">
               <CardContent>
                 <p className="text-lg font-semibold text-gray-900">Koronadal</p>
                 <p className="mt-1 text-sm text-gray-600">
-                  From the Blaan words <em>koron</em> (or <em>kalon</em>),
-                  meaning cogon grass, and <em>nadal</em> or <em>datal</em>,
-                  meaning a wide plain — a name drawn straight from the
-                  valley&rsquo;s landscape.
+                  {t('pages.history.nameKoronadal')}
                 </p>
               </CardContent>
             </Card>
@@ -246,20 +241,16 @@ const History: React.FC = () => {
               <CardContent>
                 <p className="text-lg font-semibold text-gray-900">Marbel</p>
                 <p className="mt-1 text-sm text-gray-600">
-                  The older name for the area, from a Blaan word for{' '}
-                  <em>murky</em> or <em>muddy waters</em>, after the river that
-                  runs through the plain. Many residents still call the city
-                  Marbel today.
+                  {t('pages.history.nameMarbel')}
                 </p>
               </CardContent>
             </Card>
           </div>
 
           {/* Timeline */}
-          <Heading level={2}>A Timeline of the City</Heading>
+          <Heading level={2}>{t('pages.history.timelineHeading')}</Heading>
           <p className="text-gray-600 mb-8 max-w-3xl">
-            The milestones that shaped Koronadal — from settlement district, to
-            municipality, to city.
+            {t('pages.history.timelineIntro')}
           </p>
           <ol className="relative max-w-3xl space-y-8 border-l-2 border-gray-200 pl-8 mb-12">
             {milestones.map((m, i) => {
@@ -282,11 +273,9 @@ const History: React.FC = () => {
           </ol>
 
           {/* Pioneer settlers */}
-          <Heading level={2}>The Eighteen Pioneer Settlers</Heading>
+          <Heading level={2}>{t('pages.history.pioneersHeading')}</Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            The first batch of pioneers who broke ground in the Marbel
-            Settlement District in 1940. From this handful, the community grew
-            to 846 people — the seed of the city Koronadal would become.
+            {t('pages.history.pioneersIntro')}
           </p>
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4 mb-12">
             {pioneers.map(name => (
@@ -300,47 +289,45 @@ const History: React.FC = () => {
           </div>
 
           {/* Mayors */}
-          <Heading level={2}>The Mayors of Koronadal</Heading>
+          <Heading level={2}>{t('pages.history.mayorsHeading')}</Heading>
           <p className="text-gray-600 mb-8 max-w-3xl">
-            A complete succession of those who have led Koronadal — from the
-            overseers of the settlement district to the mayors of the city
-            today.
+            {t('pages.history.mayorsIntro')}
           </p>
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 mb-12">
             <div>
               <Heading level={4} className="!mb-1">
-                Municipal Era
+                {t('pages.history.municipalEra')}
               </Heading>
               <p className="text-sm text-gray-500 mb-6">
-                Marbel &amp; the Municipality of Koronadal, 1940&ndash;2000
+                {t('pages.history.municipalEraRange')}
               </p>
               <MayorList mayors={municipalMayors} />
             </div>
             <div>
               <Heading level={4} className="!mb-1">
-                City Era
+                {t('pages.history.cityEra')}
               </Heading>
               <p className="text-sm text-gray-500 mb-6">
-                The City of Koronadal, 2000&ndash;present
+                {t('pages.history.cityEraRange')}
               </p>
               <MayorList mayors={cityMayors} />
             </div>
           </div>
           <p className="text-xs text-gray-500 max-w-3xl mb-12">
-            Note: terms of office in the earliest decades are drawn from the
-            city&rsquo;s historical records and may be approximate. Several
-            leaders served non-consecutive terms.
+            {t('pages.history.mayorsNote')}
           </p>
 
           {/* Links */}
-          <Heading level={2}>Learn More</Heading>
+          <Heading level={2}>{t('pages.history.learnMoreHeading')}</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 max-w-3xl">
             <Link to="/about">
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
-                  <p className="font-semibold text-gray-900">About the City</p>
+                  <p className="font-semibold text-gray-900">
+                    {t('pages.history.linkAboutTitle')}
+                  </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    Profile, vision, and the city&rsquo;s 27 barangays.
+                    {t('pages.history.linkAboutDesc')}
                   </p>
                 </CardContent>
               </Card>
@@ -348,9 +335,11 @@ const History: React.FC = () => {
             <Link to="/government/departments">
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
-                  <p className="font-semibold text-gray-900">City Government</p>
+                  <p className="font-semibold text-gray-900">
+                    {t('pages.history.linkGovernmentTitle')}
+                  </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    Meet the Mayor, Vice Mayor, and City Council.
+                    {t('pages.history.linkGovernmentDesc')}
                   </p>
                 </CardContent>
               </Card>
@@ -358,9 +347,11 @@ const History: React.FC = () => {
             <Link to="/tourism">
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
-                  <p className="font-semibold text-gray-900">Visit Koronadal</p>
+                  <p className="font-semibold text-gray-900">
+                    {t('pages.history.linkTourismTitle')}
+                  </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    Festivals, heritage, and places to see.
+                    {t('pages.history.linkTourismDesc')}
                   </p>
                 </CardContent>
               </Card>
@@ -371,29 +362,29 @@ const History: React.FC = () => {
             verified="June 2026"
             sources={[
               {
-                label: 'City Government of Koronadal — City History',
+                label: t('pages.history.source1Label'),
                 href: 'https://koronadal.gov.ph/city-history/',
-                note: 'Settlement district, pioneer settlers, wartime history, cityhood',
+                note: t('pages.history.source1Note'),
               },
               {
-                label: 'Koronadal, South Cotabato — Wikipedia',
+                label: t('pages.history.source2Label'),
                 href: 'https://en.wikipedia.org/wiki/Koronadal',
-                note: 'List of mayors and vice mayors; government history',
+                note: t('pages.history.source2Note'),
               },
               {
-                label: 'Executive Order No. 82 (1947) — LawPhil',
+                label: t('pages.history.source3Label'),
                 href: 'https://lawphil.net/executive/execord/eo1947/eo_82_1947.html',
-                note: 'Creation of the Municipality of Koronadal',
+                note: t('pages.history.source3Note'),
               },
               {
-                label: 'Republic Act No. 4849 (1966) — LawPhil',
+                label: t('pages.history.source4Label'),
                 href: 'https://lawphil.net/statutes/repacts/ra1966/ra_4849_1966.html',
-                note: 'Creation of South Cotabato; Koronadal as capital',
+                note: t('pages.history.source4Note'),
               },
               {
-                label: 'Republic Act No. 8803 — Cityhood of Koronadal',
+                label: t('pages.history.source5Label'),
                 href: 'https://lawphil.net/statutes/repacts/ra2000/ra_8803_2000.html',
-                note: 'Conversion of Koronadal into a component city (2000)',
+                note: t('pages.history.source5Note'),
               },
             ]}
           />

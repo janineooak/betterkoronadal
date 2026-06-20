@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import type { TFunction } from 'i18next';
 import {
   Cloud,
   CloudDrizzle,
@@ -77,20 +79,41 @@ interface OpenMeteoResponse {
 
 // WMO weather interpretation codes → label + icon.
 // https://open-meteo.com/en/docs#weathervariables
-function describeWeather(code: number): {
+function describeWeather(
+  code: number,
+  t: TFunction
+): {
   label: string;
   Icon: React.ComponentType<{ className?: string }>;
 } {
-  if (code === 0) return { label: 'Clear sky', Icon: Sun };
-  if (code <= 2) return { label: 'Partly cloudy', Icon: CloudSun };
-  if (code === 3) return { label: 'Overcast', Icon: Cloud };
-  if (code <= 48) return { label: 'Fog', Icon: CloudFog };
-  if (code <= 57) return { label: 'Drizzle', Icon: CloudDrizzle };
-  if (code <= 67) return { label: 'Rain', Icon: CloudRain };
-  if (code <= 77) return { label: 'Snow', Icon: CloudSnow };
-  if (code <= 82) return { label: 'Rain showers', Icon: CloudRain };
-  if (code <= 86) return { label: 'Snow showers', Icon: CloudSnow };
-  return { label: 'Thunderstorm', Icon: CloudLightning };
+  if (code === 0)
+    return { label: t('home.weather.conditions.clearSky'), Icon: Sun };
+  if (code <= 2)
+    return { label: t('home.weather.conditions.partlyCloudy'), Icon: CloudSun };
+  if (code === 3)
+    return { label: t('home.weather.conditions.overcast'), Icon: Cloud };
+  if (code <= 48)
+    return { label: t('home.weather.conditions.fog'), Icon: CloudFog };
+  if (code <= 57)
+    return { label: t('home.weather.conditions.drizzle'), Icon: CloudDrizzle };
+  if (code <= 67)
+    return { label: t('home.weather.conditions.rain'), Icon: CloudRain };
+  if (code <= 77)
+    return { label: t('home.weather.conditions.snow'), Icon: CloudSnow };
+  if (code <= 82)
+    return {
+      label: t('home.weather.conditions.rainShowers'),
+      Icon: CloudRain,
+    };
+  if (code <= 86)
+    return {
+      label: t('home.weather.conditions.snowShowers'),
+      Icon: CloudSnow,
+    };
+  return {
+    label: t('home.weather.conditions.thunderstorm'),
+    Icon: CloudLightning,
+  };
 }
 
 // Open-Meteo returns sunrise/sunset as "YYYY-MM-DDTHH:mm" (no zone, already in
@@ -104,8 +127,8 @@ function clockTime(isoDateTime: string): string {
   return `${hour12}:${String(m).padStart(2, '0')} ${period}`;
 }
 
-function dayLabel(isoDate: string, index: number): string {
-  if (index === 0) return 'Today';
+function dayLabel(isoDate: string, index: number, t: TFunction): string {
+  if (index === 0) return t('home.weather.today');
   // isoDate is YYYY-MM-DD; parse as local date for the weekday name.
   const [y, m, d] = isoDate.split('-').map(Number);
   const date = new Date(y, m - 1, d);
@@ -113,6 +136,7 @@ function dayLabel(isoDate: string, index: number): string {
 }
 
 export default function WeatherWidget() {
+  const { t } = useTranslation();
   const [data, setData] = useState<WeatherData | null>(null);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -163,16 +187,14 @@ export default function WeatherWidget() {
 
   return (
     <div className="flex h-full flex-col">
-      <Heading level={2}>Koronadal Weather</Heading>
-      <p className="text-gray-600 mb-6">
-        Current conditions and the days ahead for the City of Koronadal.
-      </p>
+      <Heading level={2}>{t('home.weather.title')}</Heading>
+      <p className="text-gray-600 mb-6">{t('home.weather.subtitle')}</p>
 
       <div className="flex-grow rounded-lg border border-gray-200 bg-white p-6">
         {loading && (
           <div className="flex items-center gap-3 text-gray-500">
             <Cloud className="h-6 w-6 animate-pulse" />
-            <span>Loading current weather…</span>
+            <span>{t('home.weather.loading')}</span>
           </div>
         )}
 
@@ -181,10 +203,10 @@ export default function WeatherWidget() {
             <AlertCircle className="h-6 w-6 shrink-0 text-amber-500" />
             <div>
               <p className="font-semibold text-gray-900">
-                Weather is unavailable right now
+                {t('home.weather.errorTitle')}
               </p>
               <p className="text-sm">
-                Check{' '}
+                {t('home.weather.errorBefore')}{' '}
                 <a
                   href="https://www.pagasa.dost.gov.ph"
                   target="_blank"
@@ -193,7 +215,7 @@ export default function WeatherWidget() {
                 >
                   PAGASA
                 </a>{' '}
-                for the latest forecast and weather advisories.
+                {t('home.weather.errorAfter')}
               </p>
             </div>
           </div>
@@ -204,7 +226,7 @@ export default function WeatherWidget() {
             {/* Current conditions */}
             <div className="flex items-center gap-4">
               {(() => {
-                const { Icon, label } = describeWeather(data.code);
+                const { Icon, label } = describeWeather(data.code, t);
                 return (
                   <>
                     <Icon className="h-16 w-16 text-primary-600" />
@@ -214,8 +236,10 @@ export default function WeatherWidget() {
                       </p>
                       <p className="text-gray-600">{label}</p>
                       <p className="flex items-center gap-1 text-sm text-gray-500">
-                        <Thermometer className="h-4 w-4" /> Feels like{' '}
-                        {data.feelsLike}°C
+                        <Thermometer className="h-4 w-4" />{' '}
+                        {t('home.weather.feelsLike', {
+                          temp: data.feelsLike,
+                        })}
                       </p>
                       <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-sm text-gray-500">
                         <span className="flex items-center gap-1">
@@ -226,7 +250,9 @@ export default function WeatherWidget() {
                           {data.windGusts > data.windSpeed && (
                             <span className="text-gray-400">
                               {' '}
-                              (gusts {data.windGusts})
+                              {t('home.weather.gusts', {
+                                value: data.windGusts,
+                              })}
                             </span>
                           )}
                         </span>
@@ -237,7 +263,8 @@ export default function WeatherWidget() {
                       </div>
                       <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-sm text-gray-500">
                         <span className="flex items-center gap-1">
-                          <Sun className="h-4 w-4" /> UV {data.uvMax}
+                          <Sun className="h-4 w-4" />{' '}
+                          {t('home.weather.uv', { value: data.uvMax })}
                         </span>
                         <span className="flex items-center gap-1">
                           <Sunrise className="h-4 w-4" />{' '}
@@ -257,14 +284,14 @@ export default function WeatherWidget() {
             {/* Multi-day forecast */}
             <div className="grid grid-cols-4 gap-3 border-t border-gray-100 pt-4 lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0">
               {data.daily.map((day, i) => {
-                const { Icon, label } = describeWeather(day.code);
+                const { Icon, label } = describeWeather(day.code, t);
                 return (
                   <div
                     key={day.date}
                     className="flex flex-col items-center text-center"
                   >
                     <span className="text-xs font-medium text-gray-500">
-                      {dayLabel(day.date, i)}
+                      {dayLabel(day.date, i, t)}
                     </span>
                     <Icon
                       className="my-1 h-7 w-7 text-primary-500"
@@ -287,7 +314,7 @@ export default function WeatherWidget() {
       </div>
 
       <p className="mt-2 text-xs text-gray-500">
-        Weather data by{' '}
+        {t('home.weather.attributionBefore')}{' '}
         <a
           href="https://open-meteo.com"
           target="_blank"
@@ -296,7 +323,7 @@ export default function WeatherWidget() {
         >
           Open-Meteo
         </a>
-        . For official warnings and typhoon advisories, always check{' '}
+        {t('home.weather.attributionMiddle')}{' '}
         <a
           href="https://www.pagasa.dost.gov.ph"
           target="_blank"
@@ -305,7 +332,7 @@ export default function WeatherWidget() {
         >
           PAGASA
         </a>
-        .
+        {t('home.weather.attributionAfter')}
       </p>
     </div>
   );

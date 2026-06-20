@@ -50,5 +50,61 @@
     "or": "or",
     "joinDiscord": "Join Discord",
     "features": "🚀 Infrastructure • 💡 Mentorship • 🤝 Community • 🏢 Office Space"
+  },
+  "home": {
+    "forex": {
+      "title": "Peso Exchange Rates",
+      "subtitle": "Today's BSP reference rates — how much one peso (PHP) is worth against currencies common to Koronadal's OFW families.",
+      "loading": "Loading exchange rates…",
+      "errorTitle": "Exchange rates are unavailable right now",
+      "errorBefore": "Check the",
+      "errorLink": "BSP exchange rate page",
+      "errorAfter": "for the latest reference rates.",
+      "ratesNote": "Rates per 1 unit of foreign currency, in pesos.",
+      "published": "Published {{date}}.",
+      "sourceLabel": "Source:"
+    }
+  },
+  "pages": {
+    "procurements": {
+      "seoTitle": "Procurement Opportunities in Koronadal",
+      "seoDescription": "Open government procurement opportunities (bid notices) for the City of Koronadal from PhilGEPS — the Philippine Government Electronic Procurement System.",
+      "seoKeywords": "Koronadal procurement, bid notices, PhilGEPS, government bidding, tenders, South Cotabato",
+      "breadcrumbHome": "Home",
+      "breadcrumbTitle": "Procurement Opportunities",
+      "heading": "Procurement Opportunities",
+      "introBefore": "Open bid notices and procurement opportunities for the City of Koronadal, sourced from",
+      "introAfter": ", the Philippine Government Electronic Procurement System.",
+      "lastRefreshed": "Last refreshed {{date}}.",
+      "disclaimer": "PhilGEPS is the authoritative source — always confirm details and deadlines there before acting. This is an independent community portal, not the official city or PhilGEPS website.",
+      "approvedBudget": "Approved Budget (ABC):",
+      "closing": "Closing:",
+      "ref": "Ref: {{refId}}",
+      "emptyTitle": "View live opportunities on PhilGEPS",
+      "emptyBody": "No opportunities are cached right now. Search the live PhilGEPS opportunities listing for “Koronadal” to see current bid notices.",
+      "emptyLink": "Open PhilGEPS opportunities"
+    },
+    "floodControl": {
+      "seoTitle": "Flood Control Projects in Koronadal",
+      "seoDescription": "DPWH flood-control infrastructure projects in the City of Koronadal, South Cotabato — with contractor, contract cost, and year, sourced from the DPWH Flood Control Projects dataset.",
+      "seoKeywords": "Koronadal flood control, DPWH projects, South Cotabato infrastructure, contractor, contract cost, flood mitigation",
+      "breadcrumbHome": "Home",
+      "breadcrumbTitle": "Flood Control Projects",
+      "heading": "Flood Control Projects in Koronadal",
+      "intro": "Flood-control infrastructure projects in the City of Koronadal funded through the Department of Public Works and Highways (DPWH). Each card shows the awarded contractor, contract cost, and infrastructure year.",
+      "statProjects": "projects",
+      "statTotalValue": "total contract value",
+      "contractor": "Contractor:",
+      "contractCost": "Contract cost:",
+      "infraYear": "Infrastructure year:",
+      "sourceBefore": "Data from the",
+      "sourceLink": "DPWH Flood Control Projects",
+      "sourceDataset": "dataset",
+      "sourceRefreshed": ", last refreshed {{date}}",
+      "sourceDisclaimer": ". This is an independent community portal, not the official city or DPWH website.",
+      "emptyBefore": "No Koronadal flood-control projects are currently listed. Browse the full dataset on the",
+      "emptyLink": "DPWH dashboard",
+      "emptyAfter": "."
+    }
   }
 }

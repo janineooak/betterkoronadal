@@ -6,6 +6,7 @@ import { Text } from '../components/ui/Text';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import SEO from '../components/SEO';
 import { Banner } from '@bettergov/kapwa/banner';
+import { useTranslation } from 'react-i18next';
 
 // The City Government's official Facebook page. Reference only — this is an
 // independent, community-built portal and is not affiliated with the City.
@@ -33,6 +34,7 @@ const buildPluginSrc = (width: number) => {
 };
 
 const News: React.FC = () => {
+  const { t } = useTranslation();
   const containerRef = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState(MAX_WIDTH);
 
@@ -54,29 +56,26 @@ const News: React.FC = () => {
   return (
     <>
       <SEO
-        title="News"
-        description="Latest news, announcements, and updates from the City Government of Koronadal, pulled from the city's official Facebook page."
-        keywords="Koronadal news, city government, announcements, updates, Facebook"
+        title={t('pages.news.seoTitle')}
+        description={t('pages.news.seoDescription')}
+        keywords={t('pages.news.seoKeywords')}
       />
       <Section className="p-3 mb-12">
         <Breadcrumbs className="mb-8" />
         <Newspaper className="h-8 w-8 mb-4 text-primary-600 rounded-md" />
-        <Heading>News &amp; Announcements</Heading>
-        <Text className="text-gray-600 mb-6">
-          The latest posts from the City Government of Koronadal&apos;s official
-          Facebook page. Updates appear here automatically as they are posted.
-        </Text>
+        <Heading>{t('pages.news.heading')}</Heading>
+        <Text className="text-gray-600 mb-6">{t('pages.news.intro')}</Text>
 
         <Banner
           type="info"
-          title="Sourced from the official city Facebook page"
-          description="This feed is published by the City Government of Koronadal on Facebook. betterKoronadal is an independent, community-built portal and is not affiliated with the City Government."
+          title={t('pages.news.bannerTitle')}
+          description={t('pages.news.bannerDescription')}
           icon
         />
 
         <div ref={containerRef} className="mt-6 flex flex-col items-center">
           <iframe
-            title="City Government of Koronadal — Facebook feed"
+            title={t('pages.news.iframeTitle')}
             src={buildPluginSrc(width)}
             width={width}
             height={PLUGIN_HEIGHT}
@@ -94,7 +93,7 @@ const News: React.FC = () => {
             rel="noopener noreferrer"
             className="mt-4 inline-flex items-center gap-1 text-sm text-primary-600 hover:text-primary-700 transition-colors"
           >
-            View the page directly on Facebook
+            {t('pages.news.viewOnFacebook')}
             <ExternalLink className="h-4 w-4" />
           </a>
         </div>

@@ -1,5 +1,6 @@
 # Guides and Regulations Pages
 # Each entry maps to a markdown file: content/government/guides-and-regulations/{slug}.md
+# The optional `subcategory` field groups pages on the category page (e.g. Guides vs. Regulations).
 
 layout: grid
 title: 'Guides and Regulations'
@@ -7,13 +8,21 @@ description: 'Step-by-step guides to common transactions with the City Governmen
 pages:
   - name: "How to Get a Mayor's / Business Permit"
     slug: 'how-to-get-a-business-permit'
+    subcategory: 'Guides'
     description: 'A step-by-step guide to applying for and renewing a business permit in Koronadal, including requirements and fees.'
   - name: 'How to Request Civil Registry Documents'
     slug: 'how-to-request-civil-registry-documents'
+    subcategory: 'Guides'
     description: 'How to get birth, marriage, and death certificates and other civil registry documents from the City Civil Registrar.'
   - name: 'How to Pay Real Property Tax'
     slug: 'how-to-pay-real-property-tax'
+    subcategory: 'Guides'
     description: 'A guide to paying your real property tax (amilyar) in Koronadal, including where to pay, deadlines, and discounts.'
   - name: 'How to Get a Barangay Clearance'
     slug: 'how-to-get-a-barangay-clearance'
+    subcategory: 'Guides'
     description: 'The basic steps and requirements for securing a barangay clearance, often the first step for many transactions.'
+  - name: 'City Ordinances of Koronadal'
+    slug: 'city-ordinances'
+    subcategory: 'Regulations'
+    description: 'A reference list of ordinances enacted by the Sangguniang Panlungsod (City Council), organized by year from 2021 to 2025.'

@@ -41,6 +41,27 @@ const standalonePages: SearchEntry[] = [
     url: '/barangays',
     section: 'Page',
   },
+  {
+    title: 'Procurement Opportunities',
+    description:
+      'Open government bid notices and procurement opportunities for Koronadal, sourced from PhilGEPS.',
+    url: '/procurements',
+    section: 'Page',
+  },
+  {
+    title: 'Flood Control Projects',
+    description:
+      'DPWH flood-control infrastructure projects in Koronadal, with contractor, contract cost, and year.',
+    url: '/flood-control',
+    section: 'Page',
+  },
+  {
+    title: 'Regional LGU Directory',
+    description:
+      'Cities and municipalities of Region XII (SOCCSKSARGEN) with their mayors and vice mayors.',
+    url: '/regional-directory',
+    section: 'Page',
+  },
 ];
 
 /**

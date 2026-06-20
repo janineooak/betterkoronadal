@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import SourceNote from '../components/ui/SourceNote';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import {
   PartyPopper,
   Trees,
@@ -106,55 +107,40 @@ const dayTrips: Attraction[] = [
 ];
 
 const Tourism: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <SEO
-        title="Visit Koronadal"
-        description="Discover the City of Koronadal (Marbel) — the Hinugyaw Festival, the City Plaza, Kalon Barak Skyline Ridge, museums, churches, and the culture of the 'Hub of the South' in South Cotabato."
-        keywords="visit Koronadal, Koronadal tourism, Hinugyaw Festival, Araw ng Koronadal, Kalon Barak, things to do Koronadal, South Cotabato tourist spots, Marbel"
+        title={t('pages.tourism.seoTitle')}
+        description={t('pages.tourism.seoDescription')}
+        keywords={t('pages.tourism.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'Visit Koronadal', href: '/tourism' },
+              { label: t('pages.tourism.breadcrumbHome'), href: '/' },
+              { label: t('pages.tourism.breadcrumbTourism'), href: '/tourism' },
             ]}
           />
 
-          <Heading>Visit Koronadal</Heading>
+          <Heading>{t('pages.tourism.title')}</Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            Known as the <strong>&ldquo;Hub of the South,&rdquo;</strong> the
-            City of Koronadal — also called <strong>Marbel</strong> — blends the
-            cultures of its Blaan first peoples, Mindanao settlers, and a lively
-            urban center. As the capital of South Cotabato and the regional seat
-            of SOCCSKSARGEN, it&rsquo;s a natural starting point for exploring
-            the region.
+            {t('pages.tourism.intro')}
           </p>
 
           {/* Signature festival */}
-          <Heading level={2}>The Hinugyaw Festival</Heading>
+          <Heading level={2}>{t('pages.tourism.festivalHeading')}</Heading>
           <div className="mb-12 max-w-3xl">
             <Card className="border-l-4 border-primary-500">
               <CardContent>
                 <div className="flex items-start gap-3">
                   <PartyPopper className="h-7 w-7 shrink-0 text-primary-600" />
                   <div className="text-gray-700">
-                    <p>
-                      <strong>Hinugyaw</strong> means &ldquo;merrymaking&rdquo;
-                      in the local dialect, and the{' '}
-                      <strong>Hinugyaw Festival</strong> is the city&rsquo;s
-                      signature celebration. Held around the{' '}
-                      <strong>Araw ng Koronadal</strong> (the city&rsquo;s
-                      founding anniversary), it fills the streets with colourful
-                      street-dancing contingents, music, and tributes to the
-                      city&rsquo;s pioneer settlers.
-                    </p>
+                    <p>{t('pages.tourism.festivalBody')}</p>
                     <p className="mt-2 text-sm text-gray-500">
-                      Dates can shift year to year — check the city&rsquo;s
-                      official channels for the current schedule before planning
-                      a trip.
+                      {t('pages.tourism.festivalNote')}
                     </p>
                   </div>
                 </div>
@@ -163,7 +149,7 @@ const Tourism: React.FC = () => {
           </div>
 
           {/* Places & highlights */}
-          <Heading level={2}>Places &amp; Highlights</Heading>
+          <Heading level={2}>{t('pages.tourism.placesHeading')}</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-12">
             {cityAttractions.map(({ name, description, Icon }) => (
               <Card key={name} className="h-full">
@@ -177,11 +163,9 @@ const Tourism: React.FC = () => {
           </div>
 
           {/* Day trips beyond the city */}
-          <Heading level={2}>Day Trips from Koronadal</Heading>
+          <Heading level={2}>{t('pages.tourism.dayTripsHeading')}</Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            Koronadal is the gateway to South Cotabato&rsquo;s natural wonders.
-            These famous spots are outside the city but easily reached on a day
-            trip.
+            {t('pages.tourism.dayTripsIntro')}
           </p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-12">
             {dayTrips.map(({ name, description, Icon }) => (
@@ -196,14 +180,16 @@ const Tourism: React.FC = () => {
           </div>
 
           {/* Practical links */}
-          <Heading level={2}>Plan Your Visit</Heading>
+          <Heading level={2}>{t('pages.tourism.planHeading')}</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 max-w-3xl">
             <Link to="/about">
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
-                  <p className="font-semibold text-gray-900">About the City</p>
+                  <p className="font-semibold text-gray-900">
+                    {t('pages.tourism.aboutCardTitle')}
+                  </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    History, profile, and the 27 barangays.
+                    {t('pages.tourism.aboutCardBody')}
                   </p>
                 </CardContent>
               </Card>
@@ -212,10 +198,10 @@ const Tourism: React.FC = () => {
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
                   <p className="font-semibold text-gray-900">
-                    Emergency Hotlines
+                    {t('pages.tourism.hotlinesCardTitle')}
                   </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    Useful numbers to keep handy while you&rsquo;re here.
+                    {t('pages.tourism.hotlinesCardBody')}
                   </p>
                 </CardContent>
               </Card>
@@ -228,10 +214,10 @@ const Tourism: React.FC = () => {
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
                   <p className="font-semibold text-gray-900">
-                    Official Culture Page
+                    {t('pages.tourism.cultureCardTitle')}
                   </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    Culture and heritage on koronadal.gov.ph.
+                    {t('pages.tourism.cultureCardBody')}
                   </p>
                 </CardContent>
               </Card>

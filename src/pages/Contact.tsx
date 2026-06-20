@@ -5,8 +5,10 @@ import SEO from '../components/SEO';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Facebook, Clock, Siren } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Contact: React.FC = () => {
+  const { t } = useTranslation();
   const mapsQuery = encodeURIComponent(
     'Koronadal City Hall, Brgy. Zone III, Koronadal City, South Cotabato'
   );
@@ -14,31 +16,25 @@ const Contact: React.FC = () => {
   return (
     <>
       <SEO
-        title="Contact the City Government of Koronadal"
-        description="Public contact details for the City Government of Koronadal — City Hall address, trunkline, email, Facebook page, and office hours — compiled by BetterKoronadal.org for residents' convenience."
-        keywords="Koronadal city hall contact, Koronadal trunkline, Koronadal city government email, Koronadal address"
+        title={t('pages.contact.seoTitle')}
+        description={t('pages.contact.seoDescription')}
+        keywords={t('pages.contact.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'Contact', href: '/contact' },
+              { label: t('pages.contact.breadcrumbHome'), href: '/' },
+              { label: t('pages.contact.breadcrumbContact'), href: '/contact' },
             ]}
           />
 
-          <Heading>Contact the City Government</Heading>
+          <Heading>{t('pages.contact.title')}</Heading>
           <p className="text-gray-600 mb-8 max-w-3xl">
-            Below are the{' '}
-            <strong>
-              public contact details of the City Government of Koronadal
-            </strong>
-            , compiled here for your convenience. BetterKoronadal.org is an
-            independent community portal and cannot process city transactions on
-            the city&rsquo;s behalf. For life-threatening emergencies, call the{' '}
+            {t('pages.contact.introBefore')}{' '}
             <Link to="/hotlines" className="text-primary-600 underline">
-              city emergency hotlines
+              {t('pages.contact.introHotlinesLink')}
             </Link>
             .
           </p>
@@ -51,7 +47,9 @@ const Contact: React.FC = () => {
                   <div className="flex items-start gap-3">
                     <MapPin className="h-6 w-6 shrink-0 text-primary-600" />
                     <div>
-                      <p className="font-semibold text-gray-900">City Hall</p>
+                      <p className="font-semibold text-gray-900">
+                        {t('pages.contact.cityHallLabel')}
+                      </p>
                       <p className="text-sm text-gray-600">
                         New City Hall Grounds, Purok Villegas, Brgy. Zone III,
                         Koronadal City, South Cotabato 9506
@@ -66,7 +64,9 @@ const Contact: React.FC = () => {
                   <div className="flex items-start gap-3">
                     <Phone className="h-6 w-6 shrink-0 text-primary-600" />
                     <div>
-                      <p className="font-semibold text-gray-900">Trunkline</p>
+                      <p className="font-semibold text-gray-900">
+                        {t('pages.contact.trunklineLabel')}
+                      </p>
                       <a
                         href="tel:+63832286095"
                         className="text-sm text-primary-600 underline"
@@ -74,8 +74,7 @@ const Contact: React.FC = () => {
                         (083) 228-6095
                       </a>
                       <p className="mt-1 text-xs text-gray-500">
-                        Ask the operator to connect you to a specific city
-                        office.
+                        {t('pages.contact.trunklineNote')}
                       </p>
                     </div>
                   </div>
@@ -87,7 +86,9 @@ const Contact: React.FC = () => {
                   <div className="flex items-start gap-3">
                     <Mail className="h-6 w-6 shrink-0 text-primary-600" />
                     <div>
-                      <p className="font-semibold text-gray-900">Email</p>
+                      <p className="font-semibold text-gray-900">
+                        {t('pages.contact.emailLabel')}
+                      </p>
                       <a
                         href="mailto:info.koronadalcity@gmail.com"
                         className="text-sm text-primary-600 underline break-all"
@@ -111,7 +112,7 @@ const Contact: React.FC = () => {
                         rel="noopener noreferrer"
                         className="text-sm text-primary-600 underline"
                       >
-                        City Government of Koronadal
+                        {t('pages.contact.facebookPageName')}
                       </a>
                     </div>
                   </div>
@@ -124,14 +125,13 @@ const Contact: React.FC = () => {
                     <Clock className="h-6 w-6 shrink-0 text-primary-600" />
                     <div>
                       <p className="font-semibold text-gray-900">
-                        Office Hours
+                        {t('pages.contact.officeHoursLabel')}
                       </p>
                       <p className="text-sm text-gray-600">
-                        Monday to Friday, 8:00 AM – 5:00 PM (except holidays)
+                        {t('pages.contact.officeHoursValue')}
                       </p>
                       <p className="mt-1 text-xs text-gray-500">
-                        Some frontline services may follow a no-noon-break
-                        schedule. Confirm with the office concerned.
+                        {t('pages.contact.officeHoursNote')}
                       </p>
                     </div>
                   </div>
@@ -143,7 +143,7 @@ const Contact: React.FC = () => {
             <div className="flex flex-col">
               <Card className="h-full overflow-hidden">
                 <iframe
-                  title="Map of Koronadal City Hall"
+                  title={t('pages.contact.mapTitle')}
                   className="h-72 w-full border-0 lg:h-full"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
@@ -156,7 +156,7 @@ const Contact: React.FC = () => {
                 rel="noopener noreferrer"
                 className="mt-2 text-sm text-primary-600 underline"
               >
-                Open in Google Maps
+                {t('pages.contact.openInMaps')}
               </a>
             </div>
           </div>
@@ -169,17 +169,18 @@ const Contact: React.FC = () => {
                   <Siren className="h-6 w-6 shrink-0 text-red-600" />
                   <div>
                     <p className="font-semibold text-gray-900">
-                      In an emergency
+                      {t('pages.contact.emergencyTitle')}
                     </p>
                     <p className="text-sm text-gray-600">
-                      Call the city emergency hotline{' '}
-                      <strong>Korona-911</strong> or dial the national emergency
-                      number <strong>911</strong>. See the full list on the{' '}
+                      {t('pages.contact.emergencyBefore')}{' '}
+                      <strong>Korona-911</strong>{' '}
+                      {t('pages.contact.emergencyMiddle')} <strong>911</strong>.{' '}
+                      {t('pages.contact.emergencyAfter')}{' '}
                       <Link
                         to="/hotlines"
                         className="text-primary-600 underline"
                       >
-                        Hotlines page
+                        {t('pages.contact.emergencyHotlinesLink')}
                       </Link>
                       .
                     </p>

@@ -217,9 +217,15 @@ const SOURCES = {
   procurements: refreshProcurements,
 };
 
+// Forex is fetched client-side at runtime by ForexWidget (BSP is CORS-enabled),
+// so it is NOT part of the default/scheduled run — it would only commit a
+// throwaway forex.json. Run it explicitly (`node scripts/refresh-data.mjs forex`)
+// if you ever want a server-rendered/cached copy.
+const DEFAULT_SOURCES = ['flood-control', 'procurements'];
+
 async function main() {
   const only = process.argv[2];
-  const names = only ? [only] : Object.keys(SOURCES);
+  const names = only ? [only] : DEFAULT_SOURCES;
   let failures = 0;
   for (const name of names) {
     const fn = SOURCES[name];

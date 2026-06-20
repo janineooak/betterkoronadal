@@ -252,6 +252,29 @@ export function createMarkdownComponents(theme: TypographyTheme) {
         </a>
       );
     },
+    img: ({
+      src,
+      alt,
+      ...props
+    }: {
+      src?: string;
+      alt?: string;
+    } & HTMLAttributes<HTMLImageElement>) => (
+      <figure className="my-6">
+        <img
+          src={src}
+          alt={alt}
+          loading="lazy"
+          className="mx-auto w-full max-w-sm rounded-lg border border-gray-200 object-cover shadow-sm"
+          {...props}
+        />
+        {alt && (
+          <figcaption className="mt-2 text-center text-sm text-gray-500">
+            {alt}
+          </figcaption>
+        )}
+      </figure>
+    ),
     strong: ({
       children,
       ...props
