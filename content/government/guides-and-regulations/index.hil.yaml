@@ -6,7 +6,7 @@ layout: grid
 title: 'Mga Giya kag Regulasyon'
 description: 'Tikang-por-tikang nga mga giya sa kinaandan nga transaksiyon sa Dakbanwa sang Koronadal, lakip ang mga importante nga lokal nga pagsulundan nga dapat mahibal-an sang tagsa ka pumuluyo.'
 pages:
-  - name: "Paano Magkuha sang Permit sang Alkalde / Negosyo"
+  - name: 'Paano Magkuha sang Permit sang Alkalde / Negosyo'
     slug: 'how-to-get-a-business-permit'
     subcategory: 'Mga Giya'
     description: 'Isa ka tikang-por-tikang nga giya sa pag-aplay kag pag-renew sang permit sa negosyo sa Koronadal, lakip ang mga kinahanglanon kag bayad.'

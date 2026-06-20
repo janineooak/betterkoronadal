@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { Heading } from '../components/ui/Heading';
 import { Text } from '../components/ui/Text';
 import {
-  serviceCategories,
+  getServiceCategories,
   getCategorySubcategories,
   type Subcategory,
   type CategoryIndex,
@@ -18,7 +18,8 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const Services: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language;
   const { category } = useParams();
   const [categoryIndex, setCategoryIndex] = useState<CategoryIndex>({
     layout: 'list',
@@ -28,7 +29,7 @@ const Services: React.FC = () => {
   const subcategories: Subcategory[] = categoryIndex.pages;
 
   const getCategory = () => {
-    return serviceCategories.categories.find(c => c.slug === category);
+    return getServiceCategories(lang).categories.find(c => c.slug === category);
   };
 
   const categoryData = getCategory();
@@ -39,12 +40,12 @@ const Services: React.FC = () => {
   useEffect(() => {
     if (category && categoryData) {
       setLoading(true);
-      getCategorySubcategories(category)
+      getCategorySubcategories(category, lang)
         .then(setCategoryIndex)
         .catch(console.error)
         .finally(() => setLoading(false));
     }
-  }, [category, categoryData]);
+  }, [category, categoryData, lang]);
 
   if (!category) {
     return (

@@ -191,23 +191,49 @@ export interface CategoryIndex {
   pages: Subcategory[];
 }
 
-// Function to load category index data
+/** Merges translated page text onto the English pages by slug. */
+function mergePages(base: Subcategory[], loc?: Subcategory[]): Subcategory[] {
+  if (!loc) return base;
+  const bySlug = new Map(loc.map(p => [p.slug, p]));
+  return base.map(b => {
+    const t = bySlug.get(b.slug);
+    return t
+      ? {
+          ...b,
+          name: t.name ?? b.name,
+          description: t.description ?? b.description,
+          subcategory: t.subcategory ?? b.subcategory,
+        }
+      : b;
+  });
+}
+
+// Function to load category index data, localized with per-page English
+// fallback. Structure (slug, layout) always comes from the English file.
 export async function loadCategoryIndex(
-  categorySlug: string
+  categorySlug: string,
+  lang: string = 'en'
 ): Promise<CategoryIndex> {
-  const yamlContent = categoryIndexMap[categorySlug];
-  if (!yamlContent) {
+  const baseContent = categoryIndexMap[categorySlug];
+  if (!baseContent) {
     return { layout: 'list', pages: [] };
   }
   try {
-    const indexData: CategoryIndexData = yaml.load(
-      yamlContent
-    ) as CategoryIndexData;
+    const base = yaml.load(baseContent) as CategoryIndexData;
+    let loc: CategoryIndexData | undefined;
+    const locContent = categoryIndexMaps[lang]?.[categorySlug];
+    if (lang !== 'en' && locContent) {
+      try {
+        loc = yaml.load(locContent) as CategoryIndexData;
+      } catch {
+        loc = undefined; // fall back to English on parse failure
+      }
+    }
     return {
-      title: indexData.title,
-      description: indexData.description,
-      layout: indexData.layout ?? 'list',
-      pages: indexData.pages || [],
+      title: loc?.title ?? base.title,
+      description: loc?.description ?? base.description,
+      layout: base.layout ?? 'list',
+      pages: mergePages(base.pages || [], loc?.pages),
     };
   } catch (parseError) {
     console.warn(
@@ -218,18 +244,20 @@ export async function loadCategoryIndex(
   }
 }
 
-// Function to get subcategories for a category (with caching)
+// Function to get subcategories for a category (with caching, keyed by lang)
 const categoryCache = new Map<string, CategoryIndex>();
 
 export async function getCategorySubcategories(
-  categorySlug: string
+  categorySlug: string,
+  lang: string = 'en'
 ): Promise<CategoryIndex> {
-  if (categoryCache.has(categorySlug)) {
-    return categoryCache.get(categorySlug)!;
+  const cacheKey = `${lang}:${categorySlug}`;
+  if (categoryCache.has(cacheKey)) {
+    return categoryCache.get(cacheKey)!;
   }
 
-  const result = await loadCategoryIndex(categorySlug);
-  categoryCache.set(categorySlug, result);
+  const result = await loadCategoryIndex(categorySlug, lang);
+  categoryCache.set(cacheKey, result);
   return result;
 }
 

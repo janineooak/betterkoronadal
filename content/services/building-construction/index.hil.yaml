@@ -1,7 +1,7 @@
 pages:
   - name: 'Mag-aplay para sa building permit'
     slug: 'apply-for-a-building-permit'
-    description: "Magkuha sang permit halin sa Office of the Building Official para magpatindog, mag-renovate, magdugang, mag-ayo, ukon magbag-o sang istraktura suno sa National Building Code."
+    description: 'Magkuha sang permit halin sa Office of the Building Official para magpatindog, mag-renovate, magdugang, mag-ayo, ukon magbag-o sang istraktura suno sa National Building Code.'
 
   - name: 'Mag-aplay para sa certificate of occupancy'
     slug: 'apply-for-a-certificate-of-occupancy'
