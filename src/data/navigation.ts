@@ -40,6 +40,11 @@ export const mainNavigation: NavigationItem[] = [
         icon: 'Newspaper',
       },
       {
+        label: 'City Officials',
+        href: '/government/city-officials',
+        icon: 'Contact',
+      },
+      {
         label: 'Office of the City Mayor',
         href: '/government/departments/executive',
         icon: 'UserRound',
@@ -76,6 +81,28 @@ export const mainNavigation: NavigationItem[] = [
       },
     ],
   },
+  {
+    label: 'Statistics',
+    href: '/statistics',
+    icon: 'BarChart3',
+    children: [
+      {
+        label: 'Demographics',
+        href: '/statistics',
+        icon: 'Users',
+      },
+      {
+        label: 'Competitiveness',
+        href: '/statistics/competitiveness',
+        icon: 'Trophy',
+      },
+      {
+        label: 'City Income',
+        href: '/statistics/municipal-income',
+        icon: 'Wallet',
+      },
+    ],
+  },
 ];
 
 export const footerNavigation = {
@@ -88,6 +115,7 @@ export const footerNavigation = {
         { label: 'Barangays', href: '/barangays' },
         { label: 'Visit Koronadal', href: '/tourism' },
         { label: 'City Government', href: '/government/departments' },
+        { label: 'City Officials', href: '/government/city-officials' },
         { label: 'Contact Us', href: '/contact' },
         { label: 'Emergency Hotlines', href: '/hotlines' },
       ],

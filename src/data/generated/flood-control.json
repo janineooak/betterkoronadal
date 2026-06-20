@@ -1,0 +1,696 @@
+{
+  "fetchedAt": "2026-06-20T09:17:01.307Z",
+  "source": "DPWH Flood Control Projects (ArcGIS)",
+  "sourceUrl": "https://www.arcgis.com/apps/dashboards/f585444def084abaadda090952759e28",
+  "province": "SOUTH COTABATO",
+  "projects": [
+    {
+      "name": "Construction of Bank Protection Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "REYDAN BUILDERS",
+      "cost": 34299901.86,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Banga River, Barangay Puti, Norala, South Cotabato",
+      "municipality": "NORALA (SOUTH COTABATO)",
+      "contractor": "PALMARES CONSTRUCTION & GENERAL MERCHANDISE CORP. (FORMERLY: PALMARES GENERAL MERCHANDISE)",
+      "cost": 34299868.03,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Ala River, Santo Niño, South Cotabato",
+      "municipality": "SANTO NIÑO (SOUTH COTABATO)",
+      "contractor": "GEMMA CONSTRUCTION SUPPLY, INC.(FORMERLY:GEMMA CON",
+      "cost": 106149850.6,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Safali River, Brgy. Naci, Surallah, South Cotabato",
+      "municipality": "SURALLAH (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION / GABRIELLAS ENTERPRISES",
+      "cost": 44071697.8,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of River Bank Protection along Safali River, Brgy. Naci, Surallah, South Cotabato",
+      "municipality": "SURALLAH (SOUTH COTABATO)",
+      "contractor": "REYDAN BUILDERS",
+      "cost": 28899987.85,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Banga River, Barangay Rang-ay, Banga, South Cotabato",
+      "municipality": "BANGA (SOUTH COTABATO)",
+      "contractor": "ALEXANDER BUILDERS",
+      "cost": 27439788.25,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Sumbong Creek, Brgy. Poblacion, T'boli, South Cotabato",
+      "municipality": "T'BOLI (SOUTH COTABATO)",
+      "contractor": "SOUTHCAST CONSTRUCTION",
+      "cost": 24498872.03,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Banga River, Banga, South Cotabato",
+      "municipality": "BANGA (SOUTH COTABATO)",
+      "contractor": "AMPLEX CONSTRUCTION AND SUPPLIES",
+      "cost": 80668846.82,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Riverbank Protection along Safall River, Brgy. Poblacion, T'boli, South Cotabato",
+      "municipality": "T'BOLI (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION",
+      "cost": 49407796.37,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of River Bank Protection along Safali River, Brgy. Poblacion, T'boli, South Cotabato",
+      "municipality": "T'BOLI (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION",
+      "cost": 24499667.6,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Bank Protection Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "REYDAN BUILDERS / PASE CONSTRUCTION",
+      "cost": 48999530.71,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Drainage System (Box Culvert), Purok 6, Barangay Bunao, Tupi, South Cotabato",
+      "municipality": "TUPI (SOUTH COTABATO)",
+      "contractor": "ROCKSTONE CONSTRUCTION SERVICES & SUPPLY",
+      "cost": 4948882.27,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Banga River, Barangay BS Aquino, Norala, South Cotabato",
+      "municipality": "NORALA (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION",
+      "cost": 27437932.69,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Ala RIS Protection Works, Sto. Niño, South Cotabato",
+      "municipality": "SANTO NIÑO (SOUTH COTABATO)",
+      "contractor": "MFN BUILDERS",
+      "cost": 14689979.39,
+      "status": null,
+      "year": 2025
+    },
+    {
+      "name": "Construction of River Bank Protection along Banga River, Barangay Matapol, Norala, South Cotabato",
+      "municipality": "NORALA (SOUTH COTABATO)",
+      "contractor": "ABU CONSTRUCTION",
+      "cost": 39510024.3,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of River Bank Protection Along Banga River, Brgy. Simsiman, Norala, South Cotabato",
+      "municipality": "NORALA (SOUTH COTABATO)",
+      "contractor": "ACCELERATED METAL TECHNOLOGY & CONSTRUCTION, INC.",
+      "cost": 38420216.71,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of River Bank Protection along Banga River, Barangay Simsiman, Norala, South Cotabato",
+      "municipality": "NORALA (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION",
+      "cost": 39564960.1,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of Flood Control Structure along Ala River, Purok Santa Cecilla, Zone II, Barangay Poblacion, Santo Niño, South Cotabato",
+      "municipality": "SANTO NIÑO (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION / MEGALINE BUILDERS AND SUPPLY",
+      "cost": 45079806.32,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Banga River, Barangay Dumaguil, Norala, South Cotabato",
+      "municipality": "NORALA (SOUTH COTABATO)",
+      "contractor": "REYDAN BUILDERS",
+      "cost": 29785008.72,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of River Bank Protection along Banga River, Brgy. Kibid, Norala, South Cotabato",
+      "municipality": "NORALA (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION",
+      "cost": 24495251.86,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Ala River, Brgy. Ambalgan, Sto. Niño, South Cotabato",
+      "municipality": "SANTO NIÑO (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION",
+      "cost": 29399875.1,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Riverbank Protection along Banga River, Brgy. Kibid, Norala, South Cotabato",
+      "municipality": "NORALA (SOUTH COTABATO)",
+      "contractor": "NIRVANA CONSTRUCTION & SUPPLIES / FFJJ CONSTRUCTION",
+      "cost": 48999928.43,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of River Bank Protection along Banga River, Dumaguil Bridge Section, Barangay Dumaguil Norala, South Cotabato",
+      "municipality": "NORALA (SOUTH COTABATO)",
+      "contractor": "ABU CONSTRUCTION",
+      "cost": 67549845.83,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Ala River, Barangay Talahik, Surallah, South Cotabato",
+      "municipality": "SURALLAH (SOUTH COTABATO)",
+      "contractor": "VERGUZ CONSTRUCTION",
+      "cost": 29539716.7,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of River Bank Protection along Ala River, Brgy. Dajay, Surallah, South Cotabato",
+      "municipality": "SURALLAH (SOUTH COTABATO)",
+      "contractor": "ABU CONSTRUCTION",
+      "cost": 83327324.86,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Flood Control Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION",
+      "cost": 29398305.78,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Drainage Structure Jct. National Highway along Arellano Street, Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION / MANUELA CONSTRUCTION SERVICES",
+      "cost": 24499823.52,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Line Canal, Barangay Derilon, Banga, South Cotabato",
+      "municipality": "BANGA (SOUTH COTABATO)",
+      "contractor": "MR-B CONSTRUCTION SERVICES",
+      "cost": 4949990.19,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of Diversion Channel Project (Channel 3), Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION",
+      "cost": 29397132.27,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of River Bank Protection along Marbel River, Brgy. Namnama, City of Koronadal, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "ABU CONSTRUCTION",
+      "cost": 77101733.66,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection, Lusanes, Brgy. Sulit, Polomolok, South Cotabato",
+      "municipality": "POLOMOLOK (SOUTH COTABATO)",
+      "contractor": "J.G. ORANZA CONSTRUCTION",
+      "cost": 120624048.8,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of Revetment along Marbel River (Namnama Section), Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION / MANUELA CONSTRUCTION SERVICES",
+      "cost": 34299906.85,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection Structure along Banga River, Barangay San Miguel, Norala, South Cotabato",
+      "municipality": "NORALA (SOUTH COTABATO)",
+      "contractor": "REYDAN BUILDERS",
+      "cost": 24499940.38,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Concrete Revetment, Barangay Simbo, Tupi, South Cotabato",
+      "municipality": "TUPI (SOUTH COTABATO)",
+      "contractor": "MRRM TRADING & CONSTRUCTION / SALMEGA BUILDERS",
+      "cost": 50139871.77,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Diversion Channel Projects (Channel 1), Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION / MANUELA CONSTRUCTION SERVICES",
+      "cost": 14673207.7,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Diversion Channel Project (Channel 1), Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "BETTER WORK CONSTRUCTION",
+      "cost": 39184361.82,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of River Bank Protection along Marbel River, Brgy. Sto. Niño, Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "VYS CONSTRUCTION",
+      "cost": 28949945.96,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Marbel River, Purok Upper Valley, Brgy. Sto. Niño, Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "ABU CONSTRUCTION",
+      "cost": 28942551.32,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Concrete Revetment, (South Tupi Bridge), Tupi, South Cotabato",
+      "municipality": "TUPI (SOUTH COTABATO)",
+      "contractor": "AMPLEX CONSTRUCTION AND SUPPLIES",
+      "cost": 53074049.88,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Flood Control Structure along Silway River, Barangay Simbo, Tupi, South Cotabato",
+      "municipality": null,
+      "contractor": "REYDAN BUILDERS",
+      "cost": 29398635.49,
+      "status": null,
+      "year": 2021
+    },
+    {
+      "name": "Construction of River Bank Protection along Banga River, Brgy. Malaya, Banga, South Cotabato",
+      "municipality": "BANGA (SOUTH COTABATO)",
+      "contractor": "ABU CONSTRUCTION",
+      "cost": 75619408.99,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Drainage Structure along National Highway, Polomolok, South Cotabato",
+      "municipality": "POLOMOLOK (SOUTH COTABATO)",
+      "contractor": "CHL CONSTRUCTION & DEVELOPMENT ENTERPRISES, INC.",
+      "cost": 48998762.8,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Riverbank Protection along Marbel River, Brgy. Carpenter Hill, Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "NIRVANA CONSTRUCTION & SUPPLIES / FFJJ CONSTRUCTION",
+      "cost": 48999998.25,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Riverbank Protection along Marbel River, Brgy. San Roque, Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "ABU CONSTRUCTION",
+      "cost": 70866458.53,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of San Jose CIS Protection Works, General Santos City, South Cotabato",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "GRECO CONSTRUCTION AND SUPPLY",
+      "cost": 14644747.05,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of River Bank Protection along Marbel River, Brgy. Carpenter Hill, Koronadal City, South Cotabato",
+      "municipality": "CITY OF KORONADAL (CAPITAL) (SOUTH COTABATO)",
+      "contractor": "REYDAN BUILDERS",
+      "cost": 24442424.42,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Flood Mitigation Structure along Marbel-Makar Road (Pagalungan Section), (Apopong-Silway-Sinawal River Basin), Pagalungan, Polomolok, South Cotabato",
+      "municipality": "POLOMOLOK (SOUTH COTABATO)",
+      "contractor": "AMPLEX CONSTRUCTION AND SUPPLIES",
+      "cost": 70968904.86,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of River Bank Protection along Ala River, Brgy. Kolambog, Norala, South Cotabato",
+      "municipality": "NORALA (SOUTH COTABATO)",
+      "contractor": "ABU CONSTRUCTION",
+      "cost": 74137420.79,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Ala River, Sitio Panes, Barangay Kolambog, Santo Niño, South Cotabato",
+      "municipality": "SANTO NIÑO (SOUTH COTABATO)",
+      "contractor": "ARCINUE COMM'L CORPORATION",
+      "cost": 49000000,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of River Bank Protection along Ala River, Barangay Upper Maculan, Lake Sebu, South Cotabato",
+      "municipality": "LAKE SEBU (SOUTH COTABATO)",
+      "contractor": "AMPLEX CONSTRUCTION AND SUPPLIES",
+      "cost": 57899993.65,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Buenavista CIS Protection Works, Surallah, South Cotabato",
+      "municipality": "SURALLAH (SOUTH COTABATO)",
+      "contractor": "SOUTHCAST CONSTRUCTION",
+      "cost": 15670474.94,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of Concrete Revetment, (upstream of South Polomolok Bridge), Polomolok, South Cotabato",
+      "municipality": "POLOMOLOK (SOUTH COTABATO)",
+      "contractor": "ACCELERATED METAL TECHNOLOGY & CONSTRUCTION, INC.",
+      "cost": 42634628.85,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Drainage Structure, Camia Street, Barangay Dadiangas East, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "BAYTORR CONSTRUCTION AND DEVELOPMENT CORPORATION",
+      "cost": 4939993.97,
+      "status": null,
+      "year": 2025
+    },
+    {
+      "name": "Construction/Upgrading/Rehabilitation of Drainage along National Roads-Secondary-Jct. Digos-Buayan Airport Road, General Santos City",
+      "municipality": null,
+      "contractor": "VICENTE T. LAO CONSTRUCTION",
+      "cost": 39193358.97,
+      "status": null,
+      "year": 2021
+    },
+    {
+      "name": "Construction of Drainage System, Barangay Baluan, General Santos City, South Cotabato",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "MIGO CONSTRUCTION",
+      "cost": 4948990.26,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of Drainage at Rosas Street, Barangay Dadiangas South, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "VANVI CONSTRUCTION",
+      "cost": 4914570.5,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Revetment along Tinagacan-Buayan River (Phase 3), Brgy. Tinagacan, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "J.G. ORANZA CONSTRUCTION",
+      "cost": 91629683.47,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Flood Control/Concrete Revetment along Tinagacan-Buayan River (Phase 2), Barangay Tinagacan, General Santos City",
+      "municipality": null,
+      "contractor": "J.G. ORANZA CONSTRUCTION",
+      "cost": 45389626.18,
+      "status": null,
+      "year": 2021
+    },
+    {
+      "name": "Construction of Concrete Revetment, Makar River, (Downstream of Upper Makar Bridge), General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "MJ TIONGSON CONSTRUCTION (FORMERLY: MJT BUILDERS) / REYDAN BUILDERS",
+      "cost": 51143542.75,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Concrete Revetment, Buayan River, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "VICENTE T. LAO CONSTRUCTION",
+      "cost": 51144987.94,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Concrete Revetment, Upper Sinawal Bridge, Sinawal River, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "RUCS KONSULT & CONSTRUCTION SERVICES / SALMEGA BUILDERS",
+      "cost": 51144998.16,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Revetment along Sinawal River, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "LEGACY CONSTRUCTION CORPORATION (FORMERLY: LEGACY CONSTRUCTION)",
+      "cost": 88424895.91,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Concrete Revetment along Sinawal River, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "JDRC CONSTRUCTION & SUPPLIES, CORP.",
+      "cost": 86847861.53,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Concrete Revetment, Makar River, Barangay Labangal, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "J.G. ORANZA CONSTRUCTION",
+      "cost": 65136465.86,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Floodway from Road 7 to Existing Creek, Brgy. Fatima, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "HANNA VIA CONSTRUCTION, INC. (FORMERLY:HANNA VIA DESIGN & CONSTRUCTION)",
+      "cost": 19798637.03,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of  Concrete Revetment, Sinawal River, Barangay Apopong, General Santos City",
+      "municipality": null,
+      "contractor": "LEGACY CONSTRUCTION CORPORATION (FORMERLY: LEGACY CONSTRUCTION)",
+      "cost": 48976421.12,
+      "status": null,
+      "year": 2021
+    },
+    {
+      "name": "Construction of Concrete Revetment, Barangay Klinan 6, Polomolok, South Cotabato",
+      "municipality": "POLOMOLOK (SOUTH COTABATO)",
+      "contractor": "J.G. ORANZA CONSTRUCTION",
+      "cost": 53060946.53,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Concrete Revetment Lower Klinan-Mabuhay (Silway River Basin), Sta. 0+694 - Sta. 1+318, Brgy. Mabuhay, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "LLABAN CONSTRUCTION & SUPPLY (FORMERLY: LLABAN CON / TAJ BUILDERS AND SUPPLY",
+      "cost": 86848180.34,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Concrete Revetment Lower Klinan-Mabuhay (Silway River Basin), Sta. 0+000 - Sta. 0+694, Brgy. Mabuhay, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "J.G. ORANZA CONSTRUCTION",
+      "cost": 96498596.33,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Concrete Revetment, Sinawal River, Barangay Labangal, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "MJ TIONGSON CONSTRUCTION (FORMERLY: MJT BUILDERS) / REYDAN BUILDERS",
+      "cost": 48849784.13,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Drainage, Barangay Apopong, General Santos City, South Cotabato",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "MJ TIONGSON CONSTRUCTION (FORMERLY: MJT BUILDERS)",
+      "cost": 9899952.37,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Concrete Revetment, Mabuhay Bridge, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "TSQUARE CONSTRUCTION CORPORATION (FORMERLY:T-SQUARE BUILDERS)",
+      "cost": 51089346.18,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Revetment along Makar River, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "J.G. ORANZA CONSTRUCTION",
+      "cost": 62723813.21,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Concrete Revetment, Upper Silway Bridge, Silway River, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "J.G. ORANZA CONSTRUCTION",
+      "cost": 51143096.92,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Flood Control/Concrete Revetment along Makar River (Phase 2), Barangay Labangal, General Santos City",
+      "municipality": null,
+      "contractor": "JDRC CONSTRUCTION & SUPPLIES, CORP.",
+      "cost": 48998990.7,
+      "status": null,
+      "year": 2021
+    },
+    {
+      "name": "Construction of Concrete Revetment, Upper Silway Bridge, Silway River, Barangay Apopong, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "JDRC CONSTRUCTION & SUPPLIES, CORP.",
+      "cost": 69961399.76,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of Concrete Revetment, Downstream of Sinawal Bridge, Sinawal River, Barangay Labangal, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "J.G. ORANZA CONSTRUCTION",
+      "cost": 120624229.7,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of Concrete Revetment, P.I. Silway River, Barangay Apopong, General Santos City",
+      "municipality": null,
+      "contractor": "J.G. ORANZA CONSTRUCTION",
+      "cost": 22631367.51,
+      "status": null,
+      "year": 2021
+    },
+    {
+      "name": "Construction of Concrete Revetment along Silway River, Barangay Apopong, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "J.G. ORANZA CONSTRUCTION",
+      "cost": 96400433.63,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of Drainage with Curb and Gutter at Purok San Roque, Brgy. Labangal, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "HANNA VIA CONSTRUCTION, INC. (FORMERLY:HANNA VIA DESIGN & CONSTRUCTION)",
+      "cost": 4914808.13,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Flood Control Structure, (Concrete Revetment), Sinawal River, Barangay Labangal, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "PLUS CONSTRUCTION INDUSTRIES CORP.",
+      "cost": 24748196.43,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of Drainage Canal From Tieza Street to Bulaong Avenue, Brgy. Dadiangas North, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "CROSMAK CONSTRUCTION WORKS INCORPORATED",
+      "cost": 7210020.33,
+      "status": null,
+      "year": 2022
+    },
+    {
+      "name": "Construction of Drainage, Barangay Dadiangas North, General Santos City, South Cotabato",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "GRECO CONSTRUCTION AND SUPPLY",
+      "cost": 4949311.86,
+      "status": null,
+      "year": 2023
+    },
+    {
+      "name": "Construction of Drainage System, Barangay Dadiangas North, General Santos City, South Cotabato",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "A.L. ACHARON CONSTRUCTION AND SUPPLY",
+      "cost": 4948404.37,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of Drainage System, Barangay Dadiangas East, General Santos City, South Cotabato",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "DRU CONSTRUCTION",
+      "cost": 9899281.94,
+      "status": null,
+      "year": 2024
+    },
+    {
+      "name": "Construction of Drainage System at Kasoy Street, Barangay Dadiangas East, General Santos City",
+      "municipality": "GENERAL SANTOS CITY (DADIANGAS) (SOUTH COTABATO)",
+      "contractor": "HANNA VIA CONSTRUCTION, INC. (FORMERLY:HANNA VIA DESIGN & CONSTRUCTION)",
+      "cost": 4587878.27,
+      "status": null,
+      "year": 2022
+    }
+  ]
+}

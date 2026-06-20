@@ -32,6 +32,8 @@ Under the Local Government Code (RA 7160), the Sangguniang Panlungsod is respons
 
 The Sangguniang Panlungsod of Koronadal is composed of the **Presiding Officer (Vice Mayor)** and **ten (10) regular members**, together with the **ex-officio members** representing the barangays, indigenous peoples, and the youth.
 
+> 📷 See the [City Officials directory](/government/city-officials) for photographs of the Mayor, Vice Mayor, and all members of the City Council.
+
 ### Presiding Officer
 
 - **Hon. Ma. Ester M. Catorce** — Vice Mayor

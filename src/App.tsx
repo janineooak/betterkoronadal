@@ -10,6 +10,7 @@ import Government from './pages/Government';
 import News from './pages/News';
 import About from './pages/About';
 import History from './pages/History';
+import CityOfficials from './pages/CityOfficials';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
 import Barangays from './pages/Barangays';
@@ -18,12 +19,23 @@ import Transparency from './pages/Transparency';
 import CitizensCharter from './pages/CitizensCharter';
 import Sources from './pages/Sources';
 import Search from './pages/Search';
+import { lazy, Suspense } from 'react';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
 } from 'react-router-dom';
+
+// Statistics pages are lazy-loaded so the recharts charting library stays out
+// of the initial bundle and only loads when a visitor opens a statistics page.
+const Demographics = lazy(() => import('./pages/statistics/Demographics'));
+const Competitiveness = lazy(
+  () => import('./pages/statistics/Competitiveness')
+);
+const MunicipalIncome = lazy(
+  () => import('./pages/statistics/MunicipalIncome')
+);
 
 function App() {
   return (
@@ -45,6 +57,30 @@ function App() {
               <Route path="/citizens-charter" element={<CitizensCharter />} />
               <Route path="/sources" element={<Sources />} />
               <Route path="/search" element={<Search />} />
+              <Route
+                path="/statistics"
+                element={
+                  <Suspense fallback={<div className="min-h-screen" />}>
+                    <Demographics />
+                  </Suspense>
+                }
+              />
+              <Route
+                path="/statistics/competitiveness"
+                element={
+                  <Suspense fallback={<div className="min-h-screen" />}>
+                    <Competitiveness />
+                  </Suspense>
+                }
+              />
+              <Route
+                path="/statistics/municipal-income"
+                element={
+                  <Suspense fallback={<div className="min-h-screen" />}>
+                    <MunicipalIncome />
+                  </Suspense>
+                }
+              />
               <Route path="/services/:category" element={<Services />} />
               <Route path="/services" element={<Services />} />
               <Route
@@ -52,6 +88,10 @@ function App() {
                 element={<Document categoryType="service" />}
               />
               <Route path="/government/news" element={<News />} />
+              <Route
+                path="/government/city-officials"
+                element={<CityOfficials />}
+              />
               <Route
                 path="/government/transparency-documents"
                 element={<Navigate to="/transparency" replace />}
