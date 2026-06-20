@@ -490,6 +490,8 @@
         "introAfter": "Statement of Receipts and Expenditures.",
         "introBefore": "Where the city's money comes from, drawn from the",
         "introBlgfStrong": "Bureau of Local Government Finance (BLGF)",
+        "legendRegularIncome": "Annual regular income",
+        "legendTotalRevenue": "Total revenue ({{year}})",
         "linkBlgf": "BLGF LGU fiscal data →",
         "linkCityBudget": "City budget ordinances →",
         "seoDescription": "The City of Koronadal's finances: total revenue, income classification, and the long-run trend in annual income, drawn from the Bureau of Local Government Finance (BLGF).",

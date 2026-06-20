@@ -106,7 +106,23 @@ export default function MunicipalIncome() {
               </Bar>
             </BarChart>
           </ResponsiveContainer>
-          <p className="mt-4 text-xs italic leading-relaxed text-gray-500">
+          <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-1 text-xs text-gray-600">
+            <span className="inline-flex items-center gap-1.5">
+              <span
+                className="inline-block h-2.5 w-2.5 rounded-sm bg-[#99c2f7]"
+                aria-hidden="true"
+              />
+              {m('legendRegularIncome')}
+            </span>
+            <span className="inline-flex items-center gap-1.5">
+              <span
+                className="inline-block h-2.5 w-2.5 rounded-sm bg-[#0052bc]"
+                aria-hidden="true"
+              />
+              {m('legendTotalRevenue', { year: income.fiscalYear })}
+            </span>
+          </div>
+          <p className="mt-3 text-xs italic leading-relaxed text-gray-500">
             {m('chartNote', { year: income.fiscalYear })}
           </p>
         </div>

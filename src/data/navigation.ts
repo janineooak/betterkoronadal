@@ -145,6 +145,18 @@ export const footerNavigation = {
             label: category.category,
             href: `/services/${category.slug}`,
           })),
+        { label: 'Search the site', href: '/search' },
+      ],
+    },
+    {
+      title: 'Data & Transparency',
+      links: [
+        { label: 'Population & Demographics', href: '/statistics' },
+        { label: 'Competitiveness', href: '/statistics/competitiveness' },
+        { label: 'City Income', href: '/statistics/municipal-income' },
+        { label: 'Procurement Opportunities', href: '/procurements' },
+        { label: 'Flood Control Projects', href: '/flood-control' },
+        { label: 'Regional LGU Directory', href: '/regional-directory' },
       ],
     },
     {

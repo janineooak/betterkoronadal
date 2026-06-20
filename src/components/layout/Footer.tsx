@@ -22,10 +22,15 @@ const Footer: React.FC = () => {
     }
   };
 
+  // Footer links are mostly internal routes, but a few point to external
+  // government portals. react-router's <Link> only handles in-app routes, so
+  // external (http) links must render as a plain anchor.
+  const isExternal = (href: string) => /^https?:\/\//.test(href);
+
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 pt-12 pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="mb-10 max-w-2xl">
           <div>
             <div className="flex items-center mb-4">
               <img
@@ -73,19 +78,32 @@ const Footer: React.FC = () => {
               ))}
             </div>
           </div>
+        </div>
 
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {footerNavigation.mainSections.map(section => (
             <div key={section.title}>
               <h3 className="text-lg font-semibold mb-4">{section.title}</h3>
               <ul className="space-y-2">
                 {section.links.map(link => (
                   <li key={link.label}>
-                    <Link
-                      to={link.href}
-                      className="text-gray-400 hover:text-white text-sm transition-colors"
-                    >
-                      {link.label}
-                    </Link>
+                    {isExternal(link.href) ? (
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-white text-sm transition-colors"
+                      >
+                        {link.label}
+                      </a>
+                    ) : (
+                      <Link
+                        to={link.href}
+                        className="text-gray-400 hover:text-white text-sm transition-colors"
+                      >
+                        {link.label}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>

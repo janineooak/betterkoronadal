@@ -490,6 +490,8 @@
         "introAfter": "Statement of Receipts and Expenditures.",
         "introBefore": "Kon diin nagahalin ang kwarta sang siyudad, base sa",
         "introBlgfStrong": "Bureau of Local Government Finance (BLGF)",
+        "legendRegularIncome": "Tuigan nga regular nga kita",
+        "legendTotalRevenue": "Kabilugan nga kita ({{year}})",
         "linkBlgf": "BLGF LGU fiscal data →",
         "linkCityBudget": "Mga budget ordinance sang siyudad →",
         "seoDescription": "Ang pinansya sang Dakbanwa sang Koronadal: kabilugan nga kita, klasipikasyon sang kita, kag ang malawig nga tendensya sang tuigan nga kita, base sa Bureau of Local Government Finance (BLGF).",

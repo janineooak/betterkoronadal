@@ -19,6 +19,11 @@ const Home: React.FC = () => {
       />
       <main className="flex-grow">
         <Hero />
+        {/* Civic content first — services and government activity are what
+            most visitors come for. Live utility widgets (weather, earthquake,
+            forex) follow below. */}
+        <ServicesSection />
+        <GovernmentActivitySection />
         <Section className="bg-gray-50">
           <div className="grid gap-8 lg:grid-cols-2 lg:items-stretch">
             <WeatherWidget />
@@ -28,8 +33,6 @@ const Home: React.FC = () => {
             <ForexWidget />
           </div>
         </Section>
-        <ServicesSection />
-        <GovernmentActivitySection />
       </main>
     </>
   );
