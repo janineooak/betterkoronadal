@@ -35,16 +35,6 @@ export const mainNavigation: NavigationItem[] = [
         icon: 'Building2',
       },
       {
-        label: 'News & Announcements',
-        href: '/government/news',
-        icon: 'Newspaper',
-      },
-      {
-        label: 'City Officials',
-        href: '/government/city-officials',
-        icon: 'Contact',
-      },
-      {
         label: 'Office of the City Mayor',
         href: '/government/departments/executive',
         icon: 'UserRound',
@@ -55,20 +45,54 @@ export const mainNavigation: NavigationItem[] = [
         icon: 'Users',
       },
       {
+        label: 'City Officials',
+        href: '/government/city-officials',
+        icon: 'Contact',
+      },
+      {
         label: 'Barangays',
         href: '/barangays',
         icon: 'MapPin',
+      },
+      {
+        label: 'News & Announcements',
+        href: '/government/news',
+        icon: 'Newspaper',
       },
       {
         label: 'Guides & Regulations',
         href: '/government/guides-and-regulations',
         icon: 'BookOpen',
       },
+    ],
+  },
+  {
+    label: 'Statistics',
+    href: '/statistics',
+    icon: 'BarChart3',
+    children: [
       {
-        label: 'Reports & Statistics',
-        href: '/government/reports-and-statistics',
-        icon: 'BarChart3',
+        label: 'Demographics',
+        href: '/statistics',
+        icon: 'Users',
       },
+      {
+        label: 'Competitiveness',
+        href: '/statistics/competitiveness',
+        icon: 'Trophy',
+      },
+      {
+        label: 'City Income',
+        href: '/statistics/municipal-income',
+        icon: 'Wallet',
+      },
+    ],
+  },
+  {
+    label: 'Transparency',
+    href: '/transparency',
+    icon: 'FileSearch',
+    children: [
       {
         label: 'Transparency & Full Disclosure',
         href: '/transparency',
@@ -93,28 +117,6 @@ export const mainNavigation: NavigationItem[] = [
         label: "Citizen's Charter",
         href: '/citizens-charter',
         icon: 'ScrollText',
-      },
-    ],
-  },
-  {
-    label: 'Statistics',
-    href: '/statistics',
-    icon: 'BarChart3',
-    children: [
-      {
-        label: 'Demographics',
-        href: '/statistics',
-        icon: 'Users',
-      },
-      {
-        label: 'Competitiveness',
-        href: '/statistics/competitiveness',
-        icon: 'Trophy',
-      },
-      {
-        label: 'City Income',
-        href: '/statistics/municipal-income',
-        icon: 'Wallet',
       },
     ],
   },
