@@ -1,0 +1,15 @@
+# Disaster Preparedness Category Pages
+# This file contains all the pages/services available under the Disaster Preparedness category
+
+pages:
+  - name: 'Mag-upod sa disaster drill kag pagplano sang ebakwasyon'
+    slug: 'join-disaster-drills-and-evacuation-planning'
+    description: 'Impormasyon parte sa pag-apil sa mga disaster drill kag mga aktibidad sang pagplano sang ebakwasyon.'
+
+  - name: 'Magtuon parte sa mga pamaagi sang emergency response kag mga ruta sang ebakwasyon'
+    slug: 'learn-about-emergency-response-procedures-and-evacuation-routes'
+    description: 'Mga detalye parte sa mga pamaagi sang emergency response kag mga ruta sang ebakwasyon sa inyo lugar.'
+
+  - name: 'Mag-access sang impormasyon parte sa pagpangadam-an sa kalamidad kag mga early warning system'
+    slug: 'access-disaster-preparedness-information-and-early-warning-systems'
+    description: 'Kon paano mag-access sang impormasyon parte sa pagpangadam-an sa kalamidad kag mga early warning system.'

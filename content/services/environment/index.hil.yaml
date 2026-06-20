@@ -1,0 +1,11 @@
+# Environment Category Pages
+# This file contains all the pages/services available under the Environment category
+
+pages:
+  - name: 'Mag-upod sa clean-up drive kag mga aktibidad sang pagtanom sang kahoy'
+    slug: 'join-clean-up-drives-and-tree-planting-activities'
+    description: 'Impormasyon parte sa pag-apil sa mga clean-up drive sang komunidad kag mga aktibidad sang pagtanom sang kahoy.'
+
+  - name: 'Magreport sang iligal nga pagpangahoy, pagkuha sang bato, ukon pagpangisda'
+    slug: 'report-illegal-logging-quarrying-or-fishing'
+    description: 'Kon paano magreport sang mga iligal nga aktibidad sa palibot pareho sang pagpangahoy, pagkuha sang bato, ukon iligal nga pagpangisda.'

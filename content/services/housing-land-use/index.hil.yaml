@@ -1,0 +1,12 @@
+pages:
+  - name: 'Mag-aplay para sa socialized housing ukon mga proyekto sa relokasyon'
+    slug: 'apply-for-socialized-housing-or-relocation-projects'
+    description: 'Impormasyon parte sa pag-aplay para sa socialized housing kag mga proyekto sa relokasyon halin sa inyo lokal nga gobyerno.'
+
+  - name: 'Magpangayo sang zoning, paggamit sang duta, ukon mga building permit'
+    slug: 'request-zoning-land-use-or-building-permits'
+    description: 'Kon paano magpangayo sang zoning, paggamit sang duta, kag mga building permit halin sa inyo lokal nga gobyerno.'
+
+  - name: 'Magpamangkot parte sa mga available nga relocation site kon may demolisyon'
+    slug: 'ask-about-available-relocation-sites-in-case-of-demolition'
+    description: 'Impormasyon parte sa mga available nga relocation site kon may demolisyon ukon pagpalayas.'

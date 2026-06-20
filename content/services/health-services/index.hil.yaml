@@ -1,0 +1,16 @@
+pages:
+  - name: 'Magkuha sang libre nga check-up, basehan nga bulong, kag bakuna'
+    slug: 'get-free-check-ups-basic-medicines-and-vaccines'
+    description: 'Makakuha sang libre nga medikal nga check-up, basehan nga bulong, kag serbisyo sa bakuna nga ginahatag sang inyo lokal nga gobyerno.'
+
+  - name: 'Makakuha sang maternal care kag pagbakuna sa kabataan'
+    slug: 'access-maternal-care-and-child-immunization'
+    description: 'Impormasyon parte sa mga serbisyo sa panglawas sang iloy kag mga programa sa pagbakuna sa kabataan nga available sa inyo lugar.'
+
+  - name: 'Magkadto sa lokal nga ospital para sa pagbulong ukon pagpaospital'
+    slug: 'go-to-the-local-hospital-for-treatment-or-confinement'
+    description: 'Mga detalye parte sa mga serbisyo sang lokal nga ospital, mga opsyon sa pagbulong, kag mga pamaagi sa pagpaospital.'
+
+  - name: 'Mag-entra sa mga programa sa panglawas (nutrisyon, kontrol sa dengue, pagbulong sa TB)'
+    slug: 'join-health-programs-nutrition-dengue-control-tb-treatment'
+    description: 'Mag-apil sa lain-lain nga mga programa sa panglawas lakip na ang suporta sa nutrisyon, kontrol sa dengue, kag mga hilikuton sa pagbulong sa TB.'

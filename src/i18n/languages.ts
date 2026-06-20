@@ -11,7 +11,7 @@ export const LANGUAGES: Record<LanguageType, LanguageInfo> = {
   fil: { code: 'fil', name: 'Tagalog', nativeName: 'Filipino/Tagalog' },
   ceb: { code: 'ceb', name: 'Cebuano', nativeName: 'Bisaya/Sinugboanon' },
   ilo: { code: 'ilo', name: 'Ilocano', nativeName: 'Ilokano' },
-  hil: { code: 'hil', name: 'Hiligaynon', nativeName: 'Ilonggo' },
+  hil: { code: 'hil', name: 'Hiligaynon', nativeName: 'Hiligaynon' },
   war: { code: 'war', name: 'Waray', nativeName: 'Waray-Waray' },
   pam: { code: 'pam', name: 'Kapampangan', nativeName: 'Kapampangan' },
   bcl: { code: 'bcl', name: 'Bikol', nativeName: 'Bikol Central' },

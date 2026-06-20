@@ -1,0 +1,16 @@
+pages:
+  - name: 'Mag-aplay para sa marriage license'
+    slug: 'apply-for-a-marriage-license'
+    description: 'Kon paano mag-file para sa marriage license sa CCRO, lakip ang ginakinahanglan nga pre-marriage counseling, mga bayad, kag ang 10-ka-adlaw nga posting period.'
+
+  - name: 'Magparehistro sang pagkatawo, kamatayon, ukon kasal'
+    slug: 'register-a-birth-death-or-marriage'
+    description: 'Magparehistro sang mga pagkatawo, kasal, kag kamatayon — sa husto nga tion, naatraso, gua-sa-banwa, kag para sa mga bata sang wala makasal nga ginikanan — upod ang mga kinahanglanon kag bayad.'
+
+  - name: 'Magpangayo sang mga dokumento sa civil registry'
+    slug: 'request-civil-registry-documents'
+    description: 'Magkuha sang mga certified nga kopya sang sertipiko sang pagkatawo, kasal, kag kamatayon, lakip ang mga authenticated nga PSA (SECPA) nga kopya kag CENOMAR.'
+
+  - name: 'Magtadlong ukon mag-amyenda sang rekord sa civil registry'
+    slug: 'correct-or-amend-a-civil-registry-record'
+    description: 'Tadlunga ang mga sayop sa pagsulat, bayluhi ang una nga ngalan, lehitimuha ang isa ka bata, irehistro ang desisyon sang korte, gamita ang apelyido sang amay (AUSF), ukon mag-file sang supplemental report.'

@@ -1,0 +1,49 @@
+# Local Government Activity Data
+# This file contains all the local government activity data for the local government portal
+# Non-technical users can easily edit this file to add, remove, or modify local government activity
+
+categories:
+  - category: 'Mga Departamento'
+    slug: 'departments'
+    description: 'Tuki-a ang mga departamento, ahensiya, kag opisina sang lokal nga gobyerno upod ang ila mga mandato, serbisyo, kag detalye sa pagpakig-angot.'
+    icon: 'Building2'
+    subcategories:
+      - name: 'Opisina sang Alkalde sang Dakbanwa (Ehekutibo)'
+        slug: 'executive'
+      - name: 'Sangguniang Panlungsod (Lehislatibo)'
+        slug: 'legislative'
+  - category: 'Balita'
+    slug: 'news'
+    description: 'Magpabilin nga may impormasyon paagi sa pinakabag-o nga balita, pahibalo, kag mga ginbag-o sa polisiya sang lokal nga gobyerno.'
+    icon: 'Newspaper'
+    subcategories:
+      - name: 'Balita'
+        slug: 'news'
+      - name: 'Mga Pahibalo'
+        slug: 'announcements'
+  - category: 'Mga Giya kag Regulasyon'
+    slug: 'guides-and-regulations'
+    description: 'Magdulot sang mga giya, pagsulundan, regulasyon, kag tikang-por-tikang nga instruksiyon para sa mga proseso sang lokal nga gobyerno.'
+    icon: 'Book'
+    subcategories:
+      - name: 'Mga Giya'
+        slug: 'guides'
+      - name: 'Mga Regulasyon'
+        slug: 'regulations'
+  - category: 'Mga Report kag Estadistika'
+    slug: 'reports-and-statistics'
+    description: 'Magdulot sang mga report, datos nga estadistika, kag mga sukatan sang paghimo sang lokal nga gobyerno.'
+    icon: 'ChartBar'
+    subcategories:
+      - name: 'Mga Report'
+        slug: 'reports'
+      - name: 'Estadistika'
+        slug: 'statistics'
+  - category: 'Mga Dokumento sang Transparency'
+    slug: 'transparency-documents'
+    href: '/transparency'
+    description: 'Magdulot sang mga release sang Freedom of Information kag mga dokumento sang transparency para sa pagpanabat sang lokal nga gobyerno.'
+    icon: 'FileText'
+    subcategories:
+      - name: 'Mga Dokumento sang Transparency'
+        slug: 'transparency-documents'

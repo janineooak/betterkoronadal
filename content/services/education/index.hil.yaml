@@ -1,0 +1,16 @@
+pages:
+  - name: 'Magpalista sang kabataan sa mga programa sang LGU nga daycare ukon preschool'
+    slug: 'enroll-children-in-lgu-daycare-or-preschool-programs'
+    description: 'Impormasyon parte sa pagpalista sang inyo kabataan sa mga programa sang lokal nga gobyerno nga daycare kag preschool.'
+
+  - name: 'Mag-aplay sang mga lokal nga scholarship'
+    slug: 'apply-for-local-scholarships'
+    description: 'Paano mag-aplay sang scholarship kag bulig pinansyal sa edukasyon gikan sa inyo lokal nga gobyerno.'
+
+  - name: 'Makakuha sang mga programa sa suporta sa edukasyon gikan sa LGU'
+    slug: 'access-educational-support-programs-from-the-lgu'
+    description: 'Lain-lain nga mga programa sa suporta sa edukasyon kag mga rekurso nga ginahatag sang inyo lokal nga gobyerno.'
+
+  - name: 'Magtuon parte sa mga dugang nga hilikuton para sa mga eskwelahan sa inyo lugar'
+    slug: 'learn-about-supplementary-activities-for-schools-in-your-area'
+    description: 'Impormasyon parte sa mga dugang nga edukasyonal nga hilikuton kag mga programa nga available para sa mga eskwelahan sa inyo lugar.'

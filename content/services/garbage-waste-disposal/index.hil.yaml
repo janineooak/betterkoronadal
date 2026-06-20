@@ -1,0 +1,19 @@
+# Garbage and Waste Disposal Category Pages
+# This file contains all the pages/services available under the Garbage and Waste Disposal category
+
+pages:
+  - name: 'Tan-awa ang iskedyul sang pagkuha sang basura kag magpangayo sang pickup'
+    slug: 'check-garbage-collection-schedules-and-request-pickup'
+    description: 'Impormasyon parte sa iskedyul sang pagkuha sang basura kag kon paano magpangayo sang espesyal nga serbisyo sang pagkuha sang basura.'
+
+  - name: 'Magtuon sang husto nga pagseparar kag pagdispose sang basura'
+    slug: 'learn-proper-waste-segregation-and-disposal-methods'
+    description: 'Mga giya para sa husto nga pagseparar kag pamaagi sang pagdispose sang basura sa inyo lugar.'
+
+  - name: 'Magpangayo sang espesyal nga pagkuha sang basura (delikado nga materyales, elektroniko)'
+    slug: 'request-special-waste-collection-hazardous-materials-electronics'
+    description: 'Kon paano magpangayo sang espesyal nga serbisyo sang pagkuha para sa delikado nga mga materyales kag elektroniko nga basura.'
+
+  - name: 'Magreport sang iligal nga pagtambak ukon mga paglapas sa pagdumala sang basura'
+    slug: 'report-illegal-dumping-or-waste-management-violations'
+    description: 'Kon paano magreport sang mga iligal nga aktibidad sang pagtambak kag mga paglapas sa pagdumala sang basura sa inyo lugar.'
