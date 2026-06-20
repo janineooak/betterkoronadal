@@ -10,46 +10,64 @@ interface Category {
   category: string;
   slug: string;
   subcategories: Subcategory[];
+  icon?: string;
 }
 
 export const mainNavigation: NavigationItem[] = [
   {
     label: 'Services',
     href: '/services',
+    icon: 'LayoutGrid',
     children: (servicesData.categories as Category[]).map(category => ({
       label: category.category,
       href: `/services/${category.slug}`,
+      icon: category.icon,
     })),
   },
   {
     label: 'Government',
     href: '/government/departments',
+    icon: 'Landmark',
     children: [
-      { label: 'Departments & Offices', href: '/government/departments' },
-      { label: 'News & Announcements', href: '/government/news' },
+      {
+        label: 'Departments & Offices',
+        href: '/government/departments',
+        icon: 'Building2',
+      },
+      {
+        label: 'News & Announcements',
+        href: '/government/news',
+        icon: 'Newspaper',
+      },
       {
         label: 'Office of the City Mayor',
         href: '/government/departments/executive',
+        icon: 'UserRound',
       },
       {
         label: 'Sangguniang Panlungsod',
         href: '/government/departments/legislative',
+        icon: 'Users',
       },
       {
         label: 'Guides & Regulations',
         href: '/government/guides-and-regulations',
+        icon: 'BookOpen',
       },
       {
         label: 'Reports & Statistics',
         href: '/government/reports-and-statistics',
+        icon: 'BarChart3',
       },
       {
         label: 'Transparency & Full Disclosure',
         href: '/transparency',
+        icon: 'FileSearch',
       },
       {
         label: "Citizen's Charter",
         href: '/citizens-charter',
+        icon: 'ScrollText',
       },
     ],
   },

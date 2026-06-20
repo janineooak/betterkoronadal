@@ -1,0 +1,53 @@
+{
+  "site_name": "BetterKoronadal.org",
+  "site_description": "Portal sang komunidad para sa Dakbanwa sang Koronadal (indi opisyal)",
+  "hero": {
+    "title": "BetterKoronadal.org",
+    "subtitle": "Isa ka independyente kag ginhimo-sang-komunidad nga portal nga nagapadali sang pagpangita sang impormasyon kag mga serbisyo para sa Dakbanwa sang Koronadal. Indi ini ang opisyal nga website sang siyudad.",
+    "nationalId": "National ID",
+    "birthCertificate": "Sertipiko sang Pagkatawo",
+    "businessRegistration": "Pagparehistro sang Negosyo"
+  },
+  "services": {
+    "title": "Mga Serbisyo kag Impormasyon",
+    "governmentServices": "Mga Serbisyo sang Gobyerno sang Siyudad",
+    "description": "Mag-access sang mga serbisyo sang Dakbanwa sang Koronadal sing madali. Pangitaa ang imo kinahanglanon para sa panglawas, negosyo, edukasyon, kaayuhan sang katilingban, kag iban pa.",
+    "viewAll": "Tan-awa ang Tanan nga Serbisyo",
+    "viewAllCategory": "Tan-awa Tanan"
+  },
+  "governmentActivity": {
+    "title": "Hilikuton sang Gobyerno",
+    "description": "Magpabilin nga updated sa pinakabag-o nga balita, mga pahibalo, kag mga programa sang Gobyerno sang Dakbanwa sang Koronadal."
+  },
+  "weather": {
+    "title": "Mga Update sa Panahon"
+  },
+  "forex": {
+    "title": "Baylohanan sang Langyaw nga Kwarta"
+  },
+  "news": {
+    "title": "Pinakabag-o nga Balita kag mga Update"
+  },
+  "footer": {
+    "copyright": "© 2026 BetterKoronadal.org — isa ka independyente nga proyekto sang komunidad. Wala sing kaangtanan sa Gobyerno sang Dakbanwa sang Koronadal."
+  },
+  "navbar": {
+    "government": "Gobyerno",
+    "services": "Mga Serbisyo",
+    "hotlines": "Mga Hotline",
+    "holidays": "Mga Pista Opisyal"
+  },
+  "joinUs": {
+    "stripTitle": "🚀 Mag-upod sa #CivicTech Revolution",
+    "stripSubtitle": "Buligi nga matukod ang palaabuton sang Pilipinas kag pagdumala paagi sa teknolohiya",
+    "joinNow": "Mag-upod Subong",
+    "discord": "Discord",
+    "bannerTitle": "Mag-upod sa #CivicTech Revolution",
+    "bannerSubtitle": "Buligi nga matukod ang palaabuton sang Pilipinas kag pagdumala paagi sa teknolohiya.",
+    "bannerHighlight": "Ginapanguluhan sang mga boluntaryo. Open source. Ginadala sang komunidad.",
+    "joinMovement": "Mag-upod sa Amon nga Kahublagan",
+    "or": "ukon",
+    "joinDiscord": "Mag-upod sa Discord",
+    "features": "🚀 Infrastructure • 💡 Mentorship • 🤝 Community • 🏢 Office Space"
+  }
+}

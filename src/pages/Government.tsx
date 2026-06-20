@@ -119,8 +119,9 @@ const Government: React.FC = () => {
                       className="h-full border-t-4 border-primary-500"
                     >
                       <CardContent>
-                        <h4 className="text-lg font-medium text-gray-900">
-                          {subcategory.name}
+                        <h4 className="flex items-center gap-2 text-lg font-medium text-gray-900">
+                          <Icon className="h-5 w-5 shrink-0 text-primary-600" />
+                          <span>{subcategory.name}</span>
                         </h4>
                         {subcategory.description && (
                           <p className="mt-2 text-sm text-gray-600">
@@ -144,8 +145,9 @@ const Government: React.FC = () => {
                   >
                     <Card hoverable className="mb-4">
                       <CardContent>
-                        <h4 className="text-lg font-medium text-gray-900">
-                          {subcategory.name}
+                        <h4 className="flex items-center gap-2 text-lg font-medium text-gray-900">
+                          <Icon className="h-5 w-5 shrink-0 text-primary-600" />
+                          <span>{subcategory.name}</span>
                         </h4>
                         {subcategory.description && (
                           <p className="mt-2 text-sm text-gray-600">

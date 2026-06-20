@@ -1,5 +1,15 @@
 import React, { useState } from 'react';
-import { X, Menu, ChevronDown, Globe, Search } from 'lucide-react';
+import {
+  X,
+  Menu,
+  ChevronDown,
+  Globe,
+  Search,
+  Info,
+  Mail,
+  Phone,
+} from 'lucide-react';
+import * as LucideIcons from 'lucide-react';
 import { mainNavigation } from '../../data/navigation';
 import type { LanguageType } from '../../types/index';
 import { Link } from 'react-router-dom';
@@ -8,6 +18,18 @@ import { LANGUAGES } from '../../i18n/languages';
 
 // Toggle to re-enable the language switcher once translations are ready.
 const SHOW_LANGUAGE_SWITCHER = false;
+
+// Resolve a Lucide icon by name (as stored in navigation data).
+const NavIcon: React.FC<{ name?: string; className?: string }> = ({
+  name,
+  className,
+}) => {
+  if (!name) return null;
+  const Icon = LucideIcons[name as keyof typeof LucideIcons] as
+    | React.ComponentType<{ className?: string }>
+    | undefined;
+  return Icon ? <Icon className={className} /> : null;
+};
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -162,10 +184,14 @@ const Navbar: React.FC = () => {
                           <Link
                             key={child.label}
                             to={child.href}
-                            className="block rounded px-3 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
+                            className="flex items-center gap-2 rounded px-3 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
                             role="menuitem"
                           >
-                            {child.label}
+                            <NavIcon
+                              name={child.icon}
+                              className="h-4 w-4 shrink-0 text-primary-600"
+                            />
+                            <span>{child.label}</span>
                           </Link>
                         ))}
                       </div>
@@ -187,18 +213,21 @@ const Navbar: React.FC = () => {
               to="/about"
               className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
             >
+              <Info className="h-4 w-4 mr-1" />
               About
             </Link>
             <Link
               to="/contact"
               className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
             >
+              <Mail className="h-4 w-4 mr-1" />
               Contact
             </Link>
             <Link
               to="/hotlines"
               className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
             >
+              <Phone className="h-4 w-4 mr-1" />
               Hotlines
             </Link>
           </div>
@@ -245,9 +274,13 @@ const Navbar: React.FC = () => {
                       key={child.label}
                       to={child.href}
                       onClick={closeMenu}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary-500"
+                      className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary-500"
                     >
-                      {child.label}
+                      <NavIcon
+                        name={child.icon}
+                        className="h-4 w-4 shrink-0 text-primary-600"
+                      />
+                      <span>{child.label}</span>
                     </Link>
                   ))}
                 </div>
@@ -265,23 +298,26 @@ const Navbar: React.FC = () => {
           <Link
             to="/about"
             onClick={closeMenu}
-            className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
+            className="flex items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
           >
+            <Info className="h-4 w-4 mr-2" />
             About
           </Link>
           <Link
             to="/contact"
             onClick={closeMenu}
-            className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
+            className="flex items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
           >
+            <Mail className="h-4 w-4 mr-2" />
             Contact
           </Link>
           <Link
             to="/hotlines"
             onClick={closeMenu}
-            className="block px-4 py-2 text-base font-semibold text-red-600 hover:bg-red-50 hover:text-red-700"
+            className="flex items-center px-4 py-2 text-base font-semibold text-red-600 hover:bg-red-50 hover:text-red-700"
           >
-            🚨 Hotlines
+            <Phone className="h-4 w-4 mr-2" />
+            Hotlines
           </Link>
           {SHOW_LANGUAGE_SWITCHER && (
             <div className="px-4 py-3 border-t border-gray-200">

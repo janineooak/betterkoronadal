@@ -12,7 +12,6 @@ import {
   Droplets,
   AlertCircle,
 } from 'lucide-react';
-import Section from '../ui/Section';
 import { Heading } from '../ui/Heading';
 
 // Koronadal City (Marbel) — approximate city-center coordinates.
@@ -123,13 +122,13 @@ export default function WeatherWidget() {
   }, []);
 
   return (
-    <Section className="bg-gray-50">
+    <div className="flex h-full flex-col">
       <Heading level={2}>Koronadal Weather</Heading>
       <p className="text-gray-600 mb-6">
         Current conditions and the days ahead for the City of Koronadal.
       </p>
 
-      <div className="rounded-lg border border-gray-200 bg-white p-6">
+      <div className="flex-grow rounded-lg border border-gray-200 bg-white p-6">
         {loading && (
           <div className="flex items-center gap-3 text-gray-500">
             <Cloud className="h-6 w-6 animate-pulse" />
@@ -237,6 +236,6 @@ export default function WeatherWidget() {
         </a>
         .
       </p>
-    </Section>
+    </div>
   );
 }
