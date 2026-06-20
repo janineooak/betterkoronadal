@@ -17,6 +17,7 @@ import {
 const sectionBadge: Record<SearchEntry['section'], string> = {
   Services: 'bg-primary-100 text-primary-700',
   Government: 'bg-accent-100 text-accent-700',
+  Data: 'bg-emerald-100 text-emerald-700',
   Page: 'bg-gray-100 text-gray-700',
 };
 

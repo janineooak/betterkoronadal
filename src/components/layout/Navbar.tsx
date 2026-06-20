@@ -109,6 +109,7 @@ const Navbar: React.FC = () => {
                 <select
                   value={i18n.language}
                   onChange={e => changeLanguage(e.target.value as LanguageType)}
+                  aria-label={t('navbar.selectLanguage', 'Select language')}
                   className="text-xs border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
                 >
                   {AVAILABLE_LANGUAGES.map(lang => (
@@ -326,6 +327,7 @@ const Navbar: React.FC = () => {
                 <select
                   value={i18n.language}
                   onChange={e => changeLanguage(e.target.value as LanguageType)}
+                  aria-label={t('navbar.selectLanguage', 'Select language')}
                   className="text-sm border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
                 >
                   {AVAILABLE_LANGUAGES.map(lang => (

@@ -11,7 +11,9 @@ import {
   Sparkles,
   UsersRound,
   ExternalLink,
+  CalendarClock,
 } from 'lucide-react';
+import DataBadge from '../components/ui/DataBadge';
 import {
   barangays,
   BARANGAYS_SOURCE,
@@ -20,6 +22,7 @@ import {
   type Barangay,
 } from '../data/barangays';
 import { useTranslation } from 'react-i18next';
+import FilterableGrid from '../components/ui/FilterableGrid';
 
 const numberFormat = new Intl.NumberFormat('en-US');
 
@@ -123,6 +126,17 @@ const Barangays: React.FC = () => {
           />
 
           <Heading>{t('pages.barangays.title')}</Heading>
+          <div className="mb-4">
+            <DataBadge
+              tone="info"
+              icon={<CalendarClock className="h-3.5 w-3.5" />}
+            >
+              {t('pages.barangays.populationBadge', {
+                census: BARANGAYS_POPULATION_CENSUS,
+                defaultValue: 'Population data: {{census}} PSA Census',
+              })}
+            </DataBadge>
+          </div>
           <p className="mb-4 max-w-3xl text-gray-600">
             {t('pages.barangays.introBefore')}{' '}
             <strong>{t('pages.barangays.intro27Barangays')}</strong>{' '}
@@ -152,11 +166,19 @@ const Barangays: React.FC = () => {
             . {t('pages.barangays.disclaimer')}
           </p>
 
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {barangays.map(barangay => (
-              <BarangayCard key={barangay.slug} barangay={barangay} />
-            ))}
-          </div>
+          <FilterableGrid
+            items={barangays}
+            getKey={b => b.slug}
+            searchText={b =>
+              `${b.name} ${b.punongBarangay} ${b.skChairperson} ${b.kagawads.join(' ')}`
+            }
+            renderItem={b => <BarangayCard barangay={b} />}
+            noun={t('pages.barangays.barangaysNoun', 'barangays')}
+            placeholder={t(
+              'pages.barangays.searchPlaceholder',
+              'Search barangay or official…'
+            )}
+          />
         </Section>
       </main>
     </>

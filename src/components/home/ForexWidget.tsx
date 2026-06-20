@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Coins, AlertCircle, TrendingUp } from 'lucide-react';
 import { Heading } from '../ui/Heading';
+import { fetchWithTimeout } from '../../lib/utils';
 
 // Bangko Sentral ng Pilipinas (BSP) reference exchange rates. This SharePoint
 // OData list sends `Access-Control-Allow-Origin: *`, so — like the USGS feed in
@@ -42,7 +43,7 @@ export default function ForexWidget() {
   useEffect(() => {
     let cancelled = false;
 
-    fetch(BSP_URL, { headers: { Accept: 'application/json' } })
+    fetchWithTimeout(BSP_URL, { headers: { Accept: 'application/json' } })
       .then(res => {
         if (!res.ok) throw new Error('Forex request failed');
         return res.json() as Promise<BSPResponse>;

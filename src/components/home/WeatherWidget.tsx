@@ -19,6 +19,7 @@ import {
   AlertCircle,
 } from 'lucide-react';
 import { Heading } from '../ui/Heading';
+import { fetchWithTimeout } from '../../lib/utils';
 
 // Koronadal City (Marbel) — approximate city-center coordinates.
 const KORONADAL_LAT = 6.5031;
@@ -144,7 +145,7 @@ export default function WeatherWidget() {
   useEffect(() => {
     let cancelled = false;
 
-    fetch(WEATHER_URL)
+    fetchWithTimeout(WEATHER_URL)
       .then(res => {
         if (!res.ok) throw new Error('Weather request failed');
         return res.json() as Promise<OpenMeteoResponse>;

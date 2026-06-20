@@ -6,6 +6,7 @@ import { Heading } from '../components/ui/Heading';
 import SEO from '../components/SEO';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Waves, HardHat, Coins, Calendar } from 'lucide-react';
+import FilterableGrid from '../components/ui/FilterableGrid';
 import {
   koronadalFloodProjects,
   koronadalFloodTotalCost,
@@ -141,11 +142,19 @@ const FloodControl: React.FC = () => {
           </p>
 
           {koronadalFloodProjects.length > 0 ? (
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {koronadalFloodProjects.map((project, i) => (
-                <ProjectCard key={`${project.name}-${i}`} project={project} />
-              ))}
-            </div>
+            <FilterableGrid
+              items={koronadalFloodProjects}
+              getKey={p => `${p.name}-${p.year ?? ''}-${p.cost ?? ''}`}
+              searchText={p =>
+                `${p.name} ${p.contractor ?? ''} ${p.year ?? ''}`
+              }
+              renderItem={p => <ProjectCard project={p} />}
+              noun={t('pages.floodControl.projectsNoun', 'projects')}
+              placeholder={t(
+                'pages.floodControl.searchPlaceholder',
+                'Search project or contractor…'
+              )}
+            />
           ) : (
             <p className="text-gray-600">
               {t('pages.floodControl.emptyBefore')}{' '}

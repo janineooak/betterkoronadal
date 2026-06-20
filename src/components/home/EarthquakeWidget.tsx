@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import type { TFunction } from 'i18next';
 import { Activity, AlertCircle, MapPin } from 'lucide-react';
 import { Heading } from '../ui/Heading';
+import { fetchWithTimeout } from '../../lib/utils';
 
 // Koronadal City (Marbel) — approximate city-center coordinates.
 const KORONADAL_LAT = 6.5031;
@@ -69,7 +70,7 @@ export default function EarthquakeWidget() {
   useEffect(() => {
     let cancelled = false;
 
-    fetch(QUAKE_URL)
+    fetchWithTimeout(QUAKE_URL)
       .then(res => {
         if (!res.ok) throw new Error('Earthquake request failed');
         return res.json() as Promise<USGSResponse>;

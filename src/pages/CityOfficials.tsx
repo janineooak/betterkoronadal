@@ -6,96 +6,12 @@ import SourceNote from '../components/ui/SourceNote';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-
-interface Official {
-  name: string;
-  position: string;
-  photo: string;
-}
-
-const executives: Official[] = [
-  {
-    name: 'Hon. Erlinda “Bing” Pabi-Araquil',
-    position: 'City Mayor',
-    photo: '/officials/araquil.png',
-  },
-  {
-    name: 'Hon. Ma. Ester M. Catorce',
-    position: 'City Vice Mayor · Presiding Officer',
-    photo: '/officials/catorce.png',
-  },
-];
-
-const councilors: Official[] = [
-  {
-    name: 'Hon. Maylene May S. Bascon-De Guzman',
-    position: 'City Councilor',
-    photo: '/officials/bascon-de-guzman.png',
-  },
-  {
-    name: 'Hon. Edwin G. Abris',
-    position: 'City Councilor',
-    photo: '/officials/abris.png',
-  },
-  {
-    name: 'Hon. Handel Dee R. Cadellino-Cubilo',
-    position: 'City Councilor',
-    photo: '/officials/cadellino-cubilo.png',
-  },
-  {
-    name: 'Hon. Mark C. Lapidez',
-    position: 'City Councilor',
-    photo: '/officials/lapidez.png',
-  },
-  {
-    name: 'Hon. Charene Kristelle C. Jumilla-Pama',
-    position: 'City Councilor',
-    photo: '/officials/jumilla-pama.png',
-  },
-  {
-    name: 'Hon. Bernardo B. Hinay',
-    position: 'City Councilor',
-    photo: '/officials/hinay.png',
-  },
-  {
-    name: 'Hon. John Rey P. Rodriguez',
-    position: 'City Councilor',
-    photo: '/officials/rodriguez.png',
-  },
-  {
-    name: 'Hon. Ellen Grace N. Subere-Albios',
-    position: 'City Councilor',
-    photo: '/officials/subere-albios.png',
-  },
-  {
-    name: 'Hon. Margarita D. Subaldo',
-    position: 'City Councilor',
-    photo: '/officials/subaldo.png',
-  },
-  {
-    name: 'Hon. Suellen C. Ogena',
-    position: 'City Councilor',
-    photo: '/officials/ogena.png',
-  },
-];
-
-const exOfficio: Official[] = [
-  {
-    name: 'Hon. Marvin Ian C. Gumbao',
-    position: 'ABC President · Liga ng mga Barangay',
-    photo: '/officials/gumbao.png',
-  },
-  {
-    name: 'Hon. Delia P. Lawian',
-    position: 'IP Mandatory Representative (IPMR)',
-    photo: '/officials/lawian.png',
-  },
-  {
-    name: 'Hon. Charles Ronn C. Trinidad',
-    position: 'SK Federation President',
-    photo: '/officials/trinidad.png',
-  },
-];
+import {
+  executives,
+  councilors,
+  exOfficio,
+  type Official,
+} from '../data/officials';
 
 const OfficialCard: React.FC<{ official: Official; featured?: boolean }> = ({
   official,
@@ -105,7 +21,7 @@ const OfficialCard: React.FC<{ official: Official; featured?: boolean }> = ({
     <div className="aspect-[4/3] w-full overflow-hidden bg-gray-100">
       <img
         src={official.photo}
-        alt={official.name}
+        alt={`${official.name}, ${official.position}`}
         loading="lazy"
         className="h-full w-full object-cover object-top"
       />

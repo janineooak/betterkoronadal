@@ -6,6 +6,7 @@ import { Heading } from '../components/ui/Heading';
 import SEO from '../components/SEO';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { FileText, Building2, CalendarClock, ExternalLink } from 'lucide-react';
+import DataBadge from '../components/ui/DataBadge';
 import {
   procurementNotices,
   PROCUREMENT_SOURCE,
@@ -98,6 +99,28 @@ const Procurements: React.FC = () => {
           />
 
           <Heading>{t('pages.procurements.heading')}</Heading>
+          <div className="mb-4">
+            {PROCUREMENT_FETCHED_AT ? (
+              <DataBadge
+                tone="neutral"
+                icon={<CalendarClock className="h-3.5 w-3.5" />}
+              >
+                {t('pages.procurements.updatedBadge', {
+                  date: PROCUREMENT_FETCHED_AT.slice(0, 10),
+                  defaultValue: 'Updated {{date}}',
+                })}
+              </DataBadge>
+            ) : (
+              <DataBadge
+                tone="warning"
+                icon={<CalendarClock className="h-3.5 w-3.5" />}
+              >
+                {t('pages.procurements.notLiveBadge', {
+                  defaultValue: 'Live feed not yet connected — check PhilGEPS',
+                })}
+              </DataBadge>
+            )}
+          </div>
           <p className="mb-4 max-w-3xl text-gray-600">
             {t('pages.procurements.introBefore')}{' '}
             <a
