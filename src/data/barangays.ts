@@ -1,17 +1,20 @@
 // The 27 barangays of the City of Koronadal (Marbel), South Cotabato.
 //
-// Source: the individual barangay pages on the official city website,
-// https://koronadal.gov.ph/27-barangay/ (captured June 2026).
+// SOURCES:
+//  - Elected officials (Punong Barangay, Sangguniang Barangay Kagawads, SK
+//    Chairperson): individual barangay pages on the official city website,
+//    https://koronadal.gov.ph/27-barangay/ (captured June 2026). These are the
+//    only fields the source publishes reliably per barangay; its population,
+//    land-area, "primary products", and fiesta fields are placeholder/templated
+//    values (e.g. "2,896" / "2,472" repeated across ~20 barangays), so they are
+//    NOT used here.
+//  - Population: 2020 Census of Population and Housing (PSA), via PhilAtlas,
+//    https://www.philatlas.com/mindanao/r12/south-cotabato/koronadal.html.
+//    The 27 figures sum to the published city total of 195,398.
 //
-// NOTE ON DATA QUALITY: only the elected officials below (Punong Barangay,
-// Sangguniang Barangay Kagawads, and SK Chairperson) are reproduced here,
-// because they are the only fields the source publishes reliably per barangay.
-// The population, land-area, "primary products", and fiesta fields on the
-// source pages are placeholder/templated values (e.g. a population of "2,896"
-// and land area of "2,472" are repeated verbatim across ~20 barangays, and one
-// "27,700 ha" figure is the whole city's land area), so they are intentionally
-// omitted rather than published as fact. Re-verify officials after each
-// barangay election.
+// NOTE: the PSA census lists this barangay as "Zulueta" (formerly Bo. 7); the
+// city government website lists the same barangay as "Topland". They are the
+// same barangay. Re-verify officials after each barangay election.
 
 export interface Barangay {
   name: string;
@@ -22,11 +25,18 @@ export interface Barangay {
   kagawads: string[];
   /** Sangguniang Kabataan (SK) Chairperson. */
   skChairperson: string;
+  /** Population per the 2020 PSA Census of Population and Housing. */
+  population: number;
   /** Official source page on koronadal.gov.ph. */
   sourceUrl: string;
 }
 
 export const BARANGAYS_SOURCE = 'https://koronadal.gov.ph/27-barangay/';
+
+/** Census basis for the per-barangay `population` figures. */
+export const BARANGAYS_POPULATION_CENSUS = '2020 PSA Census';
+export const BARANGAYS_POPULATION_SOURCE =
+  'https://www.philatlas.com/mindanao/r12/south-cotabato/koronadal.html';
 
 export const barangays: Barangay[] = [
   {
@@ -43,6 +53,7 @@ export const barangays: Barangay[] = [
       'Ador Laugan Pandat',
     ],
     skChairperson: 'Jaypee Mendal Malore',
+    population: 2291,
     sourceUrl: 'https://koronadal.gov.ph/brgy-assumption/',
   },
   {
@@ -59,6 +70,7 @@ export const barangays: Barangay[] = [
       'Byran Donasco Lagamon',
     ],
     skChairperson: 'John Rey Paredes Bodegas',
+    population: 4618,
     sourceUrl: 'https://koronadal.gov.ph/brgy-avancena/',
   },
   {
@@ -75,6 +87,7 @@ export const barangays: Barangay[] = [
       'Gilda Magsael Rogador',
     ],
     skChairperson: 'Kian Troy Barua',
+    population: 2725,
     sourceUrl: 'https://koronadal.gov.ph/brgy-cacub/',
   },
   {
@@ -91,6 +104,7 @@ export const barangays: Barangay[] = [
       'Alex Quijano Rosete',
     ],
     skChairperson: 'Mechail Lepe Cepillo',
+    population: 5159,
     sourceUrl: 'https://koronadal.gov.ph/brgy-caloocan/',
   },
   {
@@ -107,6 +121,7 @@ export const barangays: Barangay[] = [
       'Jonathan Joven Catedral',
     ],
     skChairperson: 'Ryan Gabato Duarte',
+    population: 7652,
     sourceUrl: 'https://koronadal.gov.ph/brgy-carpenter-hill-2/',
   },
   {
@@ -123,6 +138,7 @@ export const barangays: Barangay[] = [
       'Marianito Sondia Feñola Jr.',
     ],
     skChairperson: 'Patrick Rey Sanico Cahigao',
+    population: 5818,
     sourceUrl: 'https://koronadal.gov.ph/brgy-concepcion-2/',
   },
   {
@@ -139,6 +155,7 @@ export const barangays: Barangay[] = [
       'Minda Ocampo Sunga',
     ],
     skChairperson: 'Edryl Jhon Mark Pagulong Basan',
+    population: 1942,
     sourceUrl: 'https://koronadal.gov.ph/brgy-esperanza-2/',
   },
   {
@@ -155,6 +172,7 @@ export const barangays: Barangay[] = [
       'Cynthia Sioco Bote',
     ],
     skChairperson: 'Antony Osano Balasabas Jr.',
+    population: 23242,
     sourceUrl: 'https://koronadal.gov.ph/brgy-general-paulino-santos-gps/',
   },
   {
@@ -171,6 +189,7 @@ export const barangays: Barangay[] = [
       'Elmo Ortigosa Maguad',
     ],
     skChairperson: 'Leonavel Lavente Premallon',
+    population: 4057,
     sourceUrl: 'https://koronadal.gov.ph/brgy-mabini/',
   },
   {
@@ -187,6 +206,7 @@ export const barangays: Barangay[] = [
       'Larcy Naval Padawan',
     ],
     skChairperson: 'Ivy Grace Dajay Cuencia',
+    population: 3266,
     sourceUrl: 'https://koronadal.gov.ph/brgy-magsaysay-3/',
   },
   {
@@ -203,6 +223,7 @@ export const barangays: Barangay[] = [
       'John Estember Pandat Padayo',
     ],
     skChairperson: 'Kathy Sheen Lerion Aballe',
+    population: 1269,
     sourceUrl: 'https://koronadal.gov.ph/brgy-mambucal/',
   },
   {
@@ -219,6 +240,7 @@ export const barangays: Barangay[] = [
       'Alexander Genovatin Guyos',
     ],
     skChairperson: 'Jewel Jan Tubilla Surita',
+    population: 9133,
     sourceUrl: 'https://koronadal.gov.ph/brgy-morales/',
   },
   {
@@ -235,6 +257,7 @@ export const barangays: Barangay[] = [
       'Romel Garingo Damo',
     ],
     skChairperson: 'Ronalyn Parcon Pinto',
+    population: 4245,
     sourceUrl: 'https://koronadal.gov.ph/brgy-namnama-2/',
   },
   {
@@ -251,6 +274,7 @@ export const barangays: Barangay[] = [
       'Charlestone Centeno Bonilla',
     ],
     skChairperson: 'Gayle Salanga Palmes',
+    population: 4321,
     sourceUrl: 'https://koronadal.gov.ph/brgy-new-pangasinan/',
   },
   {
@@ -267,6 +291,7 @@ export const barangays: Barangay[] = [
       'Arlan Singson Panado',
     ],
     skChairperson: 'Dalia Rose Salayan Sabang',
+    population: 6631,
     sourceUrl: 'https://koronadal.gov.ph/brgy-paraiso/',
   },
   {
@@ -283,6 +308,7 @@ export const barangays: Barangay[] = [
       'Rowena Araquil Capitan',
     ],
     skChairperson: 'Jerick Dave Almendral Testa',
+    population: 4369,
     sourceUrl: 'https://koronadal.gov.ph/brgy-rotonda/',
   },
   {
@@ -299,6 +325,7 @@ export const barangays: Barangay[] = [
       'Ivy Joy Balleras Espinosa',
     ],
     skChairperson: 'Sylph Renaemy Barbadillo Bacongco',
+    population: 8421,
     sourceUrl: 'https://koronadal.gov.ph/brgy-san-isidro/',
   },
   {
@@ -315,6 +342,7 @@ export const barangays: Barangay[] = [
       'Shiela Grace Peralta Salinas',
     ],
     skChairperson: 'Kaye Angeli Pido Maido',
+    population: 8750,
     sourceUrl: 'https://koronadal.gov.ph/brgy-san-jose/',
   },
   {
@@ -331,6 +359,7 @@ export const barangays: Barangay[] = [
       'Brian Apura Inoceto',
     ],
     skChairperson: 'Kathleen Cielo Cano Manansala',
+    population: 4476,
     sourceUrl: 'https://koronadal.gov.ph/brgy-san-roque/',
   },
   {
@@ -347,6 +376,7 @@ export const barangays: Barangay[] = [
       'Joel Aguirre Cabahug',
     ],
     skChairperson: 'Fedrick Hernan Jules Esquillo Bignayan',
+    population: 18724,
     sourceUrl: 'https://koronadal.gov.ph/brgy-santa-cruz/',
   },
   {
@@ -363,6 +393,7 @@ export const barangays: Barangay[] = [
       'Santiago Buenacosa Jalon Jr.',
     ],
     skChairperson: 'John Benedict Nomus Quirao',
+    population: 16062,
     sourceUrl: 'https://koronadal.gov.ph/brgy-santo-nino/',
   },
   {
@@ -379,6 +410,7 @@ export const barangays: Barangay[] = [
       'Rashid Tamay Mapambocol',
     ],
     skChairperson: 'James Brian Parba Bernal',
+    population: 9420,
     sourceUrl: 'https://koronadal.gov.ph/brgy-saravia/',
   },
   {
@@ -395,6 +427,7 @@ export const barangays: Barangay[] = [
       'Jessie Cadayona Consad',
     ],
     skChairperson: 'Mheco Abela Caday',
+    population: 9814,
     sourceUrl: 'https://koronadal.gov.ph/brgy-topland-3/',
   },
   {
@@ -411,6 +444,7 @@ export const barangays: Barangay[] = [
       'Ulysses Flora Ballaran',
     ],
     skChairperson: 'Kryzlen Jade Rectra Behimino',
+    population: 4125,
     sourceUrl: 'https://koronadal.gov.ph/brgy-zone-i/',
   },
   {
@@ -427,6 +461,7 @@ export const barangays: Barangay[] = [
       'Ryan Solocasa Gazo',
     ],
     skChairperson: 'Aerika Gevero Delos Santos',
+    population: 3999,
     sourceUrl: 'https://koronadal.gov.ph/brgy-zone-ii/',
   },
   {
@@ -443,6 +478,7 @@ export const barangays: Barangay[] = [
       'John Otero Herrera Sr.',
     ],
     skChairperson: 'Danielle Sophia Donguines Capacillo',
+    population: 13013,
     sourceUrl: 'https://koronadal.gov.ph/brgy-zone-iii/',
   },
   {
@@ -459,6 +495,7 @@ export const barangays: Barangay[] = [
       'Jose Maria Divinagracia Aquirre',
     ],
     skChairperson: 'Charles Ronn Carcel Trinidad',
+    population: 7856,
     sourceUrl: 'https://koronadal.gov.ph/brgy-zone-iv/',
   },
 ];

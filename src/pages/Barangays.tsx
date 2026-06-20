@@ -4,8 +4,23 @@ import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Heading } from '../components/ui/Heading';
 import SEO from '../components/SEO';
 import { Card, CardContent } from '@bettergov/kapwa/card';
-import { MapPin, User, Users, Sparkles, ExternalLink } from 'lucide-react';
-import { barangays, BARANGAYS_SOURCE, type Barangay } from '../data/barangays';
+import {
+  MapPin,
+  User,
+  Users,
+  Sparkles,
+  UsersRound,
+  ExternalLink,
+} from 'lucide-react';
+import {
+  barangays,
+  BARANGAYS_SOURCE,
+  BARANGAYS_POPULATION_CENSUS,
+  BARANGAYS_POPULATION_SOURCE,
+  type Barangay,
+} from '../data/barangays';
+
+const numberFormat = new Intl.NumberFormat('en-US');
 
 function BarangayCard({ barangay }: { barangay: Barangay }) {
   return (
@@ -31,6 +46,17 @@ function BarangayCard({ barangay }: { barangay: Barangay }) {
               <p className="text-sm text-gray-700">
                 <span className="font-semibold">SK Chairperson:</span>{' '}
                 {barangay.skChairperson}
+              </p>
+            </div>
+
+            <div className="mt-2 flex items-start gap-2">
+              <UsersRound className="mt-0.5 h-4 w-4 shrink-0 text-gray-500" />
+              <p className="text-sm text-gray-700">
+                <span className="font-semibold">Population:</span>{' '}
+                {numberFormat.format(barangay.population)}{' '}
+                <span className="text-gray-500">
+                  ({BARANGAYS_POPULATION_CENSUS})
+                </span>
               </p>
             </div>
 
@@ -63,6 +89,8 @@ function BarangayCard({ barangay }: { barangay: Barangay }) {
 }
 
 const Barangays: React.FC = () => {
+  const totalPopulation = barangays.reduce((sum, b) => sum + b.population, 0);
+
   return (
     <>
       <SEO
@@ -83,10 +111,12 @@ const Barangays: React.FC = () => {
           <Heading>Barangays of Koronadal</Heading>
           <p className="mb-4 max-w-3xl text-gray-600">
             The City of Koronadal (Marbel) is made up of{' '}
-            <strong>27 barangays</strong>. Below is each barangay&rsquo;s
+            <strong>27 barangays</strong> with a combined population of{' '}
+            <strong>{numberFormat.format(totalPopulation)}</strong> (
+            {BARANGAYS_POPULATION_CENSUS}). Below is each barangay&rsquo;s
             elected leadership &mdash; the Punong Barangay (Barangay Captain),
             the seven Sangguniang Barangay Kagawads, and the Sangguniang
-            Kabataan (SK) Chairperson.
+            Kabataan (SK) Chairperson &mdash; along with its population.
           </p>
           <p className="mb-10 max-w-3xl text-sm text-gray-500">
             Officials are sourced from the individual barangay pages on the{' '}
@@ -98,8 +128,18 @@ const Barangays: React.FC = () => {
             >
               official city website
             </a>{' '}
-            and may change after each barangay election. This is an independent
-            community portal, not the official city website.
+            and may change after each barangay election. Population figures are
+            from the{' '}
+            <a
+              href={BARANGAYS_POPULATION_SOURCE}
+              target="_blank"
+              rel="noreferrer"
+              className="text-primary-700 hover:underline"
+            >
+              2020 PSA census
+            </a>
+            . This is an independent community portal, not the official city
+            website.
           </p>
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
