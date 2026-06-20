@@ -123,6 +123,15 @@ const About: React.FC = () => {
               the provincial government of South Cotabato and the regional
               center of SOCCSKSARGEN.
             </p>
+            <p>
+              <Link
+                to="/history"
+                className="font-semibold text-primary-600 hover:text-primary-700"
+              >
+                Read the full city history and the timeline of Koronadal&rsquo;s
+                mayors &rarr;
+              </Link>
+            </p>
           </div>
 
           {/* At a glance icons */}

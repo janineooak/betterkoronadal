@@ -9,8 +9,10 @@ import Document from './pages/Document';
 import Government from './pages/Government';
 import News from './pages/News';
 import About from './pages/About';
+import History from './pages/History';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
+import Barangays from './pages/Barangays';
 import Tourism from './pages/Tourism';
 import Transparency from './pages/Transparency';
 import CitizensCharter from './pages/CitizensCharter';
@@ -34,8 +36,10 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/history" element={<History />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/hotlines" element={<Hotlines />} />
+              <Route path="/barangays" element={<Barangays />} />
               <Route path="/tourism" element={<Tourism />} />
               <Route path="/transparency" element={<Transparency />} />
               <Route path="/citizens-charter" element={<CitizensCharter />} />

@@ -34,6 +34,13 @@ const standalonePages: SearchEntry[] = [
     url: '/hotlines',
     section: 'Page',
   },
+  {
+    title: 'Barangays of Koronadal',
+    description:
+      'Directory of the 27 barangays with each Punong Barangay, Kagawads, and SK Chairperson.',
+    url: '/barangays',
+    section: 'Page',
+  },
 ];
 
 /**

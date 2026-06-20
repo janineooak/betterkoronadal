@@ -50,6 +50,11 @@ export const mainNavigation: NavigationItem[] = [
         icon: 'Users',
       },
       {
+        label: 'Barangays',
+        href: '/barangays',
+        icon: 'MapPin',
+      },
+      {
         label: 'Guides & Regulations',
         href: '/government/guides-and-regulations',
         icon: 'BookOpen',
@@ -79,6 +84,8 @@ export const footerNavigation = {
       title: 'About',
       links: [
         { label: 'About the City', href: '/about' },
+        { label: 'City History', href: '/history' },
+        { label: 'Barangays', href: '/barangays' },
         { label: 'Visit Koronadal', href: '/tourism' },
         { label: 'City Government', href: '/government/departments' },
         { label: 'Contact Us', href: '/contact' },
