@@ -22,3 +22,14 @@ export const LANGUAGES: Record<LanguageType, LanguageInfo> = {
 };
 
 export const DEFAULT_LANGUAGE: LanguageType = 'en';
+
+/**
+ * Languages with a translation file under `public/locales/{code}/common.json`.
+ * Only these are offered in the language switcher; the rest of LANGUAGES are
+ * declared for future use and would fall back to English if shown.
+ */
+export const AVAILABLE_LANGUAGE_CODES: LanguageType[] = ['en', 'hil'];
+
+export const AVAILABLE_LANGUAGES: LanguageInfo[] = AVAILABLE_LANGUAGE_CODES.map(
+  code => LANGUAGES[code]
+);

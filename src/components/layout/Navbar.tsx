@@ -14,10 +14,10 @@ import { mainNavigation } from '../../data/navigation';
 import type { LanguageType } from '../../types/index';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { LANGUAGES } from '../../i18n/languages';
+import { AVAILABLE_LANGUAGES } from '../../i18n/languages';
 
 // Toggle to re-enable the language switcher once translations are ready.
-const SHOW_LANGUAGE_SWITCHER = false;
+const SHOW_LANGUAGE_SWITCHER = true;
 
 // Resolve a Lucide icon by name (as stored in navigation data).
 const NavIcon: React.FC<{ name?: string; className?: string }> = ({
@@ -111,8 +111,8 @@ const Navbar: React.FC = () => {
                   onChange={e => changeLanguage(e.target.value as LanguageType)}
                   className="text-xs border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
                 >
-                  {Object.entries(LANGUAGES).map(([code, lang]) => (
-                    <option key={code} value={code}>
+                  {AVAILABLE_LANGUAGES.map(lang => (
+                    <option key={lang.code} value={lang.code}>
                       {lang.nativeName}
                     </option>
                   ))}
@@ -328,8 +328,8 @@ const Navbar: React.FC = () => {
                   onChange={e => changeLanguage(e.target.value as LanguageType)}
                   className="text-sm border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
                 >
-                  {Object.entries(LANGUAGES).map(([code, lang]) => (
-                    <option key={code} value={code}>
+                  {AVAILABLE_LANGUAGES.map(lang => (
+                    <option key={lang.code} value={lang.code}>
                       {lang.nativeName}
                     </option>
                   ))}
