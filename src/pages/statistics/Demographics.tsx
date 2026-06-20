@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import {
   ResponsiveContainer,
   LineChart,
@@ -27,7 +28,10 @@ import {
 const fmt = (n: number) => n.toLocaleString('en-US');
 
 export default function Demographics() {
+  const { t } = useTranslation();
   const [view, setView] = useState<'trend' | 'barangays'>('trend');
+  const d = (k: string, opts?: Record<string, unknown>) =>
+    t(`pages.statistics.demographics.${k}`, opts ?? {});
 
   // Barangays sorted high → low for the comparison chart.
   const sortedBarangays = useMemo(
@@ -38,46 +42,47 @@ export default function Demographics() {
   return (
     <>
       <SEO
-        title="Koronadal Demographics & Population Statistics"
-        description="Population statistics for the City of Koronadal: PSA census history from 2000 to 2024, annual growth rates, and a breakdown of all 27 barangays."
-        keywords="Koronadal population, Koronadal demographics, PSA census, Koronadal barangays population, South Cotabato statistics"
+        title={d('seoTitle')}
+        description={d('seoDescription')}
+        keywords={d('seoKeywords')}
       />
       <StatisticsLayout
-        title="Demographics"
-        crumb="Demographics"
+        title={d('title')}
+        crumb={d('title')}
         crumbHref="/statistics"
         intro={
           <p>
-            How many people call Koronadal home, where they live, and how the
-            city has grown — drawn from the official{' '}
-            <strong>Philippine Statistics Authority (PSA)</strong> census.
+            {d('introBefore')} <strong>{d('introPsaStrong')}</strong>{' '}
+            {d('introAfter')}
           </p>
         }
       >
         {/* Headline stats */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-12">
           <StatCard
-            label="Total Population"
+            label={d('statTotalPopulation')}
             value={fmt(demographics.population2024)}
-            subtext="2024 PSA census"
+            subtext={d('statTotalPopulationSub')}
             icon={Users}
           />
           <StatCard
-            label="Annual Growth"
+            label={d('statAnnualGrowth')}
             value={`${demographics.annualGrowth}%`}
-            subtext="Per year, 2020–2024"
+            subtext={d('statAnnualGrowthSub')}
             icon={TrendingUp}
           />
           <StatCard
-            label="Barangays"
+            label={d('statBarangays')}
             value={String(demographics.barangayCount)}
-            subtext={`${fmt(demographics.density2024)} residents / km²`}
+            subtext={d('statBarangaysSub', {
+              density: fmt(demographics.density2024),
+            })}
             icon={MapPinned}
           />
           <StatCard
-            label="Households"
+            label={d('statHouseholds')}
             value={fmt(demographics.households2024)}
-            subtext="2024 PSA census"
+            subtext={d('statHouseholdsSub')}
             icon={Home}
           />
         </div>
@@ -86,8 +91,8 @@ export default function Demographics() {
         <div className="mb-4 inline-flex gap-1.5 rounded-xl bg-gray-100 p-1.5">
           {(
             [
-              ['trend', 'Population Trend'],
-              ['barangays', 'By Barangay'],
+              ['trend', d('togglePopulationTrend')],
+              ['barangays', d('toggleByBarangay')],
             ] as const
           ).map(([key, label]) => (
             <button
@@ -109,10 +114,10 @@ export default function Demographics() {
           <>
             <div className="rounded-lg border border-gray-200 p-4 sm:p-6 mb-8">
               <Heading level={3} className="!mb-1 !text-lg">
-                Population, 2000–2024
+                {d('chartPopulationTitle')}
               </Heading>
               <p className="text-sm text-gray-500 mb-6">
-                PSA Census of Population
+                {d('chartPopulationSubtitle')}
               </p>
               <ResponsiveContainer width="100%" height={320}>
                 <LineChart
@@ -127,8 +132,8 @@ export default function Demographics() {
                     width={44}
                   />
                   <Tooltip
-                    formatter={v => [fmt(Number(v)), 'Population']}
-                    labelFormatter={l => `Census ${l}`}
+                    formatter={v => [fmt(Number(v)), d('tooltipPopulation')]}
+                    labelFormatter={l => d('tooltipCensus', { year: l })}
                   />
                   <Line
                     type="monotone"
@@ -144,7 +149,7 @@ export default function Demographics() {
 
             {/* Growth rates */}
             <Heading level={3} className="!text-lg">
-              Average annual growth rate
+              {d('growthHeading')}
             </Heading>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5 mb-8">
               {growthRates.map(g => (
@@ -163,10 +168,10 @@ export default function Demographics() {
         ) : (
           <div className="rounded-lg border border-gray-200 p-4 sm:p-6 mb-8">
             <Heading level={3} className="!mb-1 !text-lg">
-              Population by barangay
+              {d('chartByBarangayTitle')}
             </Heading>
             <p className="text-sm text-gray-500 mb-6">
-              2020 PSA Census — all 27 barangays
+              {d('chartByBarangaySubtitle')}
             </p>
             <ResponsiveContainer
               width="100%"
@@ -190,7 +195,7 @@ export default function Demographics() {
                   tick={{ fontSize: 11 }}
                 />
                 <Tooltip
-                  formatter={v => [fmt(Number(v)), 'Population']}
+                  formatter={v => [fmt(Number(v)), d('tooltipPopulation')]}
                   cursor={{ fill: '#f3f4f6' }}
                 />
                 <Bar dataKey="population" radius={[0, 4, 4, 0]}>
@@ -206,16 +211,13 @@ export default function Demographics() {
         {/* How to read this data */}
         <div className="rounded-lg bg-gray-50 border border-gray-200 p-5 text-sm text-gray-600 mb-2">
           <p className="font-semibold text-gray-900 mb-1">
-            How to read this data
+            {d('howToReadTitle')}
           </p>
           <p>
-            Census figures are actual resident counts taken by the PSA, not
-            estimates. The annual growth rate is the average yearly change
-            between two census years. Per-barangay figures are from the 2020
-            census; barangay-level 2024 counts have not yet been published.
-            Koronadal&rsquo;s {fmt(demographics.population2024)} residents make
-            up about {demographics.provinceShare}% of South Cotabato&rsquo;s
-            population.
+            {d('howToReadBody', {
+              population: fmt(demographics.population2024),
+              share: demographics.provinceShare,
+            })}
           </p>
         </div>
 

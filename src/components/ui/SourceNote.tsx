@@ -1,5 +1,6 @@
 import { BookOpenCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export interface Source {
   label: string;
@@ -25,16 +26,19 @@ export default function SourceNote({
   verified,
   className,
 }: SourceNoteProps) {
+  const { t } = useTranslation();
   return (
     <aside
       className={`mt-12 rounded-lg border border-gray-200 bg-gray-50 p-5 text-sm ${
         className ?? ''
       }`}
-      aria-label="Sources"
+      aria-label={t('components.sourceNote.heading')}
     >
       <div className="flex items-center gap-2 mb-2">
         <BookOpenCheck className="h-4 w-4 shrink-0 text-primary-600" />
-        <p className="font-semibold text-gray-900">Sources</p>
+        <p className="font-semibold text-gray-900">
+          {t('components.sourceNote.heading')}
+        </p>
       </div>
       <ul className="list-disc space-y-1 pl-6 text-gray-700">
         {sources.map(source => (
@@ -54,12 +58,14 @@ export default function SourceNote({
         ))}
       </ul>
       <p className="mt-3 text-xs text-gray-500">
-        {verified && <>Last verified {verified}. </>}
-        See the full{' '}
+        {verified && (
+          <>{t('components.sourceNote.lastVerified', { date: verified })} </>
+        )}
+        {t('components.sourceNote.seeFullBefore')}{' '}
         <Link to="/sources" className="text-primary-600 underline">
-          list of sources
+          {t('components.sourceNote.seeFullLink')}
         </Link>{' '}
-        for how this information was compiled.
+        {t('components.sourceNote.seeFullAfter')}
       </p>
     </aside>
   );
