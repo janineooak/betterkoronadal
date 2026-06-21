@@ -1,4 +1,7 @@
 {
+  "breadcrumbs": {
+    "home": "Panimalay"
+  },
   "common": {
     "clearSearch": "Limpyuhi ang pangita",
     "filterPlaceholder": "Pangita…",
@@ -15,7 +18,40 @@
     }
   },
   "footer": {
-    "copyright": "© 2026 BetterKoronadal.org — isa ka independyente nga proyekto sang komunidad. Wala sing kaangtanan sa Gobyerno sang Dakbanwa sang Koronadal."
+    "copyright": "© 2026 BetterKoronadal.org — isa ka independyente nga proyekto sang komunidad. Wala sing kaangtanan sa Gobyerno sang Dakbanwa sang Koronadal.",
+    "description": "Isa ka independyente kag ginhimo-sang-komunidad nga portal nga nagapadali sang pagpangita sang impormasyon kag mga serbisyo para sa Dakbanwa sang Koronadal. <strong>Wala sing kaangtanan, indi ginadumala, kag indi gin-endorso sang Gobyerno sang Dakbanwa sang Koronadal.</strong> Ang opisyal nga website sang siyudad amo ang <gov>koronadal.gov.ph</gov>.",
+    "links": {
+      "aboutCity": "Parte sa Siyudad",
+      "allServices": "Tanan nga Serbisyo",
+      "barangays": "Mga Barangay",
+      "citizensCharter": "Citizen's Charter",
+      "cityGovernment": "Gobyerno sang Siyudad",
+      "cityHistory": "Kasaysayan sang Siyudad",
+      "cityIncome": "Kita sang Siyudad",
+      "cityOfficials": "Mga Opisyal sang Siyudad",
+      "competitiveness": "Kompetitibo",
+      "contactUs": "Kontaka Kami",
+      "emergencyHotlines": "Mga Emergency Hotline",
+      "floodControl": "Mga Proyekto sa Pagpugong sang Baha",
+      "foi": "Freedom of Information",
+      "officialGazette": "Official Gazette",
+      "openData": "Bukas nga Datos",
+      "populationDemographics": "Populasyon kag Demograpiya",
+      "procurement": "Mga Oportunidad sa Procurement",
+      "regionalDirectory": "Direktoryo sang mga LGU sa Rehiyon",
+      "searchSite": "Pangitaa ang site",
+      "sources": "Mga Ginhalinan kag Reperensya",
+      "transparency": "Transparensya kag Full Disclosure",
+      "visitKoronadal": "Bisitaha ang Koronadal"
+    },
+    "logoAlt": "Logo sang BetterKoronadal.org",
+    "sections": {
+      "about": "Parte",
+      "dataTransparency": "Datos kag Transparensya",
+      "government": "Gobyerno",
+      "services": "Mga Serbisyo"
+    },
+    "tagline": "Portal sang Komunidad · Indi Opisyal"
   },
   "forex": {
     "title": "Baylohanan sang Langyaw nga Kwarta"
@@ -28,8 +64,25 @@
     "birthCertificate": "Sertipiko sang Pagkatawo",
     "businessRegistration": "Pagparehistro sang Negosyo",
     "nationalId": "National ID",
+    "searchAria": "Pangitaa sa BetterKoronadal.org",
+    "searchButton": "Pangita",
+    "searchPlaceholder": "Pangitaa ang mga serbisyo kag impormasyon…",
     "subtitle": "Isa ka independyente kag ginhimo-sang-komunidad nga portal nga nagapadali sang pagpangita sang impormasyon kag mga serbisyo para sa Dakbanwa sang Koronadal. Indi ini ang opisyal nga website sang siyudad.",
-    "title": "BetterKoronadal.org"
+    "tasks": {
+      "businessPermit": "Mag-aplay sang Business Permit",
+      "garbage": "Iskedyul sang Pagpanguha sang Basura",
+      "healthServices": "Pangitaa ang mga Serbisyo sa Panglawas",
+      "hotlines": "Mga Emergency Hotline",
+      "renewPermit": "Mag-renew sang Permit / Magbayad sang Business Tax",
+      "reportRoad": "I-report ang Guba nga Dalan ukon Kanal",
+      "scholarship": "Mag-aplay sang Scholarship",
+      "socialWelfare": "Bulig sa Kaayuhan sang Katilingban"
+    },
+    "title": "BetterKoronadal.org",
+    "topTasks": "Mga Pangunahon nga Buluhaton",
+    "topTasksSubtitle": "Diretso sa mga butang nga pirme ginahimo sang mga tawo.",
+    "viewAllServices": "Tan-awa ang Tanan nga Serbisyo",
+    "welcomeTo": "Maayong Pag-abot sa"
   },
   "home": {
     "earthquake": {
@@ -108,14 +161,40 @@
     "stripSubtitle": "Buligi nga matukod ang palaabuton sang Pilipinas kag pagdumala paagi sa teknolohiya",
     "stripTitle": "🚀 Mag-upod sa #CivicTech Revolution"
   },
+  "nav": {
+    "barangays": "Mga Barangay",
+    "citizensCharter": "Citizen's Charter",
+    "cityIncome": "Kita sang Siyudad",
+    "cityOfficials": "Mga Opisyal sang Siyudad",
+    "competitiveness": "Kompetitibo",
+    "demographics": "Demograpiya",
+    "departments": "Mga Departamento kag Opisina",
+    "floodControl": "Mga Proyekto sa Pagpugong sang Baha",
+    "guides": "Mga Giya kag Regulasyon",
+    "mayorOffice": "Opisina sang City Mayor",
+    "news": "Balita kag mga Pahibalo",
+    "procurement": "Mga Oportunidad sa Procurement",
+    "regionalDirectory": "Direktoryo sang mga LGU sa Rehiyon",
+    "sanggunian": "Sangguniang Panlungsod",
+    "transparency": "Transparensya kag Full Disclosure"
+  },
   "navbar": {
+    "about": "Parte",
+    "aboutTheCity": "Parte sa Siyudad",
+    "contact": "Kontak",
     "government": "Gobyerno",
     "holidays": "Mga Pista Opisyal",
     "hotlines": "Mga Hotline",
+    "officialGovPh": "Opisyal nga Gov.ph",
+    "officialWebsite": "Opisyal nga Website",
+    "openMenu": "Buksan ang menu",
+    "search": "Pangita",
     "selectLanguage": "Pumili sang lengguwahe",
     "services": "Mga Serbisyo",
     "statistics": "Estadistika",
-    "transparency": "Transparensya"
+    "transparency": "Transparensya",
+    "viewAll": "Tan-awa tanan",
+    "visit": "Bisitaha"
   },
   "news": {
     "title": "Pinakabag-o nga Balita kag mga Update"
@@ -126,6 +205,16 @@
       "barangaysIntro": "Ginahuman ang Koronadal sang 27 ka barangay, nga ang pinakadako sa ila amo ang Gen. Paulino Santos, Santa Cruz, Sto. Niño, Zone III, kag Zulueta.",
       "breadcrumbAbout": "Parte sa Amon",
       "breadcrumbHome": "Panimalay",
+      "facts": {
+        "alsoKnownAs": "Kilala man nga",
+        "barangays": "Mga Barangay",
+        "classification": "Klasipikasyon sang siyudad",
+        "landArea": "Kadakuon sang duta",
+        "population": "Populasyon (2024)",
+        "province": "Probinsya",
+        "region": "Rehiyon",
+        "zip": "ZIP code"
+      },
       "glanceCapitalDesc": "Puluy-an sang gobyerno sang Probinsya sang South Cotabato.",
       "glanceCapitalTitle": "Kapital sang probinsya",
       "glanceCityhoodDesc": "Gin-konberte pagka component city sa idalom sang RA 8803.",
@@ -391,6 +480,23 @@
       "seoTitle": "Mga Oportunidad sa Procurement sa Koronadal",
       "updatedBadge": "Ginbag-o {{date}}"
     },
+    "regionalDirectory": {
+      "breadcrumbDirectory": "Rehiyonal nga Direktoryo sang mga LGU",
+      "breadcrumbHome": "Panimalay",
+      "clearSearch": "Limpyuhi ang pagpangita",
+      "disclaimer": "Ginkuha gikan sa direktoryo sang panggamhanan sang BetterGov.ph. Ang mga opisyal nagabag-o pagkatapos sang kada eleksyon — usisaa ini batok sa kaugalingon nga LGU sa wala pa magsalig sa sini nga mga detalye. Ini isa ka independiyente nga portal sang komunidad.",
+      "heading": "Rehiyonal nga Direktoryo sang mga LGU",
+      "intro": "Ang mga dakbanwa kag banwa sang {{region}} — ang mga kasilingan sang Koronadal sa bug-os nga South Cotabato, Cotabato, kag Sultan Kudarat — upod ang mayor kag bise mayor sang kada lokal nga panggamhanan.",
+      "mayorLabel": "Mayor:",
+      "noMatch": "Wala sang LGU nga nagatuhoy sa “{{query}}”.",
+      "searchAriaLabel": "Pangitaa ang dakbanwa, banwa, ukon mayor",
+      "searchPlaceholder": "Pangitaa ang dakbanwa, banwa, ukon mayor…",
+      "seoDescription": "Direktoryo sang mga dakbanwa kag banwa sang Region XII (SOCCSKSARGEN) — South Cotabato, Cotabato, kag Sultan Kudarat — upod ang mayor kag bise mayor sang kada LGU.",
+      "seoKeywords": "SOCCSKSARGEN LGU directory, Region XII mayors, South Cotabato municipalities, Sultan Kudarat, Cotabato, vice mayor",
+      "seoTitle": "Rehiyonal nga Direktoryo sang mga LGU (SOCCSKSARGEN)",
+      "showing": "Ginapakita ang {{shown}} sa {{total}} nga mga LGU",
+      "viceMayorLabel": "Bise Mayor:"
+    },
     "search": {
       "allServices": "tanan nga serbisyo",
       "ariaLabel": "Pangitaa sa portal",
@@ -422,7 +528,24 @@
       "breadcrumbSources": "Mga Ginhalinan",
       "confirmBody": "Ang mga detalye pareho sang mga opisyal, oras sang opisina, bayad, kag mga proseso mahimo nga magbag-o. Para sa mga desisyon nga importante, pakamatuura sa opisyal nga website sang siyudad sa",
       "confirmStrong": "Pakamatuura pirme antes ka maghulag.",
+      "groups": {
+        "demographics": "Populasyon, demograpiya kag estadistika",
+        "news": "Balita kag pagreport (para sa pagpamatuod sang mga opisyal kag hitabo)",
+        "profile": "Profayl sang siyudad, kasaysayan kag mga opisyal",
+        "tourism": "Turismo kag kultura",
+        "transparency": "Transparensiya, badyet kag procurement",
+        "weather": "Panahon kag mga katalagman"
+      },
       "intro": "Ang BetterKoronadal.org isa ka independyente kag ginhimo-sang-komunidad nga portal. Ang impormasyon diri gintipon halin sa mga opisyal nga ginhalinan nga nakalista sa idalom kag ginpakamatuod sang ulihi sang {{date}}. Wala kami sing kaangtanan sa Gobyerno sang Dakbanwa sang Koronadal.",
+      "items": {
+        "fdpp": "DILG Memorandum Circular 2011-134",
+        "koronadalCulture": "Hinugyaw Festival, mga heritage site, mga kultural nga balaod",
+        "koronadalFacebook": "Mga abiso kag opisyal nga pahibalo",
+        "koronadalWebsite": "Mga opisyal, departamento, kasaysayan, detalye sa pagpakig-angot",
+        "openMeteo": "Nagapadalagan sang weather widget sa homepage",
+        "psa": "Mga datos sang sensus sang 2024 (201,844) kag 2020 (195,398), kadakuon sang duta",
+        "wikipedia": "Kasaysayan (EO 82, RA 4849, RA 8803), heograpiya, etimolohiya"
+      },
       "seoDescription": "Ang mga opisyal nga website, ahensya sang gobyerno, kag reperensya nga gingamit sa pagtipon sang impormasyon sa BetterKoronadal.org, isa ka independyente nga portal sang komunidad para sa Dakbanwa sang Koronadal.",
       "seoKeywords": "Koronadal sources, references, koronadal.gov.ph, PSA, DILG, PhilGEPS, COA, PAGASA, data sources, citations",
       "seoTitle": "Mga Ginhalinan kag Reperensya — BetterKoronadal.org",
@@ -523,6 +646,20 @@
       "breadcrumbTourism": "Turismo",
       "cultureCardBody": "Basaha ang parte sa mga piesta, panubli, kag mga balaong kultural sang Koronadal sa opisyal nga website sang siyudad.",
       "cultureCardTitle": "Kultura kag panubli",
+      "dayTrips": {
+        "lakeHolon": {
+          "description": "Isa ka putli nga crater nga linaw sa Mt. Melibingoy nga maabot paagi sa giyado nga pagtaklad — turquoise nga tubig, kamping, kag pagtan-aw sang mga bituon para sa mas maisog nga mga bisita.",
+          "name": "Lake Holon (Lake Maughan), T’boli"
+        },
+        "lakeSebu": {
+          "description": "Isa ka mataas nga linaw sa mga 1,000 ka metro kag ang kultural nga puluy-an sang mga T’boli nga dreamweaver — bantog sa tilapia, mga bulak sang lotus, kag ang T’boli Museum.",
+          "name": "Lake Sebu"
+        },
+        "sevenFalls": {
+          "description": "Ang korona nga hiyas sang Lake Sebu: pito ka nagaagay nga busay kag isa sa pinakamataas nga zipline sa bug-os nga pungsod, mga 1–1.5 ka oras nga biyahe halin sa Koronadal.",
+          "name": "Seven Falls & Zipline, Lake Sebu"
+        }
+      },
       "dayTripsHeading": "Mga day trip sa gua sang siyudad",
       "dayTripsIntro": "Ang Koronadal isa ka kombenyente nga pundasyon para sa pagtuk-ib sang South Cotabato. Ining bantog nga mga lugar yara sa gua sang siyudad apang masami nga ginabisita bilang day trip halin sa Marbel.",
       "festivalBody": "Ang Hinugyaw Festival amo ang pinasahi nga selebrasyon sang Koronadal, ginahiwat kada Enero bilang bahin sang Araw ng Koronadal, ang anibersaryo sang pagkatukod sang siyudad. Ang \"Hinugyaw\" nagakahulugan sang malipayon nga selebrasyon — nagakabuhi ang mga karsada paagi sa makulay nga street dancing, mga parada, kag pagpasundayag sang kultura sang mga settler kag Lumad sang siyudad.",
@@ -531,6 +668,44 @@
       "hotlinesCardBody": "Itago nga handa ang importante nga mga numero kon kinahanglan mo sang bulig sa imo pagbiyahe.",
       "hotlinesCardTitle": "Mga hotline sa emerhensya",
       "intro": "Kilala bilang \"Hub of the South\" kag kapital sang South Cotabato, ginatib-ong sang Dakbanwa sang Koronadal (Marbel) ang isa ka buhi nga sentro sang siyudad kaupod ang talan-awon sang kabukiran, panubli nga kultura, kag madali nga pag-abot sa pila sa pinakatanyag nga natural nga katahum sang Mindanao. Yari ang isa ka giya sa kon ano ang tan-awon sa siyudad kag sa palibot sini.",
+      "places": {
+        "carpenterHill": {
+          "description": "Isa ka mataas nga lugar sang agri-tourism sa Brgy. Carpenter Hill nga may mga plantasyon sang pinya kag talan-awan sang uma, malapit lang sa sentro sang siyudad.",
+          "name": "The Farm at Carpenter Hill"
+        },
+        "cityPlaza": {
+          "description": "Ang sentro nga plaza sa tunga sang siyudad — isa ka lugar nga tipunan para sa mga hitabo, paglakat-lakat kon gab-i, kag mga selebrasyon sang siyudad.",
+          "name": "Koronadal City Plaza (Rizal Park)"
+        },
+        "communityMuseum": {
+          "description": "Sa hardin sang Capitol, ang museo sang probinsya nagatipig sang mga artifact kag mga ginhimo sang mga Blaan, T’boli, kag mga settler nga komunidad nga naghulma sang rehiyon.",
+          "name": "South Cotabato Community Museum"
+        },
+        "dioceseMarbel": {
+          "description": "Ang Koronadal amo ang puluy-an sang Katoliko nga Diocese of Marbel. Ang mga simbahan sang parokya sa bug-os nga siyudad nagaduyog sang dalagku nga relihiyoso nga piesta kag patronal nga mga selebrasyon.",
+          "name": "Diocese of Marbel & city churches"
+        },
+        "kalonBarak": {
+          "description": "Isa ka mataas nga talan-awan sa mga 2,375 ka tiil nga nagahatag sang malapad nga panan-awan padulong sa Mt. Matutum, Mt. Apo, kag isa ka dagat sang mga panganod sa mabugnaw nga aga — paborito para sa pagsubang kag pagsalop sang adlaw.",
+          "name": "Kalon Barak Skyline Ridge"
+        },
+        "kccMall": {
+          "description": "Ang panguna nga mall sang siyudad — mga lokal nga restawran, rehiyonal nga produkto pareho sang mangga kag tilapia, kag mga souvenir sang SOCCSKSARGEN.",
+          "name": "KCC Mall of Marbel"
+        },
+        "localMarkets": {
+          "description": "Bilang \"Hub of the South,\" ang Koronadal isa ka sentro sang pamaligya para sa South Cotabato — usisaa ang mga publiko nga merkado, mga produkto sang agrikultura, kag mga lami sang Mindanao.",
+          "name": "Local markets & cuisine"
+        },
+        "paraisoVerde": {
+          "description": "Ginatawag nga pinakadako nga recreational water park sa rehiyon sang SOCCSKSARGEN, nga may mga pool, slide, kag mga kahimusan para sa isa ka adlaw nga kalingawan sang pamilya.",
+          "name": "Paraiso Verde Resort & Water Park"
+        },
+        "provincialCapitol": {
+          "description": "Ang puluy-an sang gobyerno sang probinsya. Ang Koronadal amo ang kapital sang South Cotabato kag ang rehiyonal nga sentro sang SOCCSKSARGEN.",
+          "name": "South Cotabato Provincial Capitol"
+        }
+      },
       "placesHeading": "Mga lugar kag talalupangdon",
       "planHeading": "Iplano ang imo pagbisita",
       "seoDescription": "Tuk-ira kon ano ang tan-awon kag himuon sa Dakbanwa sang Koronadal (Marbel), ang \"Hub of the South\" — ang Hinugyaw Festival, ang City Plaza, ang Kalon Barak Skyline Ridge, kag mga day trip pakadto sa Lake Sebu kag Seven Falls.",
@@ -544,6 +719,32 @@
       "disclaimer": "<strong>Pahinumdom:</strong> Ang BetterKoronadal.org isa ka independyente nga proyekto sang komunidad kag wala nagatago sang opisyal nga mga dokumento pinansyal. Ang mga link sa idalom nagatudlo sa mga opisyal nga portal sang gobyerno nga nagapagua sini.",
       "heading": "Transparensya kag Bukas nga Datos",
       "intro": "Ginakinahanglan sang mga local government unit sa Pilipinas nga ipakita ang ila mga badyet, pinansya, kag mga proyekto sa idalom sang <strong>Full Disclosure Policy (FDP)</strong>. Ginatipon sini nga pahina ang mga opisyal nga kanal kon diin mo matan-aw kon paano ginadumala sang Dakbanwa sang Koronadal ang pondo sang publiko.",
+      "resources": {
+        "budgetReports": {
+          "description": "Ang tuigan nga mga badyet, mga statement sang mga nabaton kag galastusan, kag iban pa nga mga dokumento pinansyal ginabutang sa FDP page kag opisyal nga website sang LGU.",
+          "name": "Mga Report sa Badyet kag Pinansiya"
+        },
+        "cityWebsite": {
+          "description": "Ginabutang sang City Government of Koronadal ang mga opisyal nga isyu, balita, kag mga dokumento sa transparency sa ila kaugalingon nga website.",
+          "name": "Opisyal nga Website sang Siyudad"
+        },
+        "coa": {
+          "description": "Mga independyente nga tuigan nga report sa pag-audit parte sa pinansiya sang mga LGU kag iban pa nga mga ahensiya sang gobyerno, nga ginabalhag sang Commission on Audit.",
+          "name": "Mga Report sang Commission on Audit (COA)"
+        },
+        "fdpPortal": {
+          "description": "Ang portal sang DILG diin ginabutang sang mga LGU ang ila mga badyet, pinansiya, bids, kag ang kahimtangan sang mga programa kag proyekto, suno sa ginapatuman sang DILG Memorandum Circular 2011-134.",
+          "name": "Full Disclosure Policy (FDP) Portal"
+        },
+        "foi": {
+          "description": "Magpangayo sang mga rekord sang gobyerno paagi sa pungsodnon nga eFOI nga plataporma. Ginalakip sang FOI ang mga dokumento nga ginahuptan sang mga ahensiya sang gobyerno, nga ginasakdag sang mga kinaandan nga eksepsiyon.",
+          "name": "Freedom of Information (FOI)"
+        },
+        "philgeps": {
+          "description": "Ginalista sang Philippine Government Electronic Procurement System ang mga imbitasyon sa pag-bid, mga award, kag mga notice to proceed sa idalom sang RA 9184 (Government Procurement Reform Act).",
+          "name": "PhilGEPS — Mga Bid kag Pagpamakal"
+        }
+      },
       "seoDescription": "Kon diin makita ang mga badyet, financial report, bids, kag mga pahibalo sa procurement sang Koronadal — ang Full Disclosure Policy (FDP) Portal, PhilGEPS, mga report sang COA, kag Freedom of Information.",
       "seoKeywords": "Koronadal transparency, Full Disclosure Policy, FDP, PhilGEPS, COA, Freedom of Information, FOI, budget, procurement, open data, DILG",
       "seoTitle": "Transparensya kag Bukas nga Datos — Dakbanwa sang Koronadal",

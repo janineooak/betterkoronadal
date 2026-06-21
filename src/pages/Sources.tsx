@@ -9,33 +9,32 @@ import { useTranslation } from 'react-i18next';
 interface Reference {
   label: string;
   href: string;
-  note?: string;
+  noteKey?: string;
 }
 
 interface SourceGroup {
-  topic: string;
-  intro?: string;
+  groupKey: string;
   references: Reference[];
 }
 
 const sourceGroups: SourceGroup[] = [
   {
-    topic: 'City profile, history & officials',
+    groupKey: 'profile',
     references: [
       {
         label: 'City Government of Koronadal — official website',
         href: 'https://koronadal.gov.ph',
-        note: 'Officials, departments, history, contact details',
+        noteKey: 'koronadalWebsite',
       },
       {
         label: 'City Government of Koronadal — Facebook page',
         href: 'https://facebook.com/CityGovernmentofKoronadal',
-        note: 'Advisories and official announcements',
+        noteKey: 'koronadalFacebook',
       },
       {
         label: 'Koronadal, South Cotabato — Wikipedia',
         href: 'https://en.wikipedia.org/wiki/Koronadal',
-        note: 'History (EO 82, RA 4849, RA 8803), geography, etymology',
+        noteKey: 'wikipedia',
       },
       {
         label: 'Province of South Cotabato',
@@ -44,12 +43,12 @@ const sourceGroups: SourceGroup[] = [
     ],
   },
   {
-    topic: 'Population, demographics & statistics',
+    groupKey: 'demographics',
     references: [
       {
         label: 'Philippine Statistics Authority (PSA)',
         href: 'https://psa.gov.ph',
-        note: '2024 (201,844) and 2020 (195,398) census figures, land area',
+        noteKey: 'psa',
       },
       {
         label: 'PSA SOCCSKSARGEN (Region XII)',
@@ -62,12 +61,12 @@ const sourceGroups: SourceGroup[] = [
     ],
   },
   {
-    topic: 'Tourism & culture',
+    groupKey: 'tourism',
     references: [
       {
         label: 'City Government of Koronadal — Culture',
         href: 'https://koronadal.gov.ph/culture/',
-        note: 'Hinugyaw Festival, heritage sites, cultural values',
+        noteKey: 'koronadalCulture',
       },
       {
         label: 'Vigattin Tourism — Araw ng Koronadal "Hinugyaw Festival"',
@@ -80,12 +79,12 @@ const sourceGroups: SourceGroup[] = [
     ],
   },
   {
-    topic: 'Transparency, budget & procurement',
+    groupKey: 'transparency',
     references: [
       {
         label: 'DILG — Full Disclosure Policy Portal',
         href: 'https://fdpp.dilg.gov.ph',
-        note: 'DILG Memorandum Circular 2011-134',
+        noteKey: 'fdpp',
       },
       {
         label: 'DILG Region XII — Full Disclosure Policy',
@@ -106,12 +105,12 @@ const sourceGroups: SourceGroup[] = [
     ],
   },
   {
-    topic: 'Weather & hazards',
+    groupKey: 'weather',
     references: [
       {
         label: 'Open-Meteo — weather data API',
         href: 'https://open-meteo.com',
-        note: 'Powers the homepage weather widget',
+        noteKey: 'openMeteo',
       },
       {
         label: 'PAGASA — official forecasts & warnings',
@@ -120,7 +119,7 @@ const sourceGroups: SourceGroup[] = [
     ],
   },
   {
-    topic: 'News & reporting (for verifying officials and events)',
+    groupKey: 'news',
     references: [
       {
         label: 'Philippine News Agency (PNA)',
@@ -181,10 +180,10 @@ const Sources: React.FC = () => {
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
             {sourceGroups.map(group => (
-              <Card key={group.topic} className="h-full">
+              <Card key={group.groupKey} className="h-full">
                 <CardContent>
                   <p className="font-semibold text-gray-900 mb-3">
-                    {group.topic}
+                    {t(`pages.sources.groups.${group.groupKey}`)}
                   </p>
                   <ul className="list-disc space-y-2 pl-5 text-sm text-gray-700">
                     {group.references.map(ref => (
@@ -197,8 +196,11 @@ const Sources: React.FC = () => {
                         >
                           {ref.label}
                         </a>
-                        {ref.note && (
-                          <span className="text-gray-500"> — {ref.note}</span>
+                        {ref.noteKey && (
+                          <span className="text-gray-500">
+                            {' '}
+                            — {t(`pages.sources.items.${ref.noteKey}`)}
+                          </span>
                         )}
                       </li>
                     ))}

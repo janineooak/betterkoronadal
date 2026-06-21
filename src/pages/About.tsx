@@ -9,14 +9,14 @@ import { MapPin, Users, Landmark, CalendarDays } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const quickFacts = [
-  { label: 'Also known as', value: 'Marbel' },
-  { label: 'Province', value: 'South Cotabato (capital)' },
-  { label: 'Region', value: 'Region XII (SOCCSKSARGEN)' },
-  { label: 'City classification', value: 'Component city' },
-  { label: 'Population (2024)', value: '201,844' },
-  { label: 'Land area', value: '277.00 km²' },
-  { label: 'Barangays', value: '27' },
-  { label: 'ZIP code', value: '9506' },
+  { labelKey: 'alsoKnownAs', value: 'Marbel' },
+  { labelKey: 'province', value: 'South Cotabato (capital)' },
+  { labelKey: 'region', value: 'Region XII (SOCCSKSARGEN)' },
+  { labelKey: 'classification', value: 'Component city' },
+  { labelKey: 'population', value: '201,844' },
+  { labelKey: 'landArea', value: '277.00 km²' },
+  { labelKey: 'barangays', value: '27' },
+  { labelKey: 'zip', value: '9506' },
 ];
 
 const barangays = [
@@ -89,10 +89,10 @@ const About: React.FC = () => {
           {/* Quick facts */}
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 mb-12">
             {quickFacts.map(fact => (
-              <Card key={fact.label} className="h-full">
+              <Card key={fact.labelKey} className="h-full">
                 <CardContent>
                   <p className="text-xs uppercase tracking-wide text-gray-500">
-                    {fact.label}
+                    {t(`pages.about.facts.${fact.labelKey}`)}
                   </p>
                   <p className="mt-1 text-base font-semibold text-gray-900">
                     {fact.value}

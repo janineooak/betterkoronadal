@@ -66,19 +66,19 @@ const Navbar: React.FC = () => {
               to="/hotlines"
               className="text-xs text-red-600 hover:text-red-700 font-semibold transition-colors"
             >
-              🚨 Hotlines
+              🚨 {t('navbar.hotlines')}
             </Link>
             <Link
               to="/about"
               className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
             >
-              About the City
+              {t('navbar.aboutTheCity')}
             </Link>
             <Link
               to="/tourism"
               className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
             >
-              Visit
+              {t('navbar.visit')}
             </Link>
             <a
               href="https://southcotabato.gov.ph"
@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Official Gov.ph
+              {t('navbar.officialGovPh')}
             </a>
             <a
               href="https://koronadal.gov.ph"
@@ -102,7 +102,7 @@ const Navbar: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Official Website
+              {t('navbar.officialWebsite')}
             </a>
             {SHOW_LANGUAGE_SWITCHER && (
               <div className="hidden md:block">
@@ -173,7 +173,7 @@ const Navbar: React.FC = () => {
                           to={item.href}
                           className="text-xs font-medium text-primary-600 hover:text-primary-700"
                         >
-                          View all &rarr;
+                          {t('navbar.viewAll')} &rarr;
                         </Link>
                       </div>
                       <div
@@ -192,7 +192,9 @@ const Navbar: React.FC = () => {
                               name={child.icon}
                               className="h-4 w-4 shrink-0 text-primary-600"
                             />
-                            <span>{child.label}</span>
+                            <span>
+                              {child.labelKey ? t(child.labelKey) : child.label}
+                            </span>
                           </Link>
                         ))}
                       </div>
@@ -208,28 +210,28 @@ const Navbar: React.FC = () => {
               className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
             >
               <Search className="h-4 w-4 mr-1" />
-              Search
+              {t('navbar.search')}
             </Link>
             <Link
               to="/about"
               className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
             >
               <Info className="h-4 w-4 mr-1" />
-              About
+              {t('navbar.about')}
             </Link>
             <Link
               to="/contact"
               className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
             >
               <Mail className="h-4 w-4 mr-1" />
-              Contact
+              {t('navbar.contact')}
             </Link>
             <Link
               to="/hotlines"
               className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
             >
               <Phone className="h-4 w-4 mr-1" />
-              Hotlines
+              {t('navbar.hotlines')}
             </Link>
           </div>
 
@@ -239,7 +241,7 @@ const Navbar: React.FC = () => {
               onClick={toggleMenu}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
             >
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only">{t('navbar.openMenu')}</span>
               {isOpen ? (
                 <X className="block h-6 w-6" aria-hidden="true" />
               ) : (
@@ -281,7 +283,9 @@ const Navbar: React.FC = () => {
                         name={child.icon}
                         className="h-4 w-4 shrink-0 text-primary-600"
                       />
-                      <span>{child.label}</span>
+                      <span>
+                        {child.labelKey ? t(child.labelKey) : child.label}
+                      </span>
                     </Link>
                   ))}
                 </div>
@@ -294,7 +298,7 @@ const Navbar: React.FC = () => {
             className="flex items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
           >
             <Search className="h-4 w-4 mr-2" />
-            Search
+            {t('navbar.search')}
           </Link>
           <Link
             to="/about"
@@ -302,7 +306,7 @@ const Navbar: React.FC = () => {
             className="flex items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
           >
             <Info className="h-4 w-4 mr-2" />
-            About
+            {t('navbar.about')}
           </Link>
           <Link
             to="/contact"
@@ -310,7 +314,7 @@ const Navbar: React.FC = () => {
             className="flex items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
           >
             <Mail className="h-4 w-4 mr-2" />
-            Contact
+            {t('navbar.contact')}
           </Link>
           <Link
             to="/hotlines"
@@ -318,7 +322,7 @@ const Navbar: React.FC = () => {
             className="flex items-center px-4 py-2 text-base font-semibold text-red-600 hover:bg-red-50 hover:text-red-700"
           >
             <Phone className="h-4 w-4 mr-2" />
-            Hotlines
+            {t('navbar.hotlines')}
           </Link>
           {SHOW_LANGUAGE_SWITCHER && (
             <div className="px-4 py-3 border-t border-gray-200">

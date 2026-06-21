@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Section from '../components/ui/Section';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Heading } from '../components/ui/Heading';
@@ -11,6 +12,7 @@ const entryText = (entry: LguEntry) =>
   `${entry.name} ${entry.mayor?.name ?? ''} ${entry.viceMayor?.name ?? ''}`.toLowerCase();
 
 function LguCard({ entry }: { entry: LguEntry }) {
+  const { t } = useTranslation();
   return (
     <Card className="h-full">
       <CardContent>
@@ -30,7 +32,9 @@ function LguCard({ entry }: { entry: LguEntry }) {
               <div className="mt-3 flex items-start gap-2">
                 <UserRound className="mt-0.5 h-4 w-4 shrink-0 text-gray-500" />
                 <p className="text-sm text-gray-700">
-                  <span className="font-semibold">Mayor:</span>{' '}
+                  <span className="font-semibold">
+                    {t('pages.regionalDirectory.mayorLabel')}
+                  </span>{' '}
                   {entry.mayor.name}
                   {entry.mayor.contact && (
                     <span className="block text-xs text-gray-500">
@@ -46,7 +50,9 @@ function LguCard({ entry }: { entry: LguEntry }) {
               <div className="mt-2 flex items-start gap-2">
                 <UserRound className="mt-0.5 h-4 w-4 shrink-0 text-gray-500" />
                 <p className="text-sm text-gray-700">
-                  <span className="font-semibold">Vice Mayor:</span>{' '}
+                  <span className="font-semibold">
+                    {t('pages.regionalDirectory.viceMayorLabel')}
+                  </span>{' '}
                   {entry.viceMayor.name}
                   {entry.viceMayor.contact && (
                     <span className="block text-xs text-gray-500">
@@ -65,6 +71,7 @@ function LguCard({ entry }: { entry: LguEntry }) {
 }
 
 const RegionalDirectory: React.FC = () => {
+  const { t } = useTranslation();
   const [query, setQuery] = useState('');
 
   const totalCount = useMemo(
@@ -91,31 +98,29 @@ const RegionalDirectory: React.FC = () => {
   return (
     <>
       <SEO
-        title="Regional LGU Directory (SOCCSKSARGEN)"
-        description="Directory of the cities and municipalities of Region XII (SOCCSKSARGEN) — South Cotabato, Cotabato, and Sultan Kudarat — with each LGU's mayor and vice mayor."
-        keywords="SOCCSKSARGEN LGU directory, Region XII mayors, South Cotabato municipalities, Sultan Kudarat, Cotabato, vice mayor"
+        title={t('pages.regionalDirectory.seoTitle')}
+        description={t('pages.regionalDirectory.seoDescription')}
+        keywords={t('pages.regionalDirectory.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'Regional LGU Directory', href: '/regional-directory' },
+              { label: t('pages.regionalDirectory.breadcrumbHome'), href: '/' },
+              {
+                label: t('pages.regionalDirectory.breadcrumbDirectory'),
+                href: '/regional-directory',
+              },
             ]}
           />
 
-          <Heading>Regional LGU Directory</Heading>
+          <Heading>{t('pages.regionalDirectory.heading')}</Heading>
           <p className="mb-4 max-w-3xl text-gray-600">
-            The cities and municipalities of <strong>{LGU_REGION}</strong> —
-            Koronadal&rsquo;s neighbours across South Cotabato, Cotabato, and
-            Sultan Kudarat — with each local government&rsquo;s mayor and vice
-            mayor.
+            {t('pages.regionalDirectory.intro', { region: LGU_REGION })}
           </p>
           <p className="mb-10 max-w-3xl text-sm text-gray-500">
-            Sourced from the BetterGov.ph government directory. Officials change
-            after each election — verify against the individual LGU before
-            relying on these details. This is an independent community portal.
+            {t('pages.regionalDirectory.disclaimer')}
           </p>
 
           <div className="mb-8 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
@@ -128,15 +133,15 @@ const RegionalDirectory: React.FC = () => {
                 type="search"
                 value={query}
                 onChange={e => setQuery(e.target.value)}
-                placeholder="Search city, municipality, or mayor…"
-                aria-label="Search city, municipality, or mayor"
+                placeholder={t('pages.regionalDirectory.searchPlaceholder')}
+                aria-label={t('pages.regionalDirectory.searchAriaLabel')}
                 className="w-full rounded-md border border-gray-300 py-2 pl-9 pr-9 text-sm text-gray-800 focus:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600"
               />
               {query && (
                 <button
                   type="button"
                   onClick={() => setQuery('')}
-                  aria-label="Clear search"
+                  aria-label={t('pages.regionalDirectory.clearSearch')}
                   className="absolute right-2 top-1/2 -translate-y-1/2 rounded p-1 text-gray-400 hover:text-gray-700 focus:outline-none focus:ring-1 focus:ring-primary-600"
                 >
                   <X className="h-4 w-4" />
@@ -144,7 +149,10 @@ const RegionalDirectory: React.FC = () => {
               )}
             </div>
             <p className="text-sm text-gray-500" aria-live="polite">
-              Showing {shownCount} of {totalCount} LGUs
+              {t('pages.regionalDirectory.showing', {
+                shown: shownCount,
+                total: totalCount,
+              })}
             </p>
           </div>
 
@@ -163,7 +171,7 @@ const RegionalDirectory: React.FC = () => {
             </div>
           ) : (
             <div className="rounded-lg border border-dashed border-gray-300 p-8 text-center text-sm text-gray-500">
-              No LGUs match “{query}”.
+              {t('pages.regionalDirectory.noMatch', { query })}
             </div>
           )}
         </Section>

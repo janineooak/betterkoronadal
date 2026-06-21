@@ -2,7 +2,7 @@ import React from 'react';
 import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
 import { footerNavigation } from '../../data/navigation';
 import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 
 const Footer: React.FC = () => {
   const { t } = useTranslation('common');
@@ -35,34 +35,32 @@ const Footer: React.FC = () => {
             <div className="flex items-center mb-4">
               <img
                 src="/Better.png"
-                alt="BetterKoronadal.org logo"
+                alt={t('footer.logoAlt')}
                 className="h-12 w-12 mr-3"
               />
 
               <div>
                 <div className="font-bold">{t('site_name')}</div>
                 <div className="text-xs text-gray-400">
-                  Community Portal · Unofficial
+                  {t('footer.tagline')}
                 </div>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              An independent, community-built portal that makes information and
-              services for the City of Koronadal easier to find.{' '}
-              <strong className="text-gray-300">
-                Not affiliated with, operated by, or endorsed by the City
-                Government of Koronadal.
-              </strong>{' '}
-              The official city website is{' '}
-              <a
-                href="https://koronadal.gov.ph"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-white"
-              >
-                koronadal.gov.ph
-              </a>
-              .
+              <Trans
+                i18nKey="footer.description"
+                components={{
+                  strong: <strong className="text-gray-300" />,
+                  gov: (
+                    <a
+                      href="https://koronadal.gov.ph"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline hover:text-white"
+                    />
+                  ),
+                }}
+              />
             </p>
             <div className="flex space-x-4">
               {footerNavigation.socialLinks.map(link => (
@@ -83,29 +81,35 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {footerNavigation.mainSections.map(section => (
             <div key={section.title}>
-              <h3 className="text-lg font-semibold mb-4">{section.title}</h3>
+              <h3 className="text-lg font-semibold mb-4">
+                {t(section.titleKey, section.title)}
+              </h3>
               <ul className="space-y-2">
-                {section.links.map(link => (
-                  <li key={link.label}>
-                    {isExternal(link.href) ? (
-                      <a
-                        href={link.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-400 hover:text-white text-sm transition-colors"
-                      >
-                        {link.label}
-                      </a>
-                    ) : (
-                      <Link
-                        to={link.href}
-                        className="text-gray-400 hover:text-white text-sm transition-colors"
-                      >
-                        {link.label}
-                      </Link>
-                    )}
-                  </li>
-                ))}
+                {section.links.map(link => {
+                  const labelKey = (link as { labelKey?: string }).labelKey;
+                  const label = labelKey ? t(labelKey) : link.label;
+                  return (
+                    <li key={link.label}>
+                      {isExternal(link.href) ? (
+                        <a
+                          href={link.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gray-400 hover:text-white text-sm transition-colors"
+                        >
+                          {label}
+                        </a>
+                      ) : (
+                        <Link
+                          to={link.href}
+                          className="text-gray-400 hover:text-white text-sm transition-colors"
+                        >
+                          {label}
+                        </Link>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}
@@ -121,19 +125,19 @@ const Footer: React.FC = () => {
                 to="/about"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
-                About
+                {t('navbar.about')}
               </Link>
               <Link
                 to="/contact"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
-                Contact
+                {t('navbar.contact')}
               </Link>
               <Link
                 to="/hotlines"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
-                Hotlines
+                {t('navbar.hotlines')}
               </Link>
             </div>
           </div>

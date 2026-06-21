@@ -1,4 +1,7 @@
 {
+  "breadcrumbs": {
+    "home": "Home"
+  },
   "common": {
     "clearSearch": "Clear search",
     "filterPlaceholder": "Search…",
@@ -15,7 +18,40 @@
     }
   },
   "footer": {
-    "copyright": "© 2026 BetterKoronadal.org — an independent community project. Not affiliated with the City Government of Koronadal."
+    "copyright": "© 2026 BetterKoronadal.org — an independent community project. Not affiliated with the City Government of Koronadal.",
+    "description": "An independent, community-built portal that makes information and services for the City of Koronadal easier to find. <strong>Not affiliated with, operated by, or endorsed by the City Government of Koronadal.</strong> The official city website is <gov>koronadal.gov.ph</gov>.",
+    "links": {
+      "aboutCity": "About the City",
+      "allServices": "All Services",
+      "barangays": "Barangays",
+      "citizensCharter": "Citizen's Charter",
+      "cityGovernment": "City Government",
+      "cityHistory": "City History",
+      "cityIncome": "City Income",
+      "cityOfficials": "City Officials",
+      "competitiveness": "Competitiveness",
+      "contactUs": "Contact Us",
+      "emergencyHotlines": "Emergency Hotlines",
+      "floodControl": "Flood Control Projects",
+      "foi": "Freedom of Information",
+      "officialGazette": "Official Gazette",
+      "openData": "Open Data",
+      "populationDemographics": "Population & Demographics",
+      "procurement": "Procurement Opportunities",
+      "regionalDirectory": "Regional LGU Directory",
+      "searchSite": "Search the site",
+      "sources": "Sources & References",
+      "transparency": "Transparency & Full Disclosure",
+      "visitKoronadal": "Visit Koronadal"
+    },
+    "logoAlt": "BetterKoronadal.org logo",
+    "sections": {
+      "about": "About",
+      "dataTransparency": "Data & Transparency",
+      "government": "Government",
+      "services": "Services"
+    },
+    "tagline": "Community Portal · Unofficial"
   },
   "forex": {
     "title": "Foreign Exchange Rates"
@@ -28,8 +64,25 @@
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Business Registration",
     "nationalId": "National ID",
+    "searchAria": "Search BetterKoronadal.org",
+    "searchButton": "Search",
+    "searchPlaceholder": "Search services and information…",
     "subtitle": "An independent, community-built portal that makes information and services for the City of Koronadal easier to find. This is not the official city website.",
-    "title": "BetterKoronadal.org"
+    "tasks": {
+      "businessPermit": "Apply for a Business Permit",
+      "garbage": "Garbage Collection Schedule",
+      "healthServices": "Find Health Services",
+      "hotlines": "Emergency Hotlines",
+      "renewPermit": "Renew Permit / Pay Business Tax",
+      "reportRoad": "Report a Road or Drainage Issue",
+      "scholarship": "Apply for a Scholarship",
+      "socialWelfare": "Social Welfare Assistance"
+    },
+    "title": "BetterKoronadal.org",
+    "topTasks": "Top Tasks",
+    "topTasksSubtitle": "Jump straight to the things people do most.",
+    "viewAllServices": "View all services",
+    "welcomeTo": "Welcome to"
   },
   "home": {
     "earthquake": {
@@ -108,14 +161,40 @@
     "stripSubtitle": "Help build the future of the Philippines and governance through technology",
     "stripTitle": "🚀 Join the #CivicTech Revolution"
   },
+  "nav": {
+    "barangays": "Barangays",
+    "citizensCharter": "Citizen's Charter",
+    "cityIncome": "City Income",
+    "cityOfficials": "City Officials",
+    "competitiveness": "Competitiveness",
+    "demographics": "Demographics",
+    "departments": "Departments & Offices",
+    "floodControl": "Flood Control Projects",
+    "guides": "Guides & Regulations",
+    "mayorOffice": "Office of the City Mayor",
+    "news": "News & Announcements",
+    "procurement": "Procurement Opportunities",
+    "regionalDirectory": "Regional LGU Directory",
+    "sanggunian": "Sangguniang Panlungsod",
+    "transparency": "Transparency & Full Disclosure"
+  },
   "navbar": {
+    "about": "About",
+    "aboutTheCity": "About the City",
+    "contact": "Contact",
     "government": "Government",
     "holidays": "Holidays",
     "hotlines": "Hotlines",
+    "officialGovPh": "Official Gov.ph",
+    "officialWebsite": "Official Website",
+    "openMenu": "Open main menu",
+    "search": "Search",
     "selectLanguage": "Select language",
     "services": "Services",
     "statistics": "Statistics",
-    "transparency": "Transparency"
+    "transparency": "Transparency",
+    "viewAll": "View all",
+    "visit": "Visit"
   },
   "news": {
     "title": "Latest News & Updates"
@@ -126,6 +205,16 @@
       "barangaysIntro": "Koronadal is made up of 27 barangays, the largest of which include Gen. Paulino Santos, Santa Cruz, Sto. Niño, Zone III, and Zulueta.",
       "breadcrumbAbout": "About",
       "breadcrumbHome": "Home",
+      "facts": {
+        "alsoKnownAs": "Also known as",
+        "barangays": "Barangays",
+        "classification": "City classification",
+        "landArea": "Land area",
+        "population": "Population (2024)",
+        "province": "Province",
+        "region": "Region",
+        "zip": "ZIP code"
+      },
       "glanceCapitalDesc": "Seat of government of the Province of South Cotabato.",
       "glanceCapitalTitle": "Provincial capital",
       "glanceCityhoodDesc": "Converted into a component city under RA 8803.",
@@ -391,6 +480,23 @@
       "seoTitle": "Procurement Opportunities in Koronadal",
       "updatedBadge": "Updated {{date}}"
     },
+    "regionalDirectory": {
+      "breadcrumbDirectory": "Regional LGU Directory",
+      "breadcrumbHome": "Home",
+      "clearSearch": "Clear search",
+      "disclaimer": "Sourced from the BetterGov.ph government directory. Officials change after each election — verify against the individual LGU before relying on these details. This is an independent community portal.",
+      "heading": "Regional LGU Directory",
+      "intro": "The cities and municipalities of {{region}} — Koronadal's neighbours across South Cotabato, Cotabato, and Sultan Kudarat — with each local government's mayor and vice mayor.",
+      "mayorLabel": "Mayor:",
+      "noMatch": "No LGUs match “{{query}}”.",
+      "searchAriaLabel": "Search city, municipality, or mayor",
+      "searchPlaceholder": "Search city, municipality, or mayor…",
+      "seoDescription": "Directory of the cities and municipalities of Region XII (SOCCSKSARGEN) — South Cotabato, Cotabato, and Sultan Kudarat — with each LGU's mayor and vice mayor.",
+      "seoKeywords": "SOCCSKSARGEN LGU directory, Region XII mayors, South Cotabato municipalities, Sultan Kudarat, Cotabato, vice mayor",
+      "seoTitle": "Regional LGU Directory (SOCCSKSARGEN)",
+      "showing": "Showing {{shown}} of {{total}} LGUs",
+      "viceMayorLabel": "Vice Mayor:"
+    },
     "search": {
       "allServices": "all services",
       "ariaLabel": "Search the portal",
@@ -422,7 +528,24 @@
       "breadcrumbSources": "Sources",
       "confirmBody": "Details such as officials, office hours, fees, and procedures can change. For decisions that matter, verify with the official city website at",
       "confirmStrong": "Always confirm before you act.",
+      "groups": {
+        "demographics": "Population, demographics & statistics",
+        "news": "News & reporting (for verifying officials and events)",
+        "profile": "City profile, history & officials",
+        "tourism": "Tourism & culture",
+        "transparency": "Transparency, budget & procurement",
+        "weather": "Weather & hazards"
+      },
       "intro": "BetterKoronadal.org is an independent, community-built portal. The information here is compiled from the official sources listed below and was last verified in {{date}}. We are not affiliated with the City Government of Koronadal.",
+      "items": {
+        "fdpp": "DILG Memorandum Circular 2011-134",
+        "koronadalCulture": "Hinugyaw Festival, heritage sites, cultural values",
+        "koronadalFacebook": "Advisories and official announcements",
+        "koronadalWebsite": "Officials, departments, history, contact details",
+        "openMeteo": "Powers the homepage weather widget",
+        "psa": "2024 (201,844) and 2020 (195,398) census figures, land area",
+        "wikipedia": "History (EO 82, RA 4849, RA 8803), geography, etymology"
+      },
       "seoDescription": "The official websites, government agencies, and references used to compile the information on BetterKoronadal.org, an independent community portal for the City of Koronadal.",
       "seoKeywords": "Koronadal sources, references, koronadal.gov.ph, PSA, DILG, PhilGEPS, COA, PAGASA, data sources, citations",
       "seoTitle": "Sources & References — BetterKoronadal.org",
@@ -523,6 +646,20 @@
       "breadcrumbTourism": "Tourism",
       "cultureCardBody": "Read about Koronadal's festivals, heritage, and cultural values on the official city website.",
       "cultureCardTitle": "Culture & heritage",
+      "dayTrips": {
+        "lakeHolon": {
+          "description": "A pristine crater lake on Mt. Melibingoy reached by a guided trek — turquoise waters, camping, and stargazing for more adventurous visitors.",
+          "name": "Lake Holon (Lake Maughan), T’boli"
+        },
+        "lakeSebu": {
+          "description": "A highland lake at ~1,000 m and the cultural home of the T’boli dreamweavers — known for tilapia, lotus blooms, and the T’boli Museum.",
+          "name": "Lake Sebu"
+        },
+        "sevenFalls": {
+          "description": "Lake Sebu’s crown jewel: seven cascading waterfalls and one of the highest zipline rides in the country, about a 1–1.5 hr drive from Koronadal.",
+          "name": "Seven Falls & Zipline, Lake Sebu"
+        }
+      },
       "dayTripsHeading": "Day trips beyond the city",
       "dayTripsIntro": "Koronadal is a convenient base for exploring South Cotabato. These famous spots are outside the city but are commonly visited on day trips from Marbel.",
       "festivalBody": "The Hinugyaw Festival is Koronadal's signature celebration, held every January as part of Araw ng Koronadal, the city's founding anniversary. \"Hinugyaw\" means joyous celebration — the streets come alive with colorful street dancing, parades, and showcases of the city's settler and Indigenous cultures.",
@@ -531,6 +668,44 @@
       "hotlinesCardBody": "Keep important numbers handy in case you need help during your trip.",
       "hotlinesCardTitle": "Emergency hotlines",
       "intro": "Known as the \"Hub of the South\" and the capital of South Cotabato, Koronadal City (Marbel) blends a lively urban center with highland views, cultural heritage, and easy access to some of Mindanao's most celebrated natural wonders. Here is a guide to what to see in the city and nearby.",
+      "places": {
+        "carpenterHill": {
+          "description": "A highland agri-tourism spot in Brgy. Carpenter Hill with pineapple plantations and farm views, a short drive from the city centre.",
+          "name": "The Farm at Carpenter Hill"
+        },
+        "cityPlaza": {
+          "description": "The central civic plaza in the heart of the city — a gathering place for events, evening strolls, and city celebrations.",
+          "name": "Koronadal City Plaza (Rizal Park)"
+        },
+        "communityMuseum": {
+          "description": "On the Capitol grounds, the provincial museum houses artifacts and crafts of the Blaan, T’boli, and settler communities that shaped the region.",
+          "name": "South Cotabato Community Museum"
+        },
+        "dioceseMarbel": {
+          "description": "Koronadal is the seat of the Catholic Diocese of Marbel. Parish churches across the city anchor major religious feasts and patronal fiestas.",
+          "name": "Diocese of Marbel & city churches"
+        },
+        "kalonBarak": {
+          "description": "An elevated viewpoint at roughly 2,375 ft offering panoramic views toward Mt. Matutum, Mt. Apo, and a sea of clouds on cool mornings — a favourite for sunrise and sunset.",
+          "name": "Kalon Barak Skyline Ridge"
+        },
+        "kccMall": {
+          "description": "The city’s main shopping mall — local restaurants, regional produce like mangoes and tilapia, and SOCCSKSARGEN souvenirs.",
+          "name": "KCC Mall of Marbel"
+        },
+        "localMarkets": {
+          "description": "As the \"Hub of the South,\" Koronadal is a trade center for South Cotabato — explore its public markets, agricultural produce, and Mindanao flavors.",
+          "name": "Local markets & cuisine"
+        },
+        "paraisoVerde": {
+          "description": "Billed as the largest recreational water park in the SOCCSKSARGEN region, with pools, slides, and accommodations for a family day out.",
+          "name": "Paraiso Verde Resort & Water Park"
+        },
+        "provincialCapitol": {
+          "description": "The seat of the provincial government. Koronadal is the capital of South Cotabato and the regional center of SOCCSKSARGEN.",
+          "name": "South Cotabato Provincial Capitol"
+        }
+      },
       "placesHeading": "Places & highlights",
       "planHeading": "Plan your visit",
       "seoDescription": "Discover what to see and do in the City of Koronadal (Marbel), the Hub of the South — the Hinugyaw Festival, the City Plaza, Kalon Barak Skyline Ridge, and day trips to Lake Sebu and Seven Falls.",
@@ -544,6 +719,32 @@
       "disclaimer": "<strong>Note:</strong> BetterKoronadal.org is an independent community project and does not host official financial documents. The links below point to the official government portals that publish them.",
       "heading": "Transparency & Open Data",
       "intro": "Local government units in the Philippines are required to publish their budgets, finances, and projects under the <strong>Full Disclosure Policy (FDP)</strong>. This page gathers the official channels where you can review how the City of Koronadal manages public funds.",
+      "resources": {
+        "budgetReports": {
+          "description": "Annual budgets, statements of receipts and expenditures, and other financial documents are posted to the LGU's FDP page and official website.",
+          "name": "Budget & Financial Reports"
+        },
+        "cityWebsite": {
+          "description": "The City Government of Koronadal posts official issuances, news, and transparency documents on its own website.",
+          "name": "Official City Website"
+        },
+        "coa": {
+          "description": "Independent annual audit reports on the finances of LGUs and other government agencies, published by the Commission on Audit.",
+          "name": "Commission on Audit (COA) Reports"
+        },
+        "fdpPortal": {
+          "description": "The DILG portal where LGUs post budgets, finances, bids, and the status of programs and projects, as required by DILG Memorandum Circular 2011-134.",
+          "name": "Full Disclosure Policy (FDP) Portal"
+        },
+        "foi": {
+          "description": "Request government records through the national eFOI platform. FOI covers documents held by government agencies, subject to the standard exceptions.",
+          "name": "Freedom of Information (FOI)"
+        },
+        "philgeps": {
+          "description": "The Philippine Government Electronic Procurement System lists invitations to bid, awards, and notices to proceed under RA 9184 (Government Procurement Reform Act).",
+          "name": "PhilGEPS — Bids & Procurement"
+        }
+      },
       "seoDescription": "Where to find Koronadal's budgets, financial reports, bids, and procurement notices — the Full Disclosure Policy (FDP) Portal, PhilGEPS, COA reports, and Freedom of Information.",
       "seoKeywords": "Koronadal transparency, Full Disclosure Policy, FDP, PhilGEPS, COA, Freedom of Information, FOI, budget, procurement, open data, DILG",
       "seoTitle": "Transparency & Open Data — City of Koronadal",

@@ -17,52 +17,39 @@ import {
 } from 'lucide-react';
 
 interface Resource {
-  name: string;
-  description: string;
+  key: string;
   href: string;
   Icon: React.ComponentType<{ className?: string }>;
 }
 
 const resources: Resource[] = [
   {
-    name: 'Full Disclosure Policy (FDP) Portal',
-    description:
-      'The DILG portal where LGUs post budgets, finances, bids, and the status of programs and projects, as required by DILG Memorandum Circular 2011-134.',
+    key: 'fdpPortal',
     href: 'https://fdpp.dilg.gov.ph',
     Icon: FileText,
   },
   {
-    name: 'PhilGEPS — Bids & Procurement',
-    description:
-      'The Philippine Government Electronic Procurement System lists invitations to bid, awards, and notices to proceed under RA 9184 (Government Procurement Reform Act).',
+    key: 'philgeps',
     href: 'https://www.philgeps.gov.ph',
     Icon: Gavel,
   },
   {
-    name: 'Budget & Financial Reports',
-    description:
-      "Annual budgets, statements of receipts and expenditures, and other financial documents are posted to the LGU's FDP page and official website.",
+    key: 'budgetReports',
     href: 'https://fdpp.dilg.gov.ph',
     Icon: Wallet,
   },
   {
-    name: 'Freedom of Information (FOI)',
-    description:
-      'Request government records through the national eFOI platform. FOI covers documents held by government agencies, subject to the standard exceptions.',
+    key: 'foi',
     href: 'https://www.foi.gov.ph',
     Icon: ClipboardList,
   },
   {
-    name: 'Commission on Audit (COA) Reports',
-    description:
-      'Independent annual audit reports on the finances of LGUs and other government agencies, published by the Commission on Audit.',
+    key: 'coa',
     href: 'https://www.coa.gov.ph',
     Icon: ScrollText,
   },
   {
-    name: 'Official City Website',
-    description:
-      'The City Government of Koronadal posts official issuances, news, and transparency documents on its own website.',
+    key: 'cityWebsite',
     href: 'https://koronadal.gov.ph',
     Icon: Building2,
   },
@@ -120,9 +107,9 @@ const Transparency: React.FC = () => {
             {t('pages.transparency.whereToFindHeading')}
           </Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-12">
-            {resources.map(({ name, description, href, Icon }) => (
+            {resources.map(({ key, href, Icon }) => (
               <a
-                key={name}
+                key={key}
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -133,8 +120,12 @@ const Transparency: React.FC = () => {
                       <Icon className="h-6 w-6 text-primary-600 mb-2" />
                       <ExternalLink className="h-4 w-4 text-gray-400" />
                     </div>
-                    <p className="font-semibold text-gray-900">{name}</p>
-                    <p className="mt-1 text-sm text-gray-600">{description}</p>
+                    <p className="font-semibold text-gray-900">
+                      {t(`pages.transparency.resources.${key}.name`)}
+                    </p>
+                    <p className="mt-1 text-sm text-gray-600">
+                      {t(`pages.transparency.resources.${key}.description`)}
+                    </p>
                   </CardContent>
                 </Card>
               </a>
