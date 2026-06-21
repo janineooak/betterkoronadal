@@ -1,0 +1,19 @@
+# Civil Registry Category Pages
+# This file contains all the pages/services available under the Civil Registry category
+
+pages:
+  - name: 'Mag-aplay ng marriage license'
+    slug: 'apply-for-a-marriage-license'
+    description: 'Kung paano mag-file ng marriage license sa CCRO, kasama ang kinakailangang pre-marriage counseling, mga bayarin, at ang 10-araw na panahon ng posting.'
+
+  - name: 'Magparehistro ng kapanganakan, kamatayan, o kasal'
+    slug: 'register-a-birth-death-or-marriage'
+    description: 'Magparehistro ng mga kapanganakan, kasal, at kamatayan — napapanahon, naantala, out-of-town, at para sa mga anak ng hindi kasal na magulang — kasama ang mga kinakailangan at bayarin.'
+
+  - name: 'Humiling ng mga dokumento sa civil registry'
+    slug: 'request-civil-registry-documents'
+    description: 'Kumuha ng mga certified copy ng birth, marriage, at death certificate, pati na rin ang authenticated PSA (SECPA) copy at CENOMAR.'
+
+  - name: 'Magwasto o mag-amyenda ng tala sa civil registry'
+    slug: 'correct-or-amend-a-civil-registry-record'
+    description: 'Itama ang mga clerical error, palitan ang first name, gawing lehitimo ang isang anak, magparehistro ng court decree, gamitin ang apelyido ng ama (AUSF), o mag-file ng supplemental report.'

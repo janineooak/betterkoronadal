@@ -1,0 +1,19 @@
+# Taxes & Property Category Pages
+# This file contains all the pages/services available under the Taxes & Property category
+
+pages:
+  - name: 'Bayaran ang inyong real property tax'
+    slug: 'pay-real-property-tax'
+    description: "Bayaran ang buwis sa lupa, gusali, at makinarya sa City Treasurer's Office, na may diskwento sa maagang pagbabayad, gayundin kung paano kumuha ng tax clearance."
+
+  - name: 'Bayaran ang business at iba pang lokal na buwis'
+    slug: 'pay-business-and-other-local-taxes'
+    description: 'Bayaran ang business tax, transfer tax, situs tax, mga bayarin sa timbang at sukat, idle land tax, cedula, at iba pang lokal na buwis at singil.'
+
+  - name: 'Kumuha ng tax declaration o sertipiko ng ari-arian'
+    slug: 'get-a-tax-declaration-or-property-certificate'
+    description: 'Humiling ng sertipikadong kopya ng inyong Tax Declaration at mga sertipikasyon tulad ng No Landholding, Total Landholding, o No Improvement mula sa City Assessor.'
+
+  - name: 'Humiling ng property assessment o update sa tax declaration'
+    slug: 'request-a-property-assessment-or-tax-declaration-update'
+    description: 'Ipa-assess ang mga bagong gusali, makinarya, o lupa, o i-update ang inyong Tax Declaration para sa mga paglilipat, segregation, consolidation, o annotation ng lien.'

@@ -1,0 +1,19 @@
+# Transport & Franchising Category Pages
+# This file contains all the pages/services available under the Transport & Franchising category
+
+pages:
+  - name: 'Mag-apply o mag-renew ng tricycle franchise (MTOP)'
+    slug: 'apply-for-or-renew-a-tricycle-franchise-mtop'
+    description: "Mag-apply ng bago, mag-renew, mag-substitute, maglipat, sumunod taun-taon, o mag-drop ng Motorized Tricycle Operator's Permit."
+
+  - name: 'Kumuha ng MTOP certification, fare matrix, o duplicate'
+    slug: 'get-an-mtop-certification-fare-matrix-or-duplicate'
+    description: 'Humiling ng mga sertipikasyon ng MTOP, duplicate na kopya ng mga aprubadong permit at fare matrix, o datos ng MTOP.'
+
+  - name: 'Humiling ng traffic assistance o mag-ulat ng paglabag'
+    slug: 'request-traffic-assistance-or-report-violations'
+    description: 'Kumuha ng traffic assistance para sa mga kaganapan, maghain ng reklamo, o humiling ng orientation seminar tungkol sa mga patakaran sa trapiko.'
+
+  - name: 'Magrehistro ng sasakyan at magbayad ng terminal fees'
+    slug: 'register-a-vehicle-and-pay-terminal-fees'
+    description: 'Magrehistro ng mga public utility vehicle sa city terminal at magbayad ng terminal fee bawat pasok.'

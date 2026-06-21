@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 // Maps an i18next language code to (htmlLang, ogLocale, metaLanguage).
 const localeMeta: Record<string, [string, string, string]> = {
   en: ['en', 'en_US', 'English'],
+  fil: ['fil', 'fil_PH', 'Filipino'],
   hil: ['hil', 'hil_PH', 'Hiligaynon'],
 };
 

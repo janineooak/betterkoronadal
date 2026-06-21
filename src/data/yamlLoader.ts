@@ -33,6 +33,8 @@ import servicesYamlContent from './services.yaml?raw';
 import governmentActivitiesYamlContent from './government.yaml?raw';
 import servicesYamlHil from './services.hil.yaml?raw';
 import governmentActivitiesYamlHil from './government.hil.yaml?raw';
+import servicesYamlFil from './services.fil.yaml?raw';
+import governmentActivitiesYamlFil from './government.fil.yaml?raw';
 
 // Import all category index files statically (English base)
 import healthServicesIndex from '../../content/services/health-services/index.yaml?raw';
@@ -73,6 +75,26 @@ import employmentIndexHil from '../../content/services/employment/index.hil.yaml
 import governmentDepartmentsIndexHil from '../../content/government/departments/index.hil.yaml?raw';
 import governmentReportsAndStatisticsIndexHil from '../../content/government/reports-and-statistics/index.hil.yaml?raw';
 import governmentGuidesAndRegulationsIndexHil from '../../content/government/guides-and-regulations/index.hil.yaml?raw';
+
+// Filipino index variants
+import healthServicesIndexFil from '../../content/services/health-services/index.fil.yaml?raw';
+import educationIndexFil from '../../content/services/education/index.fil.yaml?raw';
+import businessIndexFil from '../../content/services/business/index.fil.yaml?raw';
+import socialWelfareIndexFil from '../../content/services/social-welfare/index.fil.yaml?raw';
+import agricultureFisheriesIndexFil from '../../content/services/agriculture-fisheries/index.fil.yaml?raw';
+import infrastructurePublicWorksIndexFil from '../../content/services/infrastructure-public-works/index.fil.yaml?raw';
+import garbageWasteDisposalIndexFil from '../../content/services/garbage-waste-disposal/index.fil.yaml?raw';
+import environmentIndexFil from '../../content/services/environment/index.fil.yaml?raw';
+import disasterPreparednessIndexFil from '../../content/services/disaster-preparedness/index.fil.yaml?raw';
+import housingLandUseIndexFil from '../../content/services/housing-land-use/index.fil.yaml?raw';
+import civilRegistryIndexFil from '../../content/services/civil-registry/index.fil.yaml?raw';
+import taxesAndPropertyIndexFil from '../../content/services/taxes-and-property/index.fil.yaml?raw';
+import buildingConstructionIndexFil from '../../content/services/building-construction/index.fil.yaml?raw';
+import transportIndexFil from '../../content/services/transport/index.fil.yaml?raw';
+import employmentIndexFil from '../../content/services/employment/index.fil.yaml?raw';
+import governmentDepartmentsIndexFil from '../../content/government/departments/index.fil.yaml?raw';
+import governmentReportsAndStatisticsIndexFil from '../../content/government/reports-and-statistics/index.fil.yaml?raw';
+import governmentGuidesAndRegulationsIndexFil from '../../content/government/guides-and-regulations/index.fil.yaml?raw';
 
 // Create a mapping of category slugs to their YAML content, per language.
 const categoryIndexMaps: Record<string, { [key: string]: string }> = {
@@ -116,6 +138,26 @@ const categoryIndexMaps: Record<string, { [key: string]: string }> = {
     'reports-and-statistics': governmentReportsAndStatisticsIndexHil,
     'guides-and-regulations': governmentGuidesAndRegulationsIndexHil,
   },
+  fil: {
+    'health-services': healthServicesIndexFil,
+    education: educationIndexFil,
+    business: businessIndexFil,
+    'social-welfare': socialWelfareIndexFil,
+    'agriculture-fisheries': agricultureFisheriesIndexFil,
+    'infrastructure-public-works': infrastructurePublicWorksIndexFil,
+    'garbage-waste-disposal': garbageWasteDisposalIndexFil,
+    environment: environmentIndexFil,
+    'disaster-preparedness': disasterPreparednessIndexFil,
+    'housing-land-use': housingLandUseIndexFil,
+    'civil-registry': civilRegistryIndexFil,
+    'taxes-and-property': taxesAndPropertyIndexFil,
+    'building-construction': buildingConstructionIndexFil,
+    transport: transportIndexFil,
+    employment: employmentIndexFil,
+    departments: governmentDepartmentsIndexFil,
+    'reports-and-statistics': governmentReportsAndStatisticsIndexFil,
+    'guides-and-regulations': governmentGuidesAndRegulationsIndexFil,
+  },
 };
 
 // English remains the canonical map for callers that don't pass a language
@@ -134,10 +176,12 @@ export const governmentCategories: CategoryData = yaml.load(
 const serviceCategoriesByLang: Record<string, CategoryData> = {
   en: serviceCategories,
   hil: yaml.load(servicesYamlHil) as CategoryData,
+  fil: yaml.load(servicesYamlFil) as CategoryData,
 };
 const governmentCategoriesByLang: Record<string, CategoryData> = {
   en: governmentCategories,
   hil: yaml.load(governmentActivitiesYamlHil) as CategoryData,
+  fil: yaml.load(governmentActivitiesYamlFil) as CategoryData,
 };
 
 /**

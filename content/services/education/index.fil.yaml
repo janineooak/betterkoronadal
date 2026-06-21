@@ -1,0 +1,16 @@
+pages:
+  - name: 'Ipatala ang mga bata sa LGU daycare o preschool program'
+    slug: 'enroll-children-in-lgu-daycare-or-preschool-programs'
+    description: 'Impormasyon tungkol sa pagpapatala ng inyong mga anak sa mga programang daycare at preschool ng lokal na pamahalaan.'
+
+  - name: 'Mag-apply ng mga lokal na scholarship'
+    slug: 'apply-for-local-scholarships'
+    description: 'Paano mag-apply ng scholarship at tulong pinansyal na pang-edukasyon mula sa inyong lokal na pamahalaan.'
+
+  - name: 'Makakuha ng mga programang pansuporta sa edukasyon mula sa LGU'
+    slug: 'access-educational-support-programs-from-the-lgu'
+    description: "Iba't ibang programang pansuporta sa edukasyon at mga mapagkukunan na ibinibigay ng inyong lokal na pamahalaan."
+
+  - name: 'Alamin ang mga karagdagang aktibidad para sa mga paaralan sa inyong lugar'
+    slug: 'learn-about-supplementary-activities-for-schools-in-your-area'
+    description: 'Impormasyon tungkol sa mga karagdagang aktibidad at programang pang-edukasyon na available para sa mga paaralan sa inyong lugar.'

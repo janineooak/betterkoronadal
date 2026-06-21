@@ -1,0 +1,15 @@
+# Housing & Land Use Category Pages
+# This file contains all the pages/services available under the Housing & Land Use category
+
+pages:
+  - name: 'Mag-aplay para sa socialized housing o proyekto ng relokasyon'
+    slug: 'apply-for-socialized-housing-or-relocation-projects'
+    description: 'Impormasyon tungkol sa pag-aplay para sa socialized housing at mga proyekto ng relokasyon mula sa inyong lokal na pamahalaan.'
+
+  - name: 'Humiling ng zoning, land use, o building permit'
+    slug: 'request-zoning-land-use-or-building-permits'
+    description: 'Kung paano humiling ng zoning, land use, at building permit mula sa inyong lokal na pamahalaan.'
+
+  - name: 'Magtanong tungkol sa mga available na lugar ng relokasyon sakaling magkaroon ng demolisyon'
+    slug: 'ask-about-available-relocation-sites-in-case-of-demolition'
+    description: 'Impormasyon tungkol sa mga available na lugar ng relokasyon sakaling magkaroon ng demolisyon o pagkawala ng tirahan.'

@@ -1,0 +1,16 @@
+# Reports and Statistics Pages
+# Each entry maps to a markdown file: content/government/reports-and-statistics/{slug}.md
+
+layout: grid
+title: 'Mga Ulat at Estadistika'
+description: 'Mahahalagang katotohanan, datos, at sangguniang impormasyon tungkol sa Lungsod ng Koronadal — demograpiya, heograpiya, pamamahala, at lokal na ekonomiya.'
+pages:
+  - name: 'Profile at Mahahalagang Estadistika ng Lungsod ng Koronadal'
+    slug: 'city-profile-and-statistics'
+    description: 'Isang larawan ng datos ng Koronadal: populasyon, sukat ng lupain, ang 27 barangay, heograpiya, ekonomiya, at mga datos sa pamamahala.'
+  - name: 'Populasyon at Demograpiya'
+    slug: 'population-and-demographics'
+    description: 'Bilang ng populasyon, paglaki, datos ng sambahayan, at kung paano ihinahambing ang Koronadal sa loob ng South Cotabato at Rehiyon XII.'
+  - name: 'Direktoryo ng Barangay'
+    slug: 'barangay-directory'
+    description: 'Ang 27 barangay ng Koronadal, kasama ang mga pinakamaraming naninirahang barangay at pangunahing sangguniang impormasyon.'

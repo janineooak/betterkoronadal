@@ -1,0 +1,16 @@
+pages:
+  - name: "Mag-apply ng barangay clearance at mayor's business permit"
+    slug: 'apply-for-barangay-clearance-and-mayors-business-permits'
+    description: "Hakbang-hakbang na gabay sa pag-apply ng barangay clearance at mayor's business permit para sa inyong negosyo."
+
+  - name: 'Mag-renew ng permit at magbayad ng lokal na business tax'
+    slug: 'renew-permits-and-pay-local-business-taxes'
+    description: 'Impormasyon tungkol sa pag-renew ng business permit at pagbabayad ng lokal na business tax sa inyong lokal na pamahalaan.'
+
+  - name: 'Magrenta ng puwesto sa mga pampublikong palengke'
+    slug: 'rent-stalls-in-public-markets'
+    description: 'Paano magrenta ng puwesto sa mga pampublikong palengke ng lokal na pamahalaan para sa inyong negosyo.'
+
+  - name: 'Sumali sa mga trade fair, business expo, o promosyon sa turismo'
+    slug: 'join-trade-fairs-business-expos-or-tourism-promotions'
+    description: 'Sumali sa mga lokal na trade fair, business expo, at mga aktibidad sa promosyon ng turismo.'

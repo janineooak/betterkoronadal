@@ -1,0 +1,11 @@
+# Environment Category Pages
+# This file contains all the pages/services available under the Environment category
+
+pages:
+  - name: 'Sumali sa mga clean-up drive at pagtatanim ng puno'
+    slug: 'join-clean-up-drives-and-tree-planting-activities'
+    description: 'Impormasyon tungkol sa pakikilahok sa mga clean-up drive ng komunidad at aktibidad ng pagtatanim ng puno.'
+
+  - name: 'Mag-ulat ng iligal na pagtotroso, pagmiminahan, o pangingisda'
+    slug: 'report-illegal-logging-quarrying-or-fishing'
+    description: 'Kung paano mag-ulat ng mga iligal na aktibidad sa kapaligiran tulad ng pagtotroso, pagmiminahan, o iligal na pangingisda.'

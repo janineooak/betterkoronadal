@@ -1,0 +1,75 @@
+categories:
+  - category: 'Mga Serbisyong Pangkalusugan'
+    slug: 'health-services'
+    description: 'Kung saan pwedeng magpa-check-up nang libre, magpabakuna, at kumuha ng gamot, kung anong mga ospital ang available, at mga detalye tungkol sa mga programang pangkalusugan sa inyong lugar.'
+    icon: 'Heart'
+
+  - category: 'Edukasyon'
+    slug: 'education'
+    description: 'Kung saan ipapatala ang mga bata sa daycare o preschool, paano mag-apply ng scholarship, at kung anong suportang pang-edukasyon ang inaalok ng inyong LGU.'
+    icon: 'GraduationCap'
+
+  - category: 'Negosyo at Kabuhayan'
+    slug: 'business'
+    description: 'Kung anong mga permit at clearance ang kailangan, kung saan magbabayad ng buwis o mag-renew ng permit, at kung anong mga oportunidad sa kabuhayan o kalakalan ang inaalok.'
+    icon: 'Building2'
+
+  - category: 'Kapakanang Panlipunan'
+    slug: 'social-welfare'
+    description: 'Kung anong tulong ang available para sa mga senior citizen, PWD, solo parent, at mahihirap na pamilya, kasama na ang mga detalye tungkol sa relief goods, at tulong-kabuhayan.'
+    icon: 'Users'
+
+  - category: 'Agrikultura at Pangisdaan'
+    slug: 'agriculture-fisheries'
+    description: 'Kung anong tulong sa pagsasaka o pangingisda ang available, kabilang ang mga binhi, pataba, pangangalaga sa hayop, at kung saan sasali sa pagsasanay o hihiram ng kagamitan.'
+    icon: 'Wheat'
+
+  - category: 'Imprastraktura at Pampublikong Gawain'
+    slug: 'infrastructure-public-works'
+    description: 'Paano mag-ulat ng sirang kalsada o drainage, kung saan hihiling ng supply ng tubig, at paano gagamitin ang mga pampublikong pasilidad at palengke.'
+    icon: 'Wrench'
+
+  - category: 'Pagtatapon ng Basura at Dumi'
+    slug: 'garbage-waste-disposal'
+    description: "Mga iskedyul ng pangongolekta ng basura, mga patnubay sa pagtatapon ng dumi, at paano tama na itapon ang iba't ibang uri ng basura."
+    icon: 'Trash2'
+
+  - category: 'Kalikasan'
+    slug: 'environment'
+    description: 'Mga aktibidad na paglilinis o pagtatanim ng puno, mga patakaran sa pangangalaga sa kalikasan, at mga programa sa konserbasyon.'
+    icon: 'TreePine'
+
+  - category: 'Paghahanda sa Sakuna'
+    slug: 'disaster-preparedness'
+    description: 'Mga plano sa paghahanda sa sakuna, impormasyon sa pagtugon sa emerhensya, at mga pamamaraan ng paglikas.'
+    icon: 'Shield'
+
+  - category: 'Pabahay at Paggamit ng Lupa'
+    slug: 'housing-land-use'
+    description: 'Paano mag-apply sa mga proyektong pabahay, kung anong zoning at building permit ang kailangan, at kung saan may mga relocation site na available.'
+    icon: 'Home'
+
+  - category: 'Civil Registry'
+    slug: 'civil-registry'
+    description: 'Mga sertipiko ng kapanganakan, kasal, at kamatayan — magparehistro ng mga pangyayari, kumuha ng certified copy, at magtama ng mga rekord sa City Civil Registry Office.'
+    icon: 'FileText'
+
+  - category: 'Buwis at Ari-arian'
+    slug: 'taxes-and-property'
+    description: "Magbayad ng inyong real property at business tax, at humiling ng tax declaration, property certificate, at assessment update mula sa City Treasurer's at Assessor's Offices."
+    icon: 'Receipt'
+
+  - category: 'Gusali at Konstruksyon'
+    slug: 'building-construction'
+    description: 'Mga building permit, occupancy certificate, bakod, kuryente, at demolition permit, at mga zoning o locational clearance.'
+    icon: 'HardHat'
+
+  - category: 'Transportasyon at Franchising'
+    slug: 'transport'
+    description: 'Mga prangkisa ng tricycle (MTOP), tulong at reklamo sa trapiko, at rehistro at bayarin ng sasakyan sa city terminal.'
+    icon: 'Bus'
+
+  - category: 'Trabaho at Kooperatiba'
+    slug: 'employment'
+    description: 'Maghanap ng trabaho, mag-apply sa mga programa para sa estudyante at emergency-employment, kumuha ng tulong para sa OFW, at magparehistro o magpalakas ng kooperatiba.'
+    icon: 'Briefcase'

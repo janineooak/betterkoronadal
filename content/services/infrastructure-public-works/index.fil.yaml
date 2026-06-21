@@ -1,0 +1,19 @@
+# Infrastructure & Public Works Category Pages
+# This file contains all the pages/services available under the Infrastructure & Public Works category
+
+pages:
+  - name: 'Mag-ulat ng sirang kalsada, tulay, o drainage'
+    slug: 'report-damaged-roads-bridges-or-drainage'
+    description: 'Kung paano mag-ulat ng sirang imprastraktura tulad ng mga kalsada, tulay, at sistema ng drainage sa inyong lokal na pamahalaan.'
+
+  - name: 'Humiling ng akses sa sistema ng tubig sa barangay'
+    slug: 'request-access-to-barangay-water-supply-systems'
+    description: 'Impormasyon tungkol sa paghiling ng akses sa mga sistema ng suplay ng tubig sa barangay at koneksyon ng tubig.'
+
+  - name: 'Gumamit ng pampublikong pasilidad tulad ng gym, barangay hall, o multipurpose center'
+    slug: 'use-public-facilities-like-gyms-barangay-halls-or-multipurpose-centers'
+    description: 'Kung paano mag-akses at gumamit ng mga pampublikong pasilidad tulad ng gym, barangay hall, at multipurpose center.'
+
+  - name: 'Mag-arkila ng puwesto sa pampublikong palengke o gumamit ng mga sementeryong pinamamahalaan ng LGU'
+    slug: 'rent-stalls-in-public-markets-or-use-lgu-managed-cemeteries'
+    description: 'Impormasyon tungkol sa pag-arkila ng puwesto sa mga pampublikong palengke at paggamit ng mga serbisyo ng sementeryong pinamamahalaan ng LGU.'

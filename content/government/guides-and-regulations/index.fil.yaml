@@ -1,0 +1,28 @@
+# Guides and Regulations Pages
+# Each entry maps to a markdown file: content/government/guides-and-regulations/{slug}.md
+# The optional `subcategory` field groups pages on the category page (e.g. Guides vs. Regulations).
+
+layout: grid
+title: 'Mga Gabay at Regulasyon'
+description: 'Mga hakbang-hakbang na gabay sa mga karaniwang transaksyon sa Pamahalaang Panlungsod ng Koronadal, kasama ang mahahalagang lokal na panuntunan na dapat malaman ng bawat residente.'
+pages:
+  - name: "Paano Kumuha ng Mayor's Permit / Business Permit"
+    slug: 'how-to-get-a-business-permit'
+    subcategory: 'Mga Gabay'
+    description: 'Isang hakbang-hakbang na gabay sa pag-apply at pag-renew ng business permit sa Koronadal, kasama ang mga kinakailangan at bayarin.'
+  - name: 'Paano Humiling ng mga Dokumento ng Civil Registry'
+    slug: 'how-to-request-civil-registry-documents'
+    subcategory: 'Mga Gabay'
+    description: 'Kung paano kumuha ng mga sertipiko ng kapanganakan, kasal, at kamatayan at iba pang dokumento ng civil registry mula sa City Civil Registrar.'
+  - name: 'Paano Magbayad ng Real Property Tax'
+    slug: 'how-to-pay-real-property-tax'
+    subcategory: 'Mga Gabay'
+    description: 'Isang gabay sa pagbabayad ng inyong real property tax (amilyar) sa Koronadal, kasama kung saan magbabayad, mga takdang petsa, at mga diskwento.'
+  - name: 'Paano Kumuha ng Barangay Clearance'
+    slug: 'how-to-get-a-barangay-clearance'
+    subcategory: 'Mga Gabay'
+    description: 'Ang mga pangunahing hakbang at kinakailangan sa pagkuha ng barangay clearance, na kadalasang unang hakbang para sa maraming transaksyon.'
+  - name: 'Mga Ordinansa ng Lungsod ng Koronadal'
+    slug: 'city-ordinances'
+    subcategory: 'Mga Regulasyon'
+    description: 'Isang sangguniang listahan ng mga ordinansang isinabatas ng Sangguniang Panlungsod, nakaayos ayon sa taon mula 2021 hanggang 2025.'

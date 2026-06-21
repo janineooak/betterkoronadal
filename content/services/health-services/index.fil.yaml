@@ -1,0 +1,16 @@
+pages:
+  - name: 'Magpa-check-up, kumuha ng batayang gamot, at magpabakuna nang libre'
+    slug: 'get-free-check-ups-basic-medicines-and-vaccines'
+    description: 'Makakuha ng libreng medical check-up, batayang gamot, at serbisyong pagbabakuna na ibinibigay ng inyong lokal na pamahalaan.'
+
+  - name: 'Makakuha ng maternal care at pagbabakuna sa bata'
+    slug: 'access-maternal-care-and-child-immunization'
+    description: 'Impormasyon tungkol sa mga serbisyong pangkalusugan para sa ina at mga programa sa pagbabakuna ng bata na available sa inyong lugar.'
+
+  - name: 'Magtungo sa lokal na ospital para sa lunas o pagpapaospital'
+    slug: 'go-to-the-local-hospital-for-treatment-or-confinement'
+    description: 'Mga detalye tungkol sa mga serbisyo ng lokal na ospital, mga opsyon sa paggamot, at mga pamamaraan ng pagpapaospital.'
+
+  - name: 'Sumali sa mga programang pangkalusugan (nutrisyon, kontrol sa dengue, lunas sa TB)'
+    slug: 'join-health-programs-nutrition-dengue-control-tb-treatment'
+    description: "Sumali sa iba't ibang programang pangkalusugan kabilang ang suporta sa nutrisyon, kontrol sa dengue, at mga hakbangin sa paggamot ng TB."

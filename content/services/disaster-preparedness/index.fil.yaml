@@ -1,0 +1,15 @@
+# Disaster Preparedness Category Pages
+# This file contains all the pages/services available under the Disaster Preparedness category
+
+pages:
+  - name: 'Sumali sa mga disaster drill at pagpaplano ng paglikas'
+    slug: 'join-disaster-drills-and-evacuation-planning'
+    description: 'Impormasyon tungkol sa pakikilahok sa mga disaster drill at aktibidad ng pagpaplano ng paglikas.'
+
+  - name: 'Matutunan ang mga pamamaraan ng pagtugon sa emerhensiya at ruta ng paglikas'
+    slug: 'learn-about-emergency-response-procedures-and-evacuation-routes'
+    description: 'Mga detalye tungkol sa mga pamamaraan ng pagtugon sa emerhensiya at ruta ng paglikas sa inyong lugar.'
+
+  - name: 'Mag-akses ng impormasyon sa paghahanda sa sakuna at early warning system'
+    slug: 'access-disaster-preparedness-information-and-early-warning-systems'
+    description: 'Kung paano mag-akses ng impormasyon sa paghahanda sa sakuna at mga early warning system.'

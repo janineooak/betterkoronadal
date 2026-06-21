@@ -1,0 +1,16 @@
+pages:
+  - name: 'Mag-apply ng tulong para sa senior citizen, solo parent, o PWD'
+    slug: 'apply-for-senior-citizen-solo-parent-or-pwd-assistance'
+    description: 'Impormasyon tungkol sa pag-apply ng mga programang tulong para sa mga senior citizen, solo parent, at PWD.'
+
+  - name: 'Tumanggap ng relief goods o cash aid sa panahon ng sakuna'
+    slug: 'receive-relief-goods-or-cash-aid-during-disasters'
+    description: 'Paano makakuha ng relief goods at cash assistance sa panahon ng mga natural na sakuna at emerhensya.'
+
+  - name: 'Sumali sa mga programa sa kabuhayan o skills training'
+    slug: 'join-livelihood-or-skills-training-programs'
+    description: 'Sumali sa mga programa sa kabuhayan at skills training na inaalok ng inyong lokal na pamahalaan.'
+
+  - name: 'Makakuha ng suporta sa kapakanan ng pamilya at komunidad'
+    slug: 'get-family-and-community-welfare-support'
+    description: 'Makakuha ng mga serbisyong pansuporta sa kapakanan ng pamilya at komunidad mula sa inyong lokal na pamahalaan.'
