@@ -804,12 +804,13 @@
       "breadcrumb": "Government Officials",
       "intro": "Meet the officials who serve Koronadal — both the City Government of Koronadal and the Province of South Cotabato, of which Koronadal is the capital. Select a provincial official to open a full profile with their background, achievements, legislation, notable notes, and any court cases.",
       "cityHeading": "City of Koronadal",
-      "cityIntro": "The elected leaders of the city government — the City Mayor, Vice Mayor, and the Sangguniang Panlungsod (City Council) — for the 2025–2028 term.",
+      "cityIntro": "The elected leaders of the city government — the City Mayor, Vice Mayor, and the Sangguniang Panlungsod (City Council) — for the 2025–2028 term. Officials with documented ordinances are clickable.",
       "provinceHeading": "South Cotabato Province",
       "provinceIntro": "Provincial officials and district representatives who serve Koronadal as part of South Cotabato. Koronadal lies in the 2nd District. Select anyone to read a full profile.",
       "seoTitle": "Government Officials — Koronadal City & South Cotabato Province",
       "seoDescription": "Meet the officials serving Koronadal: the City Mayor, Vice Mayor, and Sangguniang Panlungsod, plus South Cotabato’s Governor, Vice Governor, Provincial Board, and district representatives — with profiles, achievements, and legislation.",
-      "seoKeywords": "Koronadal officials, government officials, mayor, vice mayor, Sangguniang Panlungsod, South Cotabato governor, vice governor, provincial board, congressional representatives, South Cotabato"
+      "seoKeywords": "Koronadal officials, government officials, mayor, vice mayor, Sangguniang Panlungsod, South Cotabato governor, vice governor, provincial board, congressional representatives, South Cotabato",
+      "viewProfile": "View profile →"
     }
   },
   "services": {

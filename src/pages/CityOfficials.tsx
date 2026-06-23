@@ -48,32 +48,48 @@ const Avatar: React.FC<{ name: string; photo?: string | null }> = ({
   );
 };
 
-// Static card for city officials (portraits, not linked).
+// Card for city officials. Officials with a profile (documented legislation)
+// link to their profile sub-page; others render as a static card.
 const OfficialCard: React.FC<{ official: Official; featured?: boolean }> = ({
   official,
   featured,
-}) => (
-  <Card className="h-full overflow-hidden">
-    <div className="aspect-[4/3] w-full overflow-hidden bg-gray-100">
-      <img
-        src={official.photo}
-        alt={`${official.name}, ${official.position}`}
-        loading="lazy"
-        className="h-full w-full object-cover object-top"
-      />
-    </div>
-    <CardContent>
-      <p
-        className={`font-semibold text-gray-900 ${
-          featured ? 'text-lg' : 'text-base'
-        }`}
-      >
-        {official.name}
-      </p>
-      <p className="mt-0.5 text-sm text-primary-600">{official.position}</p>
-    </CardContent>
-  </Card>
-);
+}) => {
+  const { t } = useTranslation();
+  const inner = (
+    <Card hoverable={!!official.slug} className="h-full overflow-hidden">
+      <div className="aspect-[4/3] w-full overflow-hidden bg-gray-100">
+        <img
+          src={official.photo}
+          alt={`${official.name}, ${official.position}`}
+          loading="lazy"
+          className="h-full w-full object-cover object-top"
+        />
+      </div>
+      <CardContent>
+        <p
+          className={`font-semibold text-gray-900 ${
+            featured ? 'text-lg' : 'text-base'
+          }`}
+        >
+          {official.name}
+        </p>
+        <p className="mt-0.5 text-sm text-primary-600">{official.position}</p>
+        {official.slug && (
+          <p className="mt-1 text-xs text-primary-700">
+            {t('pages.officials.viewProfile')}
+          </p>
+        )}
+      </CardContent>
+    </Card>
+  );
+  return official.slug ? (
+    <Link to={`/city-officials/${official.slug}`} className="block h-full">
+      {inner}
+    </Link>
+  ) : (
+    inner
+  );
+};
 
 // Clickable card for provincial officials (links to a full profile sub-page).
 const ProvincialCard: React.FC<{ official: ProvincialOfficial }> = ({

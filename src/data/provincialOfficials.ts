@@ -598,7 +598,26 @@ export const provincialOfficials: ProvincialOfficial[] = [
     achievements: [
       'Topped the 2nd District provincial board race with about 111,803 votes (~29.1%) in 2025.',
     ],
-    notableNotes: [],
+    legislation: [
+      {
+        title:
+          'Resolution on revised wage rates for Job Order (JO) and Contract of Service (COS) personnel',
+        role: 'sponsored',
+        summary:
+          'As Chairperson of the Committee on Civil Service, led the provincial board deliberations on revised wage rates for JO/COS personnel and the creation of new COS positions.',
+        status: 'Reported pending final reading (~2026)',
+        sources: [
+          {
+            label:
+              'South Cotabato — Resolution seeking salary increase for JO and COS personnel',
+            href: 'https://southcotabato.gov.ph/resolution-seeking-salary-increase-for-job-order-and-contract-of-service-personnel-in-south-cotabato-expected-to-be-approved-on-june-1-and-take-effectively-on-july-1/',
+          },
+        ],
+      },
+    ],
+    notableNotes: [
+      'Before joining the provincial board, she served as a Koronadal City Councilor, where she co-authored the city’s Enhanced I-Governance Ordinance.',
+    ],
     concerns: [],
     courtCases: [],
     sources: [

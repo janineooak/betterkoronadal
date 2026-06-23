@@ -11,6 +11,7 @@ import News from './pages/News';
 import About from './pages/About';
 import History from './pages/History';
 import CityOfficials from './pages/CityOfficials';
+import CityOfficialProfile from './pages/CityOfficialProfile';
 import ProvincialOfficialProfile from './pages/ProvincialOfficialProfile';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
@@ -109,6 +110,10 @@ function App() {
               <Route
                 path="/government/city-officials"
                 element={<CityOfficials />}
+              />
+              <Route
+                path="/city-officials/:slug"
+                element={<CityOfficialProfile />}
               />
               <Route
                 path="/government/transparency-documents"
