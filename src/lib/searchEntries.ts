@@ -201,7 +201,12 @@ async function buildDataKeywords(): Promise<Record<string, string>> {
     safe(async () => {
       const { allOfficials } = await import('../data/officials');
       keywords['/government/city-officials'] = allOfficials
-        .map(o => `${o.name} ${o.position}`)
+        .map(
+          o =>
+            `${o.name} ${o.position} ${(o.legislation ?? [])
+              .map(l => `${l.title} ${l.summary ?? ''}`)
+              .join(' ')}`
+        )
         .join(' ');
     }),
     safe(async () => {
@@ -217,13 +222,81 @@ async function buildDataKeywords(): Promise<Record<string, string>> {
 }
 
 /**
+ * Builds one search entry per official profile page (city + provincial). The
+ * hidden keyword blob includes each official's legislation (ordinance titles
+ * and summaries) so a search for a specific ordinance — e.g. "Tourism Code" or
+ * "E-Governance" — surfaces the officials who authored it and links straight to
+ * their profile. Only officials with a profile slug are included.
+ */
+async function buildOfficialProfileEntries(): Promise<SearchEntry[]> {
+  const out: SearchEntry[] = [];
+  const legText = (
+    legislation?: { title: string; summary?: string | null }[]
+  ) =>
+    (legislation ?? [])
+      .map(l => `${l.title} ${l.summary ?? ''}`)
+      .join(' ')
+      .trim();
+
+  const safe = async (fn: () => Promise<void>) => {
+    try {
+      await fn();
+    } catch {
+      // A failed dataset just means those profiles aren't individually
+      // searchable — never block the rest of the index.
+    }
+  };
+
+  await Promise.all([
+    safe(async () => {
+      const { allOfficials } = await import('../data/officials');
+      for (const o of allOfficials) {
+        if (!o.slug) continue;
+        out.push({
+          title: o.name.replace(/^Hon\.\s*/, ''),
+          description: o.position,
+          url: `/city-officials/${o.slug}`,
+          section: 'Government',
+          category: 'City Official',
+          keywords: `${o.name} ${o.position} ${legText(o.legislation)}`.trim(),
+        });
+      }
+    }),
+    safe(async () => {
+      const { provincialOfficials } =
+        await import('../data/provincialOfficials');
+      for (const o of provincialOfficials) {
+        out.push({
+          title: o.name,
+          description: o.district
+            ? `${o.position} · ${o.district}`
+            : o.position,
+          url: `/provincial-officials/${o.slug}`,
+          section: 'Government',
+          category: 'Provincial Official',
+          keywords:
+            `${o.name} ${o.position} ${o.party ?? ''} ${o.achievements.join(
+              ' '
+            )} ${legText(o.legislation)}`.trim(),
+        });
+      }
+    }),
+  ]);
+
+  return out;
+}
+
+/**
  * Builds a flat, searchable list of every navigable page: each service and
  * government category landing page, every page listed under them, the
- * standalone pages, and the data pages enriched with the names/numbers they
- * contain.
+ * standalone pages, the data pages enriched with the names/numbers they
+ * contain, and one entry per official profile (with their legislation).
  */
 export async function buildSearchEntries(): Promise<SearchEntry[]> {
-  const dataKeywords = await buildDataKeywords();
+  const [dataKeywords, officialEntries] = await Promise.all([
+    buildDataKeywords(),
+    buildOfficialProfileEntries(),
+  ]);
 
   const entries: SearchEntry[] = standalonePages.map(entry => {
     const extra = dataKeywords[entry.url];
@@ -233,6 +306,8 @@ export async function buildSearchEntries(): Promise<SearchEntry[]> {
       keywords: `${entry.keywords ?? ''} ${extra}`.trim(),
     };
   });
+
+  entries.push(...officialEntries);
 
   const collect = async (
     categories: typeof serviceCategories.categories,

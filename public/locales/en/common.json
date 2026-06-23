@@ -177,7 +177,8 @@
     "regionalDirectory": "Regional LGU Directory",
     "sanggunian": "Sangguniang Panlungsod",
     "transparency": "Transparency & Full Disclosure",
-    "officials": "Government Officials"
+    "officials": "Government Officials",
+    "registry": "Officials Registry"
   },
   "navbar": {
     "about": "About",
@@ -811,6 +812,40 @@
       "seoDescription": "Meet the officials serving Koronadal: the City Mayor, Vice Mayor, and Sangguniang Panlungsod, plus South Cotabato’s Governor, Vice Governor, Provincial Board, and district representatives — with profiles, achievements, and legislation.",
       "seoKeywords": "Koronadal officials, government officials, mayor, vice mayor, Sangguniang Panlungsod, South Cotabato governor, vice governor, provincial board, congressional representatives, South Cotabato",
       "viewProfile": "View profile →"
+    },
+    "registry": {
+      "title": "Officials Registry",
+      "breadcrumbHome": "Home",
+      "intro": "A historical cheat-sheet of Koronadal and South Cotabato government officials — current, past, and future — with the roles they have held, their contributions and legislation, and any documented court cases. Search or filter, then open a profile for the full record.",
+      "searchPlaceholder": "Search name, role, or ordinance…",
+      "filterStatus": "Filter by status",
+      "filterBody": "Filter by government body",
+      "allStatuses": "All statuses",
+      "allBodies": "All bodies",
+      "courtCasesOnly": "Has court cases",
+      "resultCount": "{{count}} people",
+      "colName": "Name",
+      "colStatus": "Status",
+      "colRoles": "Roles held",
+      "colLaws": "Laws",
+      "colCases": "Cases",
+      "noResults": "No officials match your filters.",
+      "status": {
+        "current": "Current",
+        "past": "Former",
+        "future": "Incoming"
+      },
+      "achievements": "Achievements",
+      "legislation": "Legislation",
+      "notableNotes": "Notable notes",
+      "concerns": "Controversies & criticism",
+      "courtCases": "Court cases & legal matters",
+      "profileTitleSuffix": "Officials Registry",
+      "notFoundTitle": "Official not found",
+      "notFoundBody": "We could not find a record for that person. They may not be listed yet, or the link may be incorrect.",
+      "backToRegistry": "← Back to the officials registry",
+      "sourceLabel": "City Government of Koronadal & South Cotabato Provincial Government",
+      "sourceNote": "Compiled from official ordinance records, election results, and reputable reporting. Records are added as they are verified; court matters use neutral language and presumption of innocence applies."
     }
   },
   "services": {

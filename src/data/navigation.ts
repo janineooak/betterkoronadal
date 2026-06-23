@@ -54,6 +54,12 @@ export const mainNavigation: NavigationItem[] = [
         icon: 'Contact',
       },
       {
+        label: 'Officials Registry',
+        labelKey: 'nav.registry',
+        href: '/officials',
+        icon: 'History',
+      },
+      {
         label: 'Barangays',
         labelKey: 'nav.barangays',
         href: '/barangays',

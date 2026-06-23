@@ -13,6 +13,8 @@ import History from './pages/History';
 import CityOfficials from './pages/CityOfficials';
 import CityOfficialProfile from './pages/CityOfficialProfile';
 import ProvincialOfficialProfile from './pages/ProvincialOfficialProfile';
+import OfficialsCheatsheet from './pages/OfficialsCheatsheet';
+import OfficialProfile from './pages/OfficialProfile';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
 import Barangays from './pages/Barangays';
@@ -76,6 +78,8 @@ function App() {
                 path="/provincial-officials/:slug"
                 element={<ProvincialOfficialProfile />}
               />
+              <Route path="/officials" element={<OfficialsCheatsheet />} />
+              <Route path="/officials/:id" element={<OfficialProfile />} />
               <Route
                 path="/statistics"
                 element={
