@@ -178,7 +178,7 @@
     "sanggunian": "Sangguniang Panlungsod",
     "transparency": "Transparency & Full Disclosure",
     "officials": "Government Officials",
-    "registry": "Officials Registry"
+    "registry": "Bantay Opisyal"
   },
   "navbar": {
     "about": "About",
@@ -814,9 +814,9 @@
       "viewProfile": "View profile →"
     },
     "registry": {
-      "title": "Officials Registry",
+      "title": "Bantay Opisyal",
       "breadcrumbHome": "Home",
-      "intro": "A historical cheat-sheet of Koronadal and South Cotabato government officials — current, past, and future — with the roles they have held, their contributions and legislation, and any documented court cases. Search or filter, then open a profile for the full record.",
+      "intro": "A historical record of Koronadal and South Cotabato government officials — current, former, and incoming — with the roles they have held, their contributions and legislation, and any documented court cases. Search or filter, then open a profile for the full record.",
       "searchPlaceholder": "Search name, role, or ordinance…",
       "filterStatus": "Filter by status",
       "filterBody": "Filter by government body",
@@ -840,12 +840,42 @@
       "notableNotes": "Notable notes",
       "concerns": "Controversies & criticism",
       "courtCases": "Court cases & legal matters",
-      "profileTitleSuffix": "Officials Registry",
+      "profileTitleSuffix": "Bantay Opisyal",
       "notFoundTitle": "Official not found",
       "notFoundBody": "We could not find a record for that person. They may not be listed yet, or the link may be incorrect.",
       "backToRegistry": "← Back to the officials registry",
       "sourceLabel": "City Government of Koronadal & South Cotabato Provincial Government",
-      "sourceNote": "Compiled from official ordinance records, election results, and reputable reporting. Records are added as they are verified; court matters use neutral language and presumption of innocence applies."
+      "sourceNote": "Compiled from official ordinance records, election results, and reputable reporting. Records are added as they are verified; court matters use neutral language and presumption of innocence applies.",
+      "subtitle": "Koronadal & South Cotabato officials — their track record, contributions, and any court cases, in one place.",
+      "seoTitle": "Bantay Opisyal — Koronadal & South Cotabato Officials Track Record",
+      "contribute": "Suggest an edit or addition"
+    },
+    "contribute": {
+      "title": "Contribute to Bantay Opisyal",
+      "breadcrumb": "Contribute",
+      "intro": "Help keep this record accurate and complete. Submissions are reviewed by moderators before anything is published — court cases and other sensitive claims require two-person review and a citable source.",
+      "kindLabel": "What are you contributing?",
+      "kindNewPerson": "A new official not yet listed",
+      "kindEdit": "A contribution, role, or achievement to add",
+      "kindCourtCase": "A court case or legal matter",
+      "kindCorrection": "A correction to existing information",
+      "kindOther": "Something else",
+      "personNameLabel": "Official’s full name",
+      "personNamePlaceholder": "e.g. Juan D. Dela Cruz",
+      "detailsLabel": "Details",
+      "detailsPlaceholder": "Describe what should be added or changed. For court cases, state the case, its current status, and the court/body — neutrally.",
+      "sourcesLabel": "Sources (links)",
+      "sourcesPlaceholder": "Paste links to news articles, official records, or documents that back this up. Required for court cases.",
+      "submitterNameLabel": "Your name (optional)",
+      "submitterEmailLabel": "Your email (optional, if we need to follow up)",
+      "submit": "Submit for review",
+      "submitting": "Submitting…",
+      "successTitle": "Thank you — submitted for review",
+      "successBody": "A moderator will review your contribution before it appears. Sensitive items need two-person review.",
+      "errorPrefix": "Could not submit:",
+      "disclaimer": "Please contribute only verifiable, sourced information and use neutral language. Unproven allegations are not published; the presumption of innocence applies to all legal matters.",
+      "backToRegistry": "← Back to Bantay Opisyal",
+      "submitAnother": "Submit another"
     }
   },
   "services": {

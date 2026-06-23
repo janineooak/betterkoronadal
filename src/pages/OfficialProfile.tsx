@@ -8,7 +8,7 @@ import SEO from '../components/SEO';
 import SourceNote from '../components/ui/SourceNote';
 import LegislationList from '../components/LegislationList';
 import CourtCaseList from '../components/CourtCaseList';
-import { getRegistryPerson } from '../data/officialsRegistry';
+import { useRegistry } from '../hooks/useRegistry';
 
 const Avatar: React.FC<{ name: string; photo?: string | null }> = ({
   name,
@@ -48,7 +48,8 @@ const statusStyles: Record<string, string> = {
 const OfficialProfile: React.FC = () => {
   const { t } = useTranslation();
   const { id } = useParams<{ id: string }>();
-  const person = id ? getRegistryPerson(id) : undefined;
+  const people = useRegistry();
+  const person = id ? people.find(p => p.id === id) : undefined;
 
   if (!person) {
     return (

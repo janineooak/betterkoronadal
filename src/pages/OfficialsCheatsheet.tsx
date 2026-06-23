@@ -8,12 +8,12 @@ import { Heading } from '../components/ui/Heading';
 import SEO from '../components/SEO';
 import SourceNote from '../components/ui/SourceNote';
 import {
-  registryPeople,
   registryBodies,
   type RegistryPerson,
   type TenureStatus,
 } from '../data/officialsRegistry';
 import type { GovBody } from '../data/pastOfficials';
+import { useRegistry } from '../hooks/useRegistry';
 
 const statusStyles: Record<TenureStatus, string> = {
   current: 'bg-green-100 text-green-800',
@@ -34,10 +34,11 @@ const OfficialsCheatsheet: React.FC = () => {
   const [status, setStatus] = useState<TenureStatus | 'all'>('all');
   const [body, setBody] = useState<GovBody | 'all'>('all');
   const [casesOnly, setCasesOnly] = useState(false);
+  const people = useRegistry();
 
   const rows = useMemo(() => {
     const query = q.trim().toLowerCase();
-    return registryPeople.filter(p => {
+    return people.filter(p => {
       if (status !== 'all' && p.status !== status) return false;
       if (body !== 'all' && !p.tenures.some(ten => ten.body === body))
         return false;
@@ -54,7 +55,7 @@ const OfficialsCheatsheet: React.FC = () => {
       }
       return true;
     });
-  }, [q, status, body, casesOnly]);
+  }, [people, q, status, body, casesOnly]);
 
   const roleSummary = (p: RegistryPerson) =>
     p.tenures
@@ -81,9 +82,18 @@ const OfficialsCheatsheet: React.FC = () => {
           />
 
           <Heading>{t('pages.registry.title')}</Heading>
-          <p className="text-gray-600 mb-8 max-w-3xl">
+          <p className="text-lg text-gray-700 mb-2 max-w-3xl">
+            {t('pages.registry.subtitle')}
+          </p>
+          <p className="text-gray-600 mb-4 max-w-3xl">
             {t('pages.registry.intro')}
           </p>
+          <Link
+            to="/officials/contribute"
+            className="mb-8 inline-flex items-center gap-1.5 rounded-lg border border-primary-600 px-4 py-2 text-sm font-medium text-primary-700 hover:bg-primary-50"
+          >
+            + {t('pages.registry.contribute')}
+          </Link>
 
           {/* Controls */}
           <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">

@@ -15,6 +15,8 @@ import CityOfficialProfile from './pages/CityOfficialProfile';
 import ProvincialOfficialProfile from './pages/ProvincialOfficialProfile';
 import OfficialsCheatsheet from './pages/OfficialsCheatsheet';
 import OfficialProfile from './pages/OfficialProfile';
+import ContributeOfficial from './pages/ContributeOfficial';
+import AdminDashboard from './pages/AdminDashboard';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
 import Barangays from './pages/Barangays';
@@ -79,7 +81,12 @@ function App() {
                 element={<ProvincialOfficialProfile />}
               />
               <Route path="/officials" element={<OfficialsCheatsheet />} />
+              <Route
+                path="/officials/contribute"
+                element={<ContributeOfficial />}
+              />
               <Route path="/officials/:id" element={<OfficialProfile />} />
+              <Route path="/admin" element={<AdminDashboard />} />
               <Route
                 path="/statistics"
                 element={
