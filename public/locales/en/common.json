@@ -28,7 +28,7 @@
       "cityGovernment": "City Government",
       "cityHistory": "City History",
       "cityIncome": "City Income",
-      "cityOfficials": "City Officials",
+      "cityOfficials": "Government Officials",
       "competitiveness": "Competitiveness",
       "contactUs": "Contact Us",
       "emergencyHotlines": "Emergency Hotlines",
@@ -176,7 +176,8 @@
     "procurement": "Procurement Opportunities",
     "regionalDirectory": "Regional LGU Directory",
     "sanggunian": "Sangguniang Panlungsod",
-    "transparency": "Transparency & Full Disclosure"
+    "transparency": "Transparency & Full Disclosure",
+    "officials": "Government Officials"
   },
   "navbar": {
     "about": "About",
@@ -752,6 +753,63 @@
       "whatFdpCoversP1": "Under DILG Memorandum Circular 2011-134, every province, city, and municipality must post key financial documents in three places: a conspicuous bulletin board at the LGU hall, its official website, and the DILG's Full Disclosure Policy Portal.",
       "whatFdpCoversP2": "Disclosed documents typically include the annual budget, the statement of receipts and expenditures, the annual procurement plan, bid results, and the status of programs and projects funded by the LGU. Together these let residents see how public money is planned and spent.",
       "whereToFindHeading": "Where to find the documents"
+    },
+    "provincialOfficials": {
+      "title": "South Cotabato Provincial Officials",
+      "breadcrumbHome": "Home",
+      "breadcrumbGovernment": "Government",
+      "intro": "Profiles of the elected provincial officials of South Cotabato serving the {{term}} term — the Governor, Vice Governor, congressional representatives, and members of the Sangguniang Panlalawigan (Provincial Board). Each profile lists their background, achievements, and notable notes, with sources. Koronadal City lies in the 2nd District.",
+      "empty": "Profiles are being compiled and will appear here once verified against reputable sources.",
+      "groups": {
+        "executive": "Provincial Executives",
+        "congressional": "Congressional Representatives",
+        "board-1st": "Provincial Board — 1st District",
+        "board-2nd": "Provincial Board — 2nd District"
+      },
+      "termLabel": "{{term}} term",
+      "verifiedBadge": "Verified incumbent",
+      "unverifiedBadge": "Unverified",
+      "achievements": "Achievements",
+      "notableNotes": "Notable notes",
+      "concerns": "Controversies & criticism",
+      "courtCases": "Court cases & legal matters",
+      "legalDisclaimer": "Legal matters are summarized from public reporting and official records. A filed case or complaint is an allegation only; all persons are presumed innocent unless and until a final ruling. Where a case has been dismissed or resulted in acquittal, that outcome is noted. Please consult the linked sources for the full record.",
+      "caseStatus": {
+        "alleged": "Alleged",
+        "filed": "Case filed",
+        "pending": "Pending",
+        "dismissed": "Dismissed",
+        "acquitted": "Acquitted",
+        "convicted": "Convicted",
+        "settled": "Settled"
+      },
+      "notFoundTitle": "Official not found",
+      "notFoundBody": "We could not find a profile for that official. They may not be listed yet, or the link may be incorrect.",
+      "backToDirectory": "← Back to all provincial officials",
+      "seoTitle": "South Cotabato Provincial Officials — Governor, Vice Governor, Board & Representatives",
+      "seoDescription": "Profiles of South Cotabato’s elected provincial officials: Governor, Vice Governor, congressional representatives, and Sangguniang Panlalawigan (Provincial Board) members, with achievements, notable notes, and sources.",
+      "seoKeywords": "South Cotabato officials, South Cotabato governor, vice governor, Sangguniang Panlalawigan, provincial board, congressional representatives, Koronadal, SOCCSKSARGEN",
+      "sourceLabel": "South Cotabato Provincial Government",
+      "sourceNote": "Officials verified against election results and reputable news sources. Re-verify after any election or succession.",
+      "legislation": "Legislation",
+      "legislationRole": {
+        "authored": "Authored",
+        "co-authored": "Co-authored",
+        "sponsored": "Sponsored",
+        "supported": "Supported"
+      }
+    },
+    "officials": {
+      "title": "Government Officials",
+      "breadcrumb": "Government Officials",
+      "intro": "Meet the officials who serve Koronadal — both the City Government of Koronadal and the Province of South Cotabato, of which Koronadal is the capital. Select a provincial official to open a full profile with their background, achievements, legislation, notable notes, and any court cases.",
+      "cityHeading": "City of Koronadal",
+      "cityIntro": "The elected leaders of the city government — the City Mayor, Vice Mayor, and the Sangguniang Panlungsod (City Council) — for the 2025–2028 term.",
+      "provinceHeading": "South Cotabato Province",
+      "provinceIntro": "Provincial officials and district representatives who serve Koronadal as part of South Cotabato. Koronadal lies in the 2nd District. Select anyone to read a full profile.",
+      "seoTitle": "Government Officials — Koronadal City & South Cotabato Province",
+      "seoDescription": "Meet the officials serving Koronadal: the City Mayor, Vice Mayor, and Sangguniang Panlungsod, plus South Cotabato’s Governor, Vice Governor, Provincial Board, and district representatives — with profiles, achievements, and legislation.",
+      "seoKeywords": "Koronadal officials, government officials, mayor, vice mayor, Sangguniang Panlungsod, South Cotabato governor, vice governor, provincial board, congressional representatives, South Cotabato"
     }
   },
   "services": {

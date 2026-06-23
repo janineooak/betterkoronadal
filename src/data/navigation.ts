@@ -48,8 +48,8 @@ export const mainNavigation: NavigationItem[] = [
         icon: 'Users',
       },
       {
-        label: 'City Officials',
-        labelKey: 'nav.cityOfficials',
+        label: 'Government Officials',
+        labelKey: 'nav.officials',
         href: '/government/city-officials',
         icon: 'Contact',
       },

@@ -11,6 +11,7 @@ import News from './pages/News';
 import About from './pages/About';
 import History from './pages/History';
 import CityOfficials from './pages/CityOfficials';
+import ProvincialOfficialProfile from './pages/ProvincialOfficialProfile';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
 import Barangays from './pages/Barangays';
@@ -66,6 +67,14 @@ function App() {
               <Route path="/citizens-charter" element={<CitizensCharter />} />
               <Route path="/sources" element={<Sources />} />
               <Route path="/search" element={<Search />} />
+              <Route
+                path="/provincial-officials"
+                element={<Navigate to="/government/city-officials" replace />}
+              />
+              <Route
+                path="/provincial-officials/:slug"
+                element={<ProvincialOfficialProfile />}
+              />
               <Route
                 path="/statistics"
                 element={
