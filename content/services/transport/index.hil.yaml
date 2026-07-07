@@ -1,0 +1,16 @@
+pages:
+  - name: 'Mag-aplay ukon mag-renew sang tricycle franchise (MTOP)'
+    slug: 'apply-for-or-renew-a-tricycle-franchise-mtop'
+    description: "Bag-o, renew, substitute, transfer, tinuig nga pagsunod, ukon pag-untat sang Motorized Tricycle Operator's Permit."
+
+  - name: 'Magkuha sang MTOP certification, fare matrix, ukon duplicate'
+    slug: 'get-an-mtop-certification-fare-matrix-or-duplicate'
+    description: 'Magpangayo sang mga MTOP certification, duplicate nga kopya sang mga aprobado nga permit kag fare matrix, ukon datos sang MTOP.'
+
+  - name: 'Magpangayo sang bulig sa trapiko ukon magreport sang mga paglapas'
+    slug: 'request-traffic-assistance-or-report-violations'
+    description: 'Magkuha sang bulig sa trapiko para sa mga okasyon, mag-file sang mga reklamo, ukon magpangayo sang seminar nga orientation parte sa mga pagsulundan sa trapiko.'
+
+  - name: 'Magparehistro sang sakyanan kag magbayad sang terminal fee'
+    slug: 'register-a-vehicle-and-pay-terminal-fees'
+    description: 'Magparehistro sang mga public utility vehicle sa city terminal kag magbayad sang terminal fee kada paghulog.'

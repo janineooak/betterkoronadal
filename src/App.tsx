@@ -11,9 +11,18 @@ import News from './pages/News';
 import About from './pages/About';
 import History from './pages/History';
 import CityOfficials from './pages/CityOfficials';
+import CityOfficialProfile from './pages/CityOfficialProfile';
+import ProvincialOfficialProfile from './pages/ProvincialOfficialProfile';
+import OfficialsCheatsheet from './pages/OfficialsCheatsheet';
+import OfficialProfile from './pages/OfficialProfile';
+import ContributeOfficial from './pages/ContributeOfficial';
+import AdminDashboard from './pages/AdminDashboard';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
 import Barangays from './pages/Barangays';
+import Procurements from './pages/Procurements';
+import FloodControl from './pages/FloodControl';
+import RegionalDirectory from './pages/RegionalDirectory';
 import Tourism from './pages/Tourism';
 import Transparency from './pages/Transparency';
 import CitizensCharter from './pages/CitizensCharter';
@@ -52,11 +61,32 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/hotlines" element={<Hotlines />} />
               <Route path="/barangays" element={<Barangays />} />
+              <Route path="/procurements" element={<Procurements />} />
+              <Route path="/flood-control" element={<FloodControl />} />
+              <Route
+                path="/regional-directory"
+                element={<RegionalDirectory />}
+              />
               <Route path="/tourism" element={<Tourism />} />
               <Route path="/transparency" element={<Transparency />} />
               <Route path="/citizens-charter" element={<CitizensCharter />} />
               <Route path="/sources" element={<Sources />} />
               <Route path="/search" element={<Search />} />
+              <Route
+                path="/provincial-officials"
+                element={<Navigate to="/government/city-officials" replace />}
+              />
+              <Route
+                path="/provincial-officials/:slug"
+                element={<ProvincialOfficialProfile />}
+              />
+              <Route path="/officials" element={<OfficialsCheatsheet />} />
+              <Route
+                path="/officials/contribute"
+                element={<ContributeOfficial />}
+              />
+              <Route path="/officials/:id" element={<OfficialProfile />} />
+              <Route path="/admin" element={<AdminDashboard />} />
               <Route
                 path="/statistics"
                 element={
@@ -91,6 +121,10 @@ function App() {
               <Route
                 path="/government/city-officials"
                 element={<CityOfficials />}
+              />
+              <Route
+                path="/city-officials/:slug"
+                element={<CityOfficialProfile />}
               />
               <Route
                 path="/government/transparency-documents"

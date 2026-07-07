@@ -1,0 +1,49 @@
+# Local Government Activity Data
+# This file contains all the local government activity data for the local government portal
+# Non-technical users can easily edit this file to add, remove, or modify local government activity
+
+categories:
+  - category: 'Mga Kagawaran'
+    slug: 'departments'
+    description: 'Tuklasin ang mga kagawaran, ahensya, at tanggapan ng pamahalaang lokal kasama ang kanilang mandato, serbisyo, at mga detalye sa pakikipag-ugnayan.'
+    icon: 'Building2'
+    subcategories:
+      - name: 'Tanggapan ng Punong Lungsod (Ehekutibo)'
+        slug: 'executive'
+      - name: 'Sangguniang Panlungsod (Lehislatibo)'
+        slug: 'legislative'
+  - category: 'Balita'
+    slug: 'news'
+    description: 'Manatiling may kaalaman sa pinakabagong balita, mga anunsyo, at mga pagbabago sa patakaran ng pamahalaang lokal.'
+    icon: 'Newspaper'
+    subcategories:
+      - name: 'Balita'
+        slug: 'news'
+      - name: 'Mga Anunsyo'
+        slug: 'announcements'
+  - category: 'Mga Gabay at Regulasyon'
+    slug: 'guides-and-regulations'
+    description: 'I-access ang mga patnubay, panuntunan, regulasyon, at hakbang-hakbang na mga tagubilin para sa mga proseso ng pamahalaang lokal.'
+    icon: 'Book'
+    subcategories:
+      - name: 'Mga Gabay'
+        slug: 'guides'
+      - name: 'Mga Regulasyon'
+        slug: 'regulations'
+  - category: 'Mga Ulat at Estadistika'
+    slug: 'reports-and-statistics'
+    description: 'I-access ang mga ulat, datos na estadistika, at sukatan ng pagganap ng pamahalaang lokal.'
+    icon: 'ChartBar'
+    subcategories:
+      - name: 'Mga Ulat'
+        slug: 'reports'
+      - name: 'Estadistika'
+        slug: 'statistics'
+  - category: 'Mga Dokumento ng Transparency'
+    slug: 'transparency-documents'
+    href: '/transparency'
+    description: 'I-access ang mga release ng Freedom of Information at mga dokumento ng transparency para sa pananagutan ng pamahalaang lokal.'
+    icon: 'FileText'
+    subcategories:
+      - name: 'Mga Dokumento ng Transparency'
+        slug: 'transparency-documents'

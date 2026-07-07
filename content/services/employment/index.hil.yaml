@@ -1,0 +1,16 @@
+pages:
+  - name: 'Magpangita sang trabaho paagi sa PESO'
+    slug: 'find-a-job-through-peso'
+    description: 'Magparehistro bilang jobseeker, ipares sa mga employer, kag magbaton sang referral letter sang PESO ukon mag-entra sa lokal nga job fair.'
+
+  - name: 'Mag-aplay para sa SPES nga programa sa pagpamuhat sang estudyante'
+    slug: 'apply-for-the-spes-student-employment-program'
+    description: 'Temporaryo kag bayad nga trabaho sa tig-ilinit/Pasko para sa mga imol pero takos nga estudyante kag out-of-school youth, ginapadalagan sang PESO upod ang DOLE.'
+
+  - name: 'Magkuha sang bulig para sa mga OFW ukon nadula nga trabahador'
+    slug: 'get-assistance-for-overseas-or-displaced-workers'
+    description: 'Mag-file sang mga reklamo sa kaayuhan sang OFW sa OWWA, mag-aplay para sa TUPAD emergency employment, ukon mag-areglo sang mga overseas recruitment activity paagi sa PESO.'
+
+  - name: 'Magparehistro ukon magpalig-on sang kooperatiba'
+    slug: 'register-or-strengthen-a-cooperative'
+    description: 'Magkuha sang bulig sa pagparehistro sang kooperatiba, pag-aplay sang CLAP capital loan, pagtambong sa mga ginakinahanglan nga training, ukon pagkuha sang endorsement letter.'

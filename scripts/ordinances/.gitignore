@@ -1,0 +1,5 @@
+# Compiled Vision OCR binary (rebuild from ocr.swift) and scratch artifacts
+ocr
+*.pdf
+*.png
+ordwork/

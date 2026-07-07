@@ -4,37 +4,37 @@ import { Heading } from '../components/ui/Heading';
 import SEO from '../components/SEO';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Info } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface Reference {
   label: string;
   href: string;
-  note?: string;
+  noteKey?: string;
 }
 
 interface SourceGroup {
-  topic: string;
-  intro?: string;
+  groupKey: string;
   references: Reference[];
 }
 
 const sourceGroups: SourceGroup[] = [
   {
-    topic: 'City profile, history & officials',
+    groupKey: 'profile',
     references: [
       {
         label: 'City Government of Koronadal — official website',
         href: 'https://koronadal.gov.ph',
-        note: 'Officials, departments, history, contact details',
+        noteKey: 'koronadalWebsite',
       },
       {
         label: 'City Government of Koronadal — Facebook page',
         href: 'https://facebook.com/CityGovernmentofKoronadal',
-        note: 'Advisories and official announcements',
+        noteKey: 'koronadalFacebook',
       },
       {
         label: 'Koronadal, South Cotabato — Wikipedia',
         href: 'https://en.wikipedia.org/wiki/Koronadal',
-        note: 'History (EO 82, RA 4849, RA 8803), geography, etymology',
+        noteKey: 'wikipedia',
       },
       {
         label: 'Province of South Cotabato',
@@ -43,12 +43,12 @@ const sourceGroups: SourceGroup[] = [
     ],
   },
   {
-    topic: 'Population, demographics & statistics',
+    groupKey: 'demographics',
     references: [
       {
         label: 'Philippine Statistics Authority (PSA)',
         href: 'https://psa.gov.ph',
-        note: '2024 (201,844) and 2020 (195,398) census figures, land area',
+        noteKey: 'psa',
       },
       {
         label: 'PSA SOCCSKSARGEN (Region XII)',
@@ -61,12 +61,12 @@ const sourceGroups: SourceGroup[] = [
     ],
   },
   {
-    topic: 'Tourism & culture',
+    groupKey: 'tourism',
     references: [
       {
         label: 'City Government of Koronadal — Culture',
         href: 'https://koronadal.gov.ph/culture/',
-        note: 'Hinugyaw Festival, heritage sites, cultural values',
+        noteKey: 'koronadalCulture',
       },
       {
         label: 'Vigattin Tourism — Araw ng Koronadal "Hinugyaw Festival"',
@@ -79,12 +79,12 @@ const sourceGroups: SourceGroup[] = [
     ],
   },
   {
-    topic: 'Transparency, budget & procurement',
+    groupKey: 'transparency',
     references: [
       {
         label: 'DILG — Full Disclosure Policy Portal',
         href: 'https://fdpp.dilg.gov.ph',
-        note: 'DILG Memorandum Circular 2011-134',
+        noteKey: 'fdpp',
       },
       {
         label: 'DILG Region XII — Full Disclosure Policy',
@@ -105,12 +105,12 @@ const sourceGroups: SourceGroup[] = [
     ],
   },
   {
-    topic: 'Weather & hazards',
+    groupKey: 'weather',
     references: [
       {
         label: 'Open-Meteo — weather data API',
         href: 'https://open-meteo.com',
-        note: 'Powers the homepage weather widget',
+        noteKey: 'openMeteo',
       },
       {
         label: 'PAGASA — official forecasts & warnings',
@@ -119,7 +119,7 @@ const sourceGroups: SourceGroup[] = [
     ],
   },
   {
-    topic: 'News & reporting (for verifying officials and events)',
+    groupKey: 'news',
     references: [
       {
         label: 'Philippine News Agency (PNA)',
@@ -132,29 +132,27 @@ const sourceGroups: SourceGroup[] = [
 ];
 
 const Sources: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <SEO
-        title="Sources & References"
-        description="The sources behind BetterKoronadal.org — official City Government of Koronadal pages, the Philippine Statistics Authority, DILG, PhilGEPS, PAGASA, and other references used to compile the information on this site."
-        keywords="Koronadal sources, references, citations, PSA, DILG, koronadal.gov.ph, data sources"
+        title={t('pages.sources.seoTitle')}
+        description={t('pages.sources.seoDescription')}
+        keywords={t('pages.sources.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'Sources', href: '/sources' },
+              { label: t('pages.sources.breadcrumbHome'), href: '/' },
+              { label: t('pages.sources.breadcrumbSources'), href: '/sources' },
             ]}
           />
 
-          <Heading>Sources &amp; References</Heading>
+          <Heading>{t('pages.sources.title')}</Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            BetterKoronadal.org is an independent, community-built portal. The
-            information here is compiled from official government sources and
-            reputable references, and re-verified periodically. The facts on
-            this site were last reviewed in <strong>June 2026</strong>.
+            {t('pages.sources.intro', { date: 'June 2026' })}
           </p>
 
           <Card className="mb-10 border-l-4 border-amber-500">
@@ -163,11 +161,9 @@ const Sources: React.FC = () => {
                 <Info className="h-6 w-6 shrink-0 text-amber-600" />
                 <p className="text-sm text-gray-700">
                   <strong className="text-gray-900">
-                    Always confirm time-sensitive details with the official
-                    source.
+                    {t('pages.sources.confirmStrong')}
                   </strong>{' '}
-                  Officials, contact numbers, schedules, and fees can change.
-                  For anything official, refer to{' '}
+                  {t('pages.sources.confirmBody')}{' '}
                   <a
                     href="https://koronadal.gov.ph"
                     target="_blank"
@@ -184,10 +180,10 @@ const Sources: React.FC = () => {
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
             {sourceGroups.map(group => (
-              <Card key={group.topic} className="h-full">
+              <Card key={group.groupKey} className="h-full">
                 <CardContent>
                   <p className="font-semibold text-gray-900 mb-3">
-                    {group.topic}
+                    {t(`pages.sources.groups.${group.groupKey}`)}
                   </p>
                   <ul className="list-disc space-y-2 pl-5 text-sm text-gray-700">
                     {group.references.map(ref => (
@@ -200,8 +196,11 @@ const Sources: React.FC = () => {
                         >
                           {ref.label}
                         </a>
-                        {ref.note && (
-                          <span className="text-gray-500"> — {ref.note}</span>
+                        {ref.noteKey && (
+                          <span className="text-gray-500">
+                            {' '}
+                            — {t(`pages.sources.items.${ref.noteKey}`)}
+                          </span>
                         )}
                       </li>
                     ))}

@@ -6,7 +6,9 @@ import tseslint from 'typescript-eslint';
 import { defineConfig, globalIgnores } from 'eslint/config';
 
 export default defineConfig([
-  globalIgnores(['**/dist/**', '**/dist']),
+  // `api/` holds Vercel serverless functions (Node env, no React/DOM); they are
+  // type-checked and built by Vercel, not by the SPA toolchain.
+  globalIgnores(['**/dist/**', '**/dist', 'api/**']),
   {
     files: ['**/*.{ts,tsx}'],
     extends: [

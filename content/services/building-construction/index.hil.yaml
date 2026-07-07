@@ -1,0 +1,16 @@
+pages:
+  - name: 'Mag-aplay para sa building permit'
+    slug: 'apply-for-a-building-permit'
+    description: 'Magkuha sang permit halin sa Office of the Building Official para magpatindog, mag-renovate, magdugang, mag-ayo, ukon magbag-o sang istraktura suno sa National Building Code.'
+
+  - name: 'Mag-aplay para sa certificate of occupancy'
+    slug: 'apply-for-a-certificate-of-occupancy'
+    description: 'Kuhaa ang occupancy permit nga nagapamatuod nga ang inyo tapos na nga building luwas kag nagasunod sa balaod agod legal ninyo ini magamit.'
+
+  - name: 'Mag-aplay para sa fencing, electrical, ukon demolition permit'
+    slug: 'apply-for-fencing-electrical-or-demolition-permits'
+    description: 'Magkuha sang mga ancillary permit sang OBO para magtukod sang kudal, mag-wire sang tradisyonal nga indigenous nga puluy-an, ukon magguba sang istraktura.'
+
+  - name: 'Magkuha sang zoning ukon locational clearance'
+    slug: 'secure-a-zoning-or-locational-clearance'
+    description: 'Pamatud-i nga ang inyo duta ukon proyekto nagasunod sa Zoning Ordinance sang dakbanwa paagi sa mga sertipikasyon sang CPDO–Zoning kag mga locational clearance.'

@@ -8,6 +8,7 @@ import {
   Tooltip,
   Cell,
 } from 'recharts';
+import { useTranslation } from 'react-i18next';
 import { Wallet, Layers, Users, FileText } from 'lucide-react';
 import SEO from '../../components/SEO';
 import SourceNote from '../../components/ui/SourceNote';
@@ -24,43 +25,45 @@ const peso = (n: number) => {
 };
 
 export default function MunicipalIncome() {
+  const { t } = useTranslation();
+  const m = (k: string, opts?: Record<string, unknown>) =>
+    t(`pages.statistics.income.${k}`, opts ?? {});
   return (
     <>
       <SEO
-        title="Koronadal City Income & Revenue"
-        description="The City of Koronadal's finances: total revenue, income classification, and the long-run trend in annual income, drawn from the Bureau of Local Government Finance (BLGF)."
-        keywords="Koronadal city income, Koronadal budget, BLGF revenue, local government finance, NTA Koronadal"
+        title={m('seoTitle')}
+        description={m('seoDescription')}
+        keywords={m('seoKeywords')}
       />
       <StatisticsLayout
-        title="City Income"
-        crumb="City Income"
+        title={m('title')}
+        crumb={m('title')}
         crumbHref="/statistics/municipal-income"
         intro={
           <p>
-            Where the city&rsquo;s money comes from, drawn from the{' '}
-            <strong>Bureau of Local Government Finance (BLGF)</strong> Statement
-            of Receipts and Expenditures.
+            {m('introBefore')} <strong>{m('introBlgfStrong')}</strong>{' '}
+            {m('introAfter')}
           </p>
         }
       >
         {/* Headline stats */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 mb-12">
           <StatCard
-            label="Total Revenue"
+            label={m('statTotalRevenue')}
             value={peso(income.totalRevenue)}
-            subtext={`FY ${income.fiscalYear} (BLGF)`}
+            subtext={m('statTotalRevenueSub', { year: income.fiscalYear })}
             icon={Wallet}
           />
           <StatCard
-            label="Income Classification"
-            value="1st class"
-            subtext="Highest LGU income tier"
+            label={m('statClassification')}
+            value={m('statClassificationValue')}
+            subtext={m('statClassificationSub')}
             icon={Layers}
           />
           <StatCard
-            label="Revenue per Resident"
+            label={m('statPerResident')}
             value={`₱${income.perCapita.toLocaleString('en-US')}`}
-            subtext={`FY ${income.fiscalYear} ÷ population`}
+            subtext={m('statPerResidentSub', { year: income.fiscalYear })}
             icon={Users}
           />
         </div>
@@ -68,10 +71,10 @@ export default function MunicipalIncome() {
         {/* Income trend */}
         <div className="rounded-lg border border-gray-200 p-4 sm:p-6 mb-4">
           <Heading level={3} className="!mb-1 !text-lg">
-            Annual income over time
+            {m('chartIncomeTitle')}
           </Heading>
           <p className="text-sm text-gray-500 mb-6">
-            Bureau of Local Government Finance
+            {m('chartIncomeSubtitle')}
           </p>
           <ResponsiveContainer width="100%" height={320}>
             <BarChart
@@ -88,9 +91,9 @@ export default function MunicipalIncome() {
               <Tooltip
                 formatter={(v, _n, p) => [
                   peso(Number(v)),
-                  (p?.payload?.basis as string) ?? 'Income',
+                  (p?.payload?.basis as string) ?? m('tooltipIncome'),
                 ]}
-                labelFormatter={l => `FY ${l}`}
+                labelFormatter={l => m('tooltipFY', { year: l })}
                 cursor={{ fill: '#f3f4f6' }}
               />
               <Bar dataKey="amount" radius={[4, 4, 0, 0]}>
@@ -103,11 +106,24 @@ export default function MunicipalIncome() {
               </Bar>
             </BarChart>
           </ResponsiveContainer>
-          <p className="mt-4 text-xs italic leading-relaxed text-gray-500">
-            Figures through 2016 are annual regular income; the{' '}
-            {income.fiscalYear} figure is total revenue per the BLGF Statement
-            of Receipts and Expenditures. The basis differs slightly, so read
-            the trend as indicative rather than a like-for-like series.
+          <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-1 text-xs text-gray-600">
+            <span className="inline-flex items-center gap-1.5">
+              <span
+                className="inline-block h-2.5 w-2.5 rounded-sm bg-[#99c2f7]"
+                aria-hidden="true"
+              />
+              {m('legendRegularIncome')}
+            </span>
+            <span className="inline-flex items-center gap-1.5">
+              <span
+                className="inline-block h-2.5 w-2.5 rounded-sm bg-[#0052bc]"
+                aria-hidden="true"
+              />
+              {m('legendTotalRevenue', { year: income.fiscalYear })}
+            </span>
+          </div>
+          <p className="mt-3 text-xs italic leading-relaxed text-gray-500">
+            {m('chartNote', { year: income.fiscalYear })}
           </p>
         </div>
 
@@ -116,16 +132,11 @@ export default function MunicipalIncome() {
           <div className="flex items-center gap-2 mb-2">
             <FileText className="h-4 w-4 shrink-0 text-primary-600" />
             <p className="font-semibold text-gray-900">
-              Detailed revenue composition
+              {m('compositionTitle')}
             </p>
           </div>
           <p className="text-sm text-gray-600">
-            A line-item breakdown — locally sourced revenue (business tax, real
-            property tax, non-tax revenue) versus the National Tax Allotment —
-            is not yet published in a machine-readable form for FY{' '}
-            {income.fiscalYear}. The full itemization is available in the
-            city&rsquo;s annual appropriation ordinance and the BLGF SRE; this
-            page will be expanded once those figures are confirmed.
+            {m('compositionBody', { year: income.fiscalYear })}
           </p>
           <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
             <a
@@ -134,7 +145,7 @@ export default function MunicipalIncome() {
               rel="noopener noreferrer"
               className="text-primary-700 underline hover:text-primary-800"
             >
-              City budget ordinances →
+              {m('linkCityBudget')}
             </a>
             <a
               href="https://blgf.gov.ph/lgu-fiscal-data/"
@@ -142,7 +153,7 @@ export default function MunicipalIncome() {
               rel="noopener noreferrer"
               className="text-primary-700 underline hover:text-primary-800"
             >
-              BLGF LGU fiscal data →
+              {m('linkBlgf')}
             </a>
           </div>
         </div>

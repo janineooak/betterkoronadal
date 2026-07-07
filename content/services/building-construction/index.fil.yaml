@@ -1,0 +1,19 @@
+# Building & Construction Category Pages
+# This file contains all the pages/services available under the Building & Construction category
+
+pages:
+  - name: 'Mag-apply ng building permit'
+    slug: 'apply-for-a-building-permit'
+    description: 'Kunin ang permit mula sa Office of the Building Official upang magtayo, mag-renovate, magdagdag, mag-ayos, o magbago ng istruktura sa ilalim ng National Building Code.'
+
+  - name: 'Mag-apply ng certificate of occupancy'
+    slug: 'apply-for-a-certificate-of-occupancy'
+    description: 'Kunin ang occupancy permit na nagpapatunay na ligtas at sumusunod sa pamantayan ang inyong natapos na gusali upang legal itong magamit.'
+
+  - name: 'Mag-apply ng fencing, electrical, o demolition permits'
+    slug: 'apply-for-fencing-electrical-or-demolition-permits'
+    description: 'Kunin ang mga ancillary permit ng OBO upang magtayo ng bakod, mag-kable ng tradisyunal na katutubong tirahan, o magbuwag ng istruktura.'
+
+  - name: 'Kumuha ng zoning o locational clearance'
+    slug: 'secure-a-zoning-or-locational-clearance'
+    description: 'Patunayan na sumusunod ang inyong lupa o proyekto sa Zoning Ordinance ng lungsod sa pamamagitan ng mga sertipikasyon ng CPDO–Zoning at locational clearances.'

@@ -8,10 +8,10 @@ export interface LanguageInfo {
 
 export const LANGUAGES: Record<LanguageType, LanguageInfo> = {
   en: { code: 'en', name: 'English', nativeName: 'English' },
-  fil: { code: 'fil', name: 'Tagalog', nativeName: 'Filipino/Tagalog' },
+  fil: { code: 'fil', name: 'Filipino', nativeName: 'Filipino' },
   ceb: { code: 'ceb', name: 'Cebuano', nativeName: 'Bisaya/Sinugboanon' },
   ilo: { code: 'ilo', name: 'Ilocano', nativeName: 'Ilokano' },
-  hil: { code: 'hil', name: 'Hiligaynon', nativeName: 'Ilonggo' },
+  hil: { code: 'hil', name: 'Hiligaynon', nativeName: 'Hiligaynon' },
   war: { code: 'war', name: 'Waray', nativeName: 'Waray-Waray' },
   pam: { code: 'pam', name: 'Kapampangan', nativeName: 'Kapampangan' },
   bcl: { code: 'bcl', name: 'Bikol', nativeName: 'Bikol Central' },
@@ -28,7 +28,7 @@ export const DEFAULT_LANGUAGE: LanguageType = 'en';
  * Only these are offered in the language switcher; the rest of LANGUAGES are
  * declared for future use and would fall back to English if shown.
  */
-export const AVAILABLE_LANGUAGE_CODES: LanguageType[] = ['en', 'hil'];
+export const AVAILABLE_LANGUAGE_CODES: LanguageType[] = ['en', 'fil', 'hil'];
 
 export const AVAILABLE_LANGUAGES: LanguageInfo[] = AVAILABLE_LANGUAGE_CODES.map(
   code => LANGUAGES[code]

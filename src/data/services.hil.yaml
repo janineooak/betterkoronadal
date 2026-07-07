@@ -1,0 +1,75 @@
+categories:
+  - category: 'Mga Serbisyo sa Panglawas'
+    slug: 'health-services'
+    description: 'Kon diin makakuha sang libre nga check-up, bakuna, kag bulong, kon ano nga mga ospital ang available, kag mga detalye parte sa mga programa sa panglawas sa inyo lugar.'
+    icon: 'Heart'
+
+  - category: 'Edukasyon'
+    slug: 'education'
+    description: 'Kon diin ipalista ang mga bata sa daycare ukon preschool, paano mag-aplay sang scholarship, kag ano nga suporta sa edukasyon ang ginahatag sang inyo LGU.'
+    icon: 'GraduationCap'
+
+  - category: 'Negosyo kag Palangabuhian'
+    slug: 'business'
+    description: 'Ano nga mga permit kag clearance ang kinahanglan ninyo, kon diin magbayad sang buhis ukon magbag-o sang permit, kag ano nga oportunidad sa palangabuhian ukon pamaligya ang ginatanyag.'
+    icon: 'Building2'
+
+  - category: 'Kaayuhan sang Katilingban'
+    slug: 'social-welfare'
+    description: 'Ano nga bulig ang available para sa mga tigulang, PWD, solo parent, kag mga kubos nga pamilya, lakip na ang mga detalye parte sa relief goods, kag bulig sa palangabuhian.'
+    icon: 'Users'
+
+  - category: 'Agrikultura kag Pangisda'
+    slug: 'agriculture-fisheries'
+    description: 'Ano nga suporta sa pag-uma ukon pagpangisda ang available, lakip na ang binhi, abono, pag-atipan sa sapat, kag kon diin mag-entra sa training ukon maghulam sang kagamitan.'
+    icon: 'Wheat'
+
+  - category: 'Imprastraktura kag Pangpubliko nga mga Obra'
+    slug: 'infrastructure-public-works'
+    description: 'Paano i-report ang naguba nga mga dalan ukon kanal, kon diin mangayo sang suplay sang tubig, kag paano makagamit sang mga pangpubliko nga pasilidad kag merkado.'
+    icon: 'Wrench'
+
+  - category: 'Pagkolekta kag Pagkawala sang Basura'
+    slug: 'garbage-waste-disposal'
+    description: 'Mga eskedyul sang pagkolekta sang basura, mga giya sa pagkawala sang basura, kag paano husto nga ihaboy ang lain-lain nga klase sang basura.'
+    icon: 'Trash2'
+
+  - category: 'Kapalibutan'
+    slug: 'environment'
+    description: 'Mga hilikuton sa paglimpyo ukon pagtanom sang kahoy, mga pagsulundan sa pag-amlig sang kapalibutan, kag mga programa sa konserbasyon.'
+    icon: 'TreePine'
+
+  - category: 'Pagpangaman sa Kalamidad'
+    slug: 'disaster-preparedness'
+    description: 'Mga plano sa pagpangaman sa kalamidad, impormasyon parte sa emergency response, kag mga pamaagi sa ebakwasyon.'
+    icon: 'Shield'
+
+  - category: 'Balay kag Paggamit sang Duta'
+    slug: 'housing-land-use'
+    description: 'Paano mag-aplay sa mga proyekto sa balay, ano nga zoning kag building permit ang kinahanglan, kag kon diin may mga lugar nga relokasyon.'
+    icon: 'Home'
+
+  - category: 'Sibil nga Rehistro'
+    slug: 'civil-registry'
+    description: 'Mga sertipiko sang pagkatawo, kasal, kag kamatayon — magparehistro sang mga panghitabo, magkuha sang sertipikado nga kopya, kag itadlong ang mga rekord sa City Civil Registry Office.'
+    icon: 'FileText'
+
+  - category: 'Mga Buhis kag Propyedad'
+    slug: 'taxes-and-property'
+    description: "Bayari ang inyo real property kag business taxes, kag mangayo sang tax declaration, sertipiko sang propyedad, kag mga update sa assessment gikan sa City Treasurer's kag Assessor's Offices."
+    icon: 'Receipt'
+
+  - category: 'Pagpatindog kag Konstruksyon'
+    slug: 'building-construction'
+    description: 'Mga building permit, sertipiko sang okupasyon, permit para sa kudal, elektrisidad, kag demolisyon, kag mga zoning ukon locational clearance.'
+    icon: 'HardHat'
+
+  - category: 'Transportasyon kag Franchising'
+    slug: 'transport'
+    description: 'Mga franchise sang traysikel (MTOP), bulig sa trapiko kag mga reklamo, kag rehistrasyon kag bayad sang mga salakyan sa terminal sang dakbanwa.'
+    icon: 'Bus'
+
+  - category: 'Trabaho kag mga Kooperatiba'
+    slug: 'employment'
+    description: 'Mangita sang trabaho, mag-aplay sa mga programa para sa estudyante kag emergency-employment, magkuha sang bulig para sa OFW, kag magrehistro ukon magpabakod sang kooperatiba.'
+    icon: 'Briefcase'

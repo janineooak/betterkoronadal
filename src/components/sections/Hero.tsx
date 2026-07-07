@@ -17,7 +17,7 @@ import { Heading } from '../ui/Heading';
 import { Text } from '../ui/Text';
 
 interface Task {
-  label: string;
+  labelKey: string;
   to: string;
   Icon: React.ComponentType<{ className?: string }>;
   highlight?: boolean;
@@ -25,42 +25,42 @@ interface Task {
 
 const tasks: Task[] = [
   {
-    label: 'Apply for a Business Permit',
+    labelKey: 'hero.tasks.businessPermit',
     to: '/services/business/apply-for-barangay-clearance-and-mayors-business-permits',
     Icon: Building2,
   },
   {
-    label: 'Renew Permit / Pay Business Tax',
+    labelKey: 'hero.tasks.renewPermit',
     to: '/services/business/renew-permits-and-pay-local-business-taxes',
     Icon: Receipt,
   },
   {
-    label: 'Find Health Services',
+    labelKey: 'hero.tasks.healthServices',
     to: '/services/health-services',
     Icon: HeartPulse,
   },
   {
-    label: 'Apply for a Scholarship',
+    labelKey: 'hero.tasks.scholarship',
     to: '/services/education/apply-for-local-scholarships',
     Icon: GraduationCap,
   },
   {
-    label: 'Garbage Collection Schedule',
+    labelKey: 'hero.tasks.garbage',
     to: '/services/garbage-waste-disposal/check-garbage-collection-schedules-and-request-pickup',
     Icon: Trash2,
   },
   {
-    label: 'Social Welfare Assistance',
+    labelKey: 'hero.tasks.socialWelfare',
     to: '/services/social-welfare/apply-for-senior-citizen-solo-parent-or-pwd-assistance',
     Icon: Users,
   },
   {
-    label: 'Report a Road or Drainage Issue',
+    labelKey: 'hero.tasks.reportRoad',
     to: '/services/infrastructure-public-works/report-damaged-roads-bridges-or-drainage',
     Icon: Wrench,
   },
   {
-    label: 'Emergency Hotlines',
+    labelKey: 'hero.tasks.hotlines',
     to: '/hotlines',
     Icon: Siren,
     highlight: true,
@@ -84,7 +84,7 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
           {/* Left section with title and search */}
           <div className="animate-fade-in">
-            <Text transform="uppercase">Welcome to</Text>
+            <Text transform="uppercase">{t('hero.welcomeTo')}</Text>
             <Heading>{import.meta.env.VITE_GOVERNMENT_NAME}</Heading>
             <Text>{t('hero.subtitle')}</Text>
 
@@ -95,15 +95,15 @@ export default function Hero() {
                   type="search"
                   value={query}
                   onChange={e => setQuery(e.target.value)}
-                  placeholder="Search services and information…"
-                  aria-label="Search BetterKoronadal.org"
+                  placeholder={t('hero.searchPlaceholder')}
+                  aria-label={t('hero.searchAria')}
                   className="w-full bg-transparent py-1.5 text-gray-900 outline-none placeholder:text-gray-400"
                 />
                 <button
                   type="submit"
                   className="rounded-md bg-primary-600 px-4 py-2 text-sm font-medium text-white hover:bg-primary-700"
                 >
-                  Search
+                  {t('hero.searchButton')}
                 </button>
               </div>
             </form>
@@ -115,16 +115,16 @@ export default function Hero() {
               <div className="mb-4 flex items-center justify-between">
                 <div>
                   <h2 className="text-base font-semibold text-white">
-                    Top Tasks
+                    {t('hero.topTasks')}
                   </h2>
                   <p className="text-sm text-white/70">
-                    Jump straight to the things people do most.
+                    {t('hero.topTasksSubtitle')}
                   </p>
                 </div>
               </div>
 
               <div className="grid grid-cols-2 gap-3">
-                {tasks.map(({ label, to, Icon, highlight }) => (
+                {tasks.map(({ labelKey, to, Icon, highlight }) => (
                   <Link
                     key={to}
                     to={to}
@@ -144,7 +144,7 @@ export default function Hero() {
                       <Icon className="h-5 w-5" />
                     </span>
                     <span className="text-sm font-medium leading-snug text-white">
-                      {label}
+                      {t(labelKey)}
                     </span>
                   </Link>
                 ))}
@@ -154,7 +154,7 @@ export default function Hero() {
                 to="/services"
                 className="group mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-white/90 hover:text-white"
               >
-                View all services
+                {t('hero.viewAllServices')}
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </Link>
             </div>

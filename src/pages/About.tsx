@@ -6,16 +6,17 @@ import SourceNote from '../components/ui/SourceNote';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Link } from 'react-router-dom';
 import { MapPin, Users, Landmark, CalendarDays } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const quickFacts = [
-  { label: 'Also known as', value: 'Marbel' },
-  { label: 'Province', value: 'South Cotabato (capital)' },
-  { label: 'Region', value: 'Region XII (SOCCSKSARGEN)' },
-  { label: 'City classification', value: 'Component city' },
-  { label: 'Population (2024)', value: '201,844' },
-  { label: 'Land area', value: '277.00 km²' },
-  { label: 'Barangays', value: '27' },
-  { label: 'ZIP code', value: '9506' },
+  { labelKey: 'alsoKnownAs', value: 'Marbel' },
+  { labelKey: 'province', value: 'South Cotabato (capital)' },
+  { labelKey: 'region', value: 'Region XII (SOCCSKSARGEN)' },
+  { labelKey: 'classification', value: 'Component city' },
+  { labelKey: 'population', value: '201,844' },
+  { labelKey: 'landArea', value: '277.00 km²' },
+  { labelKey: 'barangays', value: '27' },
+  { labelKey: 'zip', value: '9506' },
 ];
 
 const barangays = [
@@ -49,34 +50,37 @@ const barangays = [
 ];
 
 const About: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <SEO
-        title="About the City of Koronadal"
-        description="Learn about the City of Koronadal — also known as Marbel — the capital of South Cotabato and the regional center of SOCCSKSARGEN. History, profile, vision, and the city's 27 barangays."
-        keywords="about Koronadal, Marbel, South Cotabato capital, SOCCSKSARGEN, Koronadal history, Koronadal barangays"
+        title={t('pages.about.seoTitle')}
+        description={t('pages.about.seoDescription')}
+        keywords={t('pages.about.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'About', href: '/about' },
+              { label: t('pages.about.breadcrumbHome'), href: '/' },
+              { label: t('pages.about.breadcrumbAbout'), href: '/about' },
             ]}
           />
 
-          <Heading>About the City of Koronadal</Heading>
+          <Heading>{t('pages.about.heroTitle')}</Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            The <strong>City of Koronadal</strong> — also known as{' '}
-            <strong>Marbel</strong> — is the capital of the Province of{' '}
-            <strong>South Cotabato</strong> and the regional center of{' '}
-            <strong>SOCCSKSARGEN (Region XII)</strong>. Often called the{' '}
-            <em>&ldquo;Hub of the South,&rdquo;</em> Koronadal is home to more
-            than 201,000 residents across 27 barangays.
+            {t('pages.about.introLead')} <strong>City of Koronadal</strong>{' '}
+            {t('pages.about.introAlso')} <strong>Marbel</strong>{' '}
+            {t('pages.about.introCapital')} <strong>South Cotabato</strong>{' '}
+            {t('pages.about.introRegional')}{' '}
+            <strong>SOCCSKSARGEN (Region XII)</strong>.{' '}
+            {t('pages.about.introHub')}{' '}
+            <em>&ldquo;{t('pages.about.hubOfTheSouth')}&rdquo;</em>{' '}
+            {t('pages.about.introResidents')}
           </p>
           <p className="text-gray-600 mb-8 max-w-3xl">
-            The city is guided by the vision{' '}
+            {t('pages.about.visionLead')}{' '}
             <strong>
               &ldquo;One People, One Big Dream, One Koronadal!&rdquo;
             </strong>
@@ -85,10 +89,10 @@ const About: React.FC = () => {
           {/* Quick facts */}
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 mb-12">
             {quickFacts.map(fact => (
-              <Card key={fact.label} className="h-full">
+              <Card key={fact.labelKey} className="h-full">
                 <CardContent>
                   <p className="text-xs uppercase tracking-wide text-gray-500">
-                    {fact.label}
+                    {t(`pages.about.facts.${fact.labelKey}`)}
                   </p>
                   <p className="mt-1 text-base font-semibold text-gray-900">
                     {fact.value}
@@ -99,90 +103,76 @@ const About: React.FC = () => {
           </div>
 
           {/* History */}
-          <Heading level={2}>History</Heading>
+          <Heading level={2}>{t('pages.about.historyHeading')}</Heading>
           <div className="max-w-3xl space-y-4 text-gray-700 mb-12">
-            <p>
-              The name <strong>Koronadal</strong> is believed to come from the
-              Blaan words <em>&ldquo;koron&rdquo;</em> (or <em>kalon</em>),
-              meaning cogon grass, and <em>&ldquo;nadal&rdquo;</em> or{' '}
-              <em>datal</em>, meaning a wide plain — a reflection of the
-              valley&rsquo;s original landscape.
-            </p>
-            <p>
-              On <strong>August 18, 1947</strong>, President Manuel Roxas signed
-              Executive Order No. 82 creating several municipalities in the old
-              Cotabato province, including the municipality of{' '}
-              <strong>Marbel</strong>. When the Province of South Cotabato was
-              created under <strong>Republic Act No. 4849</strong> on July 18,
-              1966, Koronadal was designated as its capital.
-            </p>
-            <p>
-              Koronadal was converted into a <strong>component city</strong> by
-              virtue of <strong>Republic Act No. 8803</strong> on{' '}
-              <strong>October 8, 2000</strong>. Today it serves as the seat of
-              the provincial government of South Cotabato and the regional
-              center of SOCCSKSARGEN.
-            </p>
+            <p>{t('pages.about.historyP1')}</p>
+            <p>{t('pages.about.historyP2')}</p>
+            <p>{t('pages.about.historyP3')}</p>
             <p>
               <Link
                 to="/history"
                 className="font-semibold text-primary-600 hover:text-primary-700"
               >
-                Read the full city history and the timeline of Koronadal&rsquo;s
-                mayors &rarr;
+                {t('pages.about.historyLink')} &rarr;
               </Link>
             </p>
           </div>
 
           {/* At a glance icons */}
-          <Heading level={2}>The City at a Glance</Heading>
+          <Heading level={2}>{t('pages.about.glanceHeading')}</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-12">
             <Card className="h-full">
               <CardContent>
                 <Landmark className="h-6 w-6 text-primary-600 mb-2" />
                 <p className="font-semibold text-gray-900">
-                  Provincial capital
+                  {t('pages.about.glanceCapitalTitle')}
                 </p>
                 <p className="text-sm text-gray-600">
-                  Seat of the South Cotabato provincial government.
+                  {t('pages.about.glanceCapitalDesc')}
                 </p>
               </CardContent>
             </Card>
             <Card className="h-full">
               <CardContent>
                 <MapPin className="h-6 w-6 text-primary-600 mb-2" />
-                <p className="font-semibold text-gray-900">Regional center</p>
+                <p className="font-semibold text-gray-900">
+                  {t('pages.about.glanceRegionalTitle')}
+                </p>
                 <p className="text-sm text-gray-600">
-                  Administrative hub of Region XII (SOCCSKSARGEN).
+                  {t('pages.about.glanceRegionalDesc')}
                 </p>
               </CardContent>
             </Card>
             <Card className="h-full">
               <CardContent>
                 <Users className="h-6 w-6 text-primary-600 mb-2" />
-                <p className="font-semibold text-gray-900">201,844 residents</p>
+                <p className="font-semibold text-gray-900">
+                  {t('pages.about.glanceResidentsTitle', { value: '201,844' })}
+                </p>
                 <p className="text-sm text-gray-600">
-                  Based on the 2024 census by the PSA.
+                  {t('pages.about.glanceResidentsDesc')}
                 </p>
               </CardContent>
             </Card>
             <Card className="h-full">
               <CardContent>
                 <CalendarDays className="h-6 w-6 text-primary-600 mb-2" />
-                <p className="font-semibold text-gray-900">Cityhood in 2000</p>
+                <p className="font-semibold text-gray-900">
+                  {t('pages.about.glanceCityhoodTitle', { year: '2000' })}
+                </p>
                 <p className="text-sm text-gray-600">
-                  Component city under RA 8803.
+                  {t('pages.about.glanceCityhoodDesc')}
                 </p>
               </CardContent>
             </Card>
           </div>
 
           {/* Barangays */}
-          <Heading level={2}>The 27 Barangays</Heading>
+          <Heading level={2}>
+            {t('pages.about.barangaysHeading', { value: '27' })}
+          </Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            Koronadal is composed of 27 barangays. The most populous include
-            General Paulino Santos, Santa Cruz, Santo Niño, Zone III, and
-            Zulueta.
+            {t('pages.about.barangaysIntro')}
           </p>
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4 mb-12">
             {barangays.map(name => (
@@ -196,14 +186,16 @@ const About: React.FC = () => {
           </div>
 
           {/* Links */}
-          <Heading level={2}>Learn More</Heading>
+          <Heading level={2}>{t('pages.about.learnMoreHeading')}</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 max-w-3xl">
             <Link to="/government/departments">
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
-                  <p className="font-semibold text-gray-900">City Government</p>
+                  <p className="font-semibold text-gray-900">
+                    {t('pages.about.linkGovernmentTitle')}
+                  </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    Meet the Mayor, Vice Mayor, and City Council.
+                    {t('pages.about.linkGovernmentDesc')}
                   </p>
                 </CardContent>
               </Card>
@@ -211,9 +203,11 @@ const About: React.FC = () => {
             <Link to="/services">
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
-                  <p className="font-semibold text-gray-900">City Services</p>
+                  <p className="font-semibold text-gray-900">
+                    {t('pages.about.linkServicesTitle')}
+                  </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    Health, business, education, social welfare, and more.
+                    {t('pages.about.linkServicesDesc')}
                   </p>
                 </CardContent>
               </Card>
@@ -221,9 +215,11 @@ const About: React.FC = () => {
             <Link to="/contact">
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
-                  <p className="font-semibold text-gray-900">Contact Us</p>
+                  <p className="font-semibold text-gray-900">
+                    {t('pages.about.linkContactTitle')}
+                  </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    Reach the City Government of Koronadal.
+                    {t('pages.about.linkContactDesc')}
                   </p>
                 </CardContent>
               </Card>
@@ -234,19 +230,19 @@ const About: React.FC = () => {
             verified="June 2026"
             sources={[
               {
-                label: 'City Government of Koronadal — official website',
+                label: t('pages.about.source1Label'),
                 href: 'https://koronadal.gov.ph',
-                note: 'Profile, history, vision',
+                note: t('pages.about.source1Note'),
               },
               {
-                label: 'Philippine Statistics Authority (PSA)',
+                label: t('pages.about.source2Label'),
                 href: 'https://psa.gov.ph',
-                note: '2024 census (201,844); 2020 census (195,398); land area',
+                note: t('pages.about.source2Note'),
               },
               {
-                label: 'Koronadal, South Cotabato — Wikipedia',
+                label: t('pages.about.source3Label'),
                 href: 'https://en.wikipedia.org/wiki/Koronadal',
-                note: 'History: EO 82 (1947), RA 4849 (1966), RA 8803 (2000)',
+                note: t('pages.about.source3Note'),
               },
             ]}
           />

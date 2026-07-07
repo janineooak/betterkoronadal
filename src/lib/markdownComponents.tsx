@@ -87,10 +87,6 @@ export function createMarkdownComponents(theme: TypographyTheme) {
       children,
       ...props
     }: { children?: ReactNode } & HTMLAttributes<HTMLUListElement>) => {
-      // Debug: Log what we're getting
-      console.log('UL Component - Props:', props);
-      console.log('UL Component - Children:', children);
-
       // Check if this ul contains task list items
       const hasTaskItems =
         Array.isArray(children) &&
@@ -99,8 +95,6 @@ export function createMarkdownComponents(theme: TypographyTheme) {
             typeof child === 'object' &&
             child?.props?.className?.includes('task-list-item')
         );
-
-      console.log('Has Task Items:', hasTaskItems);
 
       // For task lists, don't wrap with ul - just return children directly
       if (hasTaskItems) {
@@ -252,6 +246,29 @@ export function createMarkdownComponents(theme: TypographyTheme) {
         </a>
       );
     },
+    img: ({
+      src,
+      alt,
+      ...props
+    }: {
+      src?: string;
+      alt?: string;
+    } & HTMLAttributes<HTMLImageElement>) => (
+      <figure className="my-6">
+        <img
+          src={src}
+          alt={alt}
+          loading="lazy"
+          className="mx-auto w-full max-w-sm rounded-lg border border-gray-200 object-cover shadow-sm"
+          {...props}
+        />
+        {alt && (
+          <figcaption className="mt-2 text-center text-sm text-gray-500">
+            {alt}
+          </figcaption>
+        )}
+      </figure>
+    ),
     strong: ({
       children,
       ...props

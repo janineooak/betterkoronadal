@@ -1,0 +1,44 @@
+name: Refresh external data
+
+# Pulls live external data (PhilGEPS procurement notices, DPWH flood-control
+# projects) into the repo as JSON. Forex is fetched client-side at runtime by the
+# ForexWidget (BSP is CORS-enabled), so it is intentionally NOT refreshed here.
+#
+# On a static site there is no backend, so the "automatic" part is this scheduled
+# job: it runs the fetch script and commits any changes, and that commit triggers
+# the host (Railway) to redeploy with the fresh data.
+
+on:
+  schedule:
+    # Daily at 21:00 UTC ≈ 05:00 PHT. Procurement notices change often; the
+    # flood-control dataset rarely does, so daily comfortably covers both.
+    - cron: '0 21 * * *'
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest data
+        run: node scripts/refresh-data.mjs
+
+      - name: Commit changes if any
+        run: |
+          if [ -n "$(git status --porcelain src/data/generated)" ]; then
+            git config user.name "koronadal-data-bot"
+            git config user.email "bot@betterkoronadal.org"
+            git add src/data/generated
+            git commit -m "chore(data): refresh external data [skip ci]"
+            git push
+          else
+            echo "No data changes."
+          fi

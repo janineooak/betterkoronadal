@@ -10,6 +10,7 @@ import {
   CITIZENS_CHARTER_PDF,
   CITIZENS_CHARTER_SOURCE,
 } from '../data/citizensCharter';
+import { useTranslation, Trans } from 'react-i18next';
 
 const totalServices = citizensCharter.reduce(
   (sum, office) => sum + office.services.length,
@@ -17,32 +18,37 @@ const totalServices = citizensCharter.reduce(
 );
 
 const CitizensCharter: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <SEO
-        title="Citizen's Charter"
-        description={`A complete, searchable index of all ${totalServices} frontline services in the City of Koronadal Citizen's Charter (${CITIZENS_CHARTER_EDITION} edition), grouped by office, with a link to the official guidebook.`}
-        keywords="Koronadal Citizen's Charter, frontline services, city services directory, requirements, fees, processing time, ARTA, koronadal.gov.ph"
+        title={t('pages.citizensCharter.seoTitle')}
+        description={t('pages.citizensCharter.seoDescription', {
+          totalServices,
+          edition: CITIZENS_CHARTER_EDITION,
+        })}
+        keywords={t('pages.citizensCharter.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: "Citizen's Charter", href: '/citizens-charter' },
+              { label: t('pages.citizensCharter.breadcrumbHome'), href: '/' },
+              {
+                label: t('pages.citizensCharter.breadcrumbCharter'),
+                href: '/citizens-charter',
+              },
             ]}
           />
 
-          <Heading>Citizen&rsquo;s Charter</Heading>
+          <Heading>{t('pages.citizensCharter.heading')}</Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            The <strong>Citizen&rsquo;s Charter</strong> is the City Government
-            of Koronadal&rsquo;s official guide to its frontline services — the
-            requirements, fees, and processing times for each transaction, as
-            mandated by the Ease of Doing Business Act (RA 11032). This page
-            indexes all <strong>{totalServices} services</strong> from the{' '}
-            <strong>{CITIZENS_CHARTER_EDITION} edition</strong>, grouped by
-            office.
+            <Trans
+              i18nKey="pages.citizensCharter.intro"
+              values={{ totalServices, edition: CITIZENS_CHARTER_EDITION }}
+              components={{ strong: <strong /> }}
+            />
           </p>
 
           {/* Primary CTA: official PDF */}
@@ -54,8 +60,9 @@ const CitizensCharter: React.FC = () => {
               className="inline-flex items-center gap-2 rounded-lg bg-primary-600 px-4 py-2 text-white font-medium hover:bg-primary-700 transition-colors"
             >
               <FileText className="h-5 w-5" />
-              Open the official Citizen&rsquo;s Charter (
-              {CITIZENS_CHARTER_EDITION} PDF)
+              {t('pages.citizensCharter.openOfficialPdf', {
+                edition: CITIZENS_CHARTER_EDITION,
+              })}
             </a>
             <a
               href={CITIZENS_CHARTER_SOURCE}
@@ -74,18 +81,18 @@ const CitizensCharter: React.FC = () => {
               <div className="flex items-start gap-3">
                 <Info className="h-6 w-6 shrink-0 text-amber-600" />
                 <p className="text-sm text-gray-700">
-                  <strong className="text-gray-900">
-                    This is a community-built index, not the official document.
-                  </strong>{' '}
-                  Service names are summarized from the official charter for
-                  easy browsing. For the exact requirements, fees, and
-                  step-by-step procedures, always open the official PDF above.
-                  Many of the most-used services also have a plain-language
-                  guide in our{' '}
-                  <a href="/services" className="text-primary-600 underline">
-                    Services
-                  </a>{' '}
-                  section.
+                  <Trans
+                    i18nKey="pages.citizensCharter.disclaimer"
+                    components={{
+                      strong: <strong className="text-gray-900" />,
+                      servicesLink: (
+                        <a
+                          href="/services"
+                          className="text-primary-600 underline"
+                        />
+                      ),
+                    }}
+                  />
                 </p>
               </div>
             </CardContent>
@@ -96,7 +103,7 @@ const CitizensCharter: React.FC = () => {
             <Card className="h-full">
               <CardContent>
                 <p className="text-xs uppercase tracking-wide text-gray-500">
-                  Total services
+                  {t('pages.citizensCharter.statTotalServices')}
                 </p>
                 <p className="mt-1 text-2xl font-bold text-gray-900">
                   {totalServices}
@@ -106,7 +113,7 @@ const CitizensCharter: React.FC = () => {
             <Card className="h-full">
               <CardContent>
                 <p className="text-xs uppercase tracking-wide text-gray-500">
-                  Offices
+                  {t('pages.citizensCharter.statOffices')}
                 </p>
                 <p className="mt-1 text-2xl font-bold text-gray-900">
                   {citizensCharter.length}
@@ -116,7 +123,7 @@ const CitizensCharter: React.FC = () => {
             <Card className="h-full">
               <CardContent>
                 <p className="text-xs uppercase tracking-wide text-gray-500">
-                  Edition
+                  {t('pages.citizensCharter.statEdition')}
                 </p>
                 <p className="mt-1 text-2xl font-bold text-gray-900">
                   {CITIZENS_CHARTER_EDITION}
@@ -126,7 +133,9 @@ const CitizensCharter: React.FC = () => {
           </div>
 
           {/* Office-by-office service index */}
-          <Heading level={2}>Services by Office</Heading>
+          <Heading level={2}>
+            {t('pages.citizensCharter.servicesByOfficeHeading')}
+          </Heading>
           <div className="space-y-6">
             {citizensCharter.map(office => (
               <Card key={office.office} className="h-full">
@@ -139,8 +148,9 @@ const CitizensCharter: React.FC = () => {
                       )}
                     </p>
                     <span className="shrink-0 text-xs text-gray-500">
-                      {office.services.length}{' '}
-                      {office.services.length === 1 ? 'service' : 'services'}
+                      {t('pages.citizensCharter.serviceCount', {
+                        count: office.services.length,
+                      })}
                     </span>
                   </div>
                   <ol className="space-y-1.5">

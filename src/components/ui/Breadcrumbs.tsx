@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ChevronRight, Home } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface BreadcrumbItem {
   label: string;
@@ -14,11 +15,14 @@ interface BreadcrumbsProps {
 
 const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, className = '' }) => {
   const location = useLocation();
+  const { t } = useTranslation();
 
   // Generate breadcrumbs from current path if no items provided
   const generateBreadcrumbs = (): BreadcrumbItem[] => {
     const pathSegments = location.pathname.split('/').filter(Boolean);
-    const breadcrumbs: BreadcrumbItem[] = [{ label: 'Home', href: '/' }];
+    const breadcrumbs: BreadcrumbItem[] = [
+      { label: t('breadcrumbs.home'), href: '/' },
+    ];
 
     let currentPath = '';
     pathSegments.forEach((segment, index) => {

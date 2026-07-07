@@ -1,0 +1,19 @@
+# Employment & Cooperatives Category Pages
+# This file contains all the pages/services available under the Employment & Cooperatives category
+
+pages:
+  - name: 'Maghanap ng trabaho sa pamamagitan ng PESO'
+    slug: 'find-a-job-through-peso'
+    description: 'Magrehistro bilang jobseeker, ma-match sa mga employer, at makatanggap ng referral letter mula sa PESO o sumali sa lokal na job fair.'
+
+  - name: 'Mag-apply sa SPES student employment program'
+    slug: 'apply-for-the-spes-student-employment-program'
+    description: 'Pansamantala at bayad na trabaho tuwing tag-init/Pasko para sa mahihirap ngunit karapat-dapat na mag-aaral at out-of-school youth, pinadadali ng PESO kasama ang DOLE.'
+
+  - name: 'Kumuha ng tulong para sa overseas o displaced workers'
+    slug: 'get-assistance-for-overseas-or-displaced-workers'
+    description: 'Maghain ng reklamong pangkapakanan ng OFW sa OWWA, mag-apply ng TUPAD emergency employment, o mag-ayos ng overseas recruitment activities sa pamamagitan ng PESO.'
+
+  - name: 'Magrehistro o magpalakas ng kooperatiba'
+    slug: 'register-or-strengthen-a-cooperative'
+    description: 'Kumuha ng tulong sa pagrehistro ng co-op, pag-apply ng CLAP capital loan, pagdalo sa mga sapilitang pagsasanay, o pagkuha ng endorsement letter.'

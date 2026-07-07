@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import SourceNote from '../components/ui/SourceNote';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import {
   PartyPopper,
   Trees,
@@ -20,141 +21,98 @@ import {
 } from 'lucide-react';
 
 interface Attraction {
+  key: string;
   name: string;
-  description: string;
   Icon: React.ComponentType<{ className?: string }>;
 }
 
 // Places in or right around Koronadal City.
 const cityAttractions: Attraction[] = [
+  { key: 'cityPlaza', name: 'Koronadal City Plaza (Rizal Park)', Icon: Trees },
   {
-    name: 'Koronadal City Plaza (Rizal Park)',
-    description:
-      'The central civic plaza in the heart of the city — a gathering place for events, evening strolls, and city celebrations.',
-    Icon: Trees,
-  },
-  {
+    key: 'provincialCapitol',
     name: 'South Cotabato Provincial Capitol',
-    description:
-      'The seat of the provincial government. Koronadal is the capital of South Cotabato and the regional center of SOCCSKSARGEN.',
     Icon: Landmark,
   },
   {
+    key: 'communityMuseum',
     name: 'South Cotabato Community Museum',
-    description:
-      'On the Capitol grounds, the provincial museum houses artifacts and crafts of the Blaan, T’boli, and settler communities that shaped the region.',
     Icon: Landmark,
   },
   {
+    key: 'kalonBarak',
     name: 'Kalon Barak Skyline Ridge',
-    description:
-      'An elevated viewpoint at roughly 2,375 ft offering panoramic views toward Mt. Matutum, Mt. Apo, and a sea of clouds on cool mornings — a favourite for sunrise and sunset.',
     Icon: Mountain,
   },
   {
+    key: 'paraisoVerde',
     name: 'Paraiso Verde Resort & Water Park',
-    description:
-      'Billed as the largest recreational water park in the SOCCSKSARGEN region, with pools, slides, and accommodations for a family day out.',
     Icon: Waves,
   },
   {
+    key: 'carpenterHill',
     name: 'The Farm at Carpenter Hill',
-    description:
-      'A highland agri-tourism spot in Brgy. Carpenter Hill with pineapple plantations and farm views, a short drive from the city centre.',
     Icon: Sprout,
   },
+  { key: 'kccMall', name: 'KCC Mall of Marbel', Icon: ShoppingBag },
   {
-    name: 'KCC Mall of Marbel',
-    description:
-      'The city’s main shopping mall — local restaurants, regional produce like mangoes and tilapia, and SOCCSKSARGEN souvenirs.',
-    Icon: ShoppingBag,
-  },
-  {
+    key: 'dioceseMarbel',
     name: 'Diocese of Marbel & city churches',
-    description:
-      'Koronadal is the seat of the Catholic Diocese of Marbel. Parish churches across the city anchor major religious feasts and patronal fiestas.',
     Icon: Church,
   },
-  {
-    name: 'Local markets & cuisine',
-    description:
-      'As the "Hub of the South," Koronadal is a trade center for South Cotabato — explore its public markets, agricultural produce, and Mindanao flavors.',
-    Icon: Utensils,
-  },
+  { key: 'localMarkets', name: 'Local markets & cuisine', Icon: Utensils },
 ];
 
 // Famous provincial spots that are outside the city but commonly visited from it.
 const dayTrips: Attraction[] = [
   {
+    key: 'sevenFalls',
     name: 'Seven Falls & Zipline, Lake Sebu',
-    description:
-      'Lake Sebu’s crown jewel: seven cascading waterfalls and one of the highest zipline rides in the country, about a 1–1.5 hr drive from Koronadal.',
     Icon: Droplets,
   },
+  { key: 'lakeSebu', name: 'Lake Sebu', Icon: Waves },
   {
-    name: 'Lake Sebu',
-    description:
-      'A highland lake at ~1,000 m and the cultural home of the T’boli dreamweavers — known for tilapia, lotus blooms, and the T’boli Museum.',
-    Icon: Waves,
-  },
-  {
+    key: 'lakeHolon',
     name: 'Lake Holon (Lake Maughan), T’boli',
-    description:
-      'A pristine crater lake on Mt. Melibingoy reached by a guided trek — turquoise waters, camping, and stargazing for more adventurous visitors.',
     Icon: Tent,
   },
 ];
 
 const Tourism: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <SEO
-        title="Visit Koronadal"
-        description="Discover the City of Koronadal (Marbel) — the Hinugyaw Festival, the City Plaza, Kalon Barak Skyline Ridge, museums, churches, and the culture of the 'Hub of the South' in South Cotabato."
-        keywords="visit Koronadal, Koronadal tourism, Hinugyaw Festival, Araw ng Koronadal, Kalon Barak, things to do Koronadal, South Cotabato tourist spots, Marbel"
+        title={t('pages.tourism.seoTitle')}
+        description={t('pages.tourism.seoDescription')}
+        keywords={t('pages.tourism.seoKeywords')}
       />
       <main className="flex-grow">
         <Section className="p-3 mb-12">
           <Breadcrumbs
             className="mb-8"
             items={[
-              { label: 'Home', href: '/' },
-              { label: 'Visit Koronadal', href: '/tourism' },
+              { label: t('pages.tourism.breadcrumbHome'), href: '/' },
+              { label: t('pages.tourism.breadcrumbTourism'), href: '/tourism' },
             ]}
           />
 
-          <Heading>Visit Koronadal</Heading>
+          <Heading>{t('pages.tourism.title')}</Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            Known as the <strong>&ldquo;Hub of the South,&rdquo;</strong> the
-            City of Koronadal — also called <strong>Marbel</strong> — blends the
-            cultures of its Blaan first peoples, Mindanao settlers, and a lively
-            urban center. As the capital of South Cotabato and the regional seat
-            of SOCCSKSARGEN, it&rsquo;s a natural starting point for exploring
-            the region.
+            {t('pages.tourism.intro')}
           </p>
 
           {/* Signature festival */}
-          <Heading level={2}>The Hinugyaw Festival</Heading>
+          <Heading level={2}>{t('pages.tourism.festivalHeading')}</Heading>
           <div className="mb-12 max-w-3xl">
             <Card className="border-l-4 border-primary-500">
               <CardContent>
                 <div className="flex items-start gap-3">
                   <PartyPopper className="h-7 w-7 shrink-0 text-primary-600" />
                   <div className="text-gray-700">
-                    <p>
-                      <strong>Hinugyaw</strong> means &ldquo;merrymaking&rdquo;
-                      in the local dialect, and the{' '}
-                      <strong>Hinugyaw Festival</strong> is the city&rsquo;s
-                      signature celebration. Held around the{' '}
-                      <strong>Araw ng Koronadal</strong> (the city&rsquo;s
-                      founding anniversary), it fills the streets with colourful
-                      street-dancing contingents, music, and tributes to the
-                      city&rsquo;s pioneer settlers.
-                    </p>
+                    <p>{t('pages.tourism.festivalBody')}</p>
                     <p className="mt-2 text-sm text-gray-500">
-                      Dates can shift year to year — check the city&rsquo;s
-                      official channels for the current schedule before planning
-                      a trip.
+                      {t('pages.tourism.festivalNote')}
                     </p>
                   </div>
                 </div>
@@ -163,47 +121,55 @@ const Tourism: React.FC = () => {
           </div>
 
           {/* Places & highlights */}
-          <Heading level={2}>Places &amp; Highlights</Heading>
+          <Heading level={2}>{t('pages.tourism.placesHeading')}</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-12">
-            {cityAttractions.map(({ name, description, Icon }) => (
-              <Card key={name} className="h-full">
+            {cityAttractions.map(({ key, name, Icon }) => (
+              <Card key={key} className="h-full">
                 <CardContent>
                   <Icon className="h-6 w-6 text-primary-600 mb-2" />
-                  <p className="font-semibold text-gray-900">{name}</p>
-                  <p className="mt-1 text-sm text-gray-600">{description}</p>
+                  <p className="font-semibold text-gray-900">
+                    {t(`pages.tourism.places.${key}.name`, name)}
+                  </p>
+                  <p className="mt-1 text-sm text-gray-600">
+                    {t(`pages.tourism.places.${key}.description`)}
+                  </p>
                 </CardContent>
               </Card>
             ))}
           </div>
 
           {/* Day trips beyond the city */}
-          <Heading level={2}>Day Trips from Koronadal</Heading>
+          <Heading level={2}>{t('pages.tourism.dayTripsHeading')}</Heading>
           <p className="text-gray-600 mb-4 max-w-3xl">
-            Koronadal is the gateway to South Cotabato&rsquo;s natural wonders.
-            These famous spots are outside the city but easily reached on a day
-            trip.
+            {t('pages.tourism.dayTripsIntro')}
           </p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-12">
-            {dayTrips.map(({ name, description, Icon }) => (
-              <Card key={name} className="h-full">
+            {dayTrips.map(({ key, name, Icon }) => (
+              <Card key={key} className="h-full">
                 <CardContent>
                   <Icon className="h-6 w-6 text-primary-600 mb-2" />
-                  <p className="font-semibold text-gray-900">{name}</p>
-                  <p className="mt-1 text-sm text-gray-600">{description}</p>
+                  <p className="font-semibold text-gray-900">
+                    {t(`pages.tourism.dayTrips.${key}.name`, name)}
+                  </p>
+                  <p className="mt-1 text-sm text-gray-600">
+                    {t(`pages.tourism.dayTrips.${key}.description`)}
+                  </p>
                 </CardContent>
               </Card>
             ))}
           </div>
 
           {/* Practical links */}
-          <Heading level={2}>Plan Your Visit</Heading>
+          <Heading level={2}>{t('pages.tourism.planHeading')}</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 max-w-3xl">
             <Link to="/about">
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
-                  <p className="font-semibold text-gray-900">About the City</p>
+                  <p className="font-semibold text-gray-900">
+                    {t('pages.tourism.aboutCardTitle')}
+                  </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    History, profile, and the 27 barangays.
+                    {t('pages.tourism.aboutCardBody')}
                   </p>
                 </CardContent>
               </Card>
@@ -212,10 +178,10 @@ const Tourism: React.FC = () => {
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
                   <p className="font-semibold text-gray-900">
-                    Emergency Hotlines
+                    {t('pages.tourism.hotlinesCardTitle')}
                   </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    Useful numbers to keep handy while you&rsquo;re here.
+                    {t('pages.tourism.hotlinesCardBody')}
                   </p>
                 </CardContent>
               </Card>
@@ -228,10 +194,10 @@ const Tourism: React.FC = () => {
               <Card hoverable className="h-full border-t-4 border-primary-500">
                 <CardContent>
                   <p className="font-semibold text-gray-900">
-                    Official Culture Page
+                    {t('pages.tourism.cultureCardTitle')}
                   </p>
                   <p className="mt-1 text-sm text-gray-600">
-                    Culture and heritage on koronadal.gov.ph.
+                    {t('pages.tourism.cultureCardBody')}
                   </p>
                 </CardContent>
               </Card>

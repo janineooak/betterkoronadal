@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { Heading } from '../components/ui/Heading';
 import { Text } from '../components/ui/Text';
 import {
-  serviceCategories,
+  getServiceCategories,
   getCategorySubcategories,
   type Subcategory,
   type CategoryIndex,
@@ -15,8 +15,11 @@ import SEO from '../components/SEO';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Banner } from '@bettergov/kapwa/banner';
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Services: React.FC = () => {
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language;
   const { category } = useParams();
   const [categoryIndex, setCategoryIndex] = useState<CategoryIndex>({
     layout: 'list',
@@ -26,7 +29,7 @@ const Services: React.FC = () => {
   const subcategories: Subcategory[] = categoryIndex.pages;
 
   const getCategory = () => {
-    return serviceCategories.categories.find(c => c.slug === category);
+    return getServiceCategories(lang).categories.find(c => c.slug === category);
   };
 
   const categoryData = getCategory();
@@ -37,24 +40,28 @@ const Services: React.FC = () => {
   useEffect(() => {
     if (category && categoryData) {
       setLoading(true);
-      getCategorySubcategories(category)
+      getCategorySubcategories(category, lang)
         .then(setCategoryIndex)
         .catch(console.error)
         .finally(() => setLoading(false));
     }
-  }, [category, categoryData]);
+  }, [category, categoryData, lang]);
 
   if (!category) {
     return (
       <>
         <SEO
-          title="Services"
-          description={`All services provided by the ${import.meta.env.VITE_GOVERNMENT_NAME} government. Find what you need for citizenship, business, education, and more.`}
-          keywords="government services, public services, local government, civic services"
+          title={t('pages.services.seoTitle')}
+          description={t('pages.services.seoDescription', {
+            government: import.meta.env.VITE_GOVERNMENT_NAME,
+          })}
+          keywords={t('pages.services.seoKeywords')}
         />
         <ServicesSection
-          title={`All local government services`}
-          description={`All services provided by the ${import.meta.env.VITE_GOVERNMENT_NAME} government. Find what you need for citizenship, business, education, and more.`}
+          title={t('pages.services.allServicesTitle')}
+          description={t('pages.services.seoDescription', {
+            government: import.meta.env.VITE_GOVERNMENT_NAME,
+          })}
         />
       </>
     );
@@ -65,8 +72,8 @@ const Services: React.FC = () => {
         <Breadcrumbs className="mb-8" />
         <Banner
           type="error"
-          title="Category not found"
-          description="The category you are looking for does not exist."
+          title={t('pages.services.categoryNotFoundTitle')}
+          description={t('pages.services.categoryNotFoundDescription')}
           icon
         />
       </Section>
@@ -78,7 +85,9 @@ const Services: React.FC = () => {
       <SEO
         title={categoryData.category || category}
         description={categoryData.description}
-        keywords={`${categoryData.category}, government services, public services, local government`}
+        keywords={t('pages.services.categoryKeywords', {
+          category: categoryData.category,
+        })}
       />
       <Section className="p-3 mb-12">
         <Breadcrumbs className="mb-8" />
@@ -88,7 +97,7 @@ const Services: React.FC = () => {
 
         {loading ? (
           <div className="flex justify-center items-center p-8">
-            <Text>Loading services...</Text>
+            <Text>{t('pages.services.loading')}</Text>
           </div>
         ) : (
           <>

@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import type { TFunction } from 'i18next';
 import { Activity, AlertCircle, MapPin } from 'lucide-react';
 import { Heading } from '../ui/Heading';
+import { fetchWithTimeout } from '../../lib/utils';
 
 // Koronadal City (Marbel) — approximate city-center coordinates.
 const KORONADAL_LAT = 6.5031;
@@ -47,18 +50,19 @@ function magnitudeColor(mag: number): string {
   return 'bg-gray-100 text-gray-700';
 }
 
-function timeAgo(ms: number): string {
+function timeAgo(ms: number, t: TFunction): string {
   const diff = Date.now() - ms;
   const minutes = Math.round(diff / 60000);
-  if (minutes < 1) return 'just now';
-  if (minutes < 60) return `${minutes} min ago`;
+  if (minutes < 1) return t('home.earthquake.justNow');
+  if (minutes < 60) return t('home.earthquake.minutesAgo', { count: minutes });
   const hours = Math.round(minutes / 60);
-  if (hours < 24) return `${hours} hr${hours === 1 ? '' : 's'} ago`;
+  if (hours < 24) return t('home.earthquake.hoursAgo', { count: hours });
   const days = Math.round(hours / 24);
-  return `${days} day${days === 1 ? '' : 's'} ago`;
+  return t('home.earthquake.daysAgo', { count: days });
 }
 
 export default function EarthquakeWidget() {
+  const { t } = useTranslation();
   const [quakes, setQuakes] = useState<Quake[] | null>(null);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -66,7 +70,7 @@ export default function EarthquakeWidget() {
   useEffect(() => {
     let cancelled = false;
 
-    fetch(QUAKE_URL)
+    fetchWithTimeout(QUAKE_URL)
       .then(res => {
         if (!res.ok) throw new Error('Earthquake request failed');
         return res.json() as Promise<USGSResponse>;
@@ -77,7 +81,7 @@ export default function EarthquakeWidget() {
           json.features.map(f => ({
             id: f.id,
             magnitude: f.properties.mag ?? 0,
-            place: f.properties.place ?? 'Unknown location',
+            place: f.properties.place ?? t('home.earthquake.unknownLocation'),
             time: f.properties.time,
             depth: Math.round(f.geometry.coordinates[2]),
             url: f.properties.url,
@@ -94,20 +98,18 @@ export default function EarthquakeWidget() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [t]);
 
   return (
     <div className="flex h-full flex-col">
-      <Heading level={2}>Recent Earthquakes</Heading>
-      <p className="text-gray-600 mb-6">
-        Seismic activity within ~500 km of Koronadal over recent days.
-      </p>
+      <Heading level={2}>{t('home.earthquake.title')}</Heading>
+      <p className="text-gray-600 mb-6">{t('home.earthquake.subtitle')}</p>
 
       <div className="flex-grow rounded-lg border border-gray-200 bg-white p-6">
         {loading && (
           <div className="flex items-center gap-3 text-gray-500">
             <Activity className="h-6 w-6 animate-pulse" />
-            <span>Loading recent earthquakes…</span>
+            <span>{t('home.earthquake.loading')}</span>
           </div>
         )}
 
@@ -116,10 +118,10 @@ export default function EarthquakeWidget() {
             <AlertCircle className="h-6 w-6 shrink-0 text-amber-500" />
             <div>
               <p className="font-semibold text-gray-900">
-                Earthquake data is unavailable right now
+                {t('home.earthquake.errorTitle')}
               </p>
               <p className="text-sm">
-                Check{' '}
+                {t('home.earthquake.errorBefore')}{' '}
                 <a
                   href="https://earthquake.phivolcs.dost.gov.ph"
                   target="_blank"
@@ -128,7 +130,7 @@ export default function EarthquakeWidget() {
                 >
                   PHIVOLCS
                 </a>{' '}
-                for the latest earthquake bulletins and advisories.
+                {t('home.earthquake.errorAfter')}
               </p>
             </div>
           </div>
@@ -137,7 +139,7 @@ export default function EarthquakeWidget() {
         {quakes && quakes.length === 0 && (
           <div className="flex items-center gap-3 text-gray-600">
             <Activity className="h-6 w-6 shrink-0 text-primary-500" />
-            <p>No recent earthquakes recorded near Koronadal.</p>
+            <p>{t('home.earthquake.noRecent')}</p>
           </div>
         )}
 
@@ -164,7 +166,8 @@ export default function EarthquakeWidget() {
                       <span className="truncate">{quake.place}</span>
                     </span>
                     <span className="text-xs text-gray-500">
-                      {timeAgo(quake.time)} · {quake.depth} km deep
+                      {timeAgo(quake.time, t)} ·{' '}
+                      {t('home.earthquake.depth', { depth: quake.depth })}
                     </span>
                   </span>
                 </a>
@@ -175,7 +178,7 @@ export default function EarthquakeWidget() {
       </div>
 
       <p className="mt-2 text-xs text-gray-500">
-        Earthquake data by{' '}
+        {t('home.earthquake.attributionBefore')}{' '}
         <a
           href="https://earthquake.usgs.gov"
           target="_blank"
@@ -184,8 +187,7 @@ export default function EarthquakeWidget() {
         >
           USGS
         </a>
-        . For official Philippine earthquake bulletins and advisories, always
-        check{' '}
+        {t('home.earthquake.attributionMiddle')}{' '}
         <a
           href="https://earthquake.phivolcs.dost.gov.ph"
           target="_blank"
@@ -194,7 +196,7 @@ export default function EarthquakeWidget() {
         >
           PHIVOLCS
         </a>
-        .
+        {t('home.earthquake.attributionAfter')}
       </p>
     </div>
   );

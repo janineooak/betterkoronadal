@@ -1,0 +1,28 @@
+# Guides and Regulations Pages
+# Each entry maps to a markdown file: content/government/guides-and-regulations/{slug}.md
+# The optional `subcategory` field groups pages on the category page (e.g. Guides vs. Regulations).
+
+layout: grid
+title: 'Mga Giya kag Regulasyon'
+description: 'Tikang-por-tikang nga mga giya sa kinaandan nga transaksiyon sa Dakbanwa sang Koronadal, lakip ang mga importante nga lokal nga pagsulundan nga dapat mahibal-an sang tagsa ka pumuluyo.'
+pages:
+  - name: 'Paano Magkuha sang Permit sang Alkalde / Negosyo'
+    slug: 'how-to-get-a-business-permit'
+    subcategory: 'Mga Giya'
+    description: 'Isa ka tikang-por-tikang nga giya sa pag-aplay kag pag-renew sang permit sa negosyo sa Koronadal, lakip ang mga kinahanglanon kag bayad.'
+  - name: 'Paano Magpangayo sang mga Dokumento sa Civil Registry'
+    slug: 'how-to-request-civil-registry-documents'
+    subcategory: 'Mga Giya'
+    description: 'Paano magkuha sang sertipiko sang pagkatawo, kasal, kag kamatayon kag iban pa nga mga dokumento sa civil registry gikan sa Civil Registrar sang Dakbanwa.'
+  - name: 'Paano Magbayad sang Real Property Tax'
+    slug: 'how-to-pay-real-property-tax'
+    subcategory: 'Mga Giya'
+    description: 'Isa ka giya sa pagbayad sang inyo real property tax (amilyar) sa Koronadal, lakip kon diin magbayad, mga deadline, kag mga diskwento.'
+  - name: 'Paano Magkuha sang Barangay Clearance'
+    slug: 'how-to-get-a-barangay-clearance'
+    subcategory: 'Mga Giya'
+    description: 'Ang basehan nga mga tikang kag kinahanglanon sa pagkuha sang barangay clearance, nga masami ang una nga tikang sa madamo nga transaksiyon.'
+  - name: 'Mga Ordinansa sang Dakbanwa sang Koronadal'
+    slug: 'city-ordinances'
+    subcategory: 'Mga Regulasyon'
+    description: 'Isa ka listahan nga reperensiya sang mga ordinansa nga ginhimo sang Sangguniang Panlungsod (Konseho sang Dakbanwa), nga gin-organisa suno sa tuig gikan 2021 tubtob 2025.'

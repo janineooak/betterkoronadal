@@ -1,0 +1,19 @@
+# Infrastructure & Public Works Category Pages
+# This file contains all the pages/services available under the Infrastructure & Public Works category
+
+pages:
+  - name: 'Magreport sang nadaot nga mga dalan, taytayan, ukon kanal'
+    slug: 'report-damaged-roads-bridges-or-drainage'
+    description: 'Kon paano magreport sang nadaot nga imprastruktura pareho sang mga dalan, taytayan, kag sistema sang kanal sa inyo lokal nga gobyerno.'
+
+  - name: 'Magpangayo sang access sa sistema sang suplay sang tubig sa barangay'
+    slug: 'request-access-to-barangay-water-supply-systems'
+    description: 'Impormasyon parte sa pagpangayo sang access sa sistema sang suplay sang tubig sa barangay kag mga koneksyon sang tubig.'
+
+  - name: 'Mag-gamit sang mga pasilidad publiko pareho sang gym, barangay hall, ukon multipurpose center'
+    slug: 'use-public-facilities-like-gyms-barangay-halls-or-multipurpose-centers'
+    description: 'Kon paano mag-access kag mag-gamit sang mga pasilidad publiko pareho sang gym, barangay hall, kag multipurpose center.'
+
+  - name: 'Mag-arkila sang puwesto sa publiko nga merkado ukon mag-gamit sang mga sementeryo nga ginadumala sang LGU'
+    slug: 'rent-stalls-in-public-markets-or-use-lgu-managed-cemeteries'
+    description: 'Impormasyon parte sa pag-arkila sang puwesto sa publiko nga merkado kag paggamit sang serbisyo sang sementeryo nga ginadumala sang LGU.'

@@ -1,0 +1,16 @@
+# Reports and Statistics Pages
+# Each entry maps to a markdown file: content/government/reports-and-statistics/{slug}.md
+
+layout: grid
+title: 'Mga Report kag Estadistika'
+description: 'Mga importante nga kamatuoran, numero, kag datos nga reperensiya parte sa Dakbanwa sang Koronadal — demograpiko, heograpiya, pagdumala, kag ang lokal nga ekonomiya.'
+pages:
+  - name: 'Profile sang Dakbanwa sang Koronadal kag mga Importante nga Estadistika'
+    slug: 'city-profile-and-statistics'
+    description: 'Isa ka snapshot sang datos sang Koronadal: populasyon, kadakuon sang lupa, ang 27 ka barangay, heograpiya, ekonomiya, kag mga numero sa pagdumala.'
+  - name: 'Populasyon kag Demograpiko'
+    slug: 'population-and-demographics'
+    description: 'Pag-isip sang populasyon, pagtubo, datos sang panimalay, kag kon paano makompara ang Koronadal sa sulod sang South Cotabato kag Region XII.'
+  - name: 'Direktoryo sang mga Barangay'
+    slug: 'barangay-directory'
+    description: 'Ang 27 ka barangay sang Koronadal, lakip ang pinakamadamo sang pumuluyo nga mga barangay kag basehan nga impormasyon nga reperensiya.'

@@ -8,6 +8,7 @@ import {
   Tooltip,
   Legend,
 } from 'recharts';
+import { useTranslation } from 'react-i18next';
 import { Trophy, Medal, ShieldCheck, ArrowUpRight } from 'lucide-react';
 import SEO from '../../components/SEO';
 import SourceNote from '../../components/ui/SourceNote';
@@ -18,6 +19,9 @@ import StatisticsLayout from '../../components/statistics/StatisticsLayout';
 import { cmci } from '../../data/statistics';
 
 export default function Competitiveness() {
+  const { t } = useTranslation();
+  const c = (k: string, opts?: Record<string, unknown>) =>
+    t(`pages.statistics.competitiveness.${k}`, opts ?? {});
   const rankDelta = cmci.previousRank - cmci.rank; // positive = improved
   const strongest = [...cmci.pillars].sort((a, b) => a.rank - b.rank)[0];
 
@@ -30,49 +34,48 @@ export default function Competitiveness() {
   return (
     <>
       <SEO
-        title="Koronadal Competitiveness — DTI CMCI Rankings"
-        description="The City of Koronadal in the DTI Cities and Municipalities Competitiveness Index (CMCI): overall score and rank, plus the five pillars — Economic Dynamism, Government Efficiency, Infrastructure, Resiliency, and Innovation."
-        keywords="Koronadal CMCI, competitiveness index, DTI ranking, Koronadal economy, component city ranking"
+        title={c('seoTitle')}
+        description={c('seoDescription')}
+        keywords={c('seoKeywords')}
       />
       <StatisticsLayout
-        title="Competitiveness"
-        crumb="Competitiveness"
+        title={c('title')}
+        crumb={c('title')}
         crumbHref="/statistics/competitiveness"
         intro={
           <p>
-            Each year the{' '}
-            <strong>Department of Trade and Industry (DTI)</strong> scores every
-            Philippine city and municipality on five pillars through the{' '}
-            <strong>
-              Cities and Municipalities Competitiveness Index (CMCI)
-            </strong>
-            . Here is how Koronadal ranked in the {cmci.edition} edition.
+            {c('introBefore')} <strong>{c('introDtiStrong')}</strong>{' '}
+            {c('introMiddle')} <strong>{c('introCmciStrong')}</strong>
+            {c('introAfter', { edition: cmci.edition })}
           </p>
         }
       >
         {/* Headline stats */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-12">
           <StatCard
-            label="Overall Score"
+            label={c('statOverallScore')}
             value={cmci.overallScore.toFixed(2)}
-            subtext={`${cmci.edition} CMCI edition`}
+            subtext={c('statOverallScoreSub', { edition: cmci.edition })}
             icon={Trophy}
           />
           <StatCard
-            label="National Rank"
-            value={`${cmci.rank}th`}
-            subtext={`of ${cmci.totalRanked} component cities`}
+            label={c('statNationalRank')}
+            value={c('statNationalRankValue', { rank: cmci.rank })}
+            subtext={c('statNationalRankSub', { total: cmci.totalRanked })}
             icon={Medal}
           />
           <StatCard
-            label="Year-on-Year"
+            label={c('statYoY')}
             value={rankDelta > 0 ? `+${rankDelta}` : String(rankDelta)}
-            subtext={`Rank vs ${cmci.edition - 1} (${cmci.previousRank}th)`}
+            subtext={c('statYoYSub', {
+              prevEdition: cmci.edition - 1,
+              prevRank: cmci.previousRank,
+            })}
             icon={ArrowUpRight}
           />
           <StatCard
-            label="Strongest Pillar"
-            value={`${strongest.rank}th`}
+            label={c('statStrongest')}
+            value={c('statStrongestValue', { rank: strongest.rank })}
             subtext={strongest.name}
             icon={ShieldCheck}
           />
@@ -81,10 +84,10 @@ export default function Competitiveness() {
         {/* Pillar comparison chart */}
         <div className="rounded-lg border border-gray-200 p-4 sm:p-6 mb-10">
           <Heading level={3} className="!mb-1 !text-lg">
-            Pillar scores
+            {c('pillarChartTitle')}
           </Heading>
           <p className="text-sm text-gray-500 mb-6">
-            Each pillar is weighted 20%; the five sum to the overall score.
+            {c('pillarChartSubtitle')}
           </p>
           <ResponsiveContainer width="100%" height={340}>
             <BarChart
@@ -119,7 +122,7 @@ export default function Competitiveness() {
 
         {/* Pillar detail cards */}
         <Heading level={3} className="!text-lg">
-          The five pillars
+          {c('fivePillarsHeading')}
         </Heading>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-10">
           {cmci.pillars.map(p => (
@@ -130,7 +133,7 @@ export default function Competitiveness() {
                   {p.score2024.toFixed(2)}
                 </p>
                 <p className="mt-1 text-sm text-gray-500">
-                  {p.rank}th nationally · {cmci.edition}
+                  {c('pillarRankLine', { rank: p.rank, edition: cmci.edition })}
                 </p>
               </CardContent>
             </Card>
@@ -140,7 +143,7 @@ export default function Competitiveness() {
         {/* Top strengths */}
         <div className="rounded-lg bg-primary-50 border border-primary-100 p-5 mb-2">
           <p className="font-semibold text-gray-900 mb-2">
-            Ranked #1 nationally ({cmci.edition})
+            {c('rankedFirstTitle', { edition: cmci.edition })}
           </p>
           <ul className="list-disc space-y-1 pl-6 text-sm text-gray-700">
             {cmci.topStrengths.map(s => (

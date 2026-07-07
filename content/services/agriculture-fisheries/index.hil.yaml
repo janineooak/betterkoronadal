@@ -1,0 +1,19 @@
+# Agriculture & Fisheries Category Pages
+# This file contains all the pages/services available under the Agriculture & Fisheries category
+
+pages:
+  - name: 'Magpangayo sang libre nga binhi, punla, abuno, ukon fingerlings'
+    slug: 'ask-for-free-seeds-seedlings-fertilizers-or-fingerlings'
+    description: 'Kon paano magpangayo sang libre nga mga agrikultural nga input pareho sang binhi, punla, abuno, kag fingerlings gikan sa inyo lokal nga gobyerno.'
+
+  - name: 'Magkuha sang serbisyo beterinaryo para sa kahayupan'
+    slug: 'get-veterinary-services-for-livestock'
+    description: 'Magkuha sang serbisyo beterinaryo para sa inyo kahayupan kag mga hayop sa uma gikan sa mga beterinaryo sang lokal nga gobyerno.'
+
+  - name: 'Magtambong sang training sa pagpanguma ukon pagpangisda'
+    slug: 'attend-farming-or-fishing-training'
+    description: 'Mag-upod sa mga programa sang training para sa mga teknik sa pagpanguma kag pagpangisda nga ginahatag sang inyo lokal nga gobyerno.'
+
+  - name: 'Maghulam sang mga gamit ukon kasangkapan sa pagpanguma gikan sa LGU'
+    slug: 'borrow-farm-tools-or-equipment-from-the-lgu'
+    description: 'Kon paano maghulam sang mga gamit kag kasangkapan sa pagpanguma gikan sa inyo lokal nga gobyerno nga yunit (LGU).'

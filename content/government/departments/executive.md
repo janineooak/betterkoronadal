@@ -18,7 +18,7 @@ Mayor **{MAYOR}** was elected **Vice Mayor of {GOVERNMENT_NAME}** in the **{YEAR
 
 ## City Mayor of Koronadal
 
-**Image Caption**
+![City Mayor of the City of Koronadal, Hon. Erlinda "Bing" Pabi-Araquil](/officials/araquil.png)
 
 City Mayor of the **{GOVERNMENT_NAME}**, **{HONORIFIC_TITLE} {MAYOR}**
 
@@ -57,6 +57,8 @@ You can learn more about these on the **City Government's news and programs page
 ---
 
 ## About the Vice Mayor
+
+![City Vice Mayor of the City of Koronadal, Hon. Ma. Ester M. Catorce](/officials/catorce.png)
 
 **{VICE_MAYOR}** currently serves as the **Vice Mayor of the {GOVERNMENT_NAME}**.
 

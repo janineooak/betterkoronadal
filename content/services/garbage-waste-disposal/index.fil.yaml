@@ -1,0 +1,19 @@
+# Garbage and Waste Disposal Category Pages
+# This file contains all the pages/services available under the Garbage and Waste Disposal category
+
+pages:
+  - name: 'Tingnan ang iskedyul ng koleksyon ng basura at humiling ng pagkuha'
+    slug: 'check-garbage-collection-schedules-and-request-pickup'
+    description: 'Impormasyon tungkol sa iskedyul ng koleksyon ng basura at kung paano humiling ng espesyal na serbisyo ng pagkuha ng basura.'
+
+  - name: 'Matutunan ang wastong paghihiwalay at pagtatapon ng basura'
+    slug: 'learn-proper-waste-segregation-and-disposal-methods'
+    description: 'Mga patnubay para sa wastong paghihiwalay at pagtatapon ng basura sa inyong lugar.'
+
+  - name: 'Humiling ng espesyal na koleksyon ng basura (mapanganib na materyales, elektroniko)'
+    slug: 'request-special-waste-collection-hazardous-materials-electronics'
+    description: 'Kung paano humiling ng mga espesyal na serbisyo ng koleksyon para sa mapanganib na materyales at elektronikong basura.'
+
+  - name: 'Mag-ulat ng iligal na pagtatapon o paglabag sa pamamahala ng basura'
+    slug: 'report-illegal-dumping-or-waste-management-violations'
+    description: 'Kung paano mag-ulat ng mga iligal na pagtatapon at paglabag sa pamamahala ng basura sa inyong lugar.'

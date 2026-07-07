@@ -270,24 +270,12 @@ export const TableWithToggle = ({
               </div>
             ))
           ) : (
-            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mx-2 sm:mx-0">
-              <div className="text-yellow-800 text-sm">
-                <strong>Debug Info:</strong>
-                <br />
-                Headers: {JSON.stringify(tableData?.headers || [])}
-                <br />
-                Rows: {JSON.stringify(tableData?.rows || [])}
-                <br />
-                Children type: {typeof children}
-                <br />
-                Children is array: {Array.isArray(children) ? 'Yes' : 'No'}
-                <br />
-                Children length:{' '}
-                {Array.isArray(children) ? children.length : 'N/A'}
-                <br />
-                <br />
-                <strong>Check browser console for detailed parsing logs</strong>
-              </div>
+            // Fallback: if the rows could not be parsed for the stacked
+            // card view, render the original table so no data is lost.
+            <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0">
+              <table className={theme.components.table} {...props}>
+                {children}
+              </table>
             </div>
           )}
         </div>

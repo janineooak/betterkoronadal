@@ -1,0 +1,16 @@
+pages:
+  - name: 'Magbayad sang inyo real property tax'
+    slug: 'pay-real-property-tax'
+    description: "Magbayad sang buhis sa duta, building, kag makinarya sa City Treasurer's Office, nga may mga diskuwento sa amat nga pagbayad, kag kon paano magkuha sang tax clearance."
+
+  - name: 'Magbayad sang business kag iban pa nga lokal nga buhis'
+    slug: 'pay-business-and-other-local-taxes'
+    description: 'Magbayad sang business tax, transfer tax, situs tax, mga bayad sa weights-and-measures, idle land tax, cedula, kag iban pa nga lokal nga buhis kag bayad.'
+
+  - name: 'Magkuha sang tax declaration ukon property certificate'
+    slug: 'get-a-tax-declaration-or-property-certificate'
+    description: 'Magpangayo sang mga certified nga kopya sang inyo Tax Declaration kag mga sertipikasyon pareho sang No Landholding, Total Landholding, ukon No Improvement halin sa City Assessor.'
+
+  - name: 'Magpangayo sang property assessment ukon pag-update sang tax declaration'
+    slug: 'request-a-property-assessment-or-tax-declaration-update'
+    description: 'Ipa-assess ang mga bag-o nga building, makinarya, ukon duta, ukon i-update ang inyo Tax Declaration para sa mga paglipat, segregation, consolidation, ukon mga annotasyon sang lien.'

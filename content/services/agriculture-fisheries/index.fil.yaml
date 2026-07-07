@@ -1,0 +1,19 @@
+# Agriculture & Fisheries Category Pages
+# This file contains all the pages/services available under the Agriculture & Fisheries category
+
+pages:
+  - name: 'Humiling ng libreng binhi, punla, pataba, o fingerlings'
+    slug: 'ask-for-free-seeds-seedlings-fertilizers-or-fingerlings'
+    description: 'Kung paano humiling ng libreng mga pang-agrikultura tulad ng binhi, punla, pataba, at fingerlings mula sa inyong lokal na pamahalaan.'
+
+  - name: 'Kumuha ng serbisyong beterinaryo para sa alagang hayop'
+    slug: 'get-veterinary-services-for-livestock'
+    description: 'Mag-akses ng serbisyong beterinaryo para sa inyong mga alagang hayop at hayop sa bukid mula sa mga beterinaryo ng lokal na pamahalaan.'
+
+  - name: 'Dumalo sa pagsasanay sa pagsasaka o pangingisda'
+    slug: 'attend-farming-or-fishing-training'
+    description: 'Sumali sa mga programa ng pagsasanay para sa mga teknik sa pagsasaka at pangingisda na inaalok ng inyong lokal na pamahalaan.'
+
+  - name: 'Humiram ng kagamitan o makina sa pagsasaka mula sa LGU'
+    slug: 'borrow-farm-tools-or-equipment-from-the-lgu'
+    description: 'Kung paano humiram ng mga kagamitan at makina sa pagsasaka mula sa inyong local government unit.'

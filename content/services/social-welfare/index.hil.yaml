@@ -1,0 +1,16 @@
+pages:
+  - name: 'Mag-aplay sang bulig para sa senior citizen, solo parent, ukon PWD'
+    slug: 'apply-for-senior-citizen-solo-parent-or-pwd-assistance'
+    description: 'Impormasyon parte sa pag-aplay sang mga programa sa bulig para sa mga senior citizen, solo parent, kag mga tawo nga may kapansanan.'
+
+  - name: 'Magbaton sang relief goods ukon cash aid sa tion sang kalamidad'
+    slug: 'receive-relief-goods-or-cash-aid-during-disasters'
+    description: 'Paano makakuha sang relief goods kag cash assistance sa tion sang mga natural nga kalamidad kag emerhensya.'
+
+  - name: 'Mag-entra sa mga programa sa palangabuhian ukon pagbansay sang abilidad'
+    slug: 'join-livelihood-or-skills-training-programs'
+    description: 'Mag-apil sa mga programa sa palangabuhian kag pagbansay sang abilidad nga ginatanyag sang inyo lokal nga gobyerno.'
+
+  - name: 'Magkuha sang suporta para sa pamilya kag kaayuhan sang komunidad'
+    slug: 'get-family-and-community-welfare-support'
+    description: 'Makakuha sang mga serbisyo sa suporta para sa pamilya kag kaayuhan sang komunidad gikan sa inyo lokal nga gobyerno.'

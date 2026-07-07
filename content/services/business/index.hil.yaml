@@ -1,0 +1,16 @@
+pages:
+  - name: "Mag-aplay sang barangay clearance kag mayor's business permit"
+    slug: 'apply-for-barangay-clearance-and-mayors-business-permits'
+    description: "Tagsa-tagsa nga giya sa pag-aplay sang barangay clearance kag mayor's business permit para sa inyo negosyo."
+
+  - name: 'Magbag-o sang permit kag magbayad sang lokal nga business taxes'
+    slug: 'renew-permits-and-pay-local-business-taxes'
+    description: 'Impormasyon parte sa pagbag-o sang business permit kag pagbayad sang lokal nga business taxes sa inyo lokal nga gobyerno.'
+
+  - name: 'Mag-arkila sang puwesto sa mga pangpubliko nga merkado'
+    slug: 'rent-stalls-in-public-markets'
+    description: 'Paano mag-arkila sang puwesto sa mga pangpubliko nga merkado sang lokal nga gobyerno para sa inyo negosyo.'
+
+  - name: 'Mag-entra sa mga trade fair, business expo, ukon promosyon sa turismo'
+    slug: 'join-trade-fairs-business-expos-or-tourism-promotions'
+    description: 'Mag-apil sa mga lokal nga trade fair, business expo, kag mga hilikuton sa promosyon sa turismo.'

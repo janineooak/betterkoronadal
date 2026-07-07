@@ -14,6 +14,8 @@ export type LanguageType =
 
 export interface NavigationItem {
   label: string;
+  /** Optional i18n key for the label; falls back to `label` when absent. */
+  labelKey?: string;
   href: string;
   /** Lucide React icon name (e.g. 'Building2'). Resolved via lucide-react. */
   icon?: string;
