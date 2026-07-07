@@ -44,6 +44,21 @@ export const setToken = (t: string | null) => {
   else localStorage.removeItem(TOKEN_KEY);
 };
 
+/** The signed-in admin's username, decoded from the token payload (or null). */
+export const getUsername = (): string | null => {
+  const t = getToken();
+  if (!t) return null;
+  try {
+    const payload = t.split('.')[0].replace(/-/g, '+').replace(/_/g, '/');
+    const json = JSON.parse(atob(payload)) as { u?: string; exp?: number };
+    if (!json.u || typeof json.exp !== 'number' || json.exp < Date.now())
+      return null;
+    return json.u;
+  } catch {
+    return null;
+  }
+};
+
 async function authed(path: string, init: RequestInit = {}) {
   const token = getToken();
   return fetch(path, {

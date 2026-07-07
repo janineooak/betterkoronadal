@@ -31,7 +31,14 @@ export function isConfigured(): boolean {
 
 export function verifyCredentials(username: string, password: string): boolean {
   const m = admins();
-  return !!username && m[username] !== undefined && m[username] === password;
+  const stored = m[username];
+  if (!username || stored === undefined) return false;
+  // Constant-time compare so a wrong password can't be timed character by
+  // character. (Passwords are still plaintext in ADMIN_USERS — hashing them is
+  // a separate, breaking change.)
+  const a = Buffer.from(stored);
+  const b = Buffer.from(password ?? '');
+  return a.length === b.length && crypto.timingSafeEqual(a, b);
 }
 
 function b64url(buf: Buffer): string {
