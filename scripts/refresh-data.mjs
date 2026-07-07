@@ -81,56 +81,55 @@ async function refreshForex() {
 }
 
 // ---------------------------------------------------------------------------
-// Flood control — DPWH "Flood Control Projects Live" ArcGIS layer, narrowed to
-// South Cotabato. The dashboard sits on a Web Map; we resolve its first
-// operational FeatureServer layer, then page through the features.
+// Flood control — DPWH flood-control projects via BetterGov's bisto.ph, which
+// is backed by a public JSON API (api.dpwh.bettergov.ph). We search for
+// Koronadal within Region XII and keep the "Flood Control and Drainage"
+// category. Rows carry budget, contractor, progress, status and coordinates.
 // ---------------------------------------------------------------------------
-async function resolveFloodLayerUrl() {
-  // Web Map item backing the public DPWH dashboard.
-  const WEBMAP_ITEM = '62c6ad03ac354a6f80778004241a7195';
-  const data = await fetchJson(
-    `https://www.arcgis.com/sharing/rest/content/items/${WEBMAP_ITEM}/data?f=json`
-  );
-  const layers = data.operationalLayers || [];
-  const layer = layers.find(l => /FeatureServer/i.test(l.url || ''));
-  if (!layer) throw new Error('no FeatureServer layer in web map');
-  return layer.url.replace(/\/$/, '');
-}
-
 async function refreshFloodControl() {
-  const layerUrl = await resolveFloodLayerUrl();
-  const where = encodeURIComponent(`Province='${PROVINCE}'`);
+  const API = 'https://api.dpwh.bettergov.ph/projects';
+  const PAGE_SIZE = 100;
   const projects = [];
-  let offset = 0;
-  // Page until ArcGIS reports no more records.
-  for (;;) {
+  for (let page = 1; ; page++) {
     const url =
-      `${layerUrl}/query?where=${where}&outFields=*&f=json` +
-      `&resultOffset=${offset}&resultRecordCount=1000&returnGeometry=false`;
+      `${API}?search=${encodeURIComponent(CITY)}` +
+      `&region=${encodeURIComponent('Region XII')}` +
+      `&page=${page}&limit=${PAGE_SIZE}`;
     const data = await fetchJson(url);
-    const feats = data.features || [];
-    for (const f of feats) {
-      const a = f.attributes || {};
+    const rows = data.data?.data || [];
+    for (const r of rows) {
+      // Keep flood-control work only; the same API also returns buildings.
+      if (!/flood/i.test(r.category || '')) continue;
       projects.push({
-        name: a.ProjectDescription || a.ProjectName || a.Project || null,
-        municipality: a.Municipality || a.City || null,
-        contractor: a.Contractor || null,
-        cost: Number(a.ContractCost || a.ABC || a.Cost) || null,
-        status: a.ProjectStatus || a.Status || null,
-        year: a.InfraYear || a.Year || null,
+        contractId: r.contractId || null,
+        name: r.description || null,
+        category: r.category || null,
+        status: r.status || null,
+        cost: Number(r.budget) || null,
+        progress: Number(r.progress) ?? null,
+        contractor: r.contractor || null,
+        district: r.location?.province || null, // e.g. "South Cotabato 2nd DEO"
+        region: r.location?.region || null,
+        year: r.infraYear || null,
+        startDate: r.startDate || null,
+        completionDate: r.completionDate || null,
+        latitude: r.latitude ?? null,
+        longitude: r.longitude ?? null,
       });
     }
-    if (feats.length < 1000 || data.exceededTransferLimit === false) break;
-    offset += feats.length;
-    if (offset > 50000) break; // safety
+    const totalPages = data.data?.pagination?.totalPages ?? page;
+    if (rows.length < PAGE_SIZE || page >= totalPages) break;
+    if (page > 50) break; // safety
   }
   return writeOrKeep(
     'flood-control.json',
     {
       fetchedAt: nowIso(),
-      source: 'DPWH Flood Control Projects (ArcGIS)',
+      source: 'DPWH Flood Control (BetterGov / bisto.ph)',
       sourceUrl:
-        'https://www.arcgis.com/apps/dashboards/f585444def084abaadda090952759e28',
+        'https://bisto.ph/?search=koronadal&region=Region+XII&province=South+Cotabato+1st+DEO',
+      apiUrl: API,
+      city: CITY,
       province: PROVINCE,
       projects,
     },
@@ -139,74 +138,191 @@ async function refreshFloodControl() {
 }
 
 // ---------------------------------------------------------------------------
-// Procurements — PhilGEPS open opportunities for Koronadal.
+// Political dynasties — BetterGov "Dynasty" explorer (visualizations.bettergov.ph).
+// Election winners for Koronadal City across years, each with a dynasty flag
+// (`fat` = belongs to a political-family cluster). Public JSON API, no auth.
+// ---------------------------------------------------------------------------
+async function refreshDynasty() {
+  const API = 'https://visualizations.bettergov.ph/api/dynasty';
+  const data = await fetchJson(`${API}?search=${encodeURIComponent(CITY)}&limit=500`);
+  const officials = (data.data || [])
+    // The keyword can match nearby areas; keep Koronadal City proper.
+    .filter(r => /koronadal/i.test(r.municipality_city || ''))
+    .map(r => ({
+      name: [r.first_name, r.last_name].filter(Boolean).join(' '),
+      position: r.position || null,
+      party: r.party && r.party !== 'UNKNOWN' ? r.party : null,
+      city: r.municipality_city || null,
+      province: r.province || null,
+      year: r.year ?? null,
+      isDynasty: Number(r.fat) === 1,
+    }));
+  return writeOrKeep(
+    'dynasty.json',
+    {
+      fetchedAt: nowIso(),
+      source: 'BetterGov Political Dynasties Explorer',
+      sourceUrl: 'https://visualizations.bettergov.ph/dynasty',
+      apiUrl: API,
+      city: CITY,
+      officials,
+    },
+    'officials'
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Congress — bills and resolutions mentioning Koronadal, via BetterGov's
+// Open Congress API (open-congress-api.bettergov.ph). Public JSON REST API.
+// ---------------------------------------------------------------------------
+async function refreshCongress() {
+  const API = 'https://open-congress-api.bettergov.ph/api/search/documents';
+  const data = await fetchJson(`${API}?q=${encodeURIComponent(CITY)}&limit=100`);
+  const bills = (data.data || []).map(r => ({
+    id: r.name || null, // e.g. "HBN-11382"
+    type: r.subtype || r.type || null,
+    congress: r.congress ?? null,
+    title: r.title || null,
+    longTitle: r.long_title || null,
+    dateFiled: r.date_filed || null,
+    scope: r.scope || null,
+    subjects: Array.isArray(r.subjects) ? r.subjects : [],
+    authors: (r.authors || [])
+      .map(a => [a.first_name, a.last_name].filter(Boolean).join(' '))
+      .filter(Boolean),
+    url: r.senate_website_permalink || null,
+  }));
+  return writeOrKeep(
+    'congress.json',
+    {
+      fetchedAt: nowIso(),
+      source: 'BetterGov Open Congress API',
+      sourceUrl: 'https://open-congress-api.bettergov.ph/',
+      apiUrl: API,
+      city: CITY,
+      bills,
+    },
+    'bills'
+  );
+}
+
+// ---------------------------------------------------------------------------
+// National budget (GAA) — line items naming Koronadal, via BetterGov's
+// Transparency dashboard, which is backed by a public Meilisearch instance
+// (search2.bettergov.ph). The bearer token below is the public *search-only*
+// key shipped in the transparency.bettergov.ph frontend (not a secret); if the
+// upstream rotates it this source will 401 and the last-good file is kept.
+// ---------------------------------------------------------------------------
+async function refreshBudget() {
+  const SEARCH = 'https://search2.bettergov.ph/indexes/gaa/search';
+  const KEY =
+    '307c9f43a066a443cc37d62b45fa47fde2b39f765139dd964ea151daed65f55c';
+  const LIMIT = 100;
+  const MAX_RECORDS = 500;
+  const items = [];
+  for (let offset = 0; items.length < MAX_RECORDS; offset += LIMIT) {
+    const data = await fetchJson(SEARCH, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${KEY}`,
+      },
+      body: JSON.stringify({ q: CITY, limit: LIMIT, offset }),
+    });
+    const hits = data.hits || [];
+    for (const h of hits) {
+      items.push({
+        id: h.id ?? null,
+        description: h.dsc || null,
+        department: h.uacs_dpt_dsc || null,
+        agency: h.uacs_agy_dsc && h.uacs_agy_dsc !== 'nan' ? h.uacs_agy_dsc : null,
+        // GAA figures are expressed in THOUSANDS of pesos (₱1,000 units).
+        amountThousands: Number(h.amt) || null,
+        year: h.year ?? null,
+      });
+    }
+    if (hits.length < LIMIT || offset + LIMIT >= (data.estimatedTotalHits || 0))
+      break;
+  }
+  return writeOrKeep(
+    'budget.json',
+    {
+      fetchedAt: nowIso(),
+      source: 'BetterGov Transparency — General Appropriations Act (GAA)',
+      sourceUrl: 'https://transparency.bettergov.ph/budget/search?q=koronadal',
+      apiUrl: SEARCH,
+      city: CITY,
+      items,
+    },
+    'items'
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Procurements — PhilGEPS awarded contracts for Koronadal, via BetterGov's
+// "PHILGEPS Awards Data Explorer" (https://philgeps.bettergov.ph/).
 //
-// NOTE: notices.philgeps.gov.ph is an ASP.NET WebForms search (no public JSON
-// API, CORS-blocked, viewstate/postback driven) and open.philgeps.gov.ph's
-// /load/ endpoints are session-gated. This fetcher does a best-effort search
-// scrape; if the upstream markup changes it will produce 0 rows and the last
-// committed procurements.json is kept. Treat as advisory, link to the source.
+// This is a real public JSON API (a proxy in front of an Azure backend), so no
+// scraping: we POST a keyword-filtered "chip-search" and page through results.
+// Note this returns *awarded* contracts (2013–present), not open bid notices —
+// the raw PhilGEPS opportunity search has no usable public API.
 // ---------------------------------------------------------------------------
 async function refreshProcurements() {
-  const SEARCH_PAGE =
-    'https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/SplashOpportunitiesSearchUI.aspx?menuIndex=3';
-  // Pull the search page to seed viewstate, then post a keyword search.
-  const seed = await fetch(SEARCH_PAGE, {
-    headers: { 'User-Agent': 'betterkoronadal-data-bot' },
-  });
-  const html = await seed.text();
-  const field = name => {
-    const m = html.match(
-      new RegExp(`id="${name}"[^>]*value="([^"]*)"`)
-    );
-    return m ? m[1] : '';
-  };
-  const cookie = (seed.headers.get('set-cookie') || '').split(';')[0];
-  const form = new URLSearchParams({
-    __VIEWSTATE: field('__VIEWSTATE'),
-    __VIEWSTATEGENERATOR: field('__VIEWSTATEGENERATOR'),
-    __EVENTVALIDATION: field('__EVENTVALIDATION'),
-    // Keyword search box — field id is best-effort and may need updating.
-    ctl00$ContentPlaceHolder1$txtSearchKeyword: 'Koronadal',
-    ctl00$ContentPlaceHolder1$btnSearch: 'Search',
-  });
-  const res = await fetch(SEARCH_PAGE, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
-      'User-Agent': 'betterkoronadal-data-bot',
-      ...(cookie ? { Cookie: cookie } : {}),
-    },
-    body: form.toString(),
-  });
-  const resultHtml = await res.text();
+  const API_BASE = 'https://philgeps.bettergov.ph/api/v1';
+  const EXPLORER_URL = 'https://philgeps.bettergov.ph/';
+  const PAGE_SIZE = 100;
+  const MAX_RECORDS = 500; // most-recent awards mentioning Koronadal
 
-  // Parse result rows. PhilGEPS renders opportunities as table rows; the exact
-  // selectors are version-specific, so this is intentionally tolerant.
-  const notices = [];
-  const rowRe =
-    /SolicitationNumber=([^"&]+)[^>]*>([^<]+)<\/a>[\s\S]{0,400}?(?:Closing|Date)[^<]*<[^>]*>([^<]+)</gi;
-  let m;
-  while ((m = rowRe.exec(resultHtml)) && notices.length < 100) {
-    const title = m[2].trim();
-    if (!/koronadal/i.test(title)) continue;
-    notices.push({
-      refId: m[1].trim(),
-      title,
-      closingDate: m[3].trim(),
-      url: SEARCH_PAGE,
+  // Filter chips: keyword "Koronadal" scopes to notices/titles naming the city.
+  const baseBody = {
+    contractors: [],
+    areas: [],
+    organizations: [],
+    business_categories: [],
+    keywords: [CITY],
+    time_ranges: [],
+    sortBy: 'award_date',
+    sortDirection: 'desc',
+    include_flood_control: true,
+  };
+
+  const awards = [];
+  for (let page = 1; awards.length < MAX_RECORDS; page++) {
+    const data = await fetchJson(`${API_BASE}/contracts/chip-search/`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ...baseBody, page, page_size: PAGE_SIZE }),
     });
+    const rows = data.data || [];
+    for (const r of rows) {
+      awards.push({
+        refId: r.reference_id || r.contract_no || String(r.id),
+        title: r.award_title || r.notice_title || null,
+        organization: r.organization_name || null,
+        awardee: r.awardee_name || null,
+        category: r.business_category || null,
+        area: r.area_of_delivery || null,
+        amount: Number(r.award_amount || r.contract_amount) || null,
+        awardDate: (r.award_date || '').slice(0, 10) || null,
+        status: r.award_status || null,
+        url: EXPLORER_URL,
+      });
+    }
+    const totalPages = data.pagination?.total_pages ?? page;
+    if (rows.length < PAGE_SIZE || page >= totalPages) break;
   }
+
   return writeOrKeep(
     'procurements.json',
     {
       fetchedAt: nowIso(),
-      source: 'PhilGEPS Open Opportunities',
-      sourceUrl: SEARCH_PAGE,
+      source: 'PhilGEPS Awards (BetterGov Data Explorer)',
+      sourceUrl: EXPLORER_URL,
+      apiUrl: `${API_BASE}/contracts/chip-search/`,
       city: CITY,
-      notices,
+      awards,
     },
-    'notices'
+    'awards'
   );
 }
 
@@ -215,6 +331,9 @@ const SOURCES = {
   forex: refreshForex,
   'flood-control': refreshFloodControl,
   procurements: refreshProcurements,
+  dynasty: refreshDynasty,
+  congress: refreshCongress,
+  budget: refreshBudget,
 };
 
 async function main() {

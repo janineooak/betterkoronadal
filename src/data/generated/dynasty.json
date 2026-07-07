@@ -1,0 +1,594 @@
+{
+  "fetchedAt": "2026-07-07T07:47:36.635Z",
+  "source": "BetterGov Political Dynasties Explorer",
+  "sourceUrl": "https://visualizations.bettergov.ph/dynasty",
+  "apiUrl": "https://visualizations.bettergov.ph/api/dynasty",
+  "city": "KORONADAL",
+  "officials": [
+    {
+      "name": "JOSE AGUIRRE",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": true
+    },
+    {
+      "name": "Edwin Abris",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "Jose Henry Aguirre",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "Erlinda Araquil",
+      "position": "COUNCILOR",
+      "party": "IND",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "Rogelio Cadellino",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "FRANCIS DIDELES",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "Francis Ross Dideles",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "MARIE HURTADO",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "Marie Antonina Hurtado",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "James Lagasca",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "Mark Lapidez",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "Peter Miguel",
+      "position": "MAYOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "ELIORDO OGENA",
+      "position": "MAYOR",
+      "party": "NPC",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "PRECHIE OGOY",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "ELIORDO Ogena",
+      "position": "VICE MAYOR",
+      "party": "NPC",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "Prechie Louella Ogoy",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "Annabelle Pingoy",
+      "position": "COUNCILOR",
+      "party": "LP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2016,
+      "isDynasty": false
+    },
+    {
+      "name": "Erlinda Araquil",
+      "position": "COUNCILOR",
+      "party": "LKS-KAM",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "Rebecca Bona",
+      "position": "COUNCILOR",
+      "party": "NPC",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "MA. CATORCE",
+      "position": "COUNCILOR",
+      "party": "LKS-KAM",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "Rogelio Cadellino",
+      "position": "COUNCILOR",
+      "party": "PMP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "Floro Calixton",
+      "position": "COUNCILOR",
+      "party": "PMP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "Ma. Ester Catorce",
+      "position": "COUNCILOR",
+      "party": "LKS-KAM",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "Mark Lapidez",
+      "position": "COUNCILOR",
+      "party": "PMP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "Peter Miguel",
+      "position": "MAYOR",
+      "party": "PMP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "Reynaldo Millan",
+      "position": "COUNCILOR",
+      "party": "IND.",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "ELIORDO OGENA",
+      "position": "MAYOR",
+      "party": "NPC",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "ELIORDO Ogena",
+      "position": "VICE MAYOR",
+      "party": "NPC",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "Gregorio Ogoy",
+      "position": "COUNCILOR",
+      "party": "LKS-KAM",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "Oscar Pagunsan",
+      "position": "COUNCILOR",
+      "party": "PMP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "ELLEN SUBERE",
+      "position": "COUNCILOR",
+      "party": "PMP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": true
+    },
+    {
+      "name": "Ellen Grace Subere",
+      "position": "COUNCILOR",
+      "party": "PMP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2010,
+      "isDynasty": false
+    },
+    {
+      "name": "KHRISTINE AGUILAR",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "JOSE AGUIRRE",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": true
+    },
+    {
+      "name": "Khristine Michelle Aguilar",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "Jose Henry Aguirre",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "Ester Catorce",
+      "position": "COUNCILOR",
+      "party": "NPC",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "VICENTE DE JESUS",
+      "position": "MAYOR",
+      "party": "INDEPENDENT",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "VICENTE De Jesus",
+      "position": "VICE MAYOR",
+      "party": "INDEPENDENT",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "Rose Dideles",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "MARIE HURTADO",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "Marie Antonina Hurtado",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "Fernando Miguel",
+      "position": "MAYOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "Reynaldo Millan",
+      "position": "COUNCILOR",
+      "party": "NPC",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "Sergio Morales",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "Gregorio Ogoy",
+      "position": "COUNCILOR",
+      "party": "NPC",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "Oscar Pagunsan",
+      "position": "COUNCILOR",
+      "party": "KAMPI",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "ELLEN SUBERE",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "Ellen Grace Subere",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2007,
+      "isDynasty": false
+    },
+    {
+      "name": "JOSE AGUIRRE",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": true
+    },
+    {
+      "name": "Edwin Abris",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "Rodolfo Aguilar",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "Jose Henry Aguirre",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "Phinney Araquil",
+      "position": "COUNCILOR",
+      "party": "INDEPENDENT",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "Rebecca Bona",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": true
+    },
+    {
+      "name": "Ester Catorce",
+      "position": "COUNCILOR",
+      "party": "LDP-KNP",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "Rose Dideles",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "MARIE HURTADO",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "Marie Antonina Hurtado",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "JOSE LEDDA",
+      "position": "MAYOR",
+      "party": "NPC",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "JOSE Ledda",
+      "position": "VICE MAYOR",
+      "party": "NPC",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "Fernando Miguel",
+      "position": "MAYOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "Sergio Morales",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "ELLEN SUBERE",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    },
+    {
+      "name": "Ellen Grace Subere",
+      "position": "COUNCILOR",
+      "party": "LAKAS-CMD",
+      "city": "KORONADAL CITY",
+      "province": "SOUTH COTABATO",
+      "year": 2004,
+      "isDynasty": false
+    }
+  ]
+}

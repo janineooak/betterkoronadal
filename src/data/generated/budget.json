@@ -1,0 +1,4009 @@
+{
+  "fetchedAt": "2026-07-07T07:47:47.121Z",
+  "source": "BetterGov Transparency — General Appropriations Act (GAA)",
+  "sourceUrl": "https://transparency.bettergov.ph/budget/search?q=koronadal",
+  "apiUrl": "https://search2.bettergov.ph/indexes/gaa/search",
+  "city": "KORONADAL",
+  "items": [
+    {
+      "id": 511868,
+      "description": "Koronadal City Bypass Road, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 512798,
+      "description": "Koronadal-Lutayan-Columbio (Lamalis-Datalfitak) Matanao Road, Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 512799,
+      "description": "Koronadal-Lutayan-Columbio (Lamalis-Datalfitak) Matanao Road, Package B, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 512912,
+      "description": "Koronadal - Columbio - Lutayan (Lamalis-Datalfitak) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 513017,
+      "description": "Koronadal-Lutayan-Columbio-Matanao Road, Package C, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 513061,
+      "description": "Koronadal - Lutayan - Columbio - Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 513169,
+      "description": "Koronadal-Lutayan-Columbio (Lamalis-Datalfitak) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 114870,
+      "year": 2020
+    },
+    {
+      "id": 588446,
+      "description": "Koronadal South Cotabato City LTFRB Regional Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 1637804,
+      "description": "Koronadal City Bypass Road, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1639677,
+      "description": "Koronadal - Lutayan - Columbio (Lamalis - Datalfitak) Matanao Road, Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1639678,
+      "description": "Koronadal - Lutayan - Columbio (Lamalis - Datalfitak) Matanao Road, Package B, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1639791,
+      "description": "Koronadal  -  Columbio  -  Lutayan (Lamalis - Datalfitak) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1639896,
+      "description": "Koronadal - Lutayan - Columbio - Matanao Road, Package C, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1639940,
+      "description": "Koronadal  -  Lutayan  -  Columbio  -  Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1640048,
+      "description": "Koronadal - Lutayan - Columbio (Lamalis - Datalfitak) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1713650,
+      "description": "Koronadal South Cotabato City LTFRB Regional Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 2285352,
+      "description": "Koronadal City Bypass Road, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2287715,
+      "description": "Koronadal  -  Lutayan  -  Columbio ( Lamalis  -  Datalfitak ) Matanao Road, Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2287716,
+      "description": "Koronadal  -  Lutayan  -  Columbio ( Lamalis  -  Datalfitak ) Matanao Road, Package B, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2287829,
+      "description": "Koronadal   -   Columbio   -   Lutayan ( Lamalis  -  Datalfitak ) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2287934,
+      "description": "Koronadal  -  Lutayan  -  Columbio  -  Matanao Road, Package C, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2287978,
+      "description": "Koronadal   -   Lutayan   -   Columbio   -   Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2288086,
+      "description": "Koronadal  -  Lutayan  -  Columbio ( Lamalis  -  Datalfitak ) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2363315,
+      "description": "Koronadal South Cotabato City LTFRB Regional Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2964078,
+      "description": "Koronadal City Bypass Road, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2966683,
+      "description": "Koronadal City Bypass Road  ( Segment 1 ) , South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 20000,
+      "year": 2024
+    },
+    {
+      "id": 2966901,
+      "description": "Koronadal  -  Lutayan  -  Columbio ( Lamalis  -  Datalfitak ) Matanao Road, Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2966902,
+      "description": "Koronadal  -  Lutayan  -  Columbio ( Lamalis  -  Datalfitak ) Matanao Road, Package B, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2967015,
+      "description": "Koronadal   -   Columbio   -   Lutayan ( Lamalis  -  Datalfitak ) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2967120,
+      "description": "Koronadal  -  Lutayan  -  Columbio  -  Matanao Road, Package C, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2967164,
+      "description": "Koronadal   -   Lutayan   -   Columbio   -   Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2967272,
+      "description": "Koronadal  -  Lutayan  -  Columbio ( Lamalis  -  Datalfitak ) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 3045737,
+      "description": "Koronadal South Cotabato City LTFRB Regional Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 3682694,
+      "description": "Koronadal City Bypass Road, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3685299,
+      "description": "Koronadal City Bypass Road  ( Segment 1 ) , South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3685774,
+      "description": "Koronadal City Bypass Road (Segment 2), South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 75000,
+      "year": 2025
+    },
+    {
+      "id": 3685999,
+      "description": "Koronadal   -   Lutayan   -   Columbio ( Lamalis   -   Datalfitak ) Matanao Road, Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3686000,
+      "description": "Koronadal   -   Lutayan   -   Columbio ( Lamalis   -   Datalfitak ) Matanao Road, Package B, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3686113,
+      "description": "Koronadal    -    Columbio    -    Lutayan ( Lamalis   -   Datalfitak ) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3686218,
+      "description": "Koronadal   -   Lutayan   -   Columbio   -   Matanao Road, Package C, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3686262,
+      "description": "Koronadal    -    Lutayan    -    Columbio    -    Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3686370,
+      "description": "Koronadal   -   Lutayan   -   Columbio ( Lamalis   -   Datalfitak ) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3769404,
+      "description": "Koronadal South Cotabato City LTFRB Regional Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 4440116,
+      "description": "Koronadal City Bypass Road, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4442721,
+      "description": "Koronadal City Bypass Road  ( Segment 1 ) , South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4443196,
+      "description": "Koronadal City Bypass Road (Segment 2), South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4443570,
+      "description": "Koronadal City Bypass Road (Segment 2) Sta. 1 + 200 - Sta. 3 + 763",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 117232,
+      "year": 2026
+    },
+    {
+      "id": 4443815,
+      "description": "Koronadal   -   Lutayan   -   Columbio ( Lamalis   -   Datalfitak ) Matanao Road, Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4443816,
+      "description": "Koronadal   -   Lutayan   -   Columbio ( Lamalis   -   Datalfitak ) Matanao Road, Package B, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4443929,
+      "description": "Koronadal    -    Columbio    -    Lutayan ( Lamalis   -   Datalfitak ) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444034,
+      "description": "Koronadal   -   Lutayan   -   Columbio   -   Matanao Road, Package C, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444078,
+      "description": "Koronadal    -    Lutayan    -    Columbio    -    Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444186,
+      "description": "Koronadal   -   Lutayan   -   Columbio ( Lamalis   -   Datalfitak ) Matanao Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4445335,
+      "description": "Koronadal - Lutayan - Columbio - Matanao Road, Sta.8 + 800 - Sta. 8 + 958.34, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 87736,
+      "year": 2026
+    },
+    {
+      "id": 4529274,
+      "description": "Koronadal South Cotabato City LTFRB Regional Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 31381,
+      "description": "Concreting of Koronadal Proper - Crossing Palkan FMR, Brgy. Crossing Palkan, Polomolok, South Cotabato",
+      "department": "Department of Agriculture (DA)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 472494,
+      "description": "Rehabilitation of KCNHS (Koronadal Comprehensive National High School) Gym, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 489775,
+      "description": "Construction of Columbio-Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 513166,
+      "description": "Columbio - Lutayan - Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 77750,
+      "year": 2020
+    },
+    {
+      "id": 587579,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 588459,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 1015324,
+      "description": "Completion of Koronadal City Gym, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 25000,
+      "year": 2021
+    },
+    {
+      "id": 1015393,
+      "description": "Construction (Completion) of Koronadal City Health Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 15000,
+      "year": 2021
+    },
+    {
+      "id": 1030596,
+      "description": "Columbio - Lutayan - Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 32655,
+      "year": 2021
+    },
+    {
+      "id": 1030755,
+      "description": "Columbio - Lutayan - Koronadal Road Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 150000,
+      "year": 2021
+    },
+    {
+      "id": 1117280,
+      "description": "Concreting of Koronadal Proper - Crossing Palkan FMR, Brgy. Crossing Palkan, Polomolok, South Cotabato",
+      "department": "Department of Agriculture (DA)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1562967,
+      "description": "Rehabilitation of KCNHS (Koronadal Comprehensive National High School) Gym, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1583761,
+      "description": "Completion of Koronadal City Gym, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1583830,
+      "description": "Construction (Completion) of Koronadal City Health Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1589485,
+      "description": "Construction of Columbio - Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1619874,
+      "description": "Road Concreting at barangay Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2022
+    },
+    {
+      "id": 1640045,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1640235,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1640452,
+      "description": "Columbio - Lutayan - Koronadal Road, Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 140000,
+      "year": 2022
+    },
+    {
+      "id": 1640453,
+      "description": "Columbio - Lutayan - Koronadal Road, Package B, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 135000,
+      "year": 2022
+    },
+    {
+      "id": 1712956,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1713663,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1746504,
+      "description": "Concreting of Koronadal Proper - Crossing Palkan FMR, Brgy. Crossing Palkan, Polomolok, South Cotabato",
+      "department": "Department of Agriculture (DA)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2192846,
+      "description": "Rehabilitation of KCNHS ( Koronadal Comprehensive National High School ) Gym, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2213640,
+      "description": "Completion of Koronadal City Gym, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2213709,
+      "description": "Construction ( Completion ) of Koronadal City Health Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2219659,
+      "description": "Construction of Columbio  -  Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2255143,
+      "description": "Road Concreting at barangay Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2288083,
+      "description": "Columbio   -   Lutayan   -   Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2288273,
+      "description": "Columbio   -   Lutayan   -   Koronadal Road Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2288490,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road, Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2288491,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road, Package B, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2288709,
+      "description": "Columbio - Lutayan - Koronadal Road Package C, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 150000,
+      "year": 2023
+    },
+    {
+      "id": 2288710,
+      "description": "Columbio - Lutayan - Koronadal Road Package D, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 140000,
+      "year": 2023
+    },
+    {
+      "id": 2362602,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2363328,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2397095,
+      "description": "Concreting of Koronadal Proper - Crossing Palkan FMR, Brgy. Crossing Palkan, Polomolok, South Cotabato",
+      "department": "Department of Agriculture (DA)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2852633,
+      "description": "Rehabilitation of KCNHS ( Koronadal Comprehensive National High School ) Gym, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2873427,
+      "description": "Completion of Koronadal City Gym, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2873496,
+      "description": "Construction ( Completion ) of Koronadal City Health Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2879790,
+      "description": "Construction of Columbio  -  Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2919276,
+      "description": "Road Concreting at barangay Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2967269,
+      "description": "Columbio   -   Lutayan   -   Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2967459,
+      "description": "Columbio   -   Lutayan   -   Koronadal Road Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2967676,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road, Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2967677,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road, Package B, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2967895,
+      "description": "Columbio - Lutayan - Koronadal Road Package C, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2967896,
+      "description": "Columbio - Lutayan - Koronadal Road Package D, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2968083,
+      "description": "Columbio - Lutayan - Koronadal Road, Package D, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 151000,
+      "year": 2024
+    },
+    {
+      "id": 2968084,
+      "description": "Columbio - Lutayan - Koronadal Road, Package E, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 138000,
+      "year": 2024
+    },
+    {
+      "id": 2968085,
+      "description": "Columbio - Lutayan - Koronadal Road, Package F, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 151000,
+      "year": 2024
+    },
+    {
+      "id": 3045021,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 3045750,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 3080628,
+      "description": "Concreting of Koronadal Proper - Crossing Palkan FMR, Brgy. Crossing Palkan, Polomolok, South Cotabato",
+      "department": "Department of Agriculture (DA)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3425316,
+      "description": "Development of NMP-Koronadal and Lake Sebu, South Cotabato (Phase 1)",
+      "department": "Department of Education (DepEd)",
+      "agency": "National Museum of the Philippines",
+      "amountThousands": 10000,
+      "year": 2025
+    },
+    {
+      "id": 3551210,
+      "description": "Rehabilitation of KCNHS ( Koronadal Comprehensive National High School ) Gym, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3572004,
+      "description": "Completion of Koronadal City Gym, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3572073,
+      "description": "Construction ( Completion ) of Koronadal City Health Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3578662,
+      "description": "Construction of Columbio   -   Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3622782,
+      "description": "Road Concreting at barangay Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3686367,
+      "description": "Columbio    -    Lutayan    -    Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3686557,
+      "description": "Columbio    -    Lutayan    -    Koronadal Road Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3686774,
+      "description": "Columbio   -   Lutayan   -   Koronadal Road, Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3686775,
+      "description": "Columbio   -   Lutayan   -   Koronadal Road, Package B, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3686993,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road Package C, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3686994,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road Package D, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3687181,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road, Package D, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3687182,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road, Package E, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3687183,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road, Package F, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3687371,
+      "description": "Columbio - Lutayan - Koronadal Road Package G, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 100000,
+      "year": 2025
+    },
+    {
+      "id": 3687372,
+      "description": "Columbio - Lutayan - Koronadal Road Package I, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 100000,
+      "year": 2025
+    },
+    {
+      "id": 3768660,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3769417,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3803840,
+      "description": "Concreting of Koronadal Proper - Crossing Palkan FMR, Brgy. Crossing Palkan, Polomolok, South Cotabato",
+      "department": "Department of Agriculture (DA)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4161203,
+      "description": "Development of NMP-Koronadal and Lake Sebu, South Cotabato (Phase 1)",
+      "department": "Department of Education (DepEd)",
+      "agency": "National Museum of the Philippines",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4161208,
+      "description": "Development of NMP Koronadal and Lake Sebu, South Cotabato (Phase 2)",
+      "department": "Department of Education (DepEd)",
+      "agency": "National Museum of the Philippines",
+      "amountThousands": 40000,
+      "year": 2026
+    },
+    {
+      "id": 4292389,
+      "description": "Rehabilitation of KCNHS ( Koronadal Comprehensive National High School ) Gym, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4313183,
+      "description": "Completion of Koronadal City Gym, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4313252,
+      "description": "Construction ( Completion ) of Koronadal City Health Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4319983,
+      "description": "Construction of Columbio   -   Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4358277,
+      "description": "Construction of Concrete Road Koronadal-San Jose-Columbio-Matanao By-pass Road, STA. 0+000-STA. 3+100 South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 107463,
+      "year": 2026
+    },
+    {
+      "id": 4368336,
+      "description": "Road Concreting at barangay Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444183,
+      "description": "Columbio    -    Lutayan    -    Koronadal Road, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444373,
+      "description": "Columbio    -    Lutayan    -    Koronadal Road Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444590,
+      "description": "Columbio   -   Lutayan   -   Koronadal Road, Package A, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444591,
+      "description": "Columbio   -   Lutayan   -   Koronadal Road, Package B, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444809,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road Package C, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444810,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road Package D, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444997,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road, Package D, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444998,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road, Package E, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4444999,
+      "description": "Columbio  -  Lutayan  -  Koronadal Road, Package F, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4445187,
+      "description": "Columbio - Lutayan - Koronadal Road Package G, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4445188,
+      "description": "Columbio - Lutayan - Koronadal Road Package I, Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4445331,
+      "description": "Columbio - Lutayan - Koronadal Road, Sta. 4 + 970 - Sta. 7 + 370, Sta.10 + 135 - Sta.10 + 200,  Sultan Kudarat",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 94836,
+      "year": 2026
+    },
+    {
+      "id": 4528539,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4529287,
+      "description": "Renovation of LTO Koronadal District Office",
+      "department": "Department of Transportation (DOTr)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 495291,
+      "description": "Concreting of Road, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 500636,
+      "description": "Road Concreting, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 2500,
+      "year": 2020
+    },
+    {
+      "id": 500885,
+      "description": "Construction of Carpenter Hill Bridge and Bridge Protection along Koronadal-Tampakan Road, Carpenter Hill-San Roque Section, Brgy. Carpenter Hill, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 1596266,
+      "description": "Concreting of Road, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1601610,
+      "description": "Road Concreting, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1604737,
+      "description": "Construction of Carpenter Hill Bridge and Bridge Protection along Koronadal - Tampakan Road, Carpenter Hill - San Roque Section, Brgy. Carpenter Hill, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 2226440,
+      "description": "Concreting of Road, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2231784,
+      "description": "Road Concreting, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2234911,
+      "description": "Construction of Carpenter Hill Bridge and Bridge Protection along Koronadal  -  Tampakan Road, Carpenter Hill  -  San Roque Section, Brgy. Carpenter Hill, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2886571,
+      "description": "Concreting of Road, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2891915,
+      "description": "Road Concreting, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2895042,
+      "description": "Construction of Carpenter Hill Bridge and Bridge Protection along Koronadal  -  Tampakan Road, Carpenter Hill  -  San Roque Section, Brgy. Carpenter Hill, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 3585443,
+      "description": "Concreting of Road, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3590787,
+      "description": "Road Concreting, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3593914,
+      "description": "Construction of Carpenter Hill Bridge and Bridge Protection along Koronadal   -   Tampakan Road, Carpenter Hill   -   San Roque Section, Brgy. Carpenter Hill, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 4326764,
+      "description": "Concreting of Road, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4332108,
+      "description": "Road Concreting, Koronadal Proper, Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4335235,
+      "description": "Construction of Carpenter Hill Bridge and Bridge Protection along Koronadal   -   Tampakan Road, Carpenter Hill   -   San Roque Section, Brgy. Carpenter Hill, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4358250,
+      "description": "Construction of Concrete Road, Koronadal-San Jose-Columbio-Matanao By-pass Road, Sta. 0+000-Sta. 3+100, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 55000,
+      "year": 2026
+    },
+    {
+      "id": 479998,
+      "description": "Construction (Completion) of Multi-Purpose Building (Gym), Koronadal Central Elementary School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 480084,
+      "description": "Completion of barangay gymnasium in Barangay Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 480086,
+      "description": "Construction of new barangay hall in Barangay Caloocan, Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 480092,
+      "description": "Construction of TESDA Regional Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 485806,
+      "description": "Construction of Multi-Purpose Building (Chinatown Public Market), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 15000,
+      "year": 2020
+    },
+    {
+      "id": 485807,
+      "description": "Construction (Completion) of Multi-Purpose Building (City Gym), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 20000,
+      "year": 2020
+    },
+    {
+      "id": 485817,
+      "description": "Construction (Completion) of Multi-Purpose Building, City of Koronadal, South Cotabato`",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 10000,
+      "year": 2020
+    },
+    {
+      "id": 517704,
+      "description": "Construction of Priority Diversion Channel Projects (Channel 4), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 521576,
+      "description": "Construction of  Diversion Channel Project (Channel 3), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 523069,
+      "description": "Construction of Diversion Channel Project (Channel 3), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 35000,
+      "year": 2020
+    },
+    {
+      "id": 1008250,
+      "description": "Construction of Multi-Purpose Building (Chinatown Public Market), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 12450,
+      "year": 2021
+    },
+    {
+      "id": 1008251,
+      "description": "Construction (Completion) of Multi-Purpose Building (City Gym), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 16600,
+      "year": 2021
+    },
+    {
+      "id": 1032669,
+      "description": "Construction of Diversion Channel Project (Channel 3), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 7700,
+      "year": 2021
+    },
+    {
+      "id": 1570471,
+      "description": "Construction (Completion) of Multi - Purpose Building (Gym), Koronadal Central Elementary School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1570557,
+      "description": "Completion of barangay gymnasium in Barangay Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1570559,
+      "description": "Construction of new barangay hall in Barangay Caloocan, Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1570565,
+      "description": "Construction of TESDA Regional Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1576278,
+      "description": "Construction of Multi - Purpose Building (Chinatown Public Market), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1576279,
+      "description": "Construction (Completion) of Multi - Purpose Building (City Gym), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1576289,
+      "description": "Construction (Completion) of Multi - Purpose Building, City of Koronadal, South Cotabato`",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1616630,
+      "description": "Construction of Bank Protection Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 50000,
+      "year": 2022
+    },
+    {
+      "id": 1616631,
+      "description": "Construction of Flood Control Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 30000,
+      "year": 2022
+    },
+    {
+      "id": 1616632,
+      "description": "Construction of Revetment along Marbel River (Namnama Section), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 35000,
+      "year": 2022
+    },
+    {
+      "id": 1620887,
+      "description": "Construction of Flood Control Structures, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2022
+    },
+    {
+      "id": 1625013,
+      "description": "Construction (Completion) of Multi-Purpose Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 30000,
+      "year": 2022
+    },
+    {
+      "id": 1625020,
+      "description": "Construction / Completion of Multi-Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2022
+    },
+    {
+      "id": 1625021,
+      "description": "Construction / Completion of Multi-Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2022
+    },
+    {
+      "id": 1625022,
+      "description": "Construction / Completion of Multi-Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2022
+    },
+    {
+      "id": 1646981,
+      "description": "Construction of Priority Diversion Channel Projects (Channel 4), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1650857,
+      "description": "Construction of  Diversion Channel Project (Channel 3), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1652350,
+      "description": "Construction of Diversion Channel Project (Channel 3), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 30000,
+      "year": 2022
+    },
+    {
+      "id": 1654996,
+      "description": "Construction of Diversion Channel Project (Channel 1), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 40000,
+      "year": 2022
+    },
+    {
+      "id": 2200350,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building ( Gym ), Koronadal Central Elementary School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2200436,
+      "description": "Completion of barangay gymnasium in Barangay Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2200438,
+      "description": "Construction of new barangay hall in Barangay Caloocan, Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2200444,
+      "description": "Construction of TESDA Regional Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2206157,
+      "description": "Construction of Multi  -  Purpose Building ( Chinatown Public Market ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2206158,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building ( City Gym ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2206168,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building, City of Koronadal, South Cotabato`",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2250284,
+      "description": "Construction of Bank Protection Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 35000,
+      "year": 2023
+    },
+    {
+      "id": 2250285,
+      "description": "Construction of Flood Control Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2250286,
+      "description": "Construction of Revetment along Marbel River ( Namnama Section ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 35000,
+      "year": 2023
+    },
+    {
+      "id": 2258702,
+      "description": "Construction of Flood Control Structures, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2263596,
+      "description": "Construction ( Completion ) of Multi - Purpose Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2263603,
+      "description": "Construction  /  Completion of Multi - Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2263604,
+      "description": "Construction  /  Completion of Multi - Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2263605,
+      "description": "Construction  /  Completion of Multi - Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2269978,
+      "description": "Construction of Water System at Barangay San Jose, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 8500,
+      "year": 2023
+    },
+    {
+      "id": 2296253,
+      "description": "Construction of Priority Diversion Channel Projects ( Channel 4 ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2300129,
+      "description": "Construction of  Diversion Channel Project ( Channel 3 ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2301622,
+      "description": "Construction of Diversion Channel Project ( Channel 3 ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2304267,
+      "description": "Construction of Diversion Channel Project ( Channel 1 ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2306001,
+      "description": "Construction of Diversion Channel Projects (Channel 1), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 15000,
+      "year": 2023
+    },
+    {
+      "id": 2860137,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building ( Gym ), Koronadal Central Elementary School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2860223,
+      "description": "Completion of barangay gymnasium in Barangay Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2860225,
+      "description": "Construction of new barangay hall in Barangay Caloocan, Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2860231,
+      "description": "Construction of TESDA Regional Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2865944,
+      "description": "Construction of Multi  -  Purpose Building ( Chinatown Public Market  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2865945,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building ( City Gym ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2865955,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building, City of Koronadal, South Cotabato`",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2913549,
+      "description": "Construction of Bank Protection Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2913550,
+      "description": "Construction of Flood Control Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2913551,
+      "description": "Construction of Revetment along Marbel River ( Namnama Section  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2924711,
+      "description": "Construction of Access Road and Bridge, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 35000,
+      "year": 2024
+    },
+    {
+      "id": 2925456,
+      "description": "Construction of Flood Control Structures, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2931137,
+      "description": "Construction ( Completion ) of Multi - Purpose Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2931144,
+      "description": "Construction / Completion of Multi - Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2931145,
+      "description": "Construction / Completion of Multi - Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2931146,
+      "description": "Construction / Completion of Multi - Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2937380,
+      "description": "Construction of Multi - Purpose Building ,  Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2024
+    },
+    {
+      "id": 2942967,
+      "description": "Construction of Multi - Purpose Building, Koronadal Central II Elementary School, Brgy. Zone 4, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 30000,
+      "year": 2024
+    },
+    {
+      "id": 2943066,
+      "description": "Construction of Multi - Purpose Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 15000,
+      "year": 2024
+    },
+    {
+      "id": 2944868,
+      "description": "Construction of Water System at Barangay San Jose, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2976648,
+      "description": "Construction of Priority Diversion Channel Projects ( Channel 4  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2980524,
+      "description": "Construction of  Diversion Channel Project ( Channel 3  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2982017,
+      "description": "Construction of Diversion Channel Project ( Channel 3  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2984662,
+      "description": "Construction of Diversion Channel Project ( Channel 1  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2986396,
+      "description": "Construction of Diversion Channel Projects  ( Channel 1 ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 3558714,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building ( Gym ), Koronadal Central Elementary School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3558800,
+      "description": "Completion of barangay gymnasium in Barangay Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3558802,
+      "description": "Construction of new barangay hall in Barangay Caloocan, Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3558808,
+      "description": "Construction of TESDA Regional Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3564521,
+      "description": "Construction of Multi   -   Purpose Building ( Chinatown Public Market  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3564522,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building ( City Gym ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3564532,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building, City of Koronadal, South Cotabato`",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3617055,
+      "description": "Construction of Bank Protection Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3617056,
+      "description": "Construction of Flood Control Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3617057,
+      "description": "Construction of Revetment along Marbel River ( Namnama Section  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3630437,
+      "description": "Construction of Access Road and Bridge, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3631238,
+      "description": "Construction of Flood Control Structures, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3636919,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3636926,
+      "description": "Construction  /  Completion of Multi  -  Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3636927,
+      "description": "Construction  /  Completion of Multi  -  Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3636928,
+      "description": "Construction  /  Completion of Multi  -  Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3643162,
+      "description": "Construction of Multi  -  Purpose Building ,  Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3648749,
+      "description": "Construction of Multi  -  Purpose Building, Koronadal Central II Elementary School, Brgy. Zone 4, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3648848,
+      "description": "Construction of Multi  -  Purpose Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3656148,
+      "description": "Construction (Completion) of Multi-Purpose Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2025
+    },
+    {
+      "id": 3657887,
+      "description": "Construction of Water System at Barangay San Jose, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3697060,
+      "description": "Construction of Priority Diversion Channel Projects ( Channel 4  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3700936,
+      "description": "Construction of  Diversion Channel Project ( Channel 3  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3702429,
+      "description": "Construction of Diversion Channel Project ( Channel 3  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3705074,
+      "description": "Construction of Diversion Channel Project ( Channel 1  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3706808,
+      "description": "Construction of Diversion Channel Projects  ( Channel 1 ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 4299893,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building ( Gym ), Koronadal Central Elementary School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4299979,
+      "description": "Completion of barangay gymnasium in Barangay Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4299981,
+      "description": "Construction of new barangay hall in Barangay Caloocan, Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4299987,
+      "description": "Construction of TESDA Regional Office, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4305700,
+      "description": "Construction of Multi   -   Purpose Building ( Chinatown Public Market  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4305701,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building ( City Gym ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4305711,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building, City of Koronadal, South Cotabato`",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4362130,
+      "description": "Construction of Bank Protection Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4362131,
+      "description": "Construction of Flood Control Structure along Bolok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4362132,
+      "description": "Construction of Revetment along Marbel River ( Namnama Section  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4377663,
+      "description": "Construction of Access Road and Bridge, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4378464,
+      "description": "Construction of Flood Control Structures, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4384145,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4384152,
+      "description": "Construction  /  Completion of Multi  -  Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4384153,
+      "description": "Construction  /  Completion of Multi  -  Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4384154,
+      "description": "Construction  /  Completion of Multi  -  Purpose Buildings, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4390388,
+      "description": "Construction of Multi  -  Purpose Building ,  Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4395975,
+      "description": "Construction of Multi  -  Purpose Building, Koronadal Central II Elementary School, Brgy. Zone 4, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4396074,
+      "description": "Construction of Multi  -  Purpose Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4403374,
+      "description": "Construction  ( Completion )  of Multi-Purpose Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4404239,
+      "description": "Rehabilitation of Multi-Purpose Building (SNED Building 1), Koronadal National Comprehensive High School (304671), Barangay Zone 4, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2026
+    },
+    {
+      "id": 4409270,
+      "description": "Construction of Multi-Purpose Building (Gymnasium), Koronadal Central 2 Elementary School (131407), Barangay Zone 4, City of Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 3000,
+      "year": 2026
+    },
+    {
+      "id": 4409273,
+      "description": "Rehabilitation of Multi-Purpose Building (SNED Building 2), Koronadal National Comprehensive High School (304671), Barangay Zone 4, City of Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 2000,
+      "year": 2026
+    },
+    {
+      "id": 4411021,
+      "description": "Construction of Water System at Barangay San Jose, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4456081,
+      "description": "Construction of Priority Diversion Channel Projects ( Channel 4  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4459957,
+      "description": "Construction of  Diversion Channel Project ( Channel 3  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4461450,
+      "description": "Construction of Diversion Channel Project ( Channel 3  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4464095,
+      "description": "Construction of Diversion Channel Project ( Channel 1  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4465829,
+      "description": "Construction of Diversion Channel Projects  ( Channel 1 ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 463763,
+      "description": "Payments of Right-Of-Way (ROW) - Regional Office XII, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 19562,
+      "year": 2020
+    },
+    {
+      "id": 472441,
+      "description": "Construction (Completion) of Barangay Gym, Brgy Concepcion, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 480013,
+      "description": "Construction (Completion) of Multi-Purpose BuildingBrgy. Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 485805,
+      "description": "Construction (Completion) of Multi-Purpose Building (City Health Center), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 15000,
+      "year": 2020
+    },
+    {
+      "id": 485838,
+      "description": "Construction of Multi-Purpose Building, SPED Building, Koronadal National Comprehensive High School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 1200,
+      "year": 2020
+    },
+    {
+      "id": 485859,
+      "description": "Construction and/or Repair/Rehabilitation of Multi-Purpose Building, Koronadal City Gym, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 3000,
+      "year": 2020
+    },
+    {
+      "id": 485860,
+      "description": "Construction/Repair/Rehabilitation of Multi-Purpose Building (Chinatown Public Market), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2020
+    },
+    {
+      "id": 485861,
+      "description": "Construction/Repair/Rehabilitation of Multi-Purpose Building Urban Dos, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 1000,
+      "year": 2020
+    },
+    {
+      "id": 501400,
+      "description": "Rehabilitation of Overpass, Alunan Avenue, Koronadal City South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 1800,
+      "year": 2020
+    },
+    {
+      "id": 520009,
+      "description": "Rehabilitation/Improvement of Namnama Bridge Flood Control and Bank Protection along Marbel River, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 520010,
+      "description": "Rehabilitation/Maintenance of Bolok River Bank Protection, Poblacion Section, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 523068,
+      "description": "Construction of Concrete Cover of the  Existing Diversion Channel Project (Channel 4), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 6100,
+      "year": 2020
+    },
+    {
+      "id": 1008249,
+      "description": "Construction (Completion) of Multi-Purpose Building (City Health Center), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 12450,
+      "year": 2021
+    },
+    {
+      "id": 1015379,
+      "description": "Construction (Completion) of Multi-Purpose Building (Gym), Barangay Morales, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 1300,
+      "year": 2021
+    },
+    {
+      "id": 1015389,
+      "description": "Construction (Completion) of Multi-Purpose Building (Regional Center gym with stage and bleachers), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 2000,
+      "year": 2021
+    },
+    {
+      "id": 1015391,
+      "description": "Construction of Multi-Purpose Building (Training Center), Santa Cruz, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 3000,
+      "year": 2021
+    },
+    {
+      "id": 1015392,
+      "description": "Construction (Completion) of Multi-Purpose Building, Barangay Zone III, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 50000,
+      "year": 2021
+    },
+    {
+      "id": 1015412,
+      "description": "Construction of Multi-Purpose Building (Barangay Hall), Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 1800,
+      "year": 2021
+    },
+    {
+      "id": 1015457,
+      "description": "Construction/Rehabilitation of Multi-Purpose Building (Gym), Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 1500,
+      "year": 2021
+    },
+    {
+      "id": 1015459,
+      "description": "Construction/Rehabilitation of Multi-Purpose Building, Barangay Avance±a, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 1000,
+      "year": 2021
+    },
+    {
+      "id": 1015462,
+      "description": "Repair/Completion of Multi-Purpose building (Gym), Barangay GPS, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 1200,
+      "year": 2021
+    },
+    {
+      "id": 1015465,
+      "description": "Rehabilitation of Multi-Purpose Building (gym), Barangay Zone 4, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 1000,
+      "year": 2021
+    },
+    {
+      "id": 1032668,
+      "description": "Construction of Concrete Cover of the  Existing Diversion Channel Project (Channel 4), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 610,
+      "year": 2021
+    },
+    {
+      "id": 1552925,
+      "description": "Payments of Right - Of - Way (ROW)  -  Regional Office XII, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1562914,
+      "description": "Construction (Completion) of Barangay Gym, Brgy Concepcion, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1570486,
+      "description": "Construction (Completion) of Multi - Purpose BuildingBrgy. Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1576277,
+      "description": "Construction (Completion) of Multi - Purpose Building (City Health Center), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1576310,
+      "description": "Construction of Multi - Purpose Building, SPED Building, Koronadal National Comprehensive High School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1576331,
+      "description": "Construction and/or Repair/Rehabilitation of Multi - Purpose Building, Koronadal City Gym, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1576332,
+      "description": "Construction/Repair/Rehabilitation of Multi - Purpose Building (Chinatown Public Market), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1576333,
+      "description": "Construction/Repair/Rehabilitation of Multi - Purpose Building Urban Dos, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1583816,
+      "description": "Construction (Completion) of Multi - Purpose Building (Gym), Barangay Morales, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1583826,
+      "description": "Construction (Completion) of Multi - Purpose Building (Regional Center gym with stage and bleachers), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1583828,
+      "description": "Construction of Multi - Purpose Building (Training Center), Santa Cruz, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1583829,
+      "description": "Construction (Completion) of Multi - Purpose Building, Barangay Zone III, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1583849,
+      "description": "Construction of Multi - Purpose Building (Barangay Hall), Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1583894,
+      "description": "Construction/Rehabilitation of Multi - Purpose Building (Gym), Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1583896,
+      "description": "Construction/Rehabilitation of Multi - Purpose Building, Barangay Avance±a, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1583899,
+      "description": "Repair/Completion of Multi - Purpose building (Gym), Barangay GPS, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1583902,
+      "description": "Rehabilitation of Multi - Purpose Building (gym), Barangay Zone 4, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1585159,
+      "description": "Construction of Commission on Population and Development (POPCOM) Regional Office XII Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 20000,
+      "year": 2022
+    },
+    {
+      "id": 1605351,
+      "description": "Rehabilitation of Overpass, Alunan Avenue, Koronadal City South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1612817,
+      "description": "Installation of Solar Street Lights in Barangay Zone IV, Koronadal City, Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 10000,
+      "year": 2022
+    },
+    {
+      "id": 1616774,
+      "description": "Construction of Multi-Purpose Building, Professional Regulation Commission (PRC) Region XII - Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 100000,
+      "year": 2022
+    },
+    {
+      "id": 1625031,
+      "description": "Construction of Multi-Purpose Building (Building for Social Services), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2022
+    },
+    {
+      "id": 1649289,
+      "description": "Rehabilitation/Improvement of Namnama Bridge Flood Control and Bank Protection along Marbel River, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1649290,
+      "description": "Rehabilitation/Maintenance of Bolok River Bank Protection, Poblacion Section, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 1652349,
+      "description": "Construction of Concrete Cover of the  Existing Diversion Channel Project (Channel 4), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2022
+    },
+    {
+      "id": 2182589,
+      "description": "Payments of Right  -  Of  -  Way ( ROW )   -   Regional Office XII, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2192793,
+      "description": "Construction ( Completion ) of Barangay Gym, Brgy Concepcion, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2200365,
+      "description": "Construction ( Completion ) of Multi  -  Purpose BuildingBrgy. Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2206156,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building ( City Health Center ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2206189,
+      "description": "Construction of Multi  -  Purpose Building, SPED Building, Koronadal National Comprehensive High School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2206210,
+      "description": "Construction and / or Repair / Rehabilitation of Multi  -  Purpose Building, Koronadal City Gym, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2206211,
+      "description": "Construction / Repair / Rehabilitation of Multi  -  Purpose Building ( Chinatown Public Market ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2206212,
+      "description": "Construction / Repair / Rehabilitation of Multi  -  Purpose Building Urban Dos, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2213695,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building ( Gym ), Barangay Morales, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2213705,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building ( Regional Center gym with stage and bleachers ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2213707,
+      "description": "Construction of Multi  -  Purpose Building ( Training Center ), Santa Cruz, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2213708,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building, Barangay Zone III, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2213728,
+      "description": "Construction of Multi  -  Purpose Building ( Barangay Hall ), Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2213773,
+      "description": "Construction / Rehabilitation of Multi  -  Purpose Building ( Gym ), Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2213775,
+      "description": "Construction / Rehabilitation of Multi  -  Purpose Building, Barangay Avance±a, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2213778,
+      "description": "Repair / Completion of Multi  -  Purpose building ( Gym ), Barangay GPS, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2213781,
+      "description": "Rehabilitation of Multi  -  Purpose Building ( gym ), Barangay Zone 4, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2215035,
+      "description": "Construction of Commission on Population and Development ( POPCOM ) Regional Office XII Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2235525,
+      "description": "Rehabilitation of Overpass, Alunan Avenue, Koronadal City South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2243156,
+      "description": "Construction of Solar Water System, Barangay Assumption, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 10000,
+      "year": 2023
+    },
+    {
+      "id": 2244129,
+      "description": "Construction 1st Maneuver Company South Cotabato Provincial Mobile Force Company (PMFC) Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 45109,
+      "year": 2023
+    },
+    {
+      "id": 2244857,
+      "description": "Installation of Solar Street Lights in Barangay Zone IV, Koronadal City, Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2251288,
+      "description": "Construction of Multi - Purpose Building, Professional Regulation Commission ( PRC ) Region XII  -  Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2263614,
+      "description": "Construction of Multi - Purpose Building ( Building for Social Services ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2298561,
+      "description": "Rehabilitation / Improvement of Namnama Bridge Flood Control and Bank Protection along Marbel River, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2298562,
+      "description": "Rehabilitation / Maintenance of Bolok River Bank Protection, Poblacion Section, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2301621,
+      "description": "Construction of Concrete Cover of the  Existing Diversion Channel Project ( Channel 4 ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2023
+    },
+    {
+      "id": 2842221,
+      "description": "Payments of Right  -  Of  -  Way ( ROW )   -   Regional Office XII, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2852580,
+      "description": "Construction ( Completion ) of Barangay Gym, Brgy Concepcion, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2860152,
+      "description": "Construction ( Completion ) of Multi  -  Purpose BuildingBrgy. Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2865943,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building ( City Health Center ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2865976,
+      "description": "Construction of Multi  -  Purpose Building, SPED Building, Koronadal National Comprehensive High School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2865997,
+      "description": "Construction and / or Repair / Rehabilitation of Multi  -  Purpose Building, Koronadal City Gym, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2865998,
+      "description": "Construction / Repair / Rehabilitation of Multi  -  Purpose Building ( Chinatown Public Market  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2865999,
+      "description": "Construction / Repair / Rehabilitation of Multi  -  Purpose Building Urban Dos, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2873482,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building ( Gym ), Barangay Morales, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2873492,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building ( Regional Center gym with stage and bleachers ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2873494,
+      "description": "Construction of Multi  -  Purpose Building ( Training Center  ) , Santa Cruz, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2873495,
+      "description": "Construction ( Completion ) of Multi  -  Purpose Building, Barangay Zone III, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2873515,
+      "description": "Construction of Multi  -  Purpose Building ( Barangay Hall  ) , Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2873560,
+      "description": "Construction / Rehabilitation of Multi  -  Purpose Building ( Gym  ) , Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2873562,
+      "description": "Construction / Rehabilitation of Multi  -  Purpose Building, Barangay Avanceña, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2873565,
+      "description": "Repair / Completion of Multi  -  Purpose building ( Gym  ) , Barangay GPS, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2873568,
+      "description": "Rehabilitation of Multi  -  Purpose Building ( gym  ) , Barangay Zone 4, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2874822,
+      "description": "Construction of Commission on Population and Development ( POPCOM ) Regional Office XII Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2875228,
+      "description": "Construction  ( Completion )  of Commission on Population and Development  ( POPCOM )  Regional Office XII, Koronadal City",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 10000,
+      "year": 2024
+    },
+    {
+      "id": 2895656,
+      "description": "Rehabilitation of Overpass, Alunan Avenue, Koronadal City South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2903712,
+      "description": "Construction of Solar Water System, Barangay Assumption, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2904765,
+      "description": "Construction 1st Maneuver Company South Cotabato Provincial Mobile Force Company  ( PMFC )  Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2905652,
+      "description": "Installation of Solar Street Lights in Barangay Zone IV, Koronadal City, Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2911840,
+      "description": "Construction of Marbel 2 RIS MC - 1 Service Road, Koronadal, South Cotabato  ( KATUBIGAN -  Kalsada Tungo sa Patubigan ) ",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 10000,
+      "year": 2024
+    },
+    {
+      "id": 2915421,
+      "description": "Construction of Multi - Purpose Building, Professional Regulation Commission ( PRC ) Region XII  -  Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2922067,
+      "description": "Construction of Road, Barangay Assumption, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2024
+    },
+    {
+      "id": 2924107,
+      "description": "Construction of Road, Purok 4, Barangay Koronadal Proper, Municipality of Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2024
+    },
+    {
+      "id": 2924116,
+      "description": "Road Concreting Barangay Assumption Sitio Datalfitak, to Sitio Olomlao, Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2024
+    },
+    {
+      "id": 2931155,
+      "description": "Construction of Multi - Purpose Building ( Building for Social Services  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2978956,
+      "description": "Rehabilitation / Improvement of Namnama Bridge Flood Control and Bank Protection along Marbel River, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2978957,
+      "description": "Rehabilitation / Maintenance of Bolok River Bank Protection, Poblacion Section, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 2982016,
+      "description": "Construction of Concrete Cover of the  Existing Diversion Channel Project ( Channel 4  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2024
+    },
+    {
+      "id": 3540655,
+      "description": "Payments of Right   -   Of   -   Way ( ROW )    -    Regional Office XII, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3541444,
+      "description": "Regionwide / Nationwide - Roads and Bridges - Feasibility Studies/ Preliminary and Detailed Engineering/ Economic Analysis/ Technical Studies/ Traffic Impact Assessment - Region XII - Tulunan-Columbio-Koronadal City Bypass Road and Columbio-Lutayan-Koronadal Road; Provinces of North Cotabato, Sultan Kudarat and South Cotabato (Ph. II)",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 4100,
+      "year": 2025
+    },
+    {
+      "id": 3551157,
+      "description": "Construction ( Completion ) of Barangay Gym, Brgy Concepcion, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3558729,
+      "description": "Construction ( Completion ) of Multi   -   Purpose BuildingBrgy. Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3564520,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building ( City Health Center ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3564553,
+      "description": "Construction of Multi   -   Purpose Building, SPED Building, Koronadal National Comprehensive High School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3564574,
+      "description": "Construction and  /  or Repair  /  Rehabilitation of Multi   -   Purpose Building, Koronadal City Gym, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3564575,
+      "description": "Construction  /  Repair  /  Rehabilitation of Multi   -   Purpose Building ( Chinatown Public Market  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3564576,
+      "description": "Construction  /  Repair  /  Rehabilitation of Multi   -   Purpose Building Urban Dos, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3572059,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building ( Gym ), Barangay Morales, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3572069,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building ( Regional Center gym with stage and bleachers ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3572071,
+      "description": "Construction of Multi   -   Purpose Building ( Training Center  ) , Santa Cruz, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3572072,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building, Barangay Zone III, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3572092,
+      "description": "Construction of Multi   -   Purpose Building ( Barangay Hall  ) , Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3572137,
+      "description": "Construction  /  Rehabilitation of Multi   -   Purpose Building ( Gym  ) , Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3572139,
+      "description": "Construction  /  Rehabilitation of Multi   -   Purpose Building, Barangay Avanceña, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3572142,
+      "description": "Repair  /  Completion of Multi   -   Purpose building ( Gym  ) , Barangay GPS, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3572145,
+      "description": "Rehabilitation of Multi   -   Purpose Building ( gym  ) , Barangay Zone 4, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3573399,
+      "description": "Construction of Commission on Population and Development ( POPCOM ) Regional Office XII Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3573805,
+      "description": "Construction  ( Completion )  of Commission on Population and Development  ( POPCOM )  Regional Office XII, Koronadal City",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3574079,
+      "description": "Construction of DPWH Regional Office XII, Regional Office Building, Koronadal City, South Cotabato (Phase 3)",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 100000,
+      "year": 2025
+    },
+    {
+      "id": 3594528,
+      "description": "Rehabilitation of Overpass, Alunan Avenue, Koronadal City South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3603167,
+      "description": "Construction of Solar Water System, Barangay Assumption, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3604285,
+      "description": "Construction 1st Maneuver Company South Cotabato Provincial Mobile Force Company  ( PMFC )  Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3605348,
+      "description": "Installation of Solar Street Lights in Barangay Zone IV, Koronadal City, Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3612359,
+      "description": "Construction of Marbel 2 RIS MC  -  1 Service Road, Koronadal, South Cotabato  ( KATUBIGAN  -   Kalsada Tungo sa Patubigan ) ",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3615687,
+      "description": "Construction of Road, Barangay Mabini to Barangay Esperanza, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 10000,
+      "year": 2025
+    },
+    {
+      "id": 3618927,
+      "description": "Construction of Multi  -  Purpose Building, Professional Regulation Commission ( PRC ) Region XII   -   Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3625573,
+      "description": "Construction of Road, Barangay Assumption, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3627613,
+      "description": "Construction of Road, Purok 4, Barangay Koronadal Proper, Municipality of Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3627622,
+      "description": "Road Concreting Barangay Assumption Sitio Datalfitak, to Sitio Olomlao, Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3636937,
+      "description": "Construction of Multi  -  Purpose Building ( Building for Social Services  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3656155,
+      "description": "Construction of Multi Purpose Building (two storey building for BPATS and BDRRM) Barangay Avanceña, Koronadal City",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2025
+    },
+    {
+      "id": 3656156,
+      "description": "Construction of Multi Purpose Building Barangay Zone 2 Compound, Koronadal City",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2025
+    },
+    {
+      "id": 3656158,
+      "description": "Construction of Multi Purpose Building (Gymnasium) Barangay San Roque Sports Hub, Koronadal City",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2025
+    },
+    {
+      "id": 3659049,
+      "description": "Construction of Riverbank Protection Bank Protection along B'lok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 45000,
+      "year": 2025
+    },
+    {
+      "id": 3699368,
+      "description": "Rehabilitation  /  Improvement of Namnama Bridge Flood Control and Bank Protection along Marbel River, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3699369,
+      "description": "Rehabilitation  /  Maintenance of Bolok River Bank Protection, Poblacion Section, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 3702428,
+      "description": "Construction of Concrete Cover of the  Existing Diversion Channel Project ( Channel 4  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2025
+    },
+    {
+      "id": 4281734,
+      "description": "Payments of Right   -   Of   -   Way ( ROW )    -    Regional Office XII, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4282522,
+      "description": "Regionwide / Nationwide - Roads and Bridges - Feasibility Studies/ Preliminary and Detailed Engineering/ Economic Analysis/ Technical Studies/ Traffic Impact Assessment - Region XII - Tulunan-Columbio-Koronadal City Bypass Road and Columbio-Lutayan-Koronadal Road; Provinces of North Cotabato, Sultan Kudarat and South Cotabato (Ph. II)",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 32400,
+      "year": 2026
+    },
+    {
+      "id": 4292336,
+      "description": "Construction ( Completion ) of Barangay Gym, Brgy Concepcion, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4299908,
+      "description": "Construction ( Completion ) of Multi   -   Purpose BuildingBrgy. Magsaysay, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4305699,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building ( City Health Center ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4305732,
+      "description": "Construction of Multi   -   Purpose Building, SPED Building, Koronadal National Comprehensive High School, Brgy. Zone IV, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4305753,
+      "description": "Construction and  /  or Repair  /  Rehabilitation of Multi   -   Purpose Building, Koronadal City Gym, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4305754,
+      "description": "Construction  /  Repair  /  Rehabilitation of Multi   -   Purpose Building ( Chinatown Public Market  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4305755,
+      "description": "Construction  /  Repair  /  Rehabilitation of Multi   -   Purpose Building Urban Dos, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4313238,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building ( Gym ), Barangay Morales, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4313248,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building ( Regional Center gym with stage and bleachers ), Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4313250,
+      "description": "Construction of Multi   -   Purpose Building ( Training Center  ) , Santa Cruz, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4313251,
+      "description": "Construction ( Completion ) of Multi   -   Purpose Building, Barangay Zone III, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4313271,
+      "description": "Construction of Multi   -   Purpose Building ( Barangay Hall  ) , Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4313316,
+      "description": "Construction  /  Rehabilitation of Multi   -   Purpose Building ( Gym  ) , Barangay Mabini, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4313318,
+      "description": "Construction  /  Rehabilitation of Multi   -   Purpose Building, Barangay Avanceña, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4313321,
+      "description": "Repair  /  Completion of Multi   -   Purpose building ( Gym  ) , Barangay GPS, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4313324,
+      "description": "Rehabilitation of Multi   -   Purpose Building ( gym  ) , Barangay Zone 4, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4314578,
+      "description": "Construction of Commission on Population and Development ( POPCOM ) Regional Office XII Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4314984,
+      "description": "Construction  ( Completion )  of Commission on Population and Development  ( POPCOM )  Regional Office XII, Koronadal City",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4315258,
+      "description": "Construction of DPWH Regional Office XII, Regional Office Building, Koronadal City, South Cotabato (Phase 3)",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4335849,
+      "description": "Rehabilitation of Overpass, Alunan Avenue, Koronadal City South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4345187,
+      "description": "Construction of Solar Water System, Barangay Assumption, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4346444,
+      "description": "Construction 1st Maneuver Company South Cotabato Provincial Mobile Force Company  ( PMFC )  Building, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4347571,
+      "description": "Installation of Solar Street Lights in Barangay Zone IV, Koronadal City, Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4355016,
+      "description": "Construction of Marbel 2 RIS MC  -  1 Service Road, Koronadal, South Cotabato  ( KATUBIGAN  -   Kalsada Tungo sa Patubigan ) ",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4358265,
+      "description": "Construction of Bridge, Barangay New Pangasinan (Bo.4), Koronadal City, STA. 0+000-STA. 0+020 South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 35000,
+      "year": 2026
+    },
+    {
+      "id": 4360762,
+      "description": "Construction of Road, Barangay Mabini to Barangay Esperanza, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4364002,
+      "description": "Construction of Multi  -  Purpose Building, Professional Regulation Commission ( PRC ) Region XII   -   Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4371127,
+      "description": "Construction of Road, Barangay Assumption, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4373167,
+      "description": "Construction of Road, Purok 4, Barangay Koronadal Proper, Municipality of Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4373176,
+      "description": "Road Concreting Barangay Assumption Sitio Datalfitak, to Sitio Olomlao, Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4376950,
+      "description": "Construction of Road, Barangay San Jose Road, City of Koronadal, STA. 0+000-STA. 0+323 South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 6117,
+      "year": 2026
+    },
+    {
+      "id": 4384163,
+      "description": "Construction of Multi  -  Purpose Building ( Building for Social Services  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4403381,
+      "description": "Construction of Multi Purpose Building  ( two storey building for BPATS and BDRRM )  Barangay Avanceña, Koronadal City",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4403382,
+      "description": "Construction of Multi Purpose Building Barangay Zone 2 Compound, Koronadal City",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4403384,
+      "description": "Construction of Multi Purpose Building  ( Gymnasium )  Barangay San Roque Sports Hub, Koronadal City",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4404130,
+      "description": "Construction of Multi-Purpose Building (Public Market), Barangay Concepcion, Koronadal City, South Cotabato (6.479837, 124.883477)",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2026
+    },
+    {
+      "id": 4404145,
+      "description": "Construction of Multi-Purpose Building, Barangay GPS, Koronadal City, South Cotabato (6.5097885, 124.8465891)",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 14000,
+      "year": 2026
+    },
+    {
+      "id": 4404229,
+      "description": "Rehabilitation of Multi-Purpose Building, Barangay Esperanza, Koronadal City, South Cotabato (6.512787, 124.916955)",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 3000,
+      "year": 2026
+    },
+    {
+      "id": 4404230,
+      "description": "Rehabilitation of Multi-Purpose Building, Barangay GPS, Koronadal City, South Cotabato (6.509731, 124.846945)",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 2000,
+      "year": 2026
+    },
+    {
+      "id": 4404235,
+      "description": "Rehabilitation of Multi-Purpose Building, Barangay Rotonda, Koronadal City, South Cotabato (6°31'10.0\"N 124°53'23.9\"E)",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 3000,
+      "year": 2026
+    },
+    {
+      "id": 4409272,
+      "description": "Rehabilitation of One (1) storey - Three (3) classroom School Building, Koronadal Central 1 Elementary School (131406), Barangay Zone 4, City of Koronadal, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 2000,
+      "year": 2026
+    },
+    {
+      "id": 4411887,
+      "description": "Construction of Water System, Purok 6A Brgy. Koronadal Proper,  Polomolok, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": 5000,
+      "year": 2026
+    },
+    {
+      "id": 4412540,
+      "description": "Construction of Riverbank Protection Bank Protection along B'lok Creek, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4458389,
+      "description": "Rehabilitation  /  Improvement of Namnama Bridge Flood Control and Bank Protection along Marbel River, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4458390,
+      "description": "Rehabilitation  /  Maintenance of Bolok River Bank Protection, Poblacion Section, Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 4461449,
+      "description": "Construction of Concrete Cover of the  Existing Diversion Channel Project ( Channel 4  ) , Koronadal City, South Cotabato",
+      "department": "Department of Public Works and Highways (DPWH)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2026
+    },
+    {
+      "id": 31388,
+      "description": "Concreting of Purok Mauswagon - Purok Sto. Nino, Brgy. Carpenter Hill FMR, Brgy. Carpenter Hill, Koronadal City, South Cotabato",
+      "department": "Department of Agriculture (DA)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 31389,
+      "description": "Concreting of Cadidang FMR, Brgy. San Jose, Koronadal City, South Cotabato",
+      "department": "Department of Agriculture (DA)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    },
+    {
+      "id": 31391,
+      "description": "Concreting of Sitio Cogonal FMR, Brgy. Topland, Koronadal City, South Cotabato",
+      "department": "Department of Agriculture (DA)",
+      "agency": "Office of the Secretary",
+      "amountThousands": null,
+      "year": 2020
+    }
+  ]
+}

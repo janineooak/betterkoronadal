@@ -4,6 +4,10 @@ import { Heading } from '../components/ui/Heading';
 import SEO from '../components/SEO';
 import SourceNote from '../components/ui/SourceNote';
 import { Card, CardContent } from '@bettergov/kapwa/card';
+import FloodControlSection from '../components/data/FloodControlSection';
+import ProcurementSection from '../components/data/ProcurementSection';
+import BudgetSection from '../components/data/BudgetSection';
+import CongressSection from '../components/data/CongressSection';
 import {
   FileText,
   Gavel,
@@ -113,6 +117,28 @@ const Transparency: React.FC = () => {
             </CardContent>
           </Card>
 
+          {/* Live data pulled from the BetterGov.ph open APIs */}
+          <Heading level={2}>Live Koronadal Data</Heading>
+          <p className="mb-8 max-w-3xl text-gray-600">
+            The sections below are compiled automatically from the open{' '}
+            <a
+              href="https://bettergov.ph"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-700 underline hover:text-primary-800"
+            >
+              BetterGov.ph
+            </a>{' '}
+            data APIs and refreshed on a schedule. They surface the
+            flood-control projects, contract awards, national budget
+            allocations, and legislation that specifically name Koronadal.
+          </p>
+
+          <FloodControlSection />
+          <ProcurementSection />
+          <BudgetSection />
+          <CongressSection />
+
           {/* Resource grid */}
           <Heading level={2}>Where to Find the Documents</Heading>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-12">
@@ -174,6 +200,11 @@ const Transparency: React.FC = () => {
               {
                 label: 'eFOI — Freedom of Information',
                 href: 'https://www.foi.gov.ph',
+              },
+              {
+                label: 'BetterGov.ph — open government data APIs',
+                href: 'https://bettergov.ph',
+                note: 'flood control, procurement, budget, and legislation feeds',
               },
             ]}
           />

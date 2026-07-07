@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import SourceNote from '../components/ui/SourceNote';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Link } from 'react-router-dom';
+import DynastySection from '../components/data/DynastySection';
 
 interface Official {
   name: string;
@@ -183,6 +184,9 @@ const CityOfficials: React.FC = () => {
               <OfficialCard key={official.name} official={official} />
             ))}
           </div>
+
+          {/* Independent political-family analysis (BetterGov open data) */}
+          <DynastySection />
 
           {/* Links */}
           <Heading level={2}>Learn More</Heading>
