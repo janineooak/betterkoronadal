@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-18T21:47:52.009Z",
+  "fetchedAt": "2026-07-19T21:50:10.443Z",
   "source": "PhilGEPS Awards (BetterGov Data Explorer)",
   "sourceUrl": "https://philgeps.bettergov.ph/",
   "apiUrl": "https://philgeps.bettergov.ph/api/v1/contracts/chip-search/",
@@ -19,24 +19,24 @@
     },
     {
       "refId": "1",
-      "title": "25MG0115",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "FIVE C CONSTRUCTION SERVICES",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 2489958.31,
-      "awardDate": "2025-06-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "1",
       "title": "25MG0113",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
       "awardee": "RED BRICKS CONSTRUCTION SERVICE AND SUPPLY",
       "category": "Construction Projects",
       "area": "South Cotabato",
       "amount": 1996512.3,
+      "awardDate": "2025-06-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
+      "title": "25MG0115",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "FIVE C CONSTRUCTION SERVICES",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 2489958.31,
       "awardDate": "2025-06-23",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -102,18 +102,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "25MG0085",
-      "title": "25MG0085",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "MANUELA CONSTRUCTION SERVICES",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 4939999.64,
-      "awardDate": "2025-06-03",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "25MG0098",
       "title": "25MG0098",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
@@ -126,13 +114,25 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "25MG0095",
-      "title": "25MG0095",
+      "refId": "25MG0101",
+      "title": "25MG0101",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "MARBEL DYNAMIC BUILDERS",
+      "awardee": "GABRIELLAS ENTERPRISES",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 4930228.83,
+      "amount": 4939744.06,
+      "awardDate": "2025-06-03",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25MG0085",
+      "title": "25MG0085",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "MANUELA CONSTRUCTION SERVICES",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 4939999.64,
       "awardDate": "2025-06-03",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -150,18 +150,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "25MG0093",
-      "title": "25MG0093",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "H.B.P. CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 4946331.25,
-      "awardDate": "2025-06-03",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "25MG0097",
       "title": "25MG0097",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
@@ -174,6 +162,30 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "25MG0095",
+      "title": "25MG0095",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "MARBEL DYNAMIC BUILDERS",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 4930228.83,
+      "awardDate": "2025-06-03",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25MG0093",
+      "title": "25MG0093",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "H.B.P. CONSTRUCTION",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 4946331.25,
+      "awardDate": "2025-06-03",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "25MG0096",
       "title": "25MG0096",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
@@ -181,18 +193,6 @@
       "category": "Construction Projects",
       "area": "South Cotabato",
       "amount": 4944695.13,
-      "awardDate": "2025-06-03",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "25MG0101",
-      "title": "25MG0101",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "GABRIELLAS ENTERPRISES",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 4939744.06,
       "awardDate": "2025-06-03",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -271,36 +271,12 @@
     },
     {
       "refId": "1",
-      "title": "RFQ-2025-001",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "J AND A 97 ENTERPRISES",
-      "category": "Printing Supplies",
-      "area": null,
-      "amount": 107800,
-      "awardDate": "2025-05-16",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "1",
       "title": "RFQ-2025-011",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
       "awardee": "COOLTECH REF. & AIRCONDITIONING SERVICE AND REPAIR SHOP",
       "category": "Airconditioning and Airconditioning Systems",
       "area": null,
       "amount": 75500,
-      "awardDate": "2025-05-16",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "1",
-      "title": "RFQ-2025-002",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "COOLTECH REF. & AIRCONDITIONING SERVICE AND REPAIR SHOP",
-      "category": "Airconditioning and Airconditioning Systems",
-      "area": null,
-      "amount": 175100,
       "awardDate": "2025-05-16",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -319,6 +295,30 @@
     },
     {
       "refId": "1",
+      "title": "RFQ-2025-008",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "J AND A 97 ENTERPRISES",
+      "category": "Construction Materials and Supplies",
+      "area": null,
+      "amount": 337065,
+      "awardDate": "2025-05-16",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
+      "title": "RFQ-2025-002",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "COOLTECH REF. & AIRCONDITIONING SERVICE AND REPAIR SHOP",
+      "category": "Airconditioning and Airconditioning Systems",
+      "area": null,
+      "amount": 175100,
+      "awardDate": "2025-05-16",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
       "title": "RFQ-2025-014",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
       "awardee": "NEED INK SALES & SERVICES",
@@ -331,12 +331,12 @@
     },
     {
       "refId": "1",
-      "title": "RFQ-2025-008",
+      "title": "RFQ-2025-001",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
       "awardee": "J AND A 97 ENTERPRISES",
-      "category": "Construction Materials and Supplies",
+      "category": "Printing Supplies",
       "area": null,
-      "amount": 337065,
+      "amount": 107800,
       "awardDate": "2025-05-16",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -463,6 +463,30 @@
     },
     {
       "refId": "1",
+      "title": "SVPMG-2025-0021",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "3J TIRE BATTERY CENTER",
+      "category": "Vehicle Parts and Accessories",
+      "area": "South Cotabato",
+      "amount": 74800,
+      "awardDate": "2025-04-21",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
+      "title": "SVPMG-2025-0019",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "MARBEL DYNAMIC BUILDERS",
+      "category": "Office Equipment Parts and Accessories",
+      "area": "South Cotabato",
+      "amount": 186285,
+      "awardDate": "2025-04-21",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
       "title": "SVPMG-2025-0020",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
       "awardee": "JAM CITY TIRE MARKETING",
@@ -487,18 +511,6 @@
     },
     {
       "refId": "1",
-      "title": "GMG-2025-0007",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "NEED INK SALES & SERVICES",
-      "category": "Printing Supplies",
-      "area": "South Cotabato",
-      "amount": 399760,
-      "awardDate": "2025-04-21",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "1",
       "title": "GMG-2025-0008",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
       "awardee": "MARBEL DYNAMIC BUILDERS",
@@ -511,25 +523,25 @@
     },
     {
       "refId": "1",
-      "title": "SVPMG-2025-0019",
+      "title": "GMG-2025-0007",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "MARBEL DYNAMIC BUILDERS",
-      "category": "Office Equipment Parts and Accessories",
+      "awardee": "NEED INK SALES & SERVICES",
+      "category": "Printing Supplies",
       "area": "South Cotabato",
-      "amount": 186285,
+      "amount": 399760,
       "awardDate": "2025-04-21",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "1",
-      "title": "SVPMG-2025-0021",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "3J TIRE BATTERY CENTER",
-      "category": "Vehicle Parts and Accessories",
+      "refId": "PO#25-05-1328",
+      "title": "25-04-0186 MEALS AND SNACKS TO BE SERVED FOR COMEL",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "CHEQ FOODS",
+      "category": "Catering Services",
       "area": "South Cotabato",
-      "amount": 74800,
-      "awardDate": "2025-04-21",
+      "amount": 79950,
+      "awardDate": "2025-04-15",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -565,18 +577,6 @@
       "category": "Catering Services",
       "area": "South Cotabato",
       "amount": 60500,
-      "awardDate": "2025-04-15",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#25-05-1328",
-      "title": "25-04-0186 MEALS AND SNACKS TO BE SERVED FOR COMEL",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "CHEQ FOODS",
-      "category": "Catering Services",
-      "area": "South Cotabato",
-      "amount": 79950,
       "awardDate": "2025-04-15",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -690,13 +690,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "25MG0066",
-      "title": "25MG0066",
+      "refId": "25MG0063",
+      "title": "25MG0062",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "COFEJOK CONSTRUCTION & SUPPLY CORPORATION",
+      "awardee": "PEARL CONSTRUCTION AND SUPPLY",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 4894900.23,
+      "amount": 9749405.19,
       "awardDate": "2025-03-27",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -714,6 +714,102 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "25MG0060",
+      "title": "25MG0060",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "REYDAN BUILDERS",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 9764990.94,
+      "awardDate": "2025-03-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25MG0077",
+      "title": "25MG0077",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "RED BRICKS CONSTRUCTION SERVICE AND SUPPLY",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 22991835.38,
+      "awardDate": "2025-03-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25MG0075",
+      "title": "25MG0075",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "PALMARES CONSTRUCTION AND GENERAL MERCHANDISE CORPORATION",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 34200000,
+      "awardDate": "2025-03-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25MG0057",
+      "title": "25MG0057",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "ROCKSTONE CONSTRUCTION SERVICES & SUPPLY",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 9579844.88,
+      "awardDate": "2025-03-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25MG0058",
+      "title": "25MG0058",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "ROCKSTONE CONSTRUCTION SERVICES & SUPPLY",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 4764509.4,
+      "awardDate": "2025-03-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25MG0080",
+      "title": "25MG0080",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "AJYSC MARKETING",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 34174834.66,
+      "awardDate": "2025-03-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25MG0054",
+      "title": "25MG0054",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "MR-B CONSTRUCTION SERVICES",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 4939890.03,
+      "awardDate": "2025-03-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25MG0053",
+      "title": "25MG0053",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "JOJEMAV CONSTRUCTION & SUPPLY",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 4939968.48,
+      "awardDate": "2025-03-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "25MG0083",
       "title": "25MG0083",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
@@ -721,6 +817,30 @@
       "category": "Construction Projects",
       "area": "South Cotabato",
       "amount": 34149541.62,
+      "awardDate": "2025-03-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25MG0063",
+      "title": "25MG0063",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "AJYSC MARKETING",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 9753249.45,
+      "awardDate": "2025-03-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25MG0066",
+      "title": "25MG0066",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "COFEJOK CONSTRUCTION & SUPPLY CORPORATION",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 4894900.23,
       "awardDate": "2025-03-27",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -750,121 +870,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "25MG0054",
-      "title": "25MG0054",
+      "refId": "25MG0068",
+      "title": "25MG0068",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
       "awardee": "MR-B CONSTRUCTION SERVICES",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 4939890.03,
-      "awardDate": "2025-03-27",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "25MG0060",
-      "title": "25MG0060",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "REYDAN BUILDERS",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 9764990.94,
-      "awardDate": "2025-03-27",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "25MG0061",
-      "title": "25MG0061",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "VYS CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 9754616.3,
-      "awardDate": "2025-03-27",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "25MG0063",
-      "title": "25MG0063",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "AJYSC MARKETING",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 9753249.45,
-      "awardDate": "2025-03-27",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "25MG0063",
-      "title": "25MG0062",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "PEARL CONSTRUCTION AND SUPPLY",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 9749405.19,
-      "awardDate": "2025-03-27",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "25MG0053",
-      "title": "25MG0053",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "JOJEMAV CONSTRUCTION & SUPPLY",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 4939968.48,
-      "awardDate": "2025-03-27",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "25MG0080",
-      "title": "25MG0080",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "AJYSC MARKETING",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 34174834.66,
-      "awardDate": "2025-03-27",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "25MG0058",
-      "title": "25MG0058",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "ROCKSTONE CONSTRUCTION SERVICES & SUPPLY",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 4764509.4,
-      "awardDate": "2025-03-27",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "25MG0076",
-      "title": "25MG0076",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "PASE CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 15091083.06,
-      "awardDate": "2025-03-27",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "25MG0075",
-      "title": "25MG0075",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "PALMARES CONSTRUCTION AND GENERAL MERCHANDISE CORPORATION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 34200000,
+      "amount": 19579596.94,
       "awardDate": "2025-03-27",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -882,50 +894,26 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "25MG0077",
-      "title": "25MG0077",
+      "refId": "25MG0061",
+      "title": "25MG0061",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "RED BRICKS CONSTRUCTION SERVICE AND SUPPLY",
+      "awardee": "VYS CONSTRUCTION",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 22991835.38,
+      "amount": 9754616.3,
       "awardDate": "2025-03-27",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "25MG0057",
-      "title": "25MG0057",
+      "refId": "25MG0076",
+      "title": "25MG0076",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "ROCKSTONE CONSTRUCTION SERVICES & SUPPLY",
+      "awardee": "PASE CONSTRUCTION",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 9579844.88,
+      "amount": 15091083.06,
       "awardDate": "2025-03-27",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "25MG0068",
-      "title": "25MG0068",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "MR-B CONSTRUCTION SERVICES",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 19579596.94,
-      "awardDate": "2025-03-27",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 25-03-0043 AGRI",
-      "title": "ITB-KOR 25-03-0043 AGRI - PROCUREMENT FOR THE SUP",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "AGRI COMPONENT CORPORATION",
-      "category": "Agricultural Machinery and Equipment",
-      "area": "South Cotabato",
-      "amount": 4995000,
-      "awardDate": "2025-03-26",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -937,18 +925,6 @@
       "category": "Electrical Systems and Lighting Components",
       "area": "South Cotabato",
       "amount": 1998986.99,
-      "awardDate": "2025-03-26",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 25-03-0048 CEO",
-      "title": "ITB-KOR 25-03-0048 CEO - CONCRETING OF ROAD TO KO",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "VEEJAY CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 4478610.73,
       "awardDate": "2025-03-26",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -966,6 +942,18 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "NTP ITB-KOR: 25-03-0043 AGRI",
+      "title": "ITB-KOR 25-03-0043 AGRI - PROCUREMENT FOR THE SUP",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "AGRI COMPONENT CORPORATION",
+      "category": "Agricultural Machinery and Equipment",
+      "area": "South Cotabato",
+      "amount": 4995000,
+      "awardDate": "2025-03-26",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "NTP ITB-KOR: 25-03-0049 CEO",
       "title": "ITB-KOR 25-03-0049 CEO - UPGRADING OF MAIN ROAD A",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -978,14 +966,14 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#25-05-1332",
-      "title": "25-03-0153 MATERIALS FOR THE REPAIR OF SLOPE PROTE",
+      "refId": "NTP ITB-KOR: 25-03-0048 CEO",
+      "title": "ITB-KOR 25-03-0048 CEO - CONCRETING OF ROAD TO KO",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "NB CONSTRUCTION SUPPLY",
-      "category": "Construction Materials and Supplies",
+      "awardee": "VEEJAY CONSTRUCTION",
+      "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 343835,
-      "awardDate": "2025-03-25",
+      "amount": 4478610.73,
+      "awardDate": "2025-03-26",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -997,6 +985,18 @@
       "category": "Veterinary Products and Supplies",
       "area": "South Cotabato",
       "amount": 95250,
+      "awardDate": "2025-03-25",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#25-05-1332",
+      "title": "25-03-0153 MATERIALS FOR THE REPAIR OF SLOPE PROTE",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "NB CONSTRUCTION SUPPLY",
+      "category": "Construction Materials and Supplies",
+      "area": "South Cotabato",
+      "amount": 343835,
       "awardDate": "2025-03-25",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1074,18 +1074,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "1",
-      "title": "GMG-2025-0004",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "PEOPLES GENERAL MERCHANDISE",
-      "category": "Office Supplies and Devices",
-      "area": "South Cotabato",
-      "amount": 364496,
-      "awardDate": "2025-03-20",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "NTP ITB-KOR: 25-03-0042 CENRO",
       "title": "ITB-KOR 25-03-0042 CENRO - OPENING OF ROAD LEASIN",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -1105,6 +1093,18 @@
       "category": "Construction Projects",
       "area": "South Cotabato",
       "amount": 2968087.97,
+      "awardDate": "2025-03-20",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
+      "title": "GMG-2025-0004",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "PEOPLES GENERAL MERCHANDISE",
+      "category": "Office Supplies and Devices",
+      "area": "South Cotabato",
+      "amount": 364496,
       "awardDate": "2025-03-20",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1170,42 +1170,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "INF ITB 25-034",
-      "title": "Construction Project",
-      "organization": "PROVINCE OF SOUTH COTABATO",
-      "awardee": "JHTC CONSTRUCTION AND SUPPLIES",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 3744982.84,
-      "awardDate": "2025-03-07",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "INF ITB 25-035",
-      "title": "Construction Project",
-      "organization": "PROVINCE OF SOUTH COTABATO",
-      "awardee": "JHTC CONSTRUCTION AND SUPPLIES",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 2995125.25,
-      "awardDate": "2025-03-07",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "INF - ITB 25-031",
-      "title": "Construction Project",
-      "organization": "PROVINCE OF SOUTH COTABATO",
-      "awardee": "RELLER CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 7994412.61,
-      "awardDate": "2025-03-07",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "INF- ITB 25-040",
       "title": "Construction Project",
       "organization": "PROVINCE OF SOUTH COTABATO",
@@ -1230,6 +1194,30 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "INF ITB 25-035",
+      "title": "Construction Project",
+      "organization": "PROVINCE OF SOUTH COTABATO",
+      "awardee": "JHTC CONSTRUCTION AND SUPPLIES",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 2995125.25,
+      "awardDate": "2025-03-07",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 25-02-0033 CENRO",
+      "title": "ITB-KOR 25-02-0033 CENRO - INSTALLATION OF SOLAR",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "AI TECHNOLOGY AND SERVICES",
+      "category": "Electrical Systems and Lighting Components",
+      "area": "South Cotabato",
+      "amount": 984827.58,
+      "awardDate": "2025-03-07",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "NTP ITB-KOR: 25-02-0030 CEO",
       "title": "ITB-KOR 25-02-0030 CEO - WIDENING OF LAYA BRIDGE,",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -1242,26 +1230,14 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#25-03-0907",
-      "title": "25-02-00124 MATERIALS FOR THE INSTALLATION OF HANG",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "ILBI CONSTRUCTION SUPPLY & SERVICES",
-      "category": "Construction Materials and Supplies",
-      "area": "South Cotabato",
-      "amount": 209000,
-      "awardDate": "2025-03-04",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#25-03-0803",
-      "title": "25-02-00117 CONSTRUCTION OF MOTORCYCLE PATHWAY AT",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "BETTER WORK CONSTRUCTION",
+      "refId": "INF- ITB 25-040",
+      "title": "Construction Project",
+      "organization": "PROVINCE OF SOUTH COTABATO",
+      "awardee": "FZI CONSTRUCTION PARTS AND SUPPLY CO.",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 723106,
-      "awardDate": "2025-03-04",
+      "amount": 1496874.51,
+      "awardDate": "2025-03-07",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -1273,6 +1249,18 @@
       "category": "Events Management",
       "area": "South Cotabato",
       "amount": 150000,
+      "awardDate": "2025-03-04",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#25-03-0813",
+      "title": "25-02-00122 CONSTRUCTION OF MOTORCYCLE PATHWAY AT",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "BETTER WORK CONSTRUCTION",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 723060,
       "awardDate": "2025-03-04",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1302,42 +1290,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#25-03-0800",
-      "title": "25-02-00118 CONSTRUCTION OF MOTORCYCLE PATHWAY AT",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "BETTER WORK CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 721578,
-      "awardDate": "2025-03-04",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#25-03-0802",
-      "title": "25-02-00121 CONSTRUCTION OF MOTORCYCLE PATHWAY AT",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "BETTER WORK CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 723200,
-      "awardDate": "2025-03-04",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#25-03-0831",
-      "title": "25-02-00119 CONSTRUCTION OF MOTORCYCLE PATHWAY AT",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "BETTER WORK CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 722182,
-      "awardDate": "2025-03-04",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#25-03-0812",
       "title": "25-02-00120 CONSTRUCTION OF MOTORCYCLE PATHWAY AT",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -1362,62 +1314,62 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#25-03-0813",
-      "title": "25-02-00122 CONSTRUCTION OF MOTORCYCLE PATHWAY AT",
+      "refId": "PO#25-03-0803",
+      "title": "25-02-00117 CONSTRUCTION OF MOTORCYCLE PATHWAY AT",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
       "awardee": "BETTER WORK CONSTRUCTION",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 723060,
+      "amount": 723106,
       "awardDate": "2025-03-04",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 25-02-0032 AGRI",
-      "title": "ITB-KOR 25-02-0032 AGRI - CONSTRUCTION OF FARM MA",
+      "refId": "PO#25-03-0802",
+      "title": "25-02-00121 CONSTRUCTION OF MOTORCYCLE PATHWAY AT",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "Q8 ENGINEERING SERVICES",
+      "awardee": "BETTER WORK CONSTRUCTION",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 1406489.56,
-      "awardDate": "2025-02-28",
+      "amount": 723200,
+      "awardDate": "2025-03-04",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 25-02-0022 CEO",
-      "title": "ITB-KOR 25-02-0022 CEO - CONSTRUCTION OF LINED CA",
+      "refId": "PO#25-03-0907",
+      "title": "25-02-00124 MATERIALS FOR THE INSTALLATION OF HANG",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SAND GRIT CONSTRUCTION, INC.",
-      "category": "Construction Projects",
+      "awardee": "ILBI CONSTRUCTION SUPPLY & SERVICES",
+      "category": "Construction Materials and Supplies",
       "area": "South Cotabato",
-      "amount": 1439216.16,
-      "awardDate": "2025-02-28",
+      "amount": 209000,
+      "awardDate": "2025-03-04",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#25-03-0592",
-      "title": "25-02-0097 FOOD PACKS FOR  KORONADAL CITY FIRE STA",
+      "refId": "PO#25-03-0831",
+      "title": "25-02-00119 CONSTRUCTION OF MOTORCYCLE PATHWAY AT",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "LM FOOD HOUSE",
-      "category": "Catering Services",
+      "awardee": "BETTER WORK CONSTRUCTION",
+      "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 155575,
-      "awardDate": "2025-02-28",
+      "amount": 722182,
+      "awardDate": "2025-03-04",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 25-02-0027 CEO",
-      "title": "ITB-KOR 25-02-0027 CEO - CONSTRUCTION OF LINED CA",
+      "refId": "PO#25-03-0800",
+      "title": "25-02-00118 CONSTRUCTION OF MOTORCYCLE PATHWAY AT",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SAND GRIT CONSTRUCTION, INC.",
+      "awardee": "BETTER WORK CONSTRUCTION",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 4424336.3,
-      "awardDate": "2025-02-28",
+      "amount": 721578,
+      "awardDate": "2025-03-04",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -1429,30 +1381,6 @@
       "category": "Construction Projects",
       "area": "South Cotabato",
       "amount": 3433784.34,
-      "awardDate": "2025-02-28",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 25-02-0023 CEO",
-      "title": "ITB-KOR 25-02-0023 CEO - CONSTRUCTION OF LINED CA",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "YAP MABUHAY ENTERPRISES, INC",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1928402.68,
-      "awardDate": "2025-02-28",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 25-02-0028 CEO",
-      "title": "ITB-KOR 25-02-0028 CEO - WIDENING OF ROBREDO AEVN",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SAND GRIT CONSTRUCTION, INC.",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 5857530.02,
       "awardDate": "2025-02-28",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1470,6 +1398,66 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "25M00065",
+      "title": "25M00065",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "GEMMA CONSTRUCTION SUPPLY INC.",
+      "category": "Construction Projects",
+      "area": null,
+      "amount": 93596078.15,
+      "awardDate": "2025-02-28",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 25-02-0023 CEO",
+      "title": "ITB-KOR 25-02-0023 CEO - CONSTRUCTION OF LINED CA",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "YAP MABUHAY ENTERPRISES, INC",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1928402.68,
+      "awardDate": "2025-02-28",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 25-02-0022 CEO",
+      "title": "ITB-KOR 25-02-0022 CEO - CONSTRUCTION OF LINED CA",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "SAND GRIT CONSTRUCTION, INC.",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1439216.16,
+      "awardDate": "2025-02-28",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 25-02-0028 CEO",
+      "title": "ITB-KOR 25-02-0028 CEO - WIDENING OF ROBREDO AEVN",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "SAND GRIT CONSTRUCTION, INC.",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 5857530.02,
+      "awardDate": "2025-02-28",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 25-02-0027 CEO",
+      "title": "ITB-KOR 25-02-0027 CEO - CONSTRUCTION OF LINED CA",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "SAND GRIT CONSTRUCTION, INC.",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 4424336.3,
+      "awardDate": "2025-02-28",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "PO#25-02-0591",
       "title": "25-02-0098 SUBLIMATION SHIRT AND JOGGING PANTS FOR",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -1477,6 +1465,18 @@
       "category": "Quartermaster Items",
       "area": "South Cotabato",
       "amount": 97370,
+      "awardDate": "2025-02-28",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#25-03-0592",
+      "title": "25-02-0097 FOOD PACKS FOR  KORONADAL CITY FIRE STA",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "LM FOOD HOUSE",
+      "category": "Catering Services",
+      "area": "South Cotabato",
+      "amount": 155575,
       "awardDate": "2025-02-28",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1494,13 +1494,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "25M00065",
-      "title": "25M00065",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "GEMMA CONSTRUCTION SUPPLY INC.",
+      "refId": "NTP ITB-KOR: 25-02-0032 AGRI",
+      "title": "ITB-KOR 25-02-0032 AGRI - CONSTRUCTION OF FARM MA",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "Q8 ENGINEERING SERVICES",
       "category": "Construction Projects",
-      "area": null,
-      "amount": 93596078.15,
+      "area": "South Cotabato",
+      "amount": 1406489.56,
       "awardDate": "2025-02-28",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1530,6 +1530,30 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "NTP ITB-KOR: 25-02-0012 CMO",
+      "title": "ITB-KOR 25-02-0012 CMO - PROCUREMENT FOR THE SUPP",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "ACE CENTERPOINT",
+      "category": "Food Stuff",
+      "area": "South Cotabato",
+      "amount": 1092400,
+      "awardDate": "2025-02-21",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "25M00058",
+      "title": "25M00058",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "TAJ BUILDERS AND SUPPLY",
+      "category": "Construction Projects",
+      "area": null,
+      "amount": 17903132.16,
+      "awardDate": "2025-02-21",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "NTP ITB-KOR: 25-02-0019 AGRI",
       "title": "ITB-KOR 25-02-0019 AGRI - DAM REHABILITATION SIOK",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -1542,13 +1566,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 25-02-0035 SEF",
-      "title": "ITB-KOR 25-02-0035 SEF - PROCUREMENT FOR THE SUPP",
+      "refId": "NTP ITB-KOR: 25-02-0021 CEO",
+      "title": "ITB-KOR 25-02-0021 CEO - WIDENING OF ROAD AT BALM",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "ACE CENTERPOINT",
-      "category": "Food Stuff",
+      "awardee": "SAND GRIT CONSTRUCTION, INC.",
+      "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 907440,
+      "amount": 7904737.99,
       "awardDate": "2025-02-21",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1578,37 +1602,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "25M00058",
-      "title": "25M00058",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "TAJ BUILDERS AND SUPPLY",
-      "category": "Construction Projects",
-      "area": null,
-      "amount": 17903132.16,
-      "awardDate": "2025-02-21",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 25-02-0021 CEO",
-      "title": "ITB-KOR 25-02-0021 CEO - WIDENING OF ROAD AT BALM",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SAND GRIT CONSTRUCTION, INC.",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 7904737.99,
-      "awardDate": "2025-02-21",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 25-02-0012 CMO",
-      "title": "ITB-KOR 25-02-0012 CMO - PROCUREMENT FOR THE SUPP",
+      "refId": "NTP ITB-KOR: 25-02-0035 SEF",
+      "title": "ITB-KOR 25-02-0035 SEF - PROCUREMENT FOR THE SUPP",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
       "awardee": "ACE CENTERPOINT",
       "category": "Food Stuff",
       "area": "South Cotabato",
-      "amount": 1092400,
+      "amount": 907440,
       "awardDate": "2025-02-21",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1650,13 +1650,25 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 25-01-0006 CEO",
-      "title": "ITB-KOR 25-01-0006 CEO - COMPLETION OF TANDANG SO",
+      "refId": "1",
+      "title": "SVPMG-2025-0002",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "COPYLANDIA OFFICE SYSTEMS CORPORATION (COPYLANDIA)",
+      "category": "Office Equipment Parts and Accessories",
+      "area": "South Cotabato",
+      "amount": 138600,
+      "awardDate": "2025-02-14",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 25-01-0009 CEO",
+      "title": "ITB-KOR 25-01-0009 CEO - CONCRETING OF CABATUAN S",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "ALEXANDER BUILDERS",
+      "awardee": "SAND GRIT CONSTRUCTION, INC.",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 2942223.45,
+      "amount": 2455506.51,
       "awardDate": "2025-02-14",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1669,6 +1681,18 @@
       "category": "Construction Projects",
       "area": "South Cotabato",
       "amount": 961266.69,
+      "awardDate": "2025-02-14",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 25-01-0006 CEO",
+      "title": "ITB-KOR 25-01-0006 CEO - COMPLETION OF TANDANG SO",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "ALEXANDER BUILDERS",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 2942223.45,
       "awardDate": "2025-02-14",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1698,26 +1722,14 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "1",
-      "title": "SVPMG-2025-0002",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "COPYLANDIA OFFICE SYSTEMS CORPORATION (COPYLANDIA)",
-      "category": "Office Equipment Parts and Accessories",
-      "area": "South Cotabato",
-      "amount": 138600,
-      "awardDate": "2025-02-14",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 25-01-0009 CEO",
-      "title": "ITB-KOR 25-01-0009 CEO - CONCRETING OF CABATUAN S",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SAND GRIT CONSTRUCTION, INC.",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 2455506.51,
-      "awardDate": "2025-02-14",
+      "refId": "SM25025",
+      "title": "Provision for Monthly Plant Rental Services",
+      "organization": "PAG-IBIG FUND - DAVAO HUB (TECHNICAL AND ADMIN SUPPORT)",
+      "awardee": "DAVAO CARMEL GREEN LANDSCAPING, INC.",
+      "category": "Agricultural Products (Seeds, Seedlings, Plants..)",
+      "area": "Davao Del Sur",
+      "amount": 728400,
+      "awardDate": "2025-02-12",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -1746,30 +1758,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "SM25025",
-      "title": "Provision for Monthly Plant Rental Services",
-      "organization": "PAG-IBIG FUND - DAVAO HUB (TECHNICAL AND ADMIN SUPPORT)",
-      "awardee": "DAVAO CARMEL GREEN LANDSCAPING, INC.",
-      "category": "Agricultural Products (Seeds, Seedlings, Plants..)",
-      "area": "Davao Del Sur",
-      "amount": 728400,
-      "awardDate": "2025-02-12",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#25-02-0459",
-      "title": "25-02-0061 30 50KG/SACKS OF RICE FOR USED OF KORON",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "VASFORT IMPORT AND EXPORT TRADING CORP.",
-      "category": "Food Stuff",
-      "area": "South Cotabato",
-      "amount": 89850,
-      "awardDate": "2025-02-11",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#25-02-0353",
       "title": "25-02-0048 MEALS AND SNACKS OF THE VVIP's AND FOR",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -1794,18 +1782,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#25-02-0449",
-      "title": "25-02-0045 CONSTRUCTION MATERIALS FOR THE CONSTRUC",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "NB CONSTRUCTION SUPPLY",
-      "category": "Construction Materials and Supplies",
-      "area": "South Cotabato",
-      "amount": 506604,
-      "awardDate": "2025-02-11",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#25-030594",
       "title": "25-02-0063 EQUIPMENT USED FOR ESTABLISHMENT OF WET",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -1818,6 +1794,18 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "PO#25-02-0459",
+      "title": "25-02-0061 30 50KG/SACKS OF RICE FOR USED OF KORON",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "VASFORT IMPORT AND EXPORT TRADING CORP.",
+      "category": "Food Stuff",
+      "area": "South Cotabato",
+      "amount": 89850,
+      "awardDate": "2025-02-11",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "PO#25-03-0593",
       "title": "25-02-0064 MATERIALS USED FOR ESTABLISHMENT OF WET",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -1825,6 +1813,18 @@
       "category": "Construction Materials and Supplies",
       "area": "South Cotabato",
       "amount": 218285,
+      "awardDate": "2025-02-11",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#25-02-0449",
+      "title": "25-02-0045 CONSTRUCTION MATERIALS FOR THE CONSTRUC",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "NB CONSTRUCTION SUPPLY",
+      "category": "Construction Materials and Supplies",
+      "area": "South Cotabato",
+      "amount": 506604,
       "awardDate": "2025-02-11",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1854,18 +1854,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 25-01-0007 CEO",
-      "title": "ITB-KOR 25-01-0007 CEO - OPENING & CONCRETING OF",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SAND GRIT CONSTRUCTION, INC.",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1956714.4,
-      "awardDate": "2025-02-07",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "NTP ITB-KOR: 25-01-0005 CEO",
       "title": "ITB-KOR 25-01-0005 CEO - CONCRETING OF PRK. SAINT",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -1873,6 +1861,18 @@
       "category": "Construction Projects",
       "area": "South Cotabato",
       "amount": 1456304.39,
+      "awardDate": "2025-02-07",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 25-01-0007 CEO",
+      "title": "ITB-KOR 25-01-0007 CEO - OPENING & CONCRETING OF",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "SAND GRIT CONSTRUCTION, INC.",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1956714.4,
       "awardDate": "2025-02-07",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1890,18 +1890,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#25-02-0268",
-      "title": "25-01-0038 MEALS AND SNACKS TO BE SERVED DURING EL",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "LM FOOD HOUSE",
-      "category": "Catering Services",
-      "area": "South Cotabato",
-      "amount": 58608,
-      "awardDate": "2025-02-04",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#25-03-0665",
       "title": "LEASE OF VENUE W/ MEALS & SNACKS DURING THE KORONADALENOS LUNSOD LUNSAD CREATIVE FAIR - MARCH 14, 2025",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -1914,14 +1902,14 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-12-0187 CHO",
-      "title": "ITB-KOR 24-12-0187 CHO - PROCUREMENT FOR THE SUPP",
+      "refId": "PO#25-02-0268",
+      "title": "25-01-0038 MEALS AND SNACKS TO BE SERVED DURING EL",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "TWINCIRCA MARKETING",
-      "category": "Medical Supplies and Laboratory Instrument",
+      "awardee": "LM FOOD HOUSE",
+      "category": "Catering Services",
       "area": "South Cotabato",
-      "amount": 1878400,
-      "awardDate": "2025-01-31",
+      "amount": 58608,
+      "awardDate": "2025-02-04",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -1933,6 +1921,18 @@
       "category": "Sporting Goods",
       "area": "South Cotabato",
       "amount": 1555200,
+      "awardDate": "2025-01-31",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-12-0187 CHO",
+      "title": "ITB-KOR 24-12-0187 CHO - PROCUREMENT FOR THE SUPP",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "TWINCIRCA MARKETING",
+      "category": "Medical Supplies and Laboratory Instrument",
+      "area": "South Cotabato",
+      "amount": 1878400,
       "awardDate": "2025-01-31",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -1950,18 +1950,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#25-01-0236",
-      "title": "25-01-0032 PAINTING FOR THE BASKETBALL COURTS OF T",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "RAJZ ELECTRICAL AND CONSTRUCTION SUPPLIES",
-      "category": "Construction Materials and Supplies",
-      "area": "South Cotabato",
-      "amount": 56275,
-      "awardDate": "2025-01-28",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#25-02-0269",
       "title": "25-01-0031 30 SACKS OF RICE FOR USED OF KORONADAL",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -1969,6 +1957,18 @@
       "category": "Food Stuff",
       "area": "South Cotabato",
       "amount": 89850,
+      "awardDate": "2025-01-28",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#25-01-0236",
+      "title": "25-01-0032 PAINTING FOR THE BASKETBALL COURTS OF T",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "RAJZ ELECTRICAL AND CONSTRUCTION SUPPLIES",
+      "category": "Construction Materials and Supplies",
+      "area": "South Cotabato",
+      "amount": 56275,
       "awardDate": "2025-01-28",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2010,18 +2010,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-11-0166 AGRI",
-      "title": "ITB-KOR 24-11-0166 AGRI-CONSTRUCTION OF TWO STORE",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SAND GRIT CONSTRUCTION, INC.",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1994536.6,
-      "awardDate": "2025-01-20",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "NTP ITB-KOR: 24-11-0163 CMO-BDP",
       "title": "ITB-KOR 24-11-0163 CMO-BDP - INSTALLATION OF SOLA",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -2029,6 +2017,18 @@
       "category": "Electrical Systems and Lighting Components",
       "area": "South Cotabato",
       "amount": 4879269.14,
+      "awardDate": "2025-01-20",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-11-0166 AGRI",
+      "title": "ITB-KOR 24-11-0166 AGRI-CONSTRUCTION OF TWO STORE",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "SAND GRIT CONSTRUCTION, INC.",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1994536.6,
       "awardDate": "2025-01-20",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2042,6 +2042,18 @@
       "area": null,
       "amount": 60000,
       "awardDate": "2025-01-14",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "SWM25012",
+      "title": "Aircon Maintenance Services for Pag-IBIG Fund",
+      "organization": "PAG-IBIG FUND - DAVAO HUB (TECHNICAL AND ADMIN SUPPORT)",
+      "awardee": "RMR AIRCON AND REFRIGERATION SERVICES",
+      "category": "Airconditioning Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 50000,
+      "awardDate": "2025-01-13",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -2070,25 +2082,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "SWM25012",
-      "title": "Aircon Maintenance Services for Pag-IBIG Fund",
-      "organization": "PAG-IBIG FUND - DAVAO HUB (TECHNICAL AND ADMIN SUPPORT)",
-      "awardee": "RMR AIRCON AND REFRIGERATION SERVICES",
-      "category": "Airconditioning Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 50000,
-      "awardDate": "2025-01-13",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 24-12-0182 CEO",
-      "title": "ITB-KOR 24-12-0182 CEO - CONSTRUCTION OF LINED CA",
+      "refId": "NTP ITB-KOR: 24-12-0181 CEO",
+      "title": "ITB-KOR 24-12-0181 CEO - CONSTRUCTION OF SLOPE PR",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "MENSTEEL CONSTRUCTION",
+      "awardee": "LUCKY 4 CONSTRUCTION SERVICES",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 1448131.33,
+      "amount": 966085.66,
       "awardDate": "2025-01-09",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2106,13 +2106,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-12-0181 CEO",
-      "title": "ITB-KOR 24-12-0181 CEO - CONSTRUCTION OF SLOPE PR",
+      "refId": "NTP ITB-KOR: 24-12-0182 CEO",
+      "title": "ITB-KOR 24-12-0182 CEO - CONSTRUCTION OF LINED CA",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "LUCKY 4 CONSTRUCTION SERVICES",
+      "awardee": "MENSTEEL CONSTRUCTION",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 966085.66,
+      "amount": 1448131.33,
       "awardDate": "2025-01-09",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2130,18 +2130,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-12-0183 CEO ",
-      "title": "ITB-KOR 24-12-0183 CEO - CONSTRUCTION OF LINED CA",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "GABRIELLAS ENTERPRISES",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 3371598.32,
-      "awardDate": "2025-01-08",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "NTP ITB-KOR: 24-12-0177 BFP",
       "title": "ITB-KOR 24-12-0177 BFP - PROCUREMENT FOR THE SUPP",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -2149,6 +2137,18 @@
       "category": "Vehicles",
       "area": "South Cotabato",
       "amount": 5989999,
+      "awardDate": "2025-01-08",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-12-0183 CEO ",
+      "title": "ITB-KOR 24-12-0183 CEO - CONSTRUCTION OF LINED CA",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "GABRIELLAS ENTERPRISES",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 3371598.32,
       "awardDate": "2025-01-08",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2178,42 +2178,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-12-0180 CEO ",
-      "title": "ITB-KOR 24-12-0180 CEO - REHABILITATION OF LINED",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "JOJEMAV CONSTRUCTION & SUPPLY",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1922325.14,
-      "awardDate": "2025-01-03",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 24-11-0152 CEO",
-      "title": "ITB-KOR 24-11-0152 CEO - REHABILITATION OF BOX CU",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "ILBI CONSTRUCTION SUPPLY & SERVICES",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1445071.8,
-      "awardDate": "2025-01-03",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 24-11-0155 CEO",
-      "title": "ITB-KOR 24-11-0155 CEO - CONSTRUCTION OF SLOPE PR",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "JJTE CONSTRUCTION CORPORATION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1931505.61,
-      "awardDate": "2025-01-03",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "NTP ITB-KOR: 24-11-0161 CMO-BDP",
       "title": "ITB-KOR 24-11-0161 CMO-BDP - INSTALLATION OF SOLA",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -2221,30 +2185,6 @@
       "category": "Electrical Systems and Lighting Components",
       "area": "South Cotabato",
       "amount": 3286533.27,
-      "awardDate": "2025-01-03",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 24-11-0153 CEO",
-      "title": "ITB-KOR 24-11-0153 CEO - REHABILITATION OF SLOPE",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SAND GRIT CONSTRUCTION, INC.",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1938510.95,
-      "awardDate": "2025-01-03",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 24-11-0162 CMO-BDP",
-      "title": "ITB-KOR 24-11-0162 CMO-BDP - INSTALLATION OF SOLA",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "3E ELECTRICAL SALES AND SERVICES",
-      "category": "Electrical Systems and Lighting Components",
-      "area": "South Cotabato",
-      "amount": 4085558.44,
       "awardDate": "2025-01-03",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2262,6 +2202,30 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "NTP ITB-KOR: 24-11-0162 CMO-BDP",
+      "title": "ITB-KOR 24-11-0162 CMO-BDP - INSTALLATION OF SOLA",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "3E ELECTRICAL SALES AND SERVICES",
+      "category": "Electrical Systems and Lighting Components",
+      "area": "South Cotabato",
+      "amount": 4085558.44,
+      "awardDate": "2025-01-03",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-12-0180 CEO ",
+      "title": "ITB-KOR 24-12-0180 CEO - REHABILITATION OF LINED",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "JOJEMAV CONSTRUCTION & SUPPLY",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1922325.14,
+      "awardDate": "2025-01-03",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "NTP ITB-KOR: 24-11-0154 CEO",
       "title": "ITB-KOR 24-11-0154 CEO - CONSTRUCTION OF LINED CA",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -2274,14 +2238,38 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4458",
-      "title": "24-12-0673 SUPPLIES FOR THE USE IN SRAA MEET 2025",
+      "refId": "NTP ITB-KOR: 24-11-0155 CEO",
+      "title": "ITB-KOR 24-11-0155 CEO - CONSTRUCTION OF SLOPE PR",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "FJK AUTO SUPPLY & GENERAL MERCHANDISE",
-      "category": "Sporting Goods",
+      "awardee": "JJTE CONSTRUCTION CORPORATION",
+      "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 157740,
-      "awardDate": "2024-12-28",
+      "amount": 1931505.61,
+      "awardDate": "2025-01-03",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-11-0152 CEO",
+      "title": "ITB-KOR 24-11-0152 CEO - REHABILITATION OF BOX CU",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "ILBI CONSTRUCTION SUPPLY & SERVICES",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1445071.8,
+      "awardDate": "2025-01-03",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-11-0153 CEO",
+      "title": "ITB-KOR 24-11-0153 CEO - REHABILITATION OF SLOPE",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "SAND GRIT CONSTRUCTION, INC.",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1938510.95,
+      "awardDate": "2025-01-03",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -2322,13 +2310,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4441",
-      "title": "24-12-0671 PAINT MATERIALS FOR USE IN SRAA MEET 20",
+      "refId": "PO#24-12-4450",
+      "title": "24-12-0668 SUPPLIES AND MATERIALS FOR USE IN SRAA",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
       "awardee": "FJK AUTO SUPPLY & GENERAL MERCHANDISE",
       "category": "Construction Materials and Supplies",
       "area": "South Cotabato",
-      "amount": 84300,
+      "amount": 127410,
       "awardDate": "2024-12-28",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2346,13 +2334,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4451",
-      "title": "24-12-0670 PAINT MATERIALS FOR USE IN SRAA MEET 20",
+      "refId": "PO#24-12-4449",
+      "title": "24-12-0669 PAINT MATERIALS FOR USE IN SRAA MEET 20",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
       "awardee": "FJK AUTO SUPPLY & GENERAL MERCHANDISE",
       "category": "Construction Materials and Supplies",
       "area": "South Cotabato",
-      "amount": 429420,
+      "amount": 115290,
       "awardDate": "2024-12-28",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2370,6 +2358,18 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "PO#24-12-4458",
+      "title": "24-12-0673 SUPPLIES FOR THE USE IN SRAA MEET 2025",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "FJK AUTO SUPPLY & GENERAL MERCHANDISE",
+      "category": "Sporting Goods",
+      "area": "South Cotabato",
+      "amount": 157740,
+      "awardDate": "2024-12-28",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "PO#24-12-4444",
       "title": "24-12-0674 SUPPLIES AND MATERIALS FOR THE USE IN S",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -2382,25 +2382,25 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4449",
-      "title": "24-12-0669 PAINT MATERIALS FOR USE IN SRAA MEET 20",
+      "refId": "PO#24-12-4451",
+      "title": "24-12-0670 PAINT MATERIALS FOR USE IN SRAA MEET 20",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
       "awardee": "FJK AUTO SUPPLY & GENERAL MERCHANDISE",
       "category": "Construction Materials and Supplies",
       "area": "South Cotabato",
-      "amount": 115290,
+      "amount": 429420,
       "awardDate": "2024-12-28",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4450",
-      "title": "24-12-0668 SUPPLIES AND MATERIALS FOR USE IN SRAA",
+      "refId": "PO#24-12-4441",
+      "title": "24-12-0671 PAINT MATERIALS FOR USE IN SRAA MEET 20",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
       "awardee": "FJK AUTO SUPPLY & GENERAL MERCHANDISE",
       "category": "Construction Materials and Supplies",
       "area": "South Cotabato",
-      "amount": 127410,
+      "amount": 84300,
       "awardDate": "2024-12-28",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2418,25 +2418,25 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-12-266",
-      "title": "RFQ-2024-215",
+      "refId": "PO-2024-12-244",
+      "title": "RFQ-2024-218",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
       "awardee": "SEFITI TRADING OPC",
-      "category": "Office Equipment Supplies and Consumables",
+      "category": "Office Supplies and Devices",
       "area": null,
-      "amount": 282760,
+      "amount": 269423,
       "awardDate": "2024-12-26",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-12-277",
-      "title": "RFQ-2024-206",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "SEFITI TRADING OPC",
-      "category": "Office Supplies and Devices",
-      "area": null,
-      "amount": 322154,
+      "refId": "NTP ITB-KOR: 24-12-0171 SEF",
+      "title": "ITB-KOR 24-12-0171 SEF - PROCUREMENT FOR THE SUPP",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "RIGEL LASER TONER MARKETING",
+      "category": "Educational Materials and Supplies",
+      "area": "South Cotabato",
+      "amount": 5107404,
       "awardDate": "2024-12-26",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2454,13 +2454,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-12-244",
-      "title": "RFQ-2024-218",
+      "refId": "PO-2024-12-266",
+      "title": "RFQ-2024-215",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
       "awardee": "SEFITI TRADING OPC",
-      "category": "Office Supplies and Devices",
+      "category": "Office Equipment Supplies and Consumables",
       "area": null,
-      "amount": 269423,
+      "amount": 282760,
       "awardDate": "2024-12-26",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2478,13 +2478,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-12-0171 SEF",
-      "title": "ITB-KOR 24-12-0171 SEF - PROCUREMENT FOR THE SUPP",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "RIGEL LASER TONER MARKETING",
-      "category": "Educational Materials and Supplies",
-      "area": "South Cotabato",
-      "amount": 5107404,
+      "refId": "PO-2024-12-277",
+      "title": "RFQ-2024-206",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "SEFITI TRADING OPC",
+      "category": "Office Supplies and Devices",
+      "area": null,
+      "amount": 322154,
       "awardDate": "2024-12-26",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2514,18 +2514,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-12-280",
-      "title": "RFQ-2024-113",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "AJ SOFTDRIVE INTERNET CAFE & COMPUTER STUDIO",
-      "category": "Office Equipment",
-      "area": null,
-      "amount": 432000,
-      "awardDate": "2024-12-24",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#24-12-4417",
       "title": "24-12-0660 MEALS AND SNACKS FOR EOD AND SECURITY F",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -2550,49 +2538,25 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "24GM0023",
-      "title": "24GM0023",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "DAVSAN DISTRIBUTION OPC",
-      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
-      "area": null,
-      "amount": 9250000,
-      "awardDate": "2024-12-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "24GM0028",
-      "title": "24GM0028",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "HI TEMP INDUSTRIAL TRADING AND ALLIED SERVICES",
-      "category": "Vehicle Repair and Maintenance",
-      "area": null,
-      "amount": 9929000,
-      "awardDate": "2024-12-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#24-12-4352",
-      "title": "DIESEL & GASOLINE FOR USE ON THE OPERATIONS OF KORONADAL CITY POLICE STATION - DECEMBER 2024",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "AGREDA SHELL STATION",
-      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
-      "area": "South Cotabato",
-      "amount": 500000,
-      "awardDate": "2024-12-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "24GM0034",
-      "title": "24GM0034",
+      "refId": "PO-2024-12-280",
+      "title": "RFQ-2024-113",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
       "awardee": "AJ SOFTDRIVE INTERNET CAFE & COMPUTER STUDIO",
+      "category": "Office Equipment",
+      "area": null,
+      "amount": 432000,
+      "awardDate": "2024-12-24",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "24GM0026",
+      "title": "24GM0026",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "ELITE KONEXION DATACOM SERVICES",
       "category": "Information Technology Parts & Accessories & Perip",
       "area": null,
-      "amount": 1621200,
+      "amount": 8450000,
       "awardDate": "2024-12-23",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2610,109 +2574,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-12-242",
-      "title": "RFQ-2024-219",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "COOLTECH REF. & AIRCONDITIONING SERVICE AND REPAIR SHOP",
-      "category": "Airconditioning and Airconditioning Systems",
-      "area": null,
-      "amount": 153465,
-      "awardDate": "2024-12-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "1",
-      "title": "24GM0024",
+      "refId": "24GM0034",
+      "title": "24GM0034",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
       "awardee": "AJ SOFTDRIVE INTERNET CAFE & COMPUTER STUDIO",
       "category": "Information Technology Parts & Accessories & Perip",
       "area": null,
-      "amount": 939920,
-      "awardDate": "2024-12-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "24GM0027",
-      "title": "24GM0027",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "DAVSAN DISTRIBUTION OPC",
-      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
-      "area": null,
-      "amount": 1480000,
-      "awardDate": "2024-12-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "24GM0026",
-      "title": "24GM0026",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "ELITE KONEXION DATACOM SERVICES",
-      "category": "Information Technology Parts & Accessories & Perip",
-      "area": null,
-      "amount": 8450000,
-      "awardDate": "2024-12-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "24GM0019",
-      "title": "24GM0019",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "TESTLAB ENGINEERING AND GEOTECH SERVICES",
-      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
-      "area": null,
-      "amount": 4037664.75,
-      "awardDate": "2024-12-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO-2024-12-206",
-      "title": "24GM0033",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "PREHTI CONSTRUCTION SERVICES",
-      "category": "Furniture",
-      "area": null,
-      "amount": 1971200,
-      "awardDate": "2024-12-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 24-11-0157 CEO",
-      "title": "ITB-KOR 24-11-0157 CEO - REHABILITATION OF LINED",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SOUTHCAST CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1927002.8,
-      "awardDate": "2024-12-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "24GM0029",
-      "title": "24GM0029",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "DAVSAN DISTRIBUTION OPC",
-      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
-      "area": null,
-      "amount": 986790,
-      "awardDate": "2024-12-23",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO-2024-12-269",
-      "title": "RFQ-2024-200",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "PREHTI CONSTRUCTION SERVICES",
-      "category": "Furniture",
-      "area": null,
-      "amount": 717480,
+      "amount": 1621200,
       "awardDate": "2024-12-23",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2742,6 +2610,102 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "24GM0028",
+      "title": "24GM0028",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "HI TEMP INDUSTRIAL TRADING AND ALLIED SERVICES",
+      "category": "Vehicle Repair and Maintenance",
+      "area": null,
+      "amount": 9929000,
+      "awardDate": "2024-12-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "24GM0023",
+      "title": "24GM0023",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "DAVSAN DISTRIBUTION OPC",
+      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
+      "area": null,
+      "amount": 9250000,
+      "awardDate": "2024-12-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "24GM0027",
+      "title": "24GM0027",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "DAVSAN DISTRIBUTION OPC",
+      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
+      "area": null,
+      "amount": 1480000,
+      "awardDate": "2024-12-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO-2024-12-269",
+      "title": "RFQ-2024-200",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "PREHTI CONSTRUCTION SERVICES",
+      "category": "Furniture",
+      "area": null,
+      "amount": 717480,
+      "awardDate": "2024-12-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "24GM0019",
+      "title": "24GM0019",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "TESTLAB ENGINEERING AND GEOTECH SERVICES",
+      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
+      "area": null,
+      "amount": 4037664.75,
+      "awardDate": "2024-12-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
+      "title": "24GM0024",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "AJ SOFTDRIVE INTERNET CAFE & COMPUTER STUDIO",
+      "category": "Information Technology Parts & Accessories & Perip",
+      "area": null,
+      "amount": 939920,
+      "awardDate": "2024-12-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "24GM0029",
+      "title": "24GM0029",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "DAVSAN DISTRIBUTION OPC",
+      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
+      "area": null,
+      "amount": 986790,
+      "awardDate": "2024-12-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO-2024-12-242",
+      "title": "RFQ-2024-219",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "COOLTECH REF. & AIRCONDITIONING SERVICE AND REPAIR SHOP",
+      "category": "Airconditioning and Airconditioning Systems",
+      "area": null,
+      "amount": 153465,
+      "awardDate": "2024-12-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "PO-2024-12-261",
       "title": "RFQ-2024-192",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
@@ -2754,13 +2718,49 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "24M00155",
-      "title": "24M00155",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "JDRC CONSTRUCTION AND SUPPLIES, CORP.",
+      "refId": "NTP ITB-KOR: 24-11-0157 CEO",
+      "title": "ITB-KOR 24-11-0157 CEO - REHABILITATION OF LINED",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "SOUTHCAST CONSTRUCTION",
       "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1927002.8,
+      "awardDate": "2024-12-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO-2024-12-206",
+      "title": "24GM0033",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "PREHTI CONSTRUCTION SERVICES",
+      "category": "Furniture",
       "area": null,
-      "amount": 27628758.24,
+      "amount": 1971200,
+      "awardDate": "2024-12-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-12-4352",
+      "title": "DIESEL & GASOLINE FOR USE ON THE OPERATIONS OF KORONADAL CITY POLICE STATION - DECEMBER 2024",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "AGREDA SHELL STATION",
+      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
+      "area": "South Cotabato",
+      "amount": 500000,
+      "awardDate": "2024-12-23",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-11-0160 CMO-BDP",
+      "title": "ITB-KOR 24-11-0160 CMO-BDP - ACCESS TO ELECTRIFIC",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "3E ELECTRICAL SALES AND SERVICES",
+      "category": "Electrical Systems and Lighting Components",
+      "area": "South Cotabato",
+      "amount": 1015591.32,
       "awardDate": "2024-12-20",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2778,30 +2778,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-11-0141 CENRO",
-      "title": "ITB-KOR 24-11-0141 CENRO - INSTALLATION OF SOLAR",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "AI TECHNOLOGY AND SERVICES",
-      "category": "Information Technology Parts & Accessories & Perip",
-      "area": "South Cotabato",
-      "amount": 984173.8,
-      "awardDate": "2024-12-20",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 24-11-0160 CMO-BDP",
-      "title": "ITB-KOR 24-11-0160 CMO-BDP - ACCESS TO ELECTRIFIC",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "3E ELECTRICAL SALES AND SERVICES",
-      "category": "Electrical Systems and Lighting Components",
-      "area": "South Cotabato",
-      "amount": 1015591.32,
-      "awardDate": "2024-12-20",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "24GM0030",
       "title": "24GM0030",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
@@ -2809,6 +2785,30 @@
       "category": "Laboratory Supplies and Equipment",
       "area": null,
       "amount": 24993200,
+      "awardDate": "2024-12-20",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "24M00155",
+      "title": "24M00155",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "JDRC CONSTRUCTION AND SUPPLIES, CORP.",
+      "category": "Construction Projects",
+      "area": null,
+      "amount": 27628758.24,
+      "awardDate": "2024-12-20",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-11-0141 CENRO",
+      "title": "ITB-KOR 24-11-0141 CENRO - INSTALLATION OF SOLAR",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "AI TECHNOLOGY AND SERVICES",
+      "category": "Information Technology Parts & Accessories & Perip",
+      "area": "South Cotabato",
+      "amount": 984173.8,
       "awardDate": "2024-12-20",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2826,6 +2826,18 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "NTP ITB-KOR: 24-11-0145 CEO",
+      "title": "ITB-KOR 24-11-0145 CEO - COMPLETION OF LINED CANA",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "JOJEMAV CONSTRUCTION & SUPPLY",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1801809.35,
+      "awardDate": "2024-12-19",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "NTP ITB-KOR: 24-11-0156 CEO",
       "title": "ITB-KOR 24-11-0156 CEO - CONSTRUCTION OF BOX CULV",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -2833,30 +2845,6 @@
       "category": "Construction Projects",
       "area": "South Cotabato",
       "amount": 966156.97,
-      "awardDate": "2024-12-19",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 24-11-0148 CEO",
-      "title": "ITB-KOR 24-11-0148 CEO - CONSTRUCTION OF LINED CA",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "BENIPAYO CONSTRUCTION AND SUPPLY",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 2678968.87,
-      "awardDate": "2024-12-19",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "24GM0020",
-      "title": "24GM0020",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "PRINCE EDUCATIONAL SUPPLY",
-      "category": "Office Equipment Supplies and Consumables",
-      "area": null,
-      "amount": 792215.25,
       "awardDate": "2024-12-19",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2886,25 +2874,37 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-11-0145 CEO",
-      "title": "ITB-KOR 24-11-0145 CEO - COMPLETION OF LINED CANA",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "JOJEMAV CONSTRUCTION & SUPPLY",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1801809.35,
+      "refId": "24GM0020",
+      "title": "24GM0020",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "PRINCE EDUCATIONAL SUPPLY",
+      "category": "Office Equipment Supplies and Consumables",
+      "area": null,
+      "amount": 792215.25,
       "awardDate": "2024-12-19",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "2024-12-540",
-      "title": "3 Drawer Lateral Cabinet",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "DAVTECH MARKETING",
-      "category": "Furniture",
+      "refId": "NTP ITB-KOR: 24-11-0148 CEO",
+      "title": "ITB-KOR 24-11-0148 CEO - CONSTRUCTION OF LINED CA",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "BENIPAYO CONSTRUCTION AND SUPPLY",
+      "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 70800,
+      "amount": 2678968.87,
+      "awardDate": "2024-12-19",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-12-451",
+      "title": "Labor",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "FARB MULTI PURPOSE COOPERATIVE",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 165000,
       "awardDate": "2024-12-18",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2922,26 +2922,14 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "2024-12-451",
-      "title": "Labor",
+      "refId": "2024-12-540",
+      "title": "3 Drawer Lateral Cabinet",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "FARB MULTI PURPOSE COOPERATIVE",
-      "category": "General Repair and Maintenance Services",
+      "awardee": "DAVTECH MARKETING",
+      "category": "Furniture",
       "area": "South Cotabato",
-      "amount": 165000,
+      "amount": 70800,
       "awardDate": "2024-12-18",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#24-12-4442",
-      "title": "24-12-0648 1 WINDOW TYPE AND 1 SPLIT TYPE AIRCONDI",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "MELGENE AIRCON MARKETING AND SERVICES",
-      "category": "Airconditioning and Airconditioning Systems",
-      "area": "South Cotabato",
-      "amount": 90490,
-      "awardDate": "2024-12-17",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -2958,13 +2946,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4334",
-      "title": "24-12-0651 100 PCS  WALL FAN DISTRIBUTION TO CHILD",
+      "refId": "PO#24-12-4440",
+      "title": "LEASE OF VENUE W/ MEALS & SNACKS DURING THE FELLOWSHIP DINNER OF PIONEER SETTLERS IN CELEBRATION OF THE 2025 KORONADAL HINUGYAW FESTIVAL",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "FOUR HA OFFICE SUPPLIES AND EQUIPMENT TRADING",
-      "category": "Appliances",
+      "awardee": "CINCO NINAS RESTO",
+      "category": "Hotel and Lodging and Meeting Facilities",
       "area": "South Cotabato",
-      "amount": 150500,
+      "amount": 101830,
       "awardDate": "2024-12-17",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -2994,18 +2982,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4440",
-      "title": "LEASE OF VENUE W/ MEALS & SNACKS DURING THE FELLOWSHIP DINNER OF PIONEER SETTLERS IN CELEBRATION OF THE 2025 KORONADAL HINUGYAW FESTIVAL",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "CINCO NINAS RESTO",
-      "category": "Hotel and Lodging and Meeting Facilities",
-      "area": "South Cotabato",
-      "amount": 101830,
-      "awardDate": "2024-12-17",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#24-12-4388",
       "title": "24-12-0638 SUPPLY, DELIVERY AND FABRICATION OF 2 U",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -3013,6 +2989,30 @@
       "category": "Metal Fabrication",
       "area": "South Cotabato",
       "amount": 91200,
+      "awardDate": "2024-12-17",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-12-4442",
+      "title": "24-12-0648 1 WINDOW TYPE AND 1 SPLIT TYPE AIRCONDI",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "MELGENE AIRCON MARKETING AND SERVICES",
+      "category": "Airconditioning and Airconditioning Systems",
+      "area": "South Cotabato",
+      "amount": 90490,
+      "awardDate": "2024-12-17",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-12-4334",
+      "title": "24-12-0651 100 PCS  WALL FAN DISTRIBUTION TO CHILD",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "FOUR HA OFFICE SUPPLIES AND EQUIPMENT TRADING",
+      "category": "Appliances",
+      "area": "South Cotabato",
+      "amount": 150500,
       "awardDate": "2024-12-17",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3030,6 +3030,18 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "NTP ITB-KOR: 24-11-0170 CGSO",
+      "title": "ITB-KOR 24-11-0170 CGSO - PROCUREMENT FOR THE SUP",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "VASFORT IMPORT AND EXPORT TRADING CORP.",
+      "category": "Office Supplies and Devices",
+      "area": "South Cotabato",
+      "amount": 1298738.6,
+      "awardDate": "2024-12-13",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "PO-2024-12-256",
       "title": "RFQ-2024-177",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
@@ -3037,18 +3049,6 @@
       "category": "Office Equipment Supplies and Consumables",
       "area": null,
       "amount": 612000,
-      "awardDate": "2024-12-13",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 24-12-0174 SEF",
-      "title": "ITB-KOR 24-12-0174 SEF - PROCUREMENT FOR THE SUPP",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "VASFORT IMPORT AND EXPORT TRADING CORP.",
-      "category": "Sporting Goods",
-      "area": "South Cotabato",
-      "amount": 499865,
       "awardDate": "2024-12-13",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3078,20 +3078,56 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-11-0170 CGSO",
-      "title": "ITB-KOR 24-11-0170 CGSO - PROCUREMENT FOR THE SUP",
+      "refId": "NTP ITB-KOR: 24-12-0174 SEF",
+      "title": "ITB-KOR 24-12-0174 SEF - PROCUREMENT FOR THE SUPP",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
       "awardee": "VASFORT IMPORT AND EXPORT TRADING CORP.",
-      "category": "Office Supplies and Devices",
+      "category": "Sporting Goods",
       "area": "South Cotabato",
-      "amount": 1298738.6,
+      "amount": 499865,
       "awardDate": "2024-12-13",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-12-273",
-      "title": "RFQ-2024-201",
+      "refId": "1",
+      "title": "SVPMG-2024-0105",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "FZI CONSTRUCTION, PARTS, &AMP; SUPPLY",
+      "category": "Vehicle Parts and Accessories",
+      "area": "South Cotabato",
+      "amount": 168530,
+      "awardDate": "2024-12-12",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO-2024-12-210",
+      "title": "RFQ-2024-195",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "TRIPLE M OFFICE SUPPLIES AND EQUIPMENT TRADING",
+      "category": "Garments",
+      "area": null,
+      "amount": 661500,
+      "awardDate": "2024-12-12",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
+      "title": "SVPMG-2024-0095",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "FZI CONSTRUCTION, PARTS, &AMP; SUPPLY",
+      "category": "Office Equipment",
+      "area": "South Cotabato",
+      "amount": 366617.9,
+      "awardDate": "2024-12-12",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO-2024-12-274",
+      "title": "RFQ-2024-202",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
       "awardee": "CIVIC MERCHANDISING, INC.",
       "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
@@ -3114,49 +3150,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-12-210",
-      "title": "RFQ-2024-195",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "TRIPLE M OFFICE SUPPLIES AND EQUIPMENT TRADING",
-      "category": "Garments",
-      "area": null,
-      "amount": 661500,
-      "awardDate": "2024-12-12",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO-2024-12-274",
-      "title": "RFQ-2024-202",
+      "refId": "PO-2024-12-273",
+      "title": "RFQ-2024-201",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
       "awardee": "CIVIC MERCHANDISING, INC.",
       "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
       "area": null,
       "amount": 561756.84,
-      "awardDate": "2024-12-12",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "1",
-      "title": "SVPMG-2024-0105",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "FZI CONSTRUCTION, PARTS, &AMP; SUPPLY",
-      "category": "Vehicle Parts and Accessories",
-      "area": "South Cotabato",
-      "amount": 168530,
-      "awardDate": "2024-12-12",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "1",
-      "title": "SVPMG-2024-0095",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "FZI CONSTRUCTION, PARTS, &AMP; SUPPLY",
-      "category": "Office Equipment",
-      "area": "South Cotabato",
-      "amount": 366617.9,
       "awardDate": "2024-12-12",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3169,6 +3169,18 @@
       "category": "Catering Services",
       "area": "South Cotabato",
       "amount": 331800,
+      "awardDate": "2024-12-11",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-12-4384",
+      "title": "24-12-0631 CONSTRUCTION MATERIALS USE FOR THE IMPR",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "RAJZ ELECTRICAL AND CONSTRUCTION SUPPLIES",
+      "category": "Construction Materials and Supplies",
+      "area": "South Cotabato",
+      "amount": 274951,
       "awardDate": "2024-12-11",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3210,18 +3222,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4384",
-      "title": "24-12-0631 CONSTRUCTION MATERIALS USE FOR THE IMPR",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "RAJZ ELECTRICAL AND CONSTRUCTION SUPPLIES",
-      "category": "Construction Materials and Supplies",
-      "area": "South Cotabato",
-      "amount": 274951,
-      "awardDate": "2024-12-11",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#24-12-4425",
       "title": "24-12-0630 MATERIALS FOR ACCESS TO ELECTRIFFICATIO",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -3258,25 +3258,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "24M00287",
-      "title": "24M00287",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "PLUS CONSTRUCTION INDUSTRIES CORP.",
-      "category": "Construction Projects",
-      "area": null,
-      "amount": 59569357.2,
-      "awardDate": "2024-12-09",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "2024-12-508",
-      "title": "Ridge Roll",
+      "title": "Blind Rivets",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "PJDT CONSTRUCTION",
       "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
-      "amount": 26550,
+      "amount": 1000,
       "awardDate": "2024-12-09",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3295,12 +3283,12 @@
     },
     {
       "refId": "2024-12-508",
-      "title": "Labor",
+      "title": "Touch Up Paint",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "PJDT CONSTRUCTION",
       "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
-      "amount": 5450,
+      "amount": 345,
       "awardDate": "2024-12-09",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3312,7 +3300,7 @@
       "awardee": "PJDT CONSTRUCTION",
       "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
-      "amount": 46500,
+      "amount": 5450,
       "awardDate": "2024-12-09",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3331,24 +3319,36 @@
     },
     {
       "refId": "2024-12-508",
-      "title": "Silicon Sealant",
+      "title": "Labor",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "PJDT CONSTRUCTION",
       "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
-      "amount": 3540,
+      "amount": 46500,
       "awardDate": "2024-12-09",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
       "refId": "2024-12-508",
-      "title": "Touch Up Paint",
+      "title": "Ridge Roll",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "PJDT CONSTRUCTION",
       "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
-      "amount": 345,
+      "amount": 26550,
+      "awardDate": "2024-12-09",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-12-508",
+      "title": "Silicon Sealant",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "PJDT CONSTRUCTION",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 3540,
       "awardDate": "2024-12-09",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3366,13 +3366,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "2024-12-508",
-      "title": "Blind Rivets",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "PJDT CONSTRUCTION",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 1000,
+      "refId": "24M00287",
+      "title": "24M00287",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "PLUS CONSTRUCTION INDUSTRIES CORP.",
+      "category": "Construction Projects",
+      "area": null,
+      "amount": 59569357.2,
       "awardDate": "2024-12-09",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3414,18 +3414,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4286",
-      "title": "24-11-0610 SPEAKER, MICROPHONE AND PORTABLE TROLLE",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "RF COM ELECTRONICS",
-      "category": "Information Technology Parts & Accessories & Perip",
-      "area": "South Cotabato",
-      "amount": 132000,
-      "awardDate": "2024-12-03",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#24-12-4202",
       "title": "24-11-0612 TACTICAL SAR HELMET W/ HEADLIGHT AND PO",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -3450,13 +3438,25 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4369",
-      "title": "24-11-0617 ELECTRICAL SUPPLIES AND MATERIALS FOR T",
+      "refId": "PO#24-12-4203",
+      "title": "24-11-0611 DRONE AND SEARCH LIGHT AND CCTV KIT FOR",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "YAP MABUHAY ENTERPRISES, INC",
-      "category": "Electrical Systems and Lighting Components",
+      "awardee": "FAITH VENTURES",
+      "category": "Information Technology",
       "area": "South Cotabato",
-      "amount": 136680,
+      "amount": 124500,
+      "awardDate": "2024-12-03",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-12-4286",
+      "title": "24-11-0610 SPEAKER, MICROPHONE AND PORTABLE TROLLE",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "RF COM ELECTRONICS",
+      "category": "Information Technology Parts & Accessories & Perip",
+      "area": "South Cotabato",
+      "amount": 132000,
       "awardDate": "2024-12-03",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3474,50 +3474,14 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4203",
-      "title": "24-11-0611 DRONE AND SEARCH LIGHT AND CCTV KIT FOR",
+      "refId": "PO#24-12-4369",
+      "title": "24-11-0617 ELECTRICAL SUPPLIES AND MATERIALS FOR T",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "FAITH VENTURES",
-      "category": "Information Technology",
+      "awardee": "YAP MABUHAY ENTERPRISES, INC",
+      "category": "Electrical Systems and Lighting Components",
       "area": "South Cotabato",
-      "amount": 124500,
+      "amount": 136680,
       "awardDate": "2024-12-03",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO-2024-12-238",
-      "title": "RFQ-2024-175",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "IJL OFFICE AND SCHOOL SUPPLIES",
-      "category": "Information Technology Parts & Accessories & Perip",
-      "area": null,
-      "amount": 118075,
-      "awardDate": "2024-12-02",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO-2024-12-191",
-      "title": "RFQ-2024-151",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "J AND A 97 ENTERPRISES",
-      "category": "Office Equipment",
-      "area": null,
-      "amount": 90900,
-      "awardDate": "2024-12-02",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "24GMG0005",
-      "title": "24GMG0005",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "AJ SOFTDRIVE INTERNET CAFE & COMPUTER STUDIO",
-      "category": "Office Equipment",
-      "area": "South Cotabato",
-      "amount": 2176470,
-      "awardDate": "2024-12-02",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -3546,6 +3510,18 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "PO-2024-12-191",
+      "title": "RFQ-2024-151",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "J AND A 97 ENTERPRISES",
+      "category": "Office Equipment",
+      "area": null,
+      "amount": 90900,
+      "awardDate": "2024-12-02",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "PO-2024-12-258",
       "title": "RFQ-2024-187",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
@@ -3558,26 +3534,26 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-11-0150 SEF",
-      "title": "ITB-KOR 24-11-0150 SEF - PROCUREMENT FOR THE SUPP",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "CONVERGE.IT SOLUTIONS, INC.",
-      "category": "Appliances",
+      "refId": "24GMG0005",
+      "title": "24GMG0005",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "AJ SOFTDRIVE INTERNET CAFE & COMPUTER STUDIO",
+      "category": "Office Equipment",
       "area": "South Cotabato",
-      "amount": 1852500,
-      "awardDate": "2024-11-29",
+      "amount": 2176470,
+      "awardDate": "2024-12-02",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-11-0143 CMO-BDP",
-      "title": "ITB-KOR 24-11-0143 CMO-BDP - CONSTRUCTION OF MOTO",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SOUTHCAST CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 851788.02,
-      "awardDate": "2024-11-29",
+      "refId": "PO-2024-12-238",
+      "title": "RFQ-2024-175",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "IJL OFFICE AND SCHOOL SUPPLIES",
+      "category": "Information Technology Parts & Accessories & Perip",
+      "area": null,
+      "amount": 118075,
+      "awardDate": "2024-12-02",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -3606,14 +3582,26 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "INF ITB 24-119",
-      "title": "Construction Projection",
-      "organization": "PROVINCE OF SOUTH COTABATO",
-      "awardee": "FIVE C CONSTRUCTION SERVICES",
+      "refId": "NTP ITB-KOR: 24-11-0143 CMO-BDP",
+      "title": "ITB-KOR 24-11-0143 CMO-BDP - CONSTRUCTION OF MOTO",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "SOUTHCAST CONSTRUCTION",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 992996.93,
-      "awardDate": "2024-11-27",
+      "amount": 851788.02,
+      "awardDate": "2024-11-29",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-11-0150 SEF",
+      "title": "ITB-KOR 24-11-0150 SEF - PROCUREMENT FOR THE SUPP",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "CONVERGE.IT SOLUTIONS, INC.",
+      "category": "Appliances",
+      "area": "South Cotabato",
+      "amount": 1852500,
+      "awardDate": "2024-11-29",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -3626,6 +3614,30 @@
       "area": "South Cotabato",
       "amount": 993512.54,
       "awardDate": "2024-11-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "INF ITB 24-119",
+      "title": "Construction Projection",
+      "organization": "PROVINCE OF SOUTH COTABATO",
+      "awardee": "FIVE C CONSTRUCTION SERVICES",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 992996.93,
+      "awardDate": "2024-11-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
+      "title": "Food and Venue",
+      "organization": "COMMISSION ON HIGHER EDUCATION - REGION XII",
+      "awardee": "MATUTUM HOLDINGS AND DEVELOPMENT CORPORATION",
+      "category": "Catering Services",
+      "area": "South Cotabato",
+      "amount": 81400,
+      "awardDate": "2024-11-26",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -3649,18 +3661,6 @@
       "category": "Catering Services",
       "area": "South Cotabato",
       "amount": 149000,
-      "awardDate": "2024-11-26",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "1",
-      "title": "Food and Venue",
-      "organization": "COMMISSION ON HIGHER EDUCATION - REGION XII",
-      "awardee": "MATUTUM HOLDINGS AND DEVELOPMENT CORPORATION",
-      "category": "Catering Services",
-      "area": "South Cotabato",
-      "amount": 81400,
       "awardDate": "2024-11-26",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3690,18 +3690,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-10-0139 CHO",
-      "title": "ITB-KOR 24-10-0139 CHO - PROCUREMENT FOR THE SUPP",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "AI TECHNOLOGY AND SERVICES",
-      "category": "Computer Furniture",
-      "area": "South Cotabato",
-      "amount": 763100,
-      "awardDate": "2024-11-25",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO-2024-12-189",
       "title": "RFQ-2024-168",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
@@ -3714,26 +3702,14 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-12-187",
-      "title": "RFQ-2024-174",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "NEED INK SALES & SERVICES",
-      "category": "Printing Supplies",
-      "area": null,
-      "amount": 194400,
-      "awardDate": "2024-11-22",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO-2024-12-175",
-      "title": "RFQ-2024-181",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "PG MICRO WORLD COMPUTERS",
-      "category": "Office Equipment",
-      "area": null,
-      "amount": 162550,
-      "awardDate": "2024-11-22",
+      "refId": "NTP ITB-KOR: 24-10-0139 CHO",
+      "title": "ITB-KOR 24-10-0139 CHO - PROCUREMENT FOR THE SUPP",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "AI TECHNOLOGY AND SERVICES",
+      "category": "Computer Furniture",
+      "area": "South Cotabato",
+      "amount": 763100,
+      "awardDate": "2024-11-25",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -3757,6 +3733,30 @@
       "category": "Office Equipment",
       "area": null,
       "amount": 215050,
+      "awardDate": "2024-11-22",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO-2024-12-175",
+      "title": "RFQ-2024-181",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "PG MICRO WORLD COMPUTERS",
+      "category": "Office Equipment",
+      "area": null,
+      "amount": 162550,
+      "awardDate": "2024-11-22",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO-2024-12-187",
+      "title": "RFQ-2024-174",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "NEED INK SALES & SERVICES",
+      "category": "Printing Supplies",
+      "area": null,
+      "amount": 194400,
       "awardDate": "2024-11-22",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3787,6 +3787,18 @@
     },
     {
       "refId": "1",
+      "title": "GMG-2024-0040",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "NEED INK SALES & SERVICES",
+      "category": "Printing Supplies",
+      "area": "South Cotabato",
+      "amount": 788340,
+      "awardDate": "2024-11-20",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
       "title": "GMG-2024-0039",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
       "awardee": "COPYLANDIA OFFICE SYSTEMS CORP. - GENERAL SANTOS",
@@ -3810,25 +3822,25 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "1",
-      "title": "GMG-2024-0040",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "NEED INK SALES & SERVICES",
-      "category": "Printing Supplies",
+      "refId": "PO#24-11-0566",
+      "title": "24-11-0566 FIRST AID SUPPLIES AND MATERIAL FOR THE",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "MEDIPRIME QUALITY TRADING OPC",
+      "category": "Medical Supplies and Laboratory Instrument",
       "area": "South Cotabato",
-      "amount": 788340,
-      "awardDate": "2024-11-20",
+      "amount": 197940,
+      "awardDate": "2024-11-19",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4296",
-      "title": "24-11-0576 MEALS AND SNACKS TO BE SERVED FOR THE T",
+      "refId": "PO#24-11-4063",
+      "title": "24-11-0557 MEALS AND SNACKS TO BE SERVED FOR THE C",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "DON LIAM PARTY NEEDS AND CATERING SERVICES",
+      "awardee": "CATERBOI FOOD SERVICES",
       "category": "Catering Services",
       "area": "South Cotabato",
-      "amount": 84800,
+      "amount": 61776,
       "awardDate": "2024-11-19",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3858,6 +3870,18 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "PO#24-12-4296",
+      "title": "24-11-0576 MEALS AND SNACKS TO BE SERVED FOR THE T",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "DON LIAM PARTY NEEDS AND CATERING SERVICES",
+      "category": "Catering Services",
+      "area": "South Cotabato",
+      "amount": 84800,
+      "awardDate": "2024-11-19",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "PO#24-12-4199",
       "title": "24-11-0570 HYDROPONIC SYSTEM FOR USE IN SUPPLY AND",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -3865,30 +3889,6 @@
       "category": "Agricultural Machinery and Equipment",
       "area": "South Cotabato",
       "amount": 249250,
-      "awardDate": "2024-11-19",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#24-11-4063",
-      "title": "24-11-0557 MEALS AND SNACKS TO BE SERVED FOR THE C",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "CATERBOI FOOD SERVICES",
-      "category": "Catering Services",
-      "area": "South Cotabato",
-      "amount": 61776,
-      "awardDate": "2024-11-19",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#24-11-0566",
-      "title": "24-11-0566 FIRST AID SUPPLIES AND MATERIAL FOR THE",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "MEDIPRIME QUALITY TRADING OPC",
-      "category": "Medical Supplies and Laboratory Instrument",
-      "area": "South Cotabato",
-      "amount": 197940,
       "awardDate": "2024-11-19",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3930,18 +3930,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "11-238-24",
-      "title": "Meals",
-      "organization": "PHILIPPINE HEALTH INSURANCE CORPORATION - REGION XII",
-      "awardee": "VILLA AMOR HOTEL AND RESTAURANT/LA VILLA AMOR HOLDINGS CORP.",
-      "category": "Catering Services",
-      "area": "South Cotabato",
-      "amount": 87615,
-      "awardDate": "2024-11-15",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "NTP ITB-KOR: 24-11-0140 CEO",
       "title": "ITB-KOR 24-11-0140 CEO - REPAIR & MAINTENANCE OF",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -3966,13 +3954,25 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-11-4090",
-      "title": "DIESEL & GASOLINE FOR THE OPERATIONS OF THE KORONADAL CITY POLICE STATION",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SUENO SHELL STATION",
-      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
+      "refId": "11-238-24",
+      "title": "Meals",
+      "organization": "PHILIPPINE HEALTH INSURANCE CORPORATION - REGION XII",
+      "awardee": "VILLA AMOR HOTEL AND RESTAURANT/LA VILLA AMOR HOLDINGS CORP.",
+      "category": "Catering Services",
       "area": "South Cotabato",
-      "amount": 500000,
+      "amount": 87615,
+      "awardDate": "2024-11-15",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-11-4077",
+      "title": "24-11-0503 (50) SACKS OF RICE FOR THE USE OF KORON",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "VASFORT IMPORT AND EXPORT TRADING CORP.",
+      "category": "Food Stuff",
+      "area": "South Cotabato",
+      "amount": 149750,
       "awardDate": "2024-11-12",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -3990,14 +3990,26 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-11-4077",
-      "title": "24-11-0503 (50) SACKS OF RICE FOR THE USE OF KORON",
+      "refId": "PO#24-11-4090",
+      "title": "DIESEL & GASOLINE FOR THE OPERATIONS OF THE KORONADAL CITY POLICE STATION",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "VASFORT IMPORT AND EXPORT TRADING CORP.",
-      "category": "Food Stuff",
+      "awardee": "SUENO SHELL STATION",
+      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
       "area": "South Cotabato",
-      "amount": 149750,
+      "amount": 500000,
       "awardDate": "2024-11-12",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
+      "title": "RFQ-2024-141",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "J AND A 97 ENTERPRISES",
+      "category": "Printing Supplies",
+      "area": null,
+      "amount": 107800,
+      "awardDate": "2024-11-11",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -4009,18 +4021,6 @@
       "category": "Electrical Supplies",
       "area": null,
       "amount": 162000,
-      "awardDate": "2024-11-11",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-11-0115-S",
-      "title": "Catering service",
-      "organization": "DEPARTMENT OF AGRARIAN REFORM - SOUTH COTABATO PARO",
-      "awardee": "JUEGO GASTROPUB",
-      "category": "Hotel and Lodging and Meeting Facilities",
-      "area": "South Cotabato",
-      "amount": 158000,
       "awardDate": "2024-11-11",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4038,18 +4038,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "1",
-      "title": "RFQ-2024-141",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "J AND A 97 ENTERPRISES",
-      "category": "Printing Supplies",
-      "area": null,
-      "amount": 107800,
-      "awardDate": "2024-11-11",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO-2024-12-169",
       "title": "RFQ-2024-165",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
@@ -4057,6 +4045,18 @@
       "category": "Office Equipment",
       "area": null,
       "amount": 75000,
+      "awardDate": "2024-11-11",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-11-0115-S",
+      "title": "Catering service",
+      "organization": "DEPARTMENT OF AGRARIAN REFORM - SOUTH COTABATO PARO",
+      "awardee": "JUEGO GASTROPUB",
+      "category": "Hotel and Lodging and Meeting Facilities",
+      "area": "South Cotabato",
+      "amount": 158000,
       "awardDate": "2024-11-11",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4086,18 +4086,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-11-4067",
-      "title": "24-11-0484 CONSTRUCTION MATERIALS TO BE USED IN TH",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "YAP MABUHAY ENTERPRISES, INC",
-      "category": "Construction Materials and Supplies",
-      "area": "South Cotabato",
-      "amount": 136999,
-      "awardDate": "2024-11-05",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "INF ITB 24-114",
       "title": "Construction Project",
       "organization": "PROVINCE OF SOUTH COTABATO",
@@ -4122,13 +4110,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-12-4259",
-      "title": "24-11-0496 FOR USE IN THE EXTENSION OF LINE FOR CI",
+      "refId": "PO#24-11-4067",
+      "title": "24-11-0484 CONSTRUCTION MATERIALS TO BE USED IN TH",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "KUPLER INDUSTRIES INCORPORATED",
-      "category": "Electrical Systems and Lighting Components",
+      "awardee": "YAP MABUHAY ENTERPRISES, INC",
+      "category": "Construction Materials and Supplies",
       "area": "South Cotabato",
-      "amount": 400000,
+      "amount": 136999,
       "awardDate": "2024-11-05",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4141,6 +4129,18 @@
       "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
       "area": "South Cotabato",
       "amount": 150000,
+      "awardDate": "2024-11-05",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-12-4259",
+      "title": "24-11-0496 FOR USE IN THE EXTENSION OF LINE FOR CI",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "KUPLER INDUSTRIES INCORPORATED",
+      "category": "Electrical Systems and Lighting Components",
+      "area": "South Cotabato",
+      "amount": 400000,
       "awardDate": "2024-11-05",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4230,13 +4230,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-08-0123 CENRO",
-      "title": "ITB-KOR 24-08-0123 CENRO - B’LOK CREEK DEVELOPMEN",
+      "refId": "PO#24-11-3647",
+      "title": "24-10-0468 INSTALLATION OF PARTITION AND PAINTING",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "GABRIELLAS ENTERPRISES",
+      "awardee": "SAND GRIT CONSTRUCTION, INC.",
       "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 4989727.16,
+      "amount": 98878.79,
       "awardDate": "2024-10-22",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4254,6 +4254,18 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "NTP ITB-KOR: 24-08-0123 CENRO",
+      "title": "ITB-KOR 24-08-0123 CENRO - B’LOK CREEK DEVELOPMEN",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "GABRIELLAS ENTERPRISES",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 4989727.16,
+      "awardDate": "2024-10-22",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "PO#24-10-3412",
       "title": "DIESEL & GASOLINE FOR USE ON THE OPERATIONS OF THE CITY OF KORONADAL POLICE STATION",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -4261,18 +4273,6 @@
       "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
       "area": "South Cotabato",
       "amount": 200000,
-      "awardDate": "2024-10-22",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#24-11-3647",
-      "title": "24-10-0468 INSTALLATION OF PARTITION AND PAINTING",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SAND GRIT CONSTRUCTION, INC.",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 98878.79,
       "awardDate": "2024-10-22",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4290,6 +4290,18 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "NTP ITB-KOR: 24-10-0128 CEO",
+      "title": "ITB-KOR 24-10-0128 CEO - CONSTRUCTION OF CONCRETE",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "REYDAN ALPHA BUILDERS INC.",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 14464936.35,
+      "awardDate": "2024-10-18",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "NTP ITB-KOR: 24-10-0133 CMO-BDP",
       "title": "ITB-KOR 24-10-0133 CMO-BDP - INSTALLATION OF (31)",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -4297,6 +4309,18 @@
       "category": "Well Drilling and Construction Services",
       "area": "South Cotabato",
       "amount": 986699.98,
+      "awardDate": "2024-10-18",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-10-0132 SEF",
+      "title": "ITB-KOR 24-10-0132 SEF - PROCUREMENT FOR THE SUPP",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "VASFORT IMPORT AND EXPORT TRADING CORP.",
+      "category": "Furniture",
+      "area": "South Cotabato",
+      "amount": 1392985,
       "awardDate": "2024-10-18",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4326,30 +4350,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-10-0128 CEO",
-      "title": "ITB-KOR 24-10-0128 CEO - CONSTRUCTION OF CONCRETE",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "REYDAN ALPHA BUILDERS INC.",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 14464936.35,
-      "awardDate": "2024-10-18",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 24-10-0132 SEF",
-      "title": "ITB-KOR 24-10-0132 SEF - PROCUREMENT FOR THE SUPP",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "VASFORT IMPORT AND EXPORT TRADING CORP.",
-      "category": "Furniture",
-      "area": "South Cotabato",
-      "amount": 1392985,
-      "awardDate": "2024-10-18",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "2024-065",
       "title": "CONSTRUCTION OF DOT XII REGIONAL OFFICE KORONADAL",
       "organization": "TOURISM INFRASTRUCTURE AND ENTERPRISE ZONE AUTHORITY",
@@ -4370,6 +4370,18 @@
       "area": null,
       "amount": 2330670.24,
       "awardDate": "2024-10-16",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "INF ITB 24-102",
+      "title": "Construction Project",
+      "organization": "PROVINCE OF SOUTH COTABATO",
+      "awardee": "ROWEI CONSTRUCTION",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1998044.34,
+      "awardDate": "2024-10-15",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -4398,18 +4410,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "INF ITB 24-102",
-      "title": "Construction Project",
-      "organization": "PROVINCE OF SOUTH COTABATO",
-      "awardee": "ROWEI CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1998044.34,
-      "awardDate": "2024-10-15",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "NTP ITB-KOR: 24-10-0130 CMO-BDP",
       "title": "ITB-KOR 24-10-0130 CMO-BDP - PROCUREMENT FOR THE",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -4422,18 +4422,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-10-129",
-      "title": "RFQ-2024-097",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "J AND A 97 ENTERPRISES",
-      "category": "Surveying Instruments",
-      "area": null,
-      "amount": 82700,
-      "awardDate": "2024-10-11",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO-2024-10-131",
       "title": "RFQ-2024-110",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
@@ -4441,6 +4429,18 @@
       "category": "Garments",
       "area": null,
       "amount": 236916.2,
+      "awardDate": "2024-10-11",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO-2024-10-129",
+      "title": "RFQ-2024-097",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "J AND A 97 ENTERPRISES",
+      "category": "Surveying Instruments",
+      "area": null,
+      "amount": 82700,
       "awardDate": "2024-10-11",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4494,18 +4494,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-10-3379",
-      "title": "24-10-0452 CONSTRUCTION MATERIALS FOR  THE CONSTRU",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "YAP MABUHAY ENTERPRISES, INC",
-      "category": "Construction Materials and Supplies",
-      "area": "South Cotabato",
-      "amount": 517911,
-      "awardDate": "2024-10-08",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#24-10-3282",
       "title": "24-10-0457 MEALS AND SNACKS TO BE SERVED FOR THE S",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -4518,18 +4506,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-10-3428",
-      "title": "24-10-0451 MATERIALS USE FOR THE REPAIR AND MAINTE",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "JAPTECH ELECTRONIC IT SOLUTIONS",
-      "category": "Information Technology Parts & Accessories & Perip",
-      "area": "South Cotabato",
-      "amount": 266397,
-      "awardDate": "2024-10-08",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#24-10-3381",
       "title": "24-10-0453 MATERIALS TO BE USE FOR THE REPAIR AND",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -4537,6 +4513,30 @@
       "category": "Electrical Systems and Lighting Components",
       "area": "South Cotabato",
       "amount": 193999,
+      "awardDate": "2024-10-08",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-10-3379",
+      "title": "24-10-0452 CONSTRUCTION MATERIALS FOR  THE CONSTRU",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "YAP MABUHAY ENTERPRISES, INC",
+      "category": "Construction Materials and Supplies",
+      "area": "South Cotabato",
+      "amount": 517911,
+      "awardDate": "2024-10-08",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-10-3428",
+      "title": "24-10-0451 MATERIALS USE FOR THE REPAIR AND MAINTE",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "JAPTECH ELECTRONIC IT SOLUTIONS",
+      "category": "Information Technology Parts & Accessories & Perip",
+      "area": "South Cotabato",
+      "amount": 266397,
       "awardDate": "2024-10-08",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4555,36 +4555,12 @@
     },
     {
       "refId": "1",
-      "title": "RFQ-2024-136",
+      "title": "RFQ-2024-154",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "ELITE KONEXION DATACOM SERVICES",
-      "category": "Information Technology Parts & Accessories & Perip",
+      "awardee": "PG MICRO WORLD COMPUTERS",
+      "category": "IT Broadcasting and Telecommunications",
       "area": null,
-      "amount": 910000,
-      "awardDate": "2024-10-07",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO-2024-11-142",
-      "title": "RFQ-2024-129",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "GAKKEN PHILIPPINES INC.",
-      "category": "Printing Supplies",
-      "area": null,
-      "amount": 341120,
-      "awardDate": "2024-10-07",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "24GMG0004",
-      "title": "24GMG0004",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
-      "awardee": "COPYLANDIA OFFICE SYSTEMS CORP. - GENERAL SANTOS",
-      "category": "Office Equipment Parts and Accessories",
-      "area": "South Cotabato",
-      "amount": 485126.7,
+      "amount": 214016.95,
       "awardDate": "2024-10-07",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4602,13 +4578,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-11-145",
-      "title": "RFQ-2024-137",
+      "refId": "PO-2024-11-142",
+      "title": "RFQ-2024-129",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "J AND A 97 ENTERPRISES",
+      "awardee": "GAKKEN PHILIPPINES INC.",
       "category": "Printing Supplies",
       "area": null,
-      "amount": 144430,
+      "amount": 341120,
       "awardDate": "2024-10-07",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4627,12 +4603,36 @@
     },
     {
       "refId": "1",
-      "title": "RFQ-2024-154",
+      "title": "RFQ-2024-136",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "PG MICRO WORLD COMPUTERS",
-      "category": "IT Broadcasting and Telecommunications",
+      "awardee": "ELITE KONEXION DATACOM SERVICES",
+      "category": "Information Technology Parts & Accessories & Perip",
       "area": null,
-      "amount": 214016.95,
+      "amount": 910000,
+      "awardDate": "2024-10-07",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO-2024-11-145",
+      "title": "RFQ-2024-137",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "J AND A 97 ENTERPRISES",
+      "category": "Printing Supplies",
+      "area": null,
+      "amount": 144430,
+      "awardDate": "2024-10-07",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "24GMG0004",
+      "title": "24GMG0004",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
+      "awardee": "COPYLANDIA OFFICE SYSTEMS CORP. - GENERAL SANTOS",
+      "category": "Office Equipment Parts and Accessories",
+      "area": "South Cotabato",
+      "amount": 485126.7,
       "awardDate": "2024-10-07",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4674,6 +4674,18 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "PO#24-10-3230",
+      "title": "24-09-0437 MEALS AND SNACKS TO BE SERVED DURING 8-",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "KHENS FOOD KIOSK",
+      "category": "Food Stuff",
+      "area": "South Cotabato",
+      "amount": 104400,
+      "awardDate": "2024-10-01",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "2024-07",
       "title": "Motor Vehicle",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
@@ -4698,18 +4710,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-10-3230",
-      "title": "24-09-0437 MEALS AND SNACKS TO BE SERVED DURING 8-",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "KHENS FOOD KIOSK",
-      "category": "Food Stuff",
-      "area": "South Cotabato",
-      "amount": 104400,
-      "awardDate": "2024-10-01",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "24MG0140",
       "title": "24MG0140",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
@@ -4722,18 +4722,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "1",
-      "title": "Construction Project",
-      "organization": "BARANGAY CONCEPCION - KORONADAL CITY SOUTH COTABATO",
-      "awardee": "MANUELA CONSTRUCTION SERVICES",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1498113.02,
-      "awardDate": "2024-09-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "NP-12-24-002",
       "title": "Airfare of DICT IIDB PMT and speakers to attend the Regional ICT Summit and Exhibitions on October 15, 2024 at Koronadal City",
       "organization": "DEPARTMENT OF INFORMATION AND COMMUNICATIONS TECHNOLOGY - RE",
@@ -4741,6 +4729,18 @@
       "category": "Transportation and Communications Services",
       "area": "South Cotabato",
       "amount": 108200,
+      "awardDate": "2024-09-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1",
+      "title": "Construction Project",
+      "organization": "BARANGAY CONCEPCION - KORONADAL CITY SOUTH COTABATO",
+      "awardee": "MANUELA CONSTRUCTION SERVICES",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1498113.02,
       "awardDate": "2024-09-30",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4782,18 +4782,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-09-3063",
-      "title": "ITB-KOR 24-09-0127 CHO - PROCUREMENT FOR THE SUPP",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "LABDRUG PHARMACY",
-      "category": "Drugs and Medicines",
-      "area": "South Cotabato",
-      "amount": 1397425,
-      "awardDate": "2024-09-24",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "1312-24",
       "title": "Catering Services",
       "organization": "DEPARTMENT OF HEALTH - REGION XII",
@@ -4806,13 +4794,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "1312-24",
+      "refId": "1313-24",
       "title": "Catering Services",
       "organization": "DEPARTMENT OF HEALTH - REGION XII",
       "awardee": "DNJ'S CATERING SERVICES",
       "category": "Catering Services",
       "area": null,
-      "amount": 210000,
+      "amount": 105000,
       "awardDate": "2024-09-24",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4837,6 +4825,18 @@
       "category": "Drugs and Medicines",
       "area": "South Cotabato",
       "amount": 1397425,
+      "awardDate": "2024-09-24",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1313-24",
+      "title": "Catering Services",
+      "organization": "DEPARTMENT OF HEALTH - REGION XII",
+      "awardee": "DNJ'S CATERING SERVICES",
+      "category": "Catering Services",
+      "area": null,
+      "amount": 105000,
       "awardDate": "2024-09-24",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -4962,30 +4962,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-10-3164",
-      "title": "24-09-0415 PLASTIC BARRIER AND REFLECTORIZE STICKE",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "DAVAO CATHAY PARTS & HARDWARE, INC.",
-      "category": "Traffic Control Systems",
-      "area": "South Cotabato",
-      "amount": 475350,
-      "awardDate": "2024-09-10",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#24-10-3170",
-      "title": "24-09-0416 FABRICATION AND INSTALLATION OF 26 UNIT",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SAND GRIT CONSTRUCTION, INC.",
-      "category": "Traffic Control Systems",
-      "area": "South Cotabato",
-      "amount": 724137.51,
-      "awardDate": "2024-09-10",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "1",
       "title": "GMG-2024-0035",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
@@ -4993,18 +4969,6 @@
       "category": "Printing Supplies",
       "area": "South Cotabato",
       "amount": 373320,
-      "awardDate": "2024-09-10",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "1204-24",
-      "title": "Catering Services",
-      "organization": "DEPARTMENT OF HEALTH - REGION XII",
-      "awardee": "W BARNEY CATERING",
-      "category": "Catering Services",
-      "area": null,
-      "amount": 90000,
       "awardDate": "2024-09-10",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5022,6 +4986,42 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
+      "refId": "PO#24-10-3164",
+      "title": "24-09-0415 PLASTIC BARRIER AND REFLECTORIZE STICKE",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "DAVAO CATHAY PARTS & HARDWARE, INC.",
+      "category": "Traffic Control Systems",
+      "area": "South Cotabato",
+      "amount": 475350,
+      "awardDate": "2024-09-10",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "1204-24",
+      "title": "Catering Services",
+      "organization": "DEPARTMENT OF HEALTH - REGION XII",
+      "awardee": "W BARNEY CATERING",
+      "category": "Catering Services",
+      "area": null,
+      "amount": 90000,
+      "awardDate": "2024-09-10",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-10-3170",
+      "title": "24-09-0416 FABRICATION AND INSTALLATION OF 26 UNIT",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "SAND GRIT CONSTRUCTION, INC.",
+      "category": "Traffic Control Systems",
+      "area": "South Cotabato",
+      "amount": 724137.51,
+      "awardDate": "2024-09-10",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
       "refId": "2024-09-346",
       "title": "Delegate's Unit Conference Microphone",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
@@ -5029,6 +5029,18 @@
       "category": "Office Equipment",
       "area": "South Cotabato",
       "amount": 45600,
+      "awardDate": "2024-09-09",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-09-346",
+      "title": "Electrical floor moulding",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "BAK ELECTRONICS CENTER",
+      "category": "Office Equipment",
+      "area": "South Cotabato",
+      "amount": 1000,
       "awardDate": "2024-09-09",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5047,7 +5059,7 @@
     },
     {
       "refId": "2024-09-346",
-      "title": "Extension cable",
+      "title": "Labor",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "BAK ELECTRONICS CENTER",
       "category": "Office Equipment",
@@ -5059,7 +5071,7 @@
     },
     {
       "refId": "2024-09-346",
-      "title": "Labor",
+      "title": "Extension cable",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "BAK ELECTRONICS CENTER",
       "category": "Office Equipment",
@@ -5082,14 +5094,14 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "2024-09-346",
-      "title": "Electrical floor moulding",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "BAK ELECTRONICS CENTER",
-      "category": "Office Equipment",
+      "refId": "NTP ITB-KOR: 24-08-0124 CMO-POP",
+      "title": "ITB-KOR 24-08-0124 CMO-POP - CONCRETING OF ROAD ",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "GABRIELLAS ENTERPRISES",
+      "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 1000,
-      "awardDate": "2024-09-09",
+      "amount": 2989620.34,
+      "awardDate": "2024-09-06",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -5101,18 +5113,6 @@
       "category": "Office Supplies and Devices",
       "area": "South Cotabato",
       "amount": 1402767,
-      "awardDate": "2024-09-06",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "NTP ITB-KOR: 24-08-0124 CMO-POP",
-      "title": "ITB-KOR 24-08-0124 CMO-POP - CONCRETING OF ROAD ",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "GABRIELLAS ENTERPRISES",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 2989620.34,
       "awardDate": "2024-09-06",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5130,18 +5130,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "1143-24",
-      "title": "Printing Services",
-      "organization": "DEPARTMENT OF HEALTH - REGION XII",
-      "awardee": "JSD II ADVERTISING SERVICES",
-      "category": "Printing Services",
-      "area": null,
-      "amount": 218700,
-      "awardDate": "2024-09-03",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "PO#24-09-2939",
       "title": "24-08-0401 MEALS AND SNACKS FOR THE YOUTH FESTIVAL",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -5154,25 +5142,25 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "2024-09-332",
-      "title": "Overload relay",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "TECHMASTERS ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 3500,
-      "awardDate": "2024-09-02",
+      "refId": "1143-24",
+      "title": "Printing Services",
+      "organization": "DEPARTMENT OF HEALTH - REGION XII",
+      "awardee": "JSD II ADVERTISING SERVICES",
+      "category": "Printing Services",
+      "area": null,
+      "amount": 218700,
+      "awardDate": "2024-09-03",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
       "refId": "2024-09-332",
-      "title": "PVC moulding",
+      "title": "THHN electrical wire",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "TECHMASTERS ENGINEERING SERVICES",
       "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
-      "amount": 4200,
+      "amount": 8500,
       "awardDate": "2024-09-02",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5191,60 +5179,24 @@
     },
     {
       "refId": "2024-09-332",
+      "title": "Labor",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "TECHMASTERS ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 5000,
+      "awardDate": "2024-09-02",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-09-332",
       "title": "Tox with screw",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "TECHMASTERS ENGINEERING SERVICES",
       "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
       "amount": 370,
-      "awardDate": "2024-09-02",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-09-332",
-      "title": "Labor",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "TECHMASTERS ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 5000,
-      "awardDate": "2024-09-02",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-09-332",
-      "title": "Labor",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "TECHMASTERS ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 12000,
-      "awardDate": "2024-09-02",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-09-332",
-      "title": "Labor",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "TECHMASTERS ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 5000,
-      "awardDate": "2024-09-02",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO 2024-09-332",
-      "title": "Electrical Tape",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "TECHMASTERS ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 200,
       "awardDate": "2024-09-02",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5275,24 +5227,72 @@
     },
     {
       "refId": "2024-09-332",
-      "title": "THHN electrical wire",
+      "title": "Labor",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "TECHMASTERS ENGINEERING SERVICES",
       "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
-      "amount": 8500,
+      "amount": 12000,
       "awardDate": "2024-09-02",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-08-0115 CDRRMO",
-      "title": "ITB-KOR 24-08-0115 CDRRMO - COMPLETION OF EMERGEN",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "SOUTHCAST CONSTRUCTION",
-      "category": "Construction Projects",
+      "refId": "2024-09-332",
+      "title": "PVC moulding",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "TECHMASTERS ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
-      "amount": 3995768.45,
+      "amount": 4200,
+      "awardDate": "2024-09-02",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-09-332",
+      "title": "Labor",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "TECHMASTERS ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 5000,
+      "awardDate": "2024-09-02",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-09-332",
+      "title": "Overload relay",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "TECHMASTERS ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 3500,
+      "awardDate": "2024-09-02",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO 2024-09-332",
+      "title": "Electrical Tape",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "TECHMASTERS ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 200,
+      "awardDate": "2024-09-02",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-08-0119 SEF",
+      "title": "ITB-KOR 24-08-0119 SEF - PROCUREMENT FOR THE SUP",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "AP PARAGON ENTERPRISE OPC",
+      "category": "Computer Furniture",
+      "area": "South Cotabato",
+      "amount": 2852700,
       "awardDate": "2024-08-30",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5310,14 +5310,26 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-08-0119 SEF",
-      "title": "ITB-KOR 24-08-0119 SEF - PROCUREMENT FOR THE SUP",
+      "refId": "NTP ITB-KOR: 24-08-0115 CDRRMO",
+      "title": "ITB-KOR 24-08-0115 CDRRMO - COMPLETION OF EMERGEN",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "AP PARAGON ENTERPRISE OPC",
-      "category": "Computer Furniture",
+      "awardee": "SOUTHCAST CONSTRUCTION",
+      "category": "Construction Projects",
       "area": "South Cotabato",
-      "amount": 2852700,
+      "amount": 3995768.45,
       "awardDate": "2024-08-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "23M00078 (Re-IB)",
+      "title": "24M00078 (Re-IB)",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "REYDAN BUILDERS",
+      "category": "Construction Projects",
+      "area": null,
+      "amount": 43430343.54,
+      "awardDate": "2024-08-29",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -5358,18 +5370,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "23M00078 (Re-IB)",
-      "title": "24M00078 (Re-IB)",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "REYDAN BUILDERS",
-      "category": "Construction Projects",
-      "area": null,
-      "amount": 43430343.54,
-      "awardDate": "2024-08-29",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "2024-08-011",
       "title": "Information, Communication and Technology",
       "organization": "DEPARTMENT OF EDUCATION - DIVISION OF KORONADAL CITY",
@@ -5377,18 +5377,6 @@
       "category": "Information Technology",
       "area": "South Cotabato",
       "amount": 272720,
-      "awardDate": "2024-08-28",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-08-010",
-      "title": "Information, Communication and Technology",
-      "organization": "DEPARTMENT OF EDUCATION - DIVISION OF KORONADAL CITY",
-      "awardee": "WIRELESS LINK TECHNOLOGIES, INC.",
-      "category": "Information Technology",
-      "area": "South Cotabato",
-      "amount": 348030,
       "awardDate": "2024-08-28",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5418,14 +5406,14 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "2024-08-270",
-      "title": "Meals, Venue and Accommodation for 5 days",
-      "organization": "DEPARTMENT OF TOURISM - REGION XII",
-      "awardee": "LA VILLA AMOR HOLDINGS CORPORATION",
-      "category": "Travel, Food, Lodging and Entertainment Services",
-      "area": "(Independent City)",
-      "amount": 181391.32,
-      "awardDate": "2024-08-27",
+      "refId": "2024-08-010",
+      "title": "Information, Communication and Technology",
+      "organization": "DEPARTMENT OF EDUCATION - DIVISION OF KORONADAL CITY",
+      "awardee": "WIRELESS LINK TECHNOLOGIES, INC.",
+      "category": "Information Technology",
+      "area": "South Cotabato",
+      "amount": 348030,
+      "awardDate": "2024-08-28",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -5437,6 +5425,18 @@
       "category": "Catering Services",
       "area": "South Cotabato",
       "amount": 172500,
+      "awardDate": "2024-08-27",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-08-270",
+      "title": "Meals, Venue and Accommodation for 5 days",
+      "organization": "DEPARTMENT OF TOURISM - REGION XII",
+      "awardee": "LA VILLA AMOR HOLDINGS CORPORATION",
+      "category": "Travel, Food, Lodging and Entertainment Services",
+      "area": "(Independent City)",
+      "amount": 181391.32,
       "awardDate": "2024-08-27",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5466,18 +5466,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-08-0112 SEF",
-      "title": "ITB-KOR 24-08-0112 SEF - PROCUREMENT FOR THE SUPP",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "RIGEL LASER TONER MARKETING",
-      "category": "Educational Materials and Supplies",
-      "area": "South Cotabato",
-      "amount": 2800202,
-      "awardDate": "2024-08-19",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "NTP ITB-KOR: 24-08-0114 CHO",
       "title": "ITB-KOR 24-08-0114 CHO - STRUCTURED LOCAL AREA NE",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
@@ -5485,6 +5473,18 @@
       "category": "Structured Cabling",
       "area": "South Cotabato",
       "amount": 1499561.12,
+      "awardDate": "2024-08-19",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "NTP ITB-KOR: 24-08-0112 SEF",
+      "title": "ITB-KOR 24-08-0112 SEF - PROCUREMENT FOR THE SUPP",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "RIGEL LASER TONER MARKETING",
+      "category": "Educational Materials and Supplies",
+      "area": "South Cotabato",
+      "amount": 2800202,
       "awardDate": "2024-08-19",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5538,13 +5538,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-09-2886",
-      "title": "24-08-0376 CONSTRUCTION MATERIALS FOR THE CONSTRUC",
+      "refId": "PO#24-09-2847",
+      "title": "24-08-0367 CONSTRUCTION MATERIALS TO BE USED IN TH",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
       "awardee": "W.A APPEX HARDWARE & CONSTRUCTION SUPPLY",
       "category": "Construction Materials and Supplies",
       "area": "South Cotabato",
-      "amount": 241348,
+      "amount": 686098,
       "awardDate": "2024-08-13",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5562,13 +5562,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO#24-09-2847",
-      "title": "24-08-0367 CONSTRUCTION MATERIALS TO BE USED IN TH",
+      "refId": "PO#24-09-2886",
+      "title": "24-08-0376 CONSTRUCTION MATERIALS FOR THE CONSTRUC",
       "organization": "CITY OF KORONADAL, SOUTH COTABATO",
       "awardee": "W.A APPEX HARDWARE & CONSTRUCTION SUPPLY",
       "category": "Construction Materials and Supplies",
       "area": "South Cotabato",
-      "amount": 686098,
+      "amount": 241348,
       "awardDate": "2024-08-13",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5586,18 +5586,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "INF ITB 24-083",
-      "title": "Construction Project",
-      "organization": "PROVINCE OF SOUTH COTABATO",
-      "awardee": "FZI CONSTRUCTION, PARTS, &AMP; SUPPLY",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 4990859.12,
-      "awardDate": "2024-08-08",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "1",
       "title": "GMG-2024-0032",
       "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - SOUTH COTABATO 2ND",
@@ -5605,6 +5593,18 @@
       "category": "Printing Supplies",
       "area": "South Cotabato",
       "amount": 123360,
+      "awardDate": "2024-08-08",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "INF ITB 24-083",
+      "title": "Construction Project",
+      "organization": "PROVINCE OF SOUTH COTABATO",
+      "awardee": "FZI CONSTRUCTION, PARTS, &AMP; SUPPLY",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 4990859.12,
       "awardDate": "2024-08-08",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5670,13 +5670,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "NTP ITB-KOR: 24-07-0105 CMO-BDP",
-      "title": "\tITB-KOR 24-07-0105 CMO-BDP - CONSTRUCTION OF MOT",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "BETTER WORK CONSTRUCTION",
-      "category": "Construction Projects",
-      "area": "South Cotabato",
-      "amount": 1446212.14,
+      "refId": "PO-2024-09-121",
+      "title": "RFQ-2024-105",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "GOLDY & LACK OFFICE AND SCHOOL SUPPLIES TRADING",
+      "category": "Office Supplies and Devices",
+      "area": null,
+      "amount": 281933,
       "awardDate": "2024-08-02",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5694,13 +5694,13 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-09-121",
-      "title": "RFQ-2024-105",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "GOLDY & LACK OFFICE AND SCHOOL SUPPLIES TRADING",
-      "category": "Office Supplies and Devices",
-      "area": null,
-      "amount": 281933,
+      "refId": "NTP ITB-KOR: 24-07-0105 CMO-BDP",
+      "title": "\tITB-KOR 24-07-0105 CMO-BDP - CONSTRUCTION OF MOT",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "BETTER WORK CONSTRUCTION",
+      "category": "Construction Projects",
+      "area": "South Cotabato",
+      "amount": 1446212.14,
       "awardDate": "2024-08-02",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5714,6 +5714,18 @@
       "area": "South Cotabato",
       "amount": 1446930.19,
       "awardDate": "2024-08-02",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO-2024-10-133",
+      "title": "24GM0005",
+      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
+      "awardee": "CSA GAS AND OIL CO., INC",
+      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
+      "area": null,
+      "amount": 2100000,
+      "awardDate": "2024-08-01",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
     },
@@ -5766,66 +5778,6 @@
       "url": "https://philgeps.bettergov.ph/"
     },
     {
-      "refId": "PO-2024-10-133",
-      "title": "24GM0005",
-      "organization": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS - REGION XII",
-      "awardee": "CSA GAS AND OIL CO., INC",
-      "category": "Fuels/Fuel Additives & Lubricants & Anti Corrosive",
-      "area": null,
-      "amount": 2100000,
-      "awardDate": "2024-08-01",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-07-306",
-      "title": "2 Gang Convenience outlet flush type",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "AB ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 1800,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-07-306",
-      "title": "Led TV Bracket swing type",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "AB ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 1600,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#24-08-2735",
-      "title": "24-05-0348 MATERIALS USE FOR PROPOSED INTERIOR DES",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "RAJZ ELECTRICAL AND CONSTRUCTION SUPPLIES",
-      "category": "Construction Materials and Supplies",
-      "area": "South Cotabato",
-      "amount": 119108,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#24-09-2889",
-      "title": "24-05-0344 CONSTRUCTION MATERIALS FOR THE INSTALLA",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "D'HOME HARDWARE AND CONSTRUCTION SUPPLIES",
-      "category": "Construction Materials and Supplies",
-      "area": "South Cotabato",
-      "amount": 122045,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
       "refId": "2024-07-306",
       "title": "PVC Moulding 1",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
@@ -5839,96 +5791,12 @@
     },
     {
       "refId": "2024-07-306",
-      "title": "Led Tube T5",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "AB ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 1250,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#24-07-2502",
-      "title": "24-05-0347 83 SACKS OF RICE FOR THE USE OF KORONAD",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "VASFORT IMPORT AND EXPORT TRADING CORP.",
-      "category": "Food Stuff",
-      "area": "South Cotabato",
-      "amount": 248585,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-07-306",
-      "title": "Switch Box PVC",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "AB ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 780,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-07-306",
-      "title": "Prevline materials",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "AB ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 1500,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-07-306",
       "title": "Expanded Bolt 1/2",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "AB ENGINEERING SERVICES",
       "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
       "amount": 240,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "PO#24-07-2467",
-      "title": "24-05-0345 CONSTRUCTION MATERIALS TO BE USED IN TH",
-      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
-      "awardee": "RAJZ ELECTRICAL AND CONSTRUCTION SUPPLIES",
-      "category": "Construction Materials and Supplies",
-      "area": "South Cotabato",
-      "amount": 275780,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-07-306",
-      "title": "Labor",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "AB ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 16000,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-07-306",
-      "title": "Pinlight 6",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "AB ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 3300,
       "awardDate": "2024-07-30",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5947,12 +5815,108 @@
     },
     {
       "refId": "2024-07-306",
+      "title": "Pinlight 6",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "AB ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 3300,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-07-306",
+      "title": "Blind Rivets 1/8 x 3/4",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "AB ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 700,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-07-2502",
+      "title": "24-05-0347 83 SACKS OF RICE FOR THE USE OF KORONAD",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "VASFORT IMPORT AND EXPORT TRADING CORP.",
+      "category": "Food Stuff",
+      "area": "South Cotabato",
+      "amount": 248585,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-07-306",
+      "title": "Labor",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "AB ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 16000,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-07-306",
+      "title": "Led TV Bracket swing type",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "AB ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 1600,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-07-306",
+      "title": "Prevline materials",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "AB ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 1500,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-07-306",
       "title": "THHN-THWN 3.5 MM-SQRD",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "AB ENGINEERING SERVICES",
       "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
       "amount": 1100,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-07-0343",
+      "title": "24-05-0343 CONSTRUCTION MATERIALS TO BE USED IN TH",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "W.A APPEX HARDWARE & CONSTRUCTION SUPPLY",
+      "category": "Construction Materials and Supplies",
+      "area": "South Cotabato",
+      "amount": 206910.5,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-07-306",
+      "title": "Led Tube T8 SBS Type L/N",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "AB ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 7200,
       "awardDate": "2024-07-30",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
@@ -5971,36 +5935,72 @@
     },
     {
       "refId": "2024-07-306",
-      "title": "THHN-THWN 2.0 MM-SQRD",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "AB ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 6500,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-07-306",
-      "title": "Blind Rivets 1/8 x 3/4",
-      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
-      "awardee": "AB ENGINEERING SERVICES",
-      "category": "General Repair and Maintenance Services",
-      "area": "South Cotabato",
-      "amount": 700,
-      "awardDate": "2024-07-30",
-      "status": "active",
-      "url": "https://philgeps.bettergov.ph/"
-    },
-    {
-      "refId": "2024-07-306",
       "title": "Led Casing w/ railings",
       "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
       "awardee": "AB ENGINEERING SERVICES",
       "category": "General Repair and Maintenance Services",
       "area": "South Cotabato",
       "amount": 7750,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-07-306",
+      "title": "2 Gang Convenience outlet flush type",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "AB ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 1800,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-07-306",
+      "title": "2 Gang Single Pole switch flush type",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "AB ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 1720,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-07-306",
+      "title": "Led Tube T5",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "AB ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 1250,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "2024-07-306",
+      "title": "Switch Box PVC",
+      "organization": "BUREAU OF INTERNAL REVENUE - REVENUE REGION NO.18",
+      "awardee": "AB ENGINEERING SERVICES",
+      "category": "General Repair and Maintenance Services",
+      "area": "South Cotabato",
+      "amount": 780,
+      "awardDate": "2024-07-30",
+      "status": "active",
+      "url": "https://philgeps.bettergov.ph/"
+    },
+    {
+      "refId": "PO#24-07-2467",
+      "title": "24-05-0345 CONSTRUCTION MATERIALS TO BE USED IN TH",
+      "organization": "CITY OF KORONADAL, SOUTH COTABATO",
+      "awardee": "RAJZ ELECTRICAL AND CONSTRUCTION SUPPLIES",
+      "category": "Construction Materials and Supplies",
+      "area": "South Cotabato",
+      "amount": 275780,
       "awardDate": "2024-07-30",
       "status": "active",
       "url": "https://philgeps.bettergov.ph/"
