@@ -7,7 +7,7 @@ import { requireAdmin, adminCount } from '../_lib/auth';
 // than one admin is configured, the publisher MUST differ from the first
 // reviewer. Only after this does the item surface publicly.
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  const admin = requireAdmin(req);
+  const admin = await requireAdmin(req);
   if (!admin) return res.status(401).json({ error: 'Unauthorized.' });
   if (req.method !== 'POST')
     return res.status(405).json({ error: 'Method not allowed.' });
@@ -38,7 +38,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   // publish — enforce two distinct reviewers when more than one admin exists
-  if (adminCount() > 1 && item.first_reviewer === admin.u) {
+  if ((await adminCount()) > 1 && item.first_reviewer === admin.u) {
     return res.status(403).json({
       error:
         'A different admin must publish this item (two-person review for court cases and concerns).',

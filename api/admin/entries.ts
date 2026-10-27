@@ -7,7 +7,7 @@ import { requireAdmin } from '../_lib/auth';
 //   PUT  /api/admin/entries  { personId, name, data }   -> upsert NON-sensitive entry (live)
 //   POST /api/admin/entries  { personId, kind, data }    -> add court_case/concern (two-step)
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  const admin = requireAdmin(req);
+  const admin = await requireAdmin(req);
   if (!admin) return res.status(401).json({ error: 'Unauthorized.' });
   const pool = getPool();
   if (!pool) return res.status(503).json({ error: 'Backend not configured.' });

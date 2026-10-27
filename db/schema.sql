@@ -63,3 +63,33 @@ create table if not exists audit_log (
   action    text not null,
   detail    jsonb
 );
+
+-- Admin accounts. Replaces the plaintext ADMIN_USERS env var (which still
+-- works as a fallback/bootstrap). Passwords are scrypt-hashed; an admin
+-- invited by email may have no password yet and can sign in with a code.
+create table if not exists admin_users (
+  username            text primary key,
+  email               text not null unique,
+  password_hash       text,
+  -- Tokens issued before this are rejected (bumped on password change/reset).
+  sessions_valid_after timestamptz not null default 'epoch',
+  created_at          timestamptz not null default now(),
+  created_by          text,
+  last_login_at       timestamptz,
+  disabled            boolean not null default false
+);
+
+-- One-time email codes for passwordless sign-in and password resets.
+-- Only a keyed hash of the code is stored.
+create table if not exists admin_codes (
+  id          uuid primary key default gen_random_uuid(),
+  username    text not null references admin_users(username) on delete cascade,
+  purpose     text not null check (purpose in ('login','reset')),
+  code_hash   text not null,
+  created_at  timestamptz not null default now(),
+  expires_at  timestamptz not null,
+  attempts    int not null default 0,
+  used_at     timestamptz
+);
+create index if not exists admin_codes_lookup_idx
+  on admin_codes (username, purpose, created_at desc);

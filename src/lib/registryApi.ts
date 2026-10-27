@@ -21,12 +21,7 @@ export interface PublishedData {
 
 export interface ContributionInput {
   kind:
-    | 'new_person'
-    | 'edit'
-    | 'court_case'
-    | 'concern'
-    | 'correction'
-    | 'other';
+    'new_person' | 'edit' | 'court_case' | 'concern' | 'correction' | 'other';
   personName: string;
   personId?: string;
   note: string;
@@ -103,21 +98,136 @@ export async function submitContribution(
 
 // --- admin ----------------------------------------------------------------
 
-export async function adminLogin(username: string, password: string) {
-  const r = await fetch('/api/admin/login', {
+async function postAuth<T>(body: Record<string, unknown>): Promise<T> {
+  const r = await authed('/api/admin/auth', {
     method: 'POST',
-    headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ username, password }),
+    body: JSON.stringify(body),
   });
   const j = await r.json().catch(() => ({}));
   if (!r.ok)
-    throw new Error((j as { error?: string }).error || 'Login failed.');
-  setToken((j as { token: string }).token);
-  return j as { token: string; username: string };
+    throw new Error((j as { error?: string }).error || 'Request failed.');
+  return j as T;
+}
+
+type TokenResponse = { token: string; username: string };
+
+/** Sign in with a username (or email) and password. */
+export async function adminLogin(identifier: string, password: string) {
+  const j = await postAuth<TokenResponse>({
+    action: 'login',
+    identifier,
+    password,
+  });
+  setToken(j.token);
+  return j;
+}
+
+/** Email a one-time code for sign-in or password reset. */
+export async function adminSendCode(email: string, purpose: 'login' | 'reset') {
+  return postAuth<{ ok: true; message: string }>({
+    action: 'send-code',
+    email,
+    purpose,
+  });
+}
+
+/** Sign in with an emailed code. */
+export async function adminVerifyCode(email: string, code: string) {
+  const j = await postAuth<TokenResponse>({
+    action: 'verify-code',
+    email,
+    code,
+  });
+  setToken(j.token);
+  return j;
+}
+
+/** Set a new password using an emailed reset code (also signs you in). */
+export async function adminResetPassword(
+  email: string,
+  code: string,
+  newPassword: string
+) {
+  const j = await postAuth<TokenResponse>({
+    action: 'reset-password',
+    email,
+    code,
+    newPassword,
+  });
+  setToken(j.token);
+  return j;
+}
+
+export async function adminChangePassword(
+  newPassword: string,
+  currentPassword?: string
+) {
+  const j = await postAuth<{ ok: true; token: string }>({
+    action: 'change-password',
+    newPassword,
+    currentPassword,
+  });
+  setToken(j.token);
+  return j;
+}
+
+export interface AdminAccount {
+  username: string;
+  email: string | null;
+  hasPassword: boolean;
+  source: 'database' | 'env';
+  lastLoginAt: string | null;
+  emailEnabled: boolean;
+}
+
+export async function adminMe() {
+  return postAuth<AdminAccount>({ action: 'me' });
+}
+
+export interface AdminUser {
+  username: string;
+  email: string | null;
+  created_at: string | null;
+  created_by: string | null;
+  last_login_at: string | null;
+  disabled: boolean;
+  has_password: boolean;
+  source: 'database' | 'env';
+}
+
+export async function adminListUsers() {
+  const r = await authed('/api/admin/users');
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error((j as { error?: string }).error || 'Failed.');
+  return (j as { users: AdminUser[] }).users;
+}
+
+export async function adminInviteUser(username: string, email: string) {
+  const r = await authed('/api/admin/users', {
+    method: 'POST',
+    body: JSON.stringify({ username, email }),
+  });
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error((j as { error?: string }).error || 'Failed.');
+  return j as { ok: true; emailed: boolean };
+}
+
+export async function adminSetUserDisabled(
+  username: string,
+  disabled: boolean
+) {
+  const r = await authed('/api/admin/users', {
+    method: 'PATCH',
+    body: JSON.stringify({ username, disabled }),
+  });
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error((j as { error?: string }).error || 'Failed.');
+  return j;
 }
 
 export async function adminListSubmissions() {
   const r = await authed('/api/submissions?status=pending');
+  if (r.status === 401) throw new Error('Unauthorized.');
   if (!r.ok) throw new Error('Failed to load submissions.');
   return (await r.json()).submissions as Submission[];
 }
@@ -138,6 +248,7 @@ export async function adminReview(
 
 export async function adminListEntries() {
   const r = await authed('/api/admin/entries');
+  if (r.status === 401) throw new Error('Unauthorized.');
   if (!r.ok) throw new Error('Failed to load entries.');
   return (await r.json()) as {
     entries: EntryRow[];
@@ -183,7 +294,9 @@ export interface SensitiveItem {
   kind: 'court_case' | 'concern';
   data: unknown;
   state: string;
+  created_at: string;
   first_reviewer: string | null;
+  first_at: string | null;
   second_reviewer: string | null;
 }
 

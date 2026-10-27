@@ -7,7 +7,7 @@ import { requireAdmin } from '../_lib/auth';
 // live registry). Approving a court-case/concern submission creates a sensitive
 // item in `pending_second` — it needs a second admin to publish (two-step).
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  const admin = requireAdmin(req);
+  const admin = await requireAdmin(req);
   if (!admin) return res.status(401).json({ error: 'Unauthorized.' });
   if (req.method !== 'POST')
     return res.status(405).json({ error: 'Method not allowed.' });
