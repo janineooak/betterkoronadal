@@ -4,7 +4,7 @@ import { Heading } from '../ui/Heading';
 import { Text } from '../ui/Text';
 import { useTranslation } from '../../hooks/useTranslation';
 import { Card, CardContent } from '@bettergov/kapwa/card';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 import { governmentCategories } from '../../data/yamlLoader';
 

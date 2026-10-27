@@ -29,12 +29,7 @@ import CitizensCharter from './pages/CitizensCharter';
 import Sources from './pages/Sources';
 import Search from './pages/Search';
 import { lazy, Suspense } from 'react';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router';
 
 // Statistics pages are lazy-loaded so the recharts charting library stays out
 // of the initial bundle and only loads when a visitor opens a statistics page.

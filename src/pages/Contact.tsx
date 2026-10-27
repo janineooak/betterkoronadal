@@ -3,7 +3,7 @@ import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Heading } from '../components/ui/Heading';
 import SEO from '../components/SEO';
 import { Card, CardContent } from '@bettergov/kapwa/card';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { MapPin, Phone, Mail, Facebook, Clock, Siren } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

@@ -77,6 +77,7 @@ A modern, multilingual, and accessible website template designed specifically fo
 - **[DEPLOYMENT-GUIDE.md](DEPLOYMENT-GUIDE.md)** - Deployment instructions for Vercel and other platforms
 - **[STARTER-KIT-SUMMARY.md](STARTER-KIT-SUMMARY.md)** - Audit results and implementation summary
 - **[CHANGELOG.md](CHANGELOG.md)** - Version history and release notes
+- **[docs/meilisearch.md](docs/meilisearch.md)** - Meilisearch search setup and integration guide
 
 ## 🎯 Perfect For
 

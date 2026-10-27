@@ -12,7 +12,7 @@ import {
 import * as LucideIcons from 'lucide-react';
 import { mainNavigation } from '../../data/navigation';
 import type { LanguageType } from '../../types/index';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
 import { AVAILABLE_LANGUAGES } from '../../i18n/languages';
 
@@ -26,8 +26,7 @@ const NavIcon: React.FC<{ name?: string; className?: string }> = ({
 }) => {
   if (!name) return null;
   const Icon = LucideIcons[name as keyof typeof LucideIcons] as
-    | React.ComponentType<{ className?: string }>
-    | undefined;
+    React.ComponentType<{ className?: string }> | undefined;
   return Icon ? <Icon className={className} /> : null;
 };
 

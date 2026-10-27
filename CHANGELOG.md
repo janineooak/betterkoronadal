@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-07-29
+
+### Added
+
+- Meilisearch content search integration — `/search` route with a new `Search` page (`src/pages/Search.tsx`)
+- `src/lib/meilisearch.ts` — Meilisearch client and `isMeilisearchEnabled` feature flag; the search route and nav links only render when Meilisearch is configured
+- `scripts/index-content.mjs` and the `npm run index-content` script for indexing services and government content into Meilisearch
+- `docs/meilisearch.md` — Meilisearch setup and indexing documentation
+- Terraform configuration for AWS S3 static site deployment under `terraform/` (#3)
+- `DEPLOYMENT-GUIDE.md` — deployment instructions for the static site
+- `GovernmentActivitySection` now accepts optional `title` and `description` props, falling back to translations
+
+### Changed
+
+- Migrated from `react-router-dom` v7 to `react-router` v8 across all imports
+- Upgraded core dependencies: Vite 8, TypeScript 6, ESLint 10, i18next 26, react-i18next 17, `@vitejs/plugin-react` 6, `js-yaml` 5, `lint-staged` 17, `globals` 17
+- ESLint flat config updated for ESLint 10 and the new `eslint-plugin-react-hooks` v7
+- Dropped the redundant `@types/js-yaml` dependency (types now ship with `js-yaml`)
+- `.gitignore` expanded with Terraform ignores (state files, `.tfvars`, local overrides, CLI config)
+
+### Documentation
+
+- `README.md` and `STARTER-KIT-README.md` — installation guide switched to a fork-first workflow, with a "Keeping Your Fork Updated" upstream sync section and clarified contribution steps
+
 ## [0.2.0] - 2026-03-07
 
 ### Added
@@ -57,5 +81,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `src/components/ui/Card.tsx` — superseded by Kapwa primitives
 - `src/components/ui/ListItem.tsx` — superseded by Kapwa cards and banners
 
+[0.3.0]: https://github.com/iyanski/betterlocalgov/releases/tag/v0.3.0
 [0.2.0]: https://github.com/iyanski/betterlocalgov/releases/tag/v0.2.0
 [0.1.0]: https://github.com/iyanski/betterlocalgov/releases/tag/v0.1.0

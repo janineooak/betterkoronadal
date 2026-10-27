@@ -1,5 +1,5 @@
 import Section from '../components/ui/Section';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router';
 import { Heading } from '../components/ui/Heading';
 import { Text } from '../components/ui/Text';
 import {
