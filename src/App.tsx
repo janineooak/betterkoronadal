@@ -46,7 +46,7 @@ function App() {
     <HelmetProvider>
       <Router>
         <NuqsAdapter>
-          <div className="min-h-screen flex flex-col">
+          <div className="editorial min-h-screen flex flex-col">
             <Navbar />
             <ScrollToTop />
             <Routes>

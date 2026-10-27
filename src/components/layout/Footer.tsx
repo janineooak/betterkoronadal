@@ -28,63 +28,67 @@ const Footer: React.FC = () => {
   const isExternal = (href: string) => /^https?:\/\//.test(href);
 
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto px-4 pt-12 pb-8">
-        <div className="mb-10 max-w-2xl">
-          <div>
-            <div className="flex items-center mb-4">
-              <img
-                src="/Better.png"
-                alt={t('footer.logoAlt')}
-                className="h-12 w-12 mr-3"
-              />
+    <footer className="mt-auto bg-kapwa-brand-950 text-neutral-300">
+      <div className="container-gov pt-14 pb-8">
+        <div className="grid gap-10 lg:grid-cols-[1.3fr_repeat(4,minmax(0,1fr))]">
+          <div className="max-w-sm">
+            <div>
+              <div className="flex items-center mb-4">
+                <img
+                  src="/Better.png"
+                  alt={t('footer.logoAlt')}
+                  className="h-10 w-10 mr-3"
+                />
 
-              <div>
-                <div className="font-bold">{t('site_name')}</div>
-                <div className="text-xs text-gray-400">
-                  {t('footer.tagline')}
+                <div>
+                  <div className="font-black tracking-tight leading-none text-2xl text-white">
+                    Better
+                    <span className="text-kapwa-yellow-400">Koronadal</span>
+                    <span className="text-kapwa-red-500">.</span>
+                  </div>
+                  <div className="mt-1 text-xs text-neutral-400">
+                    {t('footer.tagline')}
+                  </div>
                 </div>
               </div>
-            </div>
-            <p className="text-gray-400 text-sm mb-4">
-              <Trans
-                i18nKey="footer.description"
-                components={{
-                  strong: <strong className="text-gray-300" />,
-                  gov: (
-                    <a
-                      href="https://koronadal.gov.ph"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline hover:text-white"
-                    />
-                  ),
-                }}
-              />
-            </p>
-            <div className="flex space-x-4">
-              {footerNavigation.socialLinks.map(link => (
-                <Link
-                  key={link.label}
-                  to={link.href}
-                  className="text-gray-400 hover:text-white transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {getSocialIcon(link.label)}
-                </Link>
-              ))}
+              <p className="text-[15px] leading-snug text-neutral-300 mb-5">
+                <Trans
+                  i18nKey="footer.description"
+                  components={{
+                    strong: <strong className="text-white" />,
+                    gov: (
+                      <a
+                        href="https://koronadal.gov.ph"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-white underline decoration-white/30 underline-offset-4 hover:decoration-white"
+                      />
+                    ),
+                  }}
+                />
+              </p>
+              <div className="flex gap-2">
+                {footerNavigation.socialLinks.map(link => (
+                  <Link
+                    key={link.label}
+                    to={link.href}
+                    className="inline-flex h-9 w-9 items-center justify-center border border-white/30 text-white hover:border-white hover:bg-white hover:text-kapwa-brand-950 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {getSocialIcon(link.label)}
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {footerNavigation.mainSections.map(section => (
             <div key={section.title}>
-              <h3 className="text-lg font-semibold mb-4">
+              <h3 className="eyebrow text-neutral-400 pb-3 border-b border-white/15">
                 {t(section.titleKey, section.title)}
               </h3>
-              <ul className="space-y-2">
+              <ul className="mt-3 space-y-2 text-[15px]">
                 {section.links.map(link => {
                   const labelKey = (link as { labelKey?: string }).labelKey;
                   const label = labelKey ? t(labelKey) : link.label;
@@ -95,14 +99,14 @@ const Footer: React.FC = () => {
                           href={link.href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-gray-400 hover:text-white text-sm transition-colors"
+                          className="text-neutral-200 hover:text-white transition-colors"
                         >
                           {label}
                         </a>
                       ) : (
                         <Link
                           to={link.href}
-                          className="text-gray-400 hover:text-white text-sm transition-colors"
+                          className="text-neutral-200 hover:text-white transition-colors"
                         >
                           {label}
                         </Link>
@@ -115,27 +119,27 @@ const Footer: React.FC = () => {
           ))}
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8">
+        <div className="border-t border-white/15 mt-12 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">
+            <p className="text-neutral-400 text-sm mb-4 md:mb-0">
               {t('footer.copyright')}
             </p>
             <div className="flex space-x-6">
               <Link
                 to="/about"
-                className="text-gray-400 hover:text-white text-sm transition-colors"
+                className="text-neutral-200 hover:text-white transition-colors"
               >
                 {t('navbar.about')}
               </Link>
               <Link
                 to="/contact"
-                className="text-gray-400 hover:text-white text-sm transition-colors"
+                className="text-neutral-200 hover:text-white transition-colors"
               >
                 {t('navbar.contact')}
               </Link>
               <Link
                 to="/hotlines"
-                className="text-gray-400 hover:text-white text-sm transition-colors"
+                className="text-neutral-200 hover:text-white transition-colors"
               >
                 {t('navbar.hotlines')}
               </Link>

@@ -58,11 +58,14 @@
   },
   "governmentActivity": {
     "description": "Stay updated with the latest news, announcements, and programs of the City Government of Koronadal.",
+    "eyebrow": "City government",
     "title": "Government Activity"
   },
   "hero": {
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Business Registration",
+    "eyebrow": "Community portal · City of Koronadal",
+    "headline": "Better <accent>Koronadal</accent>.",
     "nationalId": "National ID",
     "searchAria": "Search BetterKoronadal.org",
     "searchButton": "Search",
@@ -425,6 +428,9 @@
       "timelineIntro": "The defining moments that shaped Koronadal, from its founding as a settlement district to its rise as the regional center of SOCCSKSARGEN."
     },
     "home": {
+      "liveDataDescription": "Weather, recent earthquakes and exchange rates, pulled live from official sources.",
+      "liveDataEyebrow": "Live data",
+      "liveDataTitle": "Today in Koronadal",
       "seoDescription": "An independent, community-built portal for the City of Koronadal (Marbel), capital of South Cotabato and regional center of SOCCSKSARGEN. Find services, government offices, hotlines, and city information.",
       "seoKeywords": "Koronadal, Marbel, South Cotabato, SOCCSKSARGEN, city government, services, hotlines, barangays, LGU portal",
       "seoTitle": "City of Koronadal — Community Portal | BetterKoronadal.org"
@@ -880,6 +886,7 @@
   },
   "services": {
     "description": "Access Koronadal City services quickly and easily. Find what you need for health, business, education, social welfare, and more.",
+    "eyebrow": "Services",
     "governmentServices": "City Government Services",
     "title": "Services & Information",
     "viewAll": "View All Services",

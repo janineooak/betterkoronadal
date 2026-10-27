@@ -56,32 +56,32 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-white shadow-sm sticky top-0 z-50">
+    <nav className="bg-white border-b-2 border-kapwa-brand-900 sticky top-0 z-50">
       {/* Top bar with language switcher and additional links */}
-      <div className="border-b border-gray-200">
-        <div className="container mx-auto px-4 flex justify-end items-center h-10">
+      <div className="bg-kapwa-brand-950 text-white">
+        <div className="container-gov flex justify-start sm:justify-end items-center h-9 overflow-x-auto">
           <div className="flex items-center space-x-4">
             <Link
               to="/hotlines"
-              className="text-xs text-red-600 hover:text-red-700 font-semibold transition-colors"
+              className="text-xs text-kapwa-yellow-400 hover:text-kapwa-yellow-300 font-bold whitespace-nowrap transition-colors"
             >
               🚨 {t('navbar.hotlines')}
             </Link>
             <Link
               to="/about"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
+              className="text-xs text-white/80 hover:text-white whitespace-nowrap transition-colors"
             >
               {t('navbar.aboutTheCity')}
             </Link>
             <Link
               to="/tourism"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
+              className="text-xs text-white/80 hover:text-white whitespace-nowrap transition-colors"
             >
               {t('navbar.visit')}
             </Link>
             <a
               href="https://southcotabato.gov.ph"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
+              className="text-xs text-white/80 hover:text-white whitespace-nowrap transition-colors"
               target="_blank"
               rel="noreferrer"
             >
@@ -89,7 +89,7 @@ const Navbar: React.FC = () => {
             </a>
             <a
               href="https://www.gov.ph"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
+              className="text-xs text-white/80 hover:text-white whitespace-nowrap transition-colors"
               target="_blank"
               rel="noreferrer"
             >
@@ -97,7 +97,7 @@ const Navbar: React.FC = () => {
             </a>
             <a
               href="https://koronadal.gov.ph"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
+              className="text-xs text-white/80 hover:text-white whitespace-nowrap transition-colors"
               target="_blank"
               rel="noreferrer"
             >
@@ -109,7 +109,7 @@ const Navbar: React.FC = () => {
                   value={i18n.language}
                   onChange={e => changeLanguage(e.target.value as LanguageType)}
                   aria-label={t('navbar.selectLanguage', 'Select language')}
-                  className="text-xs border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
+                  className="text-xs border border-white/30 px-2 py-0.5 bg-kapwa-brand-950 text-white hover:border-white focus:outline-none focus:border-white"
                 >
                   {AVAILABLE_LANGUAGES.map(lang => (
                     <option key={lang.code} value={lang.code}>
@@ -124,20 +124,21 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Main navigation */}
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center py-4">
+      <div className="container-gov">
+        <div className="flex justify-between items-center gap-6 h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img
                 src="/Better.png"
                 alt="BetterKoronadal.org logo"
-                className="h-12 w-12 mr-3"
+                className="h-10 w-10 mr-3"
               />
               <div>
-                <div className="text-black font-bold">
-                  {import.meta.env.VITE_GOVERNMENT_NAME}
+                <div className="font-black tracking-tight leading-none text-xl text-neutral-900">
+                  Better<span className="text-kapwa-brand-900">Koronadal</span>
+                  <span className="text-kapwa-red-600">.</span>
                 </div>
-                <div className="text-xs text-gray-800">
+                <div className="mt-1 hidden sm:block text-[10px] font-bold uppercase tracking-[0.18em] text-neutral-500">
                   {t('site_description')}
                 </div>
               </div>
@@ -145,23 +146,23 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Desktop navigation */}
-          <div className="hidden lg:flex items-center space-x-8 pr-24">
+          <div className="hidden lg:flex items-center space-x-8">
             {mainNavigation.map(item => (
               <div key={item.label} className="relative group">
                 <a
                   href={item.href}
-                  className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
+                  className="flex items-center text-sm text-neutral-900 hover:text-kapwa-brand-900 font-semibold transition-colors"
                 >
                   {t(`navbar.${item.label.replace(' ', '').toLowerCase()}`)}
                   {item.children && (
-                    <ChevronDown className="ml-1 h-4 w-4 text-gray-800 group-hover:text-primary-600 transition-colors" />
+                    <ChevronDown className="ml-1 h-4 w-4 text-neutral-500 group-hover:text-kapwa-brand-900 transition-colors" />
                   )}
                 </a>
                 {item.children && (
                   <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 w-[640px] max-w-[92vw] opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 z-50">
-                    <div className="rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 p-4">
-                      <div className="flex items-center justify-between mb-3 pb-2 border-b border-gray-100">
-                        <span className="text-sm font-semibold text-gray-900">
+                    <div className="bg-white border-2 border-kapwa-brand-900 p-4 shadow-[6px_6px_0_0_var(--color-kapwa-brand-900)]">
+                      <div className="flex items-center justify-between mb-3 pb-2 border-b-2 border-kapwa-brand-900">
+                        <span className="eyebrow text-kapwa-brand-900">
                           {t(
                             `navbar.${item.label
                               .replace(' ', '')
@@ -170,7 +171,7 @@ const Navbar: React.FC = () => {
                         </span>
                         <Link
                           to={item.href}
-                          className="text-xs font-medium text-primary-600 hover:text-primary-700"
+                          className="text-xs font-semibold text-neutral-900 hover:text-kapwa-brand-900"
                         >
                           {t('navbar.viewAll')} &rarr;
                         </Link>
@@ -184,7 +185,7 @@ const Navbar: React.FC = () => {
                           <Link
                             key={child.label}
                             to={child.href}
-                            className="flex items-center gap-2 rounded px-3 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
+                            className="flex items-center gap-2 px-3 py-2 text-sm text-neutral-800 hover:bg-kapwa-brand-50 hover:text-kapwa-brand-900 transition-colors"
                             role="menuitem"
                           >
                             <NavIcon
@@ -203,33 +204,31 @@ const Navbar: React.FC = () => {
               </div>
             ))}
           </div>
-          <div className="hidden lg:flex items-center space-x-6">
+          <div className="hidden lg:flex items-center gap-5 text-sm font-semibold text-neutral-900">
             <Link
               to="/search"
-              className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
+              className="flex items-center hover:text-kapwa-brand-900 transition-colors"
             >
               <Search className="h-4 w-4 mr-1" />
               {t('navbar.search')}
             </Link>
             <Link
               to="/about"
-              className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
+              className="hover:text-kapwa-brand-900 transition-colors"
             >
-              <Info className="h-4 w-4 mr-1" />
               {t('navbar.about')}
             </Link>
             <Link
               to="/contact"
-              className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
+              className="hover:text-kapwa-brand-900 transition-colors"
             >
-              <Mail className="h-4 w-4 mr-1" />
               {t('navbar.contact')}
             </Link>
             <Link
               to="/hotlines"
-              className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
+              className="inline-flex h-9 items-center gap-1.5 bg-kapwa-brand-900 px-4 text-white hover:bg-kapwa-brand-950 transition-colors"
             >
-              <Phone className="h-4 w-4 mr-1" />
+              <Phone className="h-4 w-4" />
               {t('navbar.hotlines')}
             </Link>
           </div>
@@ -238,7 +237,7 @@ const Navbar: React.FC = () => {
           <div className="lg:hidden flex items-center">
             <button
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
+              className="inline-flex items-center justify-center p-2 text-neutral-900 border-2 border-kapwa-brand-900 hover:bg-kapwa-brand-50 focus:outline-none"
             >
               <span className="sr-only">{t('navbar.openMenu')}</span>
               {isOpen ? (
@@ -253,7 +252,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile menu */}
       <div className={`lg:hidden ${isOpen ? 'block' : 'hidden'}`}>
-        <div className="container mx-auto px-2 pt-2 pb-4 space-y-1 border-t border-gray-200 bg-white">
+        <div className="container-gov pt-2 pb-4 space-y-1 border-t border-neutral-200 bg-white">
           {mainNavigation.map(item => (
             <div key={item.label}>
               <button

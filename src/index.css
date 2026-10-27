@@ -142,3 +142,35 @@
 .sticky-table tbody tr:hover td:first-child {
   background-color: #f3f4f6;
 }
+
+/* Editorial look (modelled on regov.app): square corners everywhere, a
+   centred page container, and small uppercase "eyebrow" labels. */
+.editorial,
+.editorial *,
+.editorial ::before,
+.editorial ::after {
+  border-radius: 0 !important;
+}
+
+.container-gov {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 40rem) {
+  .container-gov {
+    padding-inline: 2rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .container-gov {
+    padding-inline: 3rem;
+  }
+}
+
+.eyebrow {
+  @apply text-[11px] font-bold uppercase tracking-[0.18em];
+}

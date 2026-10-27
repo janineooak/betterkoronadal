@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 import {
   Search,
   Building2,
@@ -13,8 +13,6 @@ import {
   Siren,
   ArrowRight,
 } from 'lucide-react';
-import { Heading } from '../ui/Heading';
-import { Text } from '../ui/Text';
 
 interface Task {
   labelKey: string;
@@ -79,88 +77,105 @@ export default function Hero() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-primary-600 to-primary-700 text-white py-12 md:py-20">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
-          {/* Left section with title and search */}
-          <div className="animate-fade-in">
-            <Text transform="uppercase">{t('hero.welcomeTo')}</Text>
-            <Heading>{import.meta.env.VITE_GOVERNMENT_NAME}</Heading>
-            <Text>{t('hero.subtitle')}</Text>
+    <section className="relative overflow-hidden bg-white">
+      {/* Soft brand wash at the bottom, standing in for regov's hero photo */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-2/3 bg-[linear-gradient(180deg,rgba(255,255,255,0)_0%,var(--color-kapwa-brand-50)_100%)]"
+      />
+      <div className="relative container-gov pt-14 pb-16 lg:pt-20 lg:pb-20">
+        <div className="text-center animate-fade-in">
+          <p className="eyebrow text-kapwa-brand-900">{t('hero.eyebrow')}</p>
+          <h1 className="mt-5 text-5xl sm:text-6xl xl:text-[84px] font-black tracking-tight leading-[0.95] text-neutral-900">
+            <Trans
+              i18nKey="hero.headline"
+              components={{
+                accent: <span className="text-kapwa-brand-900" />,
+              }}
+            />
+          </h1>
+          <p className="mx-auto mt-6 max-w-2xl text-lg sm:text-xl text-neutral-600 leading-snug">
+            {t('hero.subtitle')}
+          </p>
 
-            <form onSubmit={onSubmit} className="mt-6 max-w-md">
-              <div className="flex items-center gap-2 rounded-lg bg-white p-1.5 shadow-sm">
-                <Search className="ml-2 h-5 w-5 text-gray-400" />
-                <input
-                  type="search"
-                  value={query}
-                  onChange={e => setQuery(e.target.value)}
-                  placeholder={t('hero.searchPlaceholder')}
-                  aria-label={t('hero.searchAria')}
-                  className="w-full bg-transparent py-1.5 text-gray-900 outline-none placeholder:text-gray-400"
-                />
-                <button
-                  type="submit"
-                  className="rounded-md bg-primary-600 px-4 py-2 text-sm font-medium text-white hover:bg-primary-700"
-                >
+          <form onSubmit={onSubmit} className="mx-auto mt-10 max-w-2xl">
+            <div className="flex border-2 border-kapwa-brand-900 bg-white">
+              <Search
+                aria-hidden="true"
+                className="ml-4 h-5 w-5 self-center shrink-0 text-neutral-400"
+              />
+              <input
+                type="search"
+                value={query}
+                onChange={e => setQuery(e.target.value)}
+                placeholder={t('hero.searchPlaceholder')}
+                aria-label={t('hero.searchAria')}
+                className="min-w-0 flex-1 bg-transparent px-3 h-14 text-base sm:text-lg text-neutral-900 placeholder:text-neutral-400 focus:outline-none"
+              />
+              <button
+                type="submit"
+                className="shrink-0 bg-kapwa-brand-900 px-4 sm:px-6 font-bold text-white hover:bg-kapwa-brand-950 transition inline-flex items-center gap-2"
+              >
+                <span className="hidden sm:inline">
                   {t('hero.searchButton')}
-                </button>
-              </div>
-            </form>
+                </span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        {/* Top tasks, as a shared-border grid */}
+        <div className="mt-16">
+          <div className="flex flex-wrap items-end justify-between gap-3 mb-4">
+            <div className="eyebrow text-neutral-500">{t('hero.topTasks')}</div>
+            <Link
+              to="/services"
+              className="text-sm font-semibold text-neutral-900 hover:text-kapwa-brand-900"
+            >
+              {t('hero.viewAllServices')} →
+            </Link>
           </div>
-
-          {/* Right section with top tasks */}
-          <div className="animate-fade-in lg:animate-slide-in">
-            <div className="rounded-2xl border border-white/20 bg-white/10 p-5 shadow-xl backdrop-blur-sm sm:p-6">
-              <div className="mb-4 flex items-center justify-between">
-                <div>
-                  <h2 className="text-base font-semibold text-white">
-                    {t('hero.topTasks')}
-                  </h2>
-                  <p className="text-sm text-white/70">
-                    {t('hero.topTasksSubtitle')}
-                  </p>
-                </div>
-              </div>
-
-              <div className="grid grid-cols-2 gap-3">
-                {tasks.map(({ labelKey, to, Icon, highlight }) => (
-                  <Link
-                    key={to}
-                    to={to}
-                    className={`group flex items-center gap-3 rounded-xl border p-3 transition-all hover:-translate-y-0.5 ${
-                      highlight
-                        ? 'border-red-300/40 bg-red-500/20 hover:bg-red-500/30'
-                        : 'border-white/15 bg-white/10 hover:border-white/40 hover:bg-white/20'
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border-t border-l border-kapwa-brand-900 bg-white">
+            {tasks.map(({ labelKey, to, Icon, highlight }, i) => (
+              <li key={to} className="border-r border-b border-kapwa-brand-900">
+                <Link
+                  to={to}
+                  className={`group flex h-full items-center gap-4 p-4 transition-colors ${
+                    highlight
+                      ? 'bg-kapwa-red-600 text-white hover:bg-kapwa-red-700'
+                      : 'hover:bg-kapwa-brand-50'
+                  }`}
+                >
+                  <span
+                    className={`text-xs font-bold tabular-nums ${
+                      highlight ? 'text-white/80' : 'text-kapwa-brand-900'
                     }`}
                   >
-                    <span
-                      className={`inline-flex shrink-0 rounded-lg p-2 ${
-                        highlight
-                          ? 'bg-red-100 text-red-600'
-                          : 'bg-white text-primary-600'
-                      }`}
-                    >
-                      <Icon className="h-5 w-5" />
-                    </span>
-                    <span className="text-sm font-medium leading-snug text-white">
-                      {t(labelKey)}
-                    </span>
-                  </Link>
-                ))}
-              </div>
-
-              <Link
-                to="/services"
-                className="group mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-white/90 hover:text-white"
-              >
-                {t('hero.viewAllServices')}
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-              </Link>
-            </div>
-          </div>
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  <Icon
+                    className={`h-5 w-5 shrink-0 ${
+                      highlight ? 'text-white' : 'text-kapwa-brand-900'
+                    }`}
+                  />
+                  <span
+                    className={`flex-1 text-[15px] font-semibold leading-snug ${
+                      highlight ? 'text-white' : 'text-neutral-900'
+                    }`}
+                  >
+                    {t(labelKey)}
+                  </span>
+                  <ArrowRight
+                    aria-hidden="true"
+                    className="h-4 w-4 shrink-0 opacity-0 -translate-x-1 transition group-hover:opacity-100 group-hover:translate-x-0"
+                  />
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

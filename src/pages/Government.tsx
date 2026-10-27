@@ -132,6 +132,7 @@ const Government: React.FC = () => {
           keywords={t('pages.services.seoKeywords')}
         />
         <GovernmentActivitySection
+          index="01"
           title={t('pages.services.allServicesTitle')}
           description={t('pages.services.seoDescription', {
             government: import.meta.env.VITE_GOVERNMENT_NAME,

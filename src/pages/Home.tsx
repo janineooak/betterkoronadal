@@ -5,7 +5,7 @@ import EarthquakeWidget from '../components/home/EarthquakeWidget';
 import ForexWidget from '../components/home/ForexWidget';
 import ServicesSection from '../components/home/ServicesSection';
 import GovernmentActivitySection from '../components/home/GovernmentActivitySection';
-import Section from '../components/ui/Section';
+import SectionHeader from '../components/ui/SectionHeader';
 import SEO from '../components/SEO';
 
 const Home: React.FC = () => {
@@ -24,15 +24,21 @@ const Home: React.FC = () => {
             forex) follow below. */}
         <ServicesSection />
         <GovernmentActivitySection />
-        <Section className="bg-gray-50">
-          <div className="grid gap-8 lg:grid-cols-2 lg:items-stretch">
+        <section className="container-gov pt-10 pb-20">
+          <SectionHeader
+            index="03"
+            label={t('pages.home.liveDataEyebrow')}
+            title={t('pages.home.liveDataTitle')}
+            description={t('pages.home.liveDataDescription')}
+          />
+          <div className="mt-8 grid gap-8 lg:grid-cols-2 lg:items-stretch">
             <WeatherWidget />
             <EarthquakeWidget />
           </div>
           <div className="mt-8">
             <ForexWidget />
           </div>
-        </Section>
+        </section>
       </main>
     </>
   );
