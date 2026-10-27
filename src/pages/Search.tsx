@@ -26,6 +26,11 @@ const Search: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get('q') ?? '';
   const [input, setInput] = useState(query);
+  const [syncedQuery, setSyncedQuery] = useState(query);
+  if (query !== syncedQuery) {
+    setSyncedQuery(query);
+    setInput(query);
+  }
   const [entries, setEntries] = useState<SearchEntry[]>([]);
 
   useEffect(() => {
@@ -37,10 +42,6 @@ const Search: React.FC = () => {
       active = false;
     };
   }, []);
-
-  useEffect(() => {
-    setInput(query);
-  }, [query]);
 
   const results = useMemo(
     () => searchEntries(entries, query),

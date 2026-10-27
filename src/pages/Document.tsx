@@ -51,17 +51,17 @@ export default function Document({
     { label: 'Home', href: '/' },
   ]);
 
+  const missingParams = !documentSlug || !category || !categoryType;
+
   useEffect(() => {
-    if (!documentSlug || !category || !categoryType) {
-      setError('No document specified');
-      setLoading(false);
-      return;
-    }
+    if (!documentSlug || !category || !categoryType) return;
 
     const loadContent = async () => {
       try {
         setLoading(true);
         setError(null);
+        setNestedIndex(null);
+        setMarkdownContent(null);
 
         const isGovernment = categoryType === 'government';
         const categories = isGovernment
@@ -121,6 +121,19 @@ export default function Document({
 
     loadContent();
   }, [documentSlug, category, categoryType, lang]);
+
+  if (missingParams) {
+    return (
+      <Section className="p-3 mb-12">
+        <Banner
+          type="error"
+          title="Document Not Found"
+          description="No document specified"
+          icon
+        />
+      </Section>
+    );
+  }
 
   if (loading) {
     return (

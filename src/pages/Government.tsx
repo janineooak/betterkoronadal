@@ -25,7 +25,7 @@ const Government: React.FC = () => {
     layout: 'list',
     pages: [],
   });
-  const [loading, setLoading] = useState(false);
+  const [loadedKey, setLoadedKey] = useState<string | null>(null);
   const subcategories: Subcategory[] = categoryIndex.pages;
 
   const getCategory = () => {
@@ -102,15 +102,24 @@ const Government: React.FC = () => {
     );
   };
 
+  const requestKey = category && categoryData ? `${category}|${lang}` : null;
+  const loading = requestKey !== null && loadedKey !== requestKey;
+
   useEffect(() => {
-    if (category && categoryData) {
-      setLoading(true);
-      getCategorySubcategories(category, lang)
-        .then(setCategoryIndex)
-        .catch(console.error)
-        .finally(() => setLoading(false));
-    }
-  }, [category, categoryData, lang]);
+    if (!requestKey || !category) return;
+    let active = true;
+    getCategorySubcategories(category, lang)
+      .then(index => {
+        if (active) setCategoryIndex(index);
+      })
+      .catch(console.error)
+      .finally(() => {
+        if (active) setLoadedKey(requestKey);
+      });
+    return () => {
+      active = false;
+    };
+  }, [requestKey, category, lang]);
 
   if (!category) {
     return (

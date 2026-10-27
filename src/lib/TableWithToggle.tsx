@@ -103,13 +103,11 @@ export const TableWithToggle = ({
   }, []);
 
   // Set default view based on screen size
-  useEffect(() => {
-    if (isMobile) {
-      setViewMode('list');
-    } else {
-      setViewMode('table');
-    }
-  }, [isMobile]);
+  const [prevIsMobile, setPrevIsMobile] = useState(isMobile);
+  if (isMobile !== prevIsMobile) {
+    setPrevIsMobile(isMobile);
+    setViewMode(isMobile ? 'list' : 'table');
+  }
 
   // Extract table data for list view
   const tableData = useMemo(() => {

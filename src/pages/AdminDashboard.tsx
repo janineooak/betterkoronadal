@@ -181,7 +181,7 @@ const AdminDashboard: React.FC = () => {
   const [subs, setSubs] = useState<Submission[]>([]);
   const [sensitive, setSensitive] = useState<SensitiveItem[]>([]);
   const [entries, setEntries] = useState<EntryRow[]>([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(authed);
   const [busyIds, setBusyIds] = useState<Set<string>>(new Set());
   const [notes, setNotes] = useState<Record<string, string>>({});
   const [banner, setBanner] = useState<{
@@ -193,37 +193,59 @@ const AdminDashboard: React.FC = () => {
   const [kindFilter, setKindFilter] = useState<string>('all');
   const [query, setQuery] = useState('');
 
-  const load = useCallback(async () => {
-    setLoading(true);
-    try {
-      const [s, e] = await Promise.all([
-        adminListSubmissions(),
-        adminListEntries(),
-      ]);
+  const fetchAdminData = () =>
+    Promise.all([adminListSubmissions(), adminListEntries()]);
+
+  const applyAdminData = useCallback(
+    ([s, e]: Awaited<ReturnType<typeof fetchAdminData>>) => {
       setSubs(s);
       setSensitive(e.sensitive.filter(i => i.state === 'pending_second'));
       setEntries(e.entries);
-    } catch (ex) {
-      if (ex instanceof Error && /unauth/i.test(ex.message)) {
-        setToken(null);
-        setAuthed(false);
-      } else {
-        setBanner({
-          tone: 'error',
-          text: ex instanceof Error ? ex.message : 'Load failed.',
-        });
-      }
-    } finally {
-      setLoading(false);
+    },
+    []
+  );
+
+  const handleLoadError = useCallback((ex: unknown) => {
+    if (ex instanceof Error && /unauth/i.test(ex.message)) {
+      setToken(null);
+      setAuthed(false);
+    } else {
+      setBanner({
+        tone: 'error',
+        text: ex instanceof Error ? ex.message : 'Load failed.',
+      });
     }
   }, []);
 
-  useEffect(() => {
-    if (authed) {
-      setUsername(getUsername());
-      load();
+  const load = async () => {
+    setLoading(true);
+    try {
+      applyAdminData(await fetchAdminData());
+    } catch (ex) {
+      handleLoadError(ex);
+    } finally {
+      setLoading(false);
     }
-  }, [authed, load]);
+  };
+
+  // Initial load after sign-in; `loading` is already true at that point.
+  useEffect(() => {
+    if (!authed) return;
+    let active = true;
+    Promise.all([adminListSubmissions(), adminListEntries()])
+      .then(data => {
+        if (active) applyAdminData(data);
+      })
+      .catch(ex => {
+        if (active) handleLoadError(ex);
+      })
+      .finally(() => {
+        if (active) setLoading(false);
+      });
+    return () => {
+      active = false;
+    };
+  }, [authed, applyAdminData, handleLoadError]);
 
   const runAction = async (
     id: string,
@@ -317,7 +339,13 @@ const AdminDashboard: React.FC = () => {
           </div>
 
           {!authed ? (
-            <LoginForm onDone={() => setAuthed(true)} />
+            <LoginForm
+              onDone={() => {
+                setUsername(getUsername());
+                setLoading(true);
+                setAuthed(true);
+              }}
+            />
           ) : (
             <div className="mt-6 space-y-6">
               {banner && (
