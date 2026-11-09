@@ -80,7 +80,7 @@ Ini nga giya nagapaathag kon paano magkuha sang **zoning kag locational clearanc
 
 ## Impormasyon sa Pag-kontak
 
-- **Zoning / Land Use**: City Planning and Development Office (CPDO) — Pangulo: Jonathan B. Enmanuel
+- **Zoning / Land Use**: City Planning and Development Office (CPDO) — Pangulo: Nanette B. Sese
 - **Building Permits**: City Architect's Office (Arch. Marvin V. Alegria) kag City Engineering Office (Ruel C. Tianchon)
 - **Adres**: New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506
 - **Trunkline**: (083) 228-6095

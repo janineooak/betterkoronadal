@@ -8,7 +8,7 @@ The City Planning & Development Office leads the city's long-term planning, prep
 
 | Information     | Details                                                                                    |
 | --------------- | ------------------------------------------------------------------------------------------ |
-| **Office Head** | Jonathan B. Enmanuel                                                                       |
+| **Office Head** | Nanette B. Sese                                                                            |
 | **Office**      | City Planning & Development Office (CPDO)                                                  |
 | **Address**     | New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506 |
 | **Trunkline**   | (083) 228-6095                                                                             |

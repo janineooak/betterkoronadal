@@ -6,13 +6,13 @@ The City Library provides Koronadal residents and students with free public acce
 
 ## About the Office
 
-| Information     | Details                                                                                    |
-| --------------- | ------------------------------------------------------------------------------------------ |
-| **Office Head** | Erwin H. Lagustan                                                                          |
-| **Office**      | City Library                                                                               |
-| **Address**     | New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506 |
-| **Trunkline**   | (083) 228-6095                                                                             |
-| **Email**       | info.koronadalcity@gmail.com                                                               |
+| Information     | Details                                                                                                                 |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Office Head** | Erwin H. Lagustan                                                                                                       |
+| **Office**      | City Library                                                                                                            |
+| **Address**     | 2/F Koronadal Multipurpose Building, Gensan Drive cor. Morales Ave., Brgy. Zone II, Koronadal City, South Cotabato 9506 |
+| **Trunkline**   | (083) 228-6095                                                                                                          |
+| **Email**       | info.koronadalcity@gmail.com                                                                                            |
 
 ---
 
@@ -43,7 +43,7 @@ As a public library of the City Government of Koronadal, the City Library is res
 
 ## How to Avail of Services
 
-1. Visit the City Library at the New City Hall Grounds during library hours.
+1. Visit the City Library on the 2nd floor of the Koronadal Multipurpose Building during library hours.
 2. Register as a library user or member if required for the service you need.
 3. Browse the collection or ask the staff for assistance in finding materials.
 4. Use the materials and resources in line with the library's rules and policies.
@@ -55,7 +55,7 @@ As a public library of the City Government of Koronadal, the City Library is res
 **City Library**
 City Government of Koronadal
 
-- **Address:** New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506
+- **Address:** 2/F Koronadal Multipurpose Building, Gensan Drive cor. Morales Ave., Brgy. Zone II, Koronadal City, South Cotabato 9506
 - **Trunkline:** (083) 228-6095
 - **Email:** info.koronadalcity@gmail.com
 - **Facebook:** facebook.com/CityGovernmentofKoronadal

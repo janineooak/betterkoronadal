@@ -49,7 +49,7 @@ The Sangguniang Panlungsod of Koronadal is composed of the **Presiding Officer (
 - Hon. John Rey P. Rodriguez
 - Hon. Ellen Grace N. Subere-Albios
 - Hon. Margarita D. Subaldo
-- Hon. Suellen C. Ogena
+- Hon. Atty. Suellen C. Ogena — appointed in March 2026 to fill the seat vacated when Councilor Catorce became Vice Mayor
 
 ### Ex-Officio Members
 

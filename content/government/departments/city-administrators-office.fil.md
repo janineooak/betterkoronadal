@@ -8,7 +8,7 @@ Pinag-uugnay ng Tanggapan ng Administrator ng Lungsod ang pang-araw-araw na oper
 
 | Impormasyon             | Detalye                                                                                    |
 | ----------------------- | ------------------------------------------------------------------------------------------ |
-| **Pinuno ng Tanggapan** | Vicente De Jesus                                                                           |
+| **Pinuno ng Tanggapan** | Vicente R. De Jesus                                                                        |
 | **Tanggapan**           | City Administrator's Office                                                                |
 | **Tirahan**             | New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506 |
 | **Trunkline**           | (083) 228-6095                                                                             |

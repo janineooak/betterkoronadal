@@ -80,7 +80,7 @@ This guide explains how to secure **zoning and locational clearance**, **buildin
 
 ## Contact Information
 
-- **Zoning / Land Use**: City Planning and Development Office (CPDO) — Head: Jonathan B. Enmanuel
+- **Zoning / Land Use**: City Planning and Development Office (CPDO) — Head: Nanette B. Sese
 - **Building Permits**: City Architect's Office (Arch. Marvin V. Alegria) and City Engineering Office (Ruel C. Tianchon)
 - **Address**: New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506
 - **Trunkline**: (083) 228-6095

@@ -49,7 +49,7 @@ Ang Sangguniang Panlungsod ng Koronadal ay binubuo ng **Presiding Officer (Vice 
 - Hon. John Rey P. Rodriguez
 - Hon. Ellen Grace N. Subere-Albios
 - Hon. Margarita D. Subaldo
-- Hon. Suellen C. Ogena
+- Hon. Atty. Suellen C. Ogena — itinalaga noong Marso 2026 upang punan ang puwestong nabakante nang maging Pangalawang Punong Lungsod si Konsehal Catorce
 
 ### Mga Ex-Officio na Miyembro
 

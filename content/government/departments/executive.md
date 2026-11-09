@@ -12,7 +12,7 @@ The Mayor represents the city in official functions, leads local development pro
 
 The **current City Mayor is {HONORIFIC_TITLE} {MAYOR}.**
 
-Mayor **{MAYOR}** was elected **Vice Mayor of {GOVERNMENT_NAME}** in the **{YEAR_ELECTED} National and Local Elections**. She assumed the office of City Mayor on **March 9, 2026**, succeeding the late Mayor **Eliordo "Eli" Ogena**, in accordance with the rule of succession under the Local Government Code. Upon her assumption, City Councilor **{VICE_MAYOR}** succeeded as **Vice Mayor**.
+Mayor **{MAYOR}** was elected **Vice Mayor of {GOVERNMENT_NAME}** in the **{YEAR_ELECTED} National and Local Elections**. She assumed the office of City Mayor on **March 9, 2026**, succeeding the late Mayor **Eliordo "Bebot" Ogena**, in accordance with the rule of succession under the Local Government Code. Upon her assumption, City Councilor **{VICE_MAYOR}** succeeded as **Vice Mayor**.
 
 ---
 

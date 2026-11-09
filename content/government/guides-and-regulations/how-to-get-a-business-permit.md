@@ -9,7 +9,7 @@ This guide helps entrepreneurs and business owners apply for a new Mayor's (Busi
 Anyone operating or planning to operate a business within Koronadal City must secure a Mayor's/Business Permit. This applies to:
 
 - New businesses (sole proprietorship, partnership, corporation, or cooperative)
-- Existing businesses renewing their permit (generally done every January)
+- Existing businesses renewing their permit (due within the first 20 days of January — by January 20)
 - Businesses changing location, ownership, or line of business
 
 ---
@@ -51,7 +51,7 @@ For **renewal**, you will typically also need:
 
 ## Fees and Timeline
 
-Business permit fees depend on your line of business, capitalization, gross sales/receipts, and applicable regulatory fees (fire, sanitary, garbage, etc.), so amounts vary — confirm the exact assessment with the BPLO or City Treasurer's Office. Renewals are generally processed in January each year; applying or renewing early helps you avoid penalties and long queues. Processing time depends on completeness of your documents and inspection schedules.
+Business permit fees depend on your line of business, capitalization, gross sales/receipts, and applicable regulatory fees (fire, sanitary, garbage, etc.), so amounts vary — confirm the exact assessment with the BPLO or City Treasurer's Office. Renewals are due within the first 20 days of January (by January 20) each year; late renewals are charged a 25% surcharge plus 2% interest per month; applying or renewing early helps you avoid penalties and long queues. Processing time depends on completeness of your documents and inspection schedules.
 
 ---
 

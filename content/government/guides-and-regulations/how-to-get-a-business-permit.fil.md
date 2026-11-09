@@ -9,7 +9,7 @@ Tinutulungan ng gabay na ito ang mga negosyante at may-ari ng negosyo na mag-app
 Sinumang nagpapatakbo o nagbabalak magpatakbo ng negosyo sa loob ng Koronadal City ay dapat kumuha ng Mayor's/Business Permit. Nalalapat ito sa:
 
 - Mga bagong negosyo (sole proprietorship, partnership, corporation, o cooperative)
-- Mga umiiral na negosyong nagre-renew ng kanilang permit (karaniwang ginagawa tuwing Enero)
+- Mga umiiral na negosyong nagre-renew ng kanilang permit (dapat gawin sa unang 20 araw ng Enero — hanggang Enero 20)
 - Mga negosyong nagbabago ng lokasyon, pagmamay-ari, o uri ng negosyo
 
 ---
@@ -51,7 +51,7 @@ Para sa **renewal**, karaniwan ding kakailanganin mo ang mga sumusunod:
 
 ## Mga Bayarin at Timeline
 
-Ang mga bayarin sa business permit ay nakadepende sa iyong uri ng negosyo, kapitalisasyon, gross sales/receipts, at naaangkop na mga regulatory fee (fire, sanitary, garbage, atbp.), kaya nag-iiba-iba ang halaga — kumpirmahin ang eksaktong pagtatasa sa BPLO o City Treasurer's Office. Ang mga renewal ay karaniwang naproproseso tuwing Enero bawat taon; ang maagang pag-apply o pag-renew ay tumutulong upang maiwasan ang mga multa at mahahabang pila. Ang oras ng pagproseso ay nakadepende sa pagkakumpleto ng iyong mga dokumento at iskedyul ng inspeksiyon.
+Ang mga bayarin sa business permit ay nakadepende sa iyong uri ng negosyo, kapitalisasyon, gross sales/receipts, at naaangkop na mga regulatory fee (fire, sanitary, garbage, atbp.), kaya nag-iiba-iba ang halaga — kumpirmahin ang eksaktong pagtatasa sa BPLO o City Treasurer's Office. Ang mga renewal ay dapat gawin sa unang 20 araw ng Enero (hanggang Enero 20) bawat taon; ang huling renewal ay may 25% surcharge at 2% interes kada buwan; ang maagang pag-apply o pag-renew ay tumutulong upang maiwasan ang mga multa at mahahabang pila. Ang oras ng pagproseso ay nakadepende sa pagkakumpleto ng iyong mga dokumento at iskedyul ng inspeksiyon.
 
 ---
 

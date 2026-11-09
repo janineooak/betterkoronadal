@@ -6,13 +6,13 @@ Ang Aklatan ng Lungsod ay nagbibigay sa mga residente at mag-aaral ng Koronadal 
 
 ## Tungkol sa Tanggapan
 
-| Impormasyon             | Detalye                                                                                    |
-| ----------------------- | ------------------------------------------------------------------------------------------ |
-| **Pinuno ng Tanggapan** | Erwin H. Lagustan                                                                          |
-| **Tanggapan**           | City Library                                                                               |
-| **Address**             | New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506 |
-| **Trunkline**           | (083) 228-6095                                                                             |
-| **Email**               | info.koronadalcity@gmail.com                                                               |
+| Impormasyon             | Detalye                                                                                                                 |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Pinuno ng Tanggapan** | Erwin H. Lagustan                                                                                                       |
+| **Tanggapan**           | City Library                                                                                                            |
+| **Address**             | 2/F Koronadal Multipurpose Building, Gensan Drive cor. Morales Ave., Brgy. Zone II, Koronadal City, South Cotabato 9506 |
+| **Trunkline**           | (083) 228-6095                                                                                                          |
+| **Email**               | info.koronadalcity@gmail.com                                                                                            |
 
 ---
 
@@ -43,7 +43,7 @@ Bilang pampublikong aklatan ng City Government of Koronadal, ang Aklatan ng Lung
 
 ## Paano Makinabang sa mga Serbisyo
 
-1. Bisitahin ang Aklatan ng Lungsod sa New City Hall Grounds sa oras ng aklatan.
+1. Bisitahin ang Aklatan ng Lungsod sa ikalawang palapag ng Koronadal Multipurpose Building sa oras ng aklatan.
 2. Magparehistro bilang gumagamit o miyembro ng aklatan kung kinakailangan para sa serbisyong inyong kailangan.
 3. Tingnan ang koleksiyon o humingi ng tulong sa mga kawani sa paghahanap ng mga materyales.
 4. Gamitin ang mga materyales at mapagkukunan alinsunod sa mga patakaran at panuntunan ng aklatan.
@@ -55,7 +55,7 @@ Bilang pampublikong aklatan ng City Government of Koronadal, ang Aklatan ng Lung
 **City Library**
 City Government of Koronadal
 
-- **Address:** New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506
+- **Address:** 2/F Koronadal Multipurpose Building, Gensan Drive cor. Morales Ave., Brgy. Zone II, Koronadal City, South Cotabato 9506
 - **Trunkline:** (083) 228-6095
 - **Email:** info.koronadalcity@gmail.com
 - **Facebook:** facebook.com/CityGovernmentofKoronadal

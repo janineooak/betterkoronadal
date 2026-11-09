@@ -8,7 +8,7 @@ Ang City Administrator's Office nagakoordina sang adlaw-adlaw nga operasyon sang
 
 | Impormasyon              | Detalye                                                                                    |
 | ------------------------ | ------------------------------------------------------------------------------------------ |
-| **Pangulo sang Opisina** | Vicente De Jesus                                                                           |
+| **Pangulo sang Opisina** | Vicente R. De Jesus                                                                        |
 | **Opisina**              | City Administrator's Office                                                                |
 | **Adres**                | New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506 |
 | **Trunkline**            | (083) 228-6095                                                                             |

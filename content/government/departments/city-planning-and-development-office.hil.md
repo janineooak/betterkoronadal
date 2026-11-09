@@ -8,7 +8,7 @@ Ang Opisina sang Pagplano kag Pagpalambo sang Dakbanwa nagapanguna sa malawigon 
 
 | Impormasyon              | Detalye                                                                                    |
 | ------------------------ | ------------------------------------------------------------------------------------------ |
-| **Pangulo sang Opisina** | Jonathan B. Enmanuel                                                                       |
+| **Pangulo sang Opisina** | Nanette B. Sese                                                                            |
 | **Opisina**              | City Planning & Development Office (CPDO)                                                  |
 | **Adres**                | New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506 |
 | **Trunkline**            | (083) 228-6095                                                                             |

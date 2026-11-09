@@ -84,9 +84,9 @@ const milestones = [
     icon: Award,
   },
   {
-    date: 'March 9, 2026',
+    date: 'March 2026',
     title: 'A succession in leadership',
-    body: 'Mayor Eliordo U. Ogena passed away in office. Vice Mayor Erlinda “Bing” Pabi-Araquil succeeded to the mayoralty, with Ma. Ester M. Catorce assuming the office of Vice Mayor.',
+    body: 'Mayor Eliordo U. Ogena passed away in office on March 8, 2026. On March 9, Vice Mayor Erlinda “Bing” Pabi-Araquil succeeded to the mayoralty, with Ma. Ester M. Catorce assuming the office of Vice Mayor.',
     icon: ScrollText,
   },
 ];
@@ -148,13 +148,12 @@ const municipalMayors: Mayor[] = [
     name: 'Frederico M. Dizon Sr.',
     note: 'Koronadal named capital of South Cotabato (1966)',
   },
-  { years: '1972–1975', name: 'Gerardo T. Calaliman' },
-  { years: '1975–1986', name: 'Ismael D. Sueno' },
+  { years: '1972–1980', name: 'Gerardo T. Calaliman' },
+  { years: '1980–1986', name: 'Ismael D. Sueño' },
   { years: '1986–1988', name: 'Hilario L. de Pedro III' },
   {
     years: '1988–1998',
     name: 'Fernando Q. Miguel',
-    note: 'Last mayor before cityhood',
   },
 ];
 
@@ -163,19 +162,18 @@ const cityMayors: Mayor[] = [
   {
     years: '1998–2001',
     name: 'Vicente R. de Jesus',
-    note: 'First City Mayor of Koronadal',
+    note: 'Last Municipal Mayor and first City Mayor of Koronadal (2000)',
   },
   {
-    years: '2001–2007',
+    years: '2001–2010',
     name: 'Fernando Q. Miguel',
     note: 'Koronadal designated regional center of SOCCSKSARGEN (2004)',
   },
-  { years: '2007–2010', name: 'Vicente R. de Jesus' },
   { years: '2010–2019', name: 'Peter B. Miguel' },
   {
     years: '2019–2026',
     name: 'Eliordo U. Ogena',
-    note: 'Passed away in office, March 9, 2026',
+    note: 'Passed away in office, March 8, 2026',
   },
   {
     years: '2026–present',

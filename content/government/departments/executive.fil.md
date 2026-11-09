@@ -12,7 +12,7 @@ Kinakatawan ng Punong Lungsod ang lungsod sa mga opisyal na gawain, nangunguna s
 
 Ang **kasalukuyang Punong Lungsod ay si {HONORIFIC_TITLE} {MAYOR}.**
 
-Si Mayor **{MAYOR}** ay inihalal na **Pangalawang Punong Lungsod ng {GOVERNMENT_NAME}** sa **{YEAR_ELECTED} National and Local Elections**. Inako niya ang tungkulin ng Punong Lungsod noong **March 9, 2026**, bilang kahalili ng yumaong Mayor **Eliordo "Eli" Ogena**, alinsunod sa tuntunin ng pagkakahalili sa ilalim ng Local Government Code. Sa kanyang pag-ako ng tungkulin, si City Councilor **{VICE_MAYOR}** ang humalili bilang **Pangalawang Punong Lungsod**.
+Si Mayor **{MAYOR}** ay inihalal na **Pangalawang Punong Lungsod ng {GOVERNMENT_NAME}** sa **{YEAR_ELECTED} National and Local Elections**. Inako niya ang tungkulin ng Punong Lungsod noong **March 9, 2026**, bilang kahalili ng yumaong Mayor **Eliordo "Bebot" Ogena**, alinsunod sa tuntunin ng pagkakahalili sa ilalim ng Local Government Code. Sa kanyang pag-ako ng tungkulin, si City Councilor **{VICE_MAYOR}** ang humalili bilang **Pangalawang Punong Lungsod**.
 
 ---
 

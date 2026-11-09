@@ -8,7 +8,7 @@ Ang Tanggapan ng Pagpaplano at Pagpapaunlad ng Lungsod ang nangunguna sa pangmat
 
 | Impormasyon             | Detalye                                                                                    |
 | ----------------------- | ------------------------------------------------------------------------------------------ |
-| **Pinuno ng Tanggapan** | Jonathan B. Enmanuel                                                                       |
+| **Pinuno ng Tanggapan** | Nanette B. Sese                                                                            |
 | **Tanggapan**           | City Planning & Development Office (CPDO)                                                  |
 | **Address**             | New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506 |
 | **Trunkline**           | (083) 228-6095                                                                             |

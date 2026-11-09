@@ -124,7 +124,7 @@ Kumpirmahon ang imo eksakto nga kalkulasyon sa CPDO–Zoning antes magbayad.
 ## Impormasyon sa Pagkontak
 
 - **Opisina**: City Planning & Development Office – Zoning Division
-- **Pangulo**: Jonathan B. Enmanuel, CPDO
+- **Pangulo**: Nanette B. Sese, CPDO
 - **Direksyon**: New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506
 - **Telepono**: (083) 228-6095 (City Hall trunkline; pangabaya nga ikonektar sa opisina)
 - **Email**: info.koronadalcity@gmail.com

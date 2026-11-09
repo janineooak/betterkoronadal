@@ -9,7 +9,7 @@ Ini nga giya nagabulig sa mga negosyante kag tag-iya sang negosyo nga mag-aplay 
 Bisan sin-o nga nagapadalagan ukon nagaplano nga magpadalagan sang negosyo sa sulod sang Koronadal City dapat magkuha sang Mayor's/Business Permit. Ini nagaaplikar sa:
 
 - Mga bag-o nga negosyo (sole proprietorship, partnership, corporation, ukon cooperative)
-- Mga nagaeksister nga negosyo nga nagarenew sang ila permit (kinaandan nga ginahimo kada Enero)
+- Mga nagaeksister nga negosyo nga nagarenew sang ila permit (dapat himuon sa una nga 20 ka adlaw sang Enero — antes mag-Enero 20)
 - Mga negosyo nga nagabag-o sang lokasyon, pagkatag-iya, ukon linya sang negosyo
 
 ---
@@ -51,7 +51,7 @@ Para sa **renewal**, kinaandan nga magakinahanglan ka man sang:
 
 ## Mga Bayad kag Timeline
 
-Ang mga bayad sang business permit nasandig sa imo linya sang negosyo, kapitalisasyon, gross sales/receipts, kag angay nga mga regulatory fees (sunog, sanitary, basura, kag iban pa), gani nagakabaylo ang kantidad — pamatud-i ang eksakto nga pagtimbang sa BPLO ukon City Treasurer's Office. Ang mga renewal kinaandan nga ginaproseso sa Enero kada tuig; ang pag-aplay ukon pag-renew sing temprano nagabulig sa imo nga malikawan ang mga multa kag malaba nga pila. Ang oras sang proseso nagasandig sa pagkakompleto sang imo mga dokumento kag mga iskedyul sang inspeksyon.
+Ang mga bayad sang business permit nasandig sa imo linya sang negosyo, kapitalisasyon, gross sales/receipts, kag angay nga mga regulatory fees (sunog, sanitary, basura, kag iban pa), gani nagakabaylo ang kantidad — pamatud-i ang eksakto nga pagtimbang sa BPLO ukon City Treasurer's Office. Ang mga renewal dapat himuon sa una nga 20 ka adlaw sang Enero (antes mag-Enero 20) kada tuig; ang ulihi nga renewal may 25% surcharge kag 2% interes kada bulan; ang pag-aplay ukon pag-renew sing temprano nagabulig sa imo nga malikawan ang mga multa kag malaba nga pila. Ang oras sang proseso nagasandig sa pagkakompleto sang imo mga dokumento kag mga iskedyul sang inspeksyon.
 
 ---
 

@@ -100,7 +100,7 @@ export const councilors: Official[] = [
     photo: '/officials/subaldo.png',
   },
   {
-    name: 'Hon. Suellen C. Ogena',
+    name: 'Hon. Atty. Suellen C. Ogena',
     position: 'City Councilor',
     photo: '/officials/ogena.png',
   },

@@ -1,19 +1,19 @@
 # Get Assistance for Overseas or Displaced Workers — City of Koronadal
 
-The Public Employment Service Office (PESO) supports Overseas Filipino Workers (OFWs) and workers who have lost their livelihoods. PESO helps file OFW welfare-related complaints with OWWA, runs emergency-employment assistance (TUPAD) for disadvantaged and displaced workers, and assists POEA-licensed agencies in conducting overseas recruitment activities (SRA) here in the city.
+The Public Employment Service Office (PESO) supports Overseas Filipino Workers (OFWs) and workers who have lost their livelihoods. PESO helps file OFW welfare-related complaints with OWWA, runs emergency-employment assistance (TUPAD) for disadvantaged and displaced workers, and assists DMW-licensed (formerly POEA) agencies in conducting overseas recruitment activities (SRA) here in the city.
 
 ---
 
 ## What You Need to Know
 
-| Information         | Details                                                                                                                                                                                                                                                                                                                          |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Where**           | Public Employment Service Office (PESO), New City Hall, Brgy. Zone III, Koronadal City                                                                                                                                                                                                                                           |
-| **When**            | Monday to Friday, 8:00 a.m. to 5:00 p.m.                                                                                                                                                                                                                                                                                         |
-| **Who can avail**   | OFWs or their authorized representatives (welfare complaints); underemployed, laid-off/terminated, or self-employed workers — including farmers and fishermen — who lost livelihoods to calamities, economic crises, armed conflict, or seasonality of work (TUPAD); POEA-licensed overseas placement/recruitment agencies (SRA) |
-| **Requirements**    | Vary by service — see the Requirements section below                                                                                                                                                                                                                                                                             |
-| **Fees**            | OFW welfare complaints: None — free. TUPAD: None — free. Overseas recruitment activity (SRA) assistance for agencies: PHP 300                                                                                                                                                                                                    |
-| **Processing Time** | OFW welfare complaint: about 1 hour, 7 minutes. TUPAD: about 2 days, 34 minutes (includes scheduled steps). SRA assistance: about 1 day, 8 minutes                                                                                                                                                                               |
+| Information         | Details                                                                                                                                                                                                                                                                                                                         |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Where**           | Public Employment Service Office (PESO), New City Hall, Brgy. Zone III, Koronadal City                                                                                                                                                                                                                                          |
+| **When**            | Monday to Friday, 8:00 a.m. to 5:00 p.m.                                                                                                                                                                                                                                                                                        |
+| **Who can avail**   | OFWs or their authorized representatives (welfare complaints); underemployed, laid-off/terminated, or self-employed workers — including farmers and fishermen — who lost livelihoods to calamities, economic crises, armed conflict, or seasonality of work (TUPAD); DMW-licensed overseas placement/recruitment agencies (SRA) |
+| **Requirements**    | Vary by service — see the Requirements section below                                                                                                                                                                                                                                                                            |
+| **Fees**            | OFW welfare complaints: None — free. TUPAD: None — free. Overseas recruitment activity (SRA) assistance for agencies: PHP 300                                                                                                                                                                                                   |
+| **Processing Time** | OFW welfare complaint: about 1 hour, 7 minutes. TUPAD: about 2 days, 34 minutes (includes scheduled steps). SRA assistance: about 1 day, 8 minutes                                                                                                                                                                              |
 
 ---
 
@@ -32,7 +32,7 @@ The Public Employment Service Office (PESO) supports Overseas Filipino Workers (
 - **Step 3:** Fill out the DOLE Profile Form. PESO encodes your data and prepares your application to DOLE.
 - **Step 4:** If qualified, PESO will inform you and advise you to report for orientation. Attend the orientation, then wait for the release of the DOLE KABUHAYAN assistance.
 
-### Assisting an overseas recruitment activity (for POEA-licensed agencies)
+### Assisting an overseas recruitment activity (for DMW-licensed agencies)
 
 - **Step 1:** Submit all required documents to PESO. Staff check them and schedule the Special Recruitment Activity (SRA).
 - **Step 2:** Pay the PHP 300 fee at the City Treasurer's Office and keep the Official Receipt.
@@ -56,11 +56,11 @@ The Public Employment Service Office (PESO) supports Overseas Filipino Workers (
 ### For Special Recruitment Activity (SRA) assistance — agencies
 
 - [ ] Letter of Intent approved by the City Mayor (1 original, 1 photocopy)
-- [ ] Sworn Affidavit of Undertaking (1 original, 1 photocopy, from POEA)
-- [ ] Special Recruitment Authority issued by POEA (1 original, 1 photocopy)
-- [ ] Appointment issued by POEA (1 original, 1 photocopy)
-- [ ] Approved Job Order (1 original, 1 photocopy, from POEA)
-- [ ] POEA License (1 original, 1 photocopy)
+- [ ] Sworn Affidavit of Undertaking (1 original, 1 photocopy, from DMW)
+- [ ] Special Recruitment Authority issued by DMW (1 original, 1 photocopy)
+- [ ] Appointment issued by DMW (1 original, 1 photocopy)
+- [ ] Approved Job Order (1 original, 1 photocopy, from DMW)
+- [ ] DMW License (1 original, 1 photocopy)
 - [ ] Business Permit to operate (1 original, 1 photocopy, from CMO-BPLS)
 - [ ] For a branch office: Authority to Operate as Branch Office (1 original, 1 photocopy)
 
@@ -68,7 +68,7 @@ The Public Employment Service Office (PESO) supports Overseas Filipino Workers (
 
 - **OFW complaints:** OFW or an authorized representative.
 - **TUPAD:** Underemployed, laid-off or terminated workers (due to retrenchment or permanent closure), and self-employed workers — including farmers and fishermen — who lost livelihoods because of natural calamities/disasters, economic crises, armed conflicts, and/or seasonality of work.
-- **SRA assistance:** All POEA-licensed overseas placement/recruitment agencies.
+- **SRA assistance:** All DMW-licensed overseas placement/recruitment agencies.
 
 ---
 
@@ -111,7 +111,7 @@ A: A minimum of 10 days and a maximum of 30 days, depending on the work.
 A: No. Both are free.
 
 **Q: Our agency wants to recruit OFWs in Koronadal. What's the fee and lead time?**
-A: The SRA assistance fee is PHP 300. Your agency must be POEA-licensed and must notify PESO with a Letter of Intent one week before the activity.
+A: The SRA assistance fee is PHP 300. Your agency must be DMW-licensed and must notify PESO with a Letter of Intent one week before the activity.
 
 ---
 

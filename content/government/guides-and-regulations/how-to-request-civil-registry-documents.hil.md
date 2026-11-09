@@ -1,6 +1,6 @@
 # Paano Magpangayo sang mga Dokumento sa Civil Registry — Dakbanwa sang Koronadal
 
-Ini nga giya nagabulig sa mga residente nga magpangayo sang mga dokumento sa civil registry — pareho sang sertipiko sang pagkatawo, kasal, kag kamatayon, CENOMAR, kag late registration — halin sa City Civil Registrar sang Koronadal.
+Ini nga giya nagabulig sa mga residente nga magpangayo sang mga dokumento sa civil registry — pareho sang sertipiko sang pagkatawo, kasal, kag kamatayon, CENOMAR, kag late registration — halin sa City Civil Registrar sang Koronadal. Pahanumdom: ang CENOMAR ginaguwa lamang sang Philippine Statistics Authority (PSA); ang City Civil Registrar makapadala sang imo pangayo sa PSA.
 
 ---
 

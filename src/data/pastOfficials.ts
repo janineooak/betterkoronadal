@@ -156,7 +156,7 @@ export const pastOfficials: PastOfficial[] = [
         term: '2001–2010',
       },
     ],
-    bio: 'Atty. Eliordo U. Ogena (1953–2026) was a lawyer and long-serving public official — Vice Governor of South Cotabato (2001–2010), City Vice Mayor of Koronadal (2010–2019), and City Mayor of Koronadal from 2019 until his death on March 9, 2026, at age 72.',
+    bio: 'Atty. Eliordo U. Ogena (1953–2026) was a lawyer and long-serving public official — Vice Governor of South Cotabato (2001–2010), City Vice Mayor of Koronadal (2010–2019), and City Mayor of Koronadal from 2019 until his death on March 8, 2026, at age 72.',
     achievements: [
       'As Vice Governor, helped shepherd passage of South Cotabato’s landmark open-pit mining ban.',
       'Won three terms as City Vice Mayor (2010–2019) and was elected and re-elected City Mayor (2019, 2022, 2025).',

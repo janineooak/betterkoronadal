@@ -1,19 +1,19 @@
 # Kumuha ng Tulong para sa mga Overseas o Nawalan ng Trabaho — Lungsod ng Koronadal
 
-Ang Public Employment Service Office (PESO) ay sumusuporta sa mga Overseas Filipino Workers (OFWs) at sa mga manggagawang nawalan ng kabuhayan. Tumutulong ang PESO sa paghahain ng mga reklamong may kinalaman sa welfare ng OFW sa OWWA, nagpapatakbo ng emergency-employment assistance (TUPAD) para sa mga maralita at nawalan ng trabaho, at tumutulong sa mga ahensyang lisensyado ng POEA sa pagsasagawa ng mga overseas recruitment activities (SRA) dito sa lungsod.
+Ang Public Employment Service Office (PESO) ay sumusuporta sa mga Overseas Filipino Workers (OFWs) at sa mga manggagawang nawalan ng kabuhayan. Tumutulong ang PESO sa paghahain ng mga reklamong may kinalaman sa welfare ng OFW sa OWWA, nagpapatakbo ng emergency-employment assistance (TUPAD) para sa mga maralita at nawalan ng trabaho, at tumutulong sa mga ahensyang lisensyado ng DMW (dating POEA) sa pagsasagawa ng mga overseas recruitment activities (SRA) dito sa lungsod.
 
 ---
 
 ## Ang Kailangan Mong Malaman
 
-| Impormasyon                  | Mga Detalye                                                                                                                                                                                                                                                                                                                                                                                      |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Saan**                     | Public Employment Service Office (PESO), New City Hall, Brgy. Zone III, Koronadal City                                                                                                                                                                                                                                                                                                           |
-| **Kailan**                   | Lunes hanggang Biyernes, 8:00 a.m. hanggang 5:00 p.m.                                                                                                                                                                                                                                                                                                                                            |
-| **Sino ang maaaring kumuha** | Mga OFW o ang kanilang awtorisadong kinatawan (mga reklamong pangkapakanan); mga underemployed, na-lay-off/tinanggal, o self-employed na manggagawa — kabilang ang mga magsasaka at mangingisda — na nawalan ng kabuhayan dahil sa mga kalamidad, krisis sa ekonomiya, armadong sigalot, o seasonality ng trabaho (TUPAD); mga overseas placement/recruitment agency na lisensyado ng POEA (SRA) |
-| **Mga Kinakailangan**        | Nag-iiba ayon sa serbisyo — tingnan ang seksyong Mga Kinakailangan sa ibaba                                                                                                                                                                                                                                                                                                                      |
-| **Mga Bayarin**              | Mga reklamong pangkapakanan ng OFW: Wala — libre. TUPAD: Wala — libre. Tulong sa overseas recruitment activity (SRA) para sa mga ahensya: PHP 300                                                                                                                                                                                                                                                |
-| **Oras ng Pagproseso**       | Reklamong pangkapakanan ng OFW: humigit-kumulang 1 oras, 7 minuto. TUPAD: humigit-kumulang 2 araw, 34 minuto (kasama ang mga nakatakdang hakbang). Tulong sa SRA: humigit-kumulang 1 araw, 8 minuto                                                                                                                                                                                              |
+| Impormasyon                  | Mga Detalye                                                                                                                                                                                                                                                                                                                                                                                     |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Saan**                     | Public Employment Service Office (PESO), New City Hall, Brgy. Zone III, Koronadal City                                                                                                                                                                                                                                                                                                          |
+| **Kailan**                   | Lunes hanggang Biyernes, 8:00 a.m. hanggang 5:00 p.m.                                                                                                                                                                                                                                                                                                                                           |
+| **Sino ang maaaring kumuha** | Mga OFW o ang kanilang awtorisadong kinatawan (mga reklamong pangkapakanan); mga underemployed, na-lay-off/tinanggal, o self-employed na manggagawa — kabilang ang mga magsasaka at mangingisda — na nawalan ng kabuhayan dahil sa mga kalamidad, krisis sa ekonomiya, armadong sigalot, o seasonality ng trabaho (TUPAD); mga overseas placement/recruitment agency na lisensyado ng DMW (SRA) |
+| **Mga Kinakailangan**        | Nag-iiba ayon sa serbisyo — tingnan ang seksyong Mga Kinakailangan sa ibaba                                                                                                                                                                                                                                                                                                                     |
+| **Mga Bayarin**              | Mga reklamong pangkapakanan ng OFW: Wala — libre. TUPAD: Wala — libre. Tulong sa overseas recruitment activity (SRA) para sa mga ahensya: PHP 300                                                                                                                                                                                                                                               |
+| **Oras ng Pagproseso**       | Reklamong pangkapakanan ng OFW: humigit-kumulang 1 oras, 7 minuto. TUPAD: humigit-kumulang 2 araw, 34 minuto (kasama ang mga nakatakdang hakbang). Tulong sa SRA: humigit-kumulang 1 araw, 8 minuto                                                                                                                                                                                             |
 
 ---
 
@@ -32,7 +32,7 @@ Ang Public Employment Service Office (PESO) ay sumusuporta sa mga Overseas Filip
 - **Hakbang 3:** Sagutan ang DOLE Profile Form. Ine-encode ng PESO ang iyong datos at inihahanda ang iyong aplikasyon sa DOLE.
 - **Hakbang 4:** Kung kwalipikado, ipaaalam sa iyo ng PESO at pahihintulutan kang mag-report para sa orientation. Dumalo sa orientation, pagkatapos ay hintayin ang paglabas ng DOLE KABUHAYAN assistance.
 
-### Pagtulong sa isang overseas recruitment activity (para sa mga ahensyang lisensyado ng POEA)
+### Pagtulong sa isang overseas recruitment activity (para sa mga ahensyang lisensyado ng DMW)
 
 - **Hakbang 1:** Isumite ang lahat ng kinakailangang dokumento sa PESO. Sinusuri ng mga kawani ang mga ito at itinatakda ang Special Recruitment Activity (SRA).
 - **Hakbang 2:** Bayaran ang PHP 300 na bayarin sa City Treasurer's Office at itago ang Official Receipt.
@@ -56,11 +56,11 @@ Ang Public Employment Service Office (PESO) ay sumusuporta sa mga Overseas Filip
 ### Para sa tulong sa Special Recruitment Activity (SRA) — mga ahensya
 
 - [ ] Letter of Intent na inaprubahan ng City Mayor (1 orihinal, 1 photocopy)
-- [ ] Sworn Affidavit of Undertaking (1 orihinal, 1 photocopy, mula sa POEA)
-- [ ] Special Recruitment Authority na inisyu ng POEA (1 orihinal, 1 photocopy)
-- [ ] Appointment na inisyu ng POEA (1 orihinal, 1 photocopy)
-- [ ] Aprubadong Job Order (1 orihinal, 1 photocopy, mula sa POEA)
-- [ ] POEA License (1 orihinal, 1 photocopy)
+- [ ] Sworn Affidavit of Undertaking (1 orihinal, 1 photocopy, mula sa DMW)
+- [ ] Special Recruitment Authority na inisyu ng DMW (1 orihinal, 1 photocopy)
+- [ ] Appointment na inisyu ng DMW (1 orihinal, 1 photocopy)
+- [ ] Aprubadong Job Order (1 orihinal, 1 photocopy, mula sa DMW)
+- [ ] DMW License (1 orihinal, 1 photocopy)
 - [ ] Business Permit to operate (1 orihinal, 1 photocopy, mula sa CMO-BPLS)
 - [ ] Para sa branch office: Authority to Operate as Branch Office (1 orihinal, 1 photocopy)
 
@@ -68,7 +68,7 @@ Ang Public Employment Service Office (PESO) ay sumusuporta sa mga Overseas Filip
 
 - **Mga reklamo ng OFW:** OFW o isang awtorisadong kinatawan.
 - **TUPAD:** Mga underemployed, na-lay-off o tinanggal na manggagawa (dahil sa retrenchment o permanenteng pagsasara), at self-employed na manggagawa — kabilang ang mga magsasaka at mangingisda — na nawalan ng kabuhayan dahil sa mga likas na kalamidad/sakuna, krisis sa ekonomiya, armadong sigalot, at/o seasonality ng trabaho.
-- **Tulong sa SRA:** Lahat ng overseas placement/recruitment agency na lisensyado ng POEA.
+- **Tulong sa SRA:** Lahat ng overseas placement/recruitment agency na lisensyado ng DMW.
 
 ---
 
@@ -111,7 +111,7 @@ S: Minimum na 10 araw at maximum na 30 araw, depende sa trabaho.
 S: Wala. Pareho silang libre.
 
 **T: Nais ng aming ahensya na mag-recruit ng mga OFW sa Koronadal. Ano ang bayarin at lead time?**
-S: Ang bayarin para sa tulong sa SRA ay PHP 300. Dapat lisensyado ng POEA ang inyong ahensya at dapat magbigay-alam sa PESO sa pamamagitan ng Letter of Intent isang linggo bago ang aktibidad.
+S: Ang bayarin para sa tulong sa SRA ay PHP 300. Dapat lisensyado ng DMW ang inyong ahensya at dapat magbigay-alam sa PESO sa pamamagitan ng Letter of Intent isang linggo bago ang aktibidad.
 
 ---
 

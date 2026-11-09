@@ -12,7 +12,7 @@ Ginarepresentar sang Mayor ang dakbanwa sa opisyal nga mga buluhaton, nagapangun
 
 Ang **nagakaron nga City Mayor amo si {HONORIFIC_TITLE} {MAYOR}.**
 
-Si Mayor **{MAYOR}** ginbotohan bilang **Vice Mayor sang {GOVERNMENT_NAME}** sa **{YEAR_ELECTED} National and Local Elections**. Gin-angkon niya ang katungdanan sang City Mayor sang **March 9, 2026**, nga nagbulos sa nagtaliwan nga si Mayor **Eliordo "Eli" Ogena**, suno sa pagsulundan sa pagbulos sa idalom sang Local Government Code. Sa iya pag-angkon sang katungdanan, si City Councilor **{VICE_MAYOR}** nagbulos bilang **Vice Mayor**.
+Si Mayor **{MAYOR}** ginbotohan bilang **Vice Mayor sang {GOVERNMENT_NAME}** sa **{YEAR_ELECTED} National and Local Elections**. Gin-angkon niya ang katungdanan sang City Mayor sang **March 9, 2026**, nga nagbulos sa nagtaliwan nga si Mayor **Eliordo "Bebot" Ogena**, suno sa pagsulundan sa pagbulos sa idalom sang Local Government Code. Sa iya pag-angkon sang katungdanan, si City Councilor **{VICE_MAYOR}** nagbulos bilang **Vice Mayor**.
 
 ---
 

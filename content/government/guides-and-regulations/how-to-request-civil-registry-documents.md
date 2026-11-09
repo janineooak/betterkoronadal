@@ -1,6 +1,6 @@
 # How to Request Civil Registry Documents — City of Koronadal
 
-This guide helps residents request civil registry documents — such as birth, marriage, and death certificates, CENOMAR, and late registration — from the City Civil Registrar of Koronadal.
+This guide helps residents request civil registry documents — such as birth, marriage, and death certificates, CENOMAR, and late registration — from the City Civil Registrar of Koronadal. Note: the CENOMAR is issued only by the Philippine Statistics Authority (PSA); the City Civil Registrar can endorse your request to the PSA for you.
 
 ---
 

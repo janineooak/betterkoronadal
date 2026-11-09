@@ -6,13 +6,13 @@ Ang Aklatan sang Dakbanwa nagahatag sa mga pumuluyo kag estudyante sang Koronada
 
 ## Parte sa Opisina
 
-| Impormasyon              | Detalye                                                                                    |
-| ------------------------ | ------------------------------------------------------------------------------------------ |
-| **Pangulo sang Opisina** | Erwin H. Lagustan                                                                          |
-| **Opisina**              | City Library                                                                               |
-| **Adres**                | New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506 |
-| **Trunkline**            | (083) 228-6095                                                                             |
-| **Email**                | info.koronadalcity@gmail.com                                                               |
+| Impormasyon              | Detalye                                                                                                                 |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| **Pangulo sang Opisina** | Erwin H. Lagustan                                                                                                       |
+| **Opisina**              | City Library                                                                                                            |
+| **Adres**                | 2/F Koronadal Multipurpose Building, Gensan Drive cor. Morales Ave., Brgy. Zone II, Koronadal City, South Cotabato 9506 |
+| **Trunkline**            | (083) 228-6095                                                                                                          |
+| **Email**                | info.koronadalcity@gmail.com                                                                                            |
 
 ---
 
@@ -43,7 +43,7 @@ Bilang pangpubliko nga aklatan sang Gobyerno sang Dakbanwa sang Koronadal, ang A
 
 ## Paano Makakuha sang mga Serbisyo
 
-1. Magkadto sa Aklatan sang Dakbanwa sa New City Hall Grounds sa oras sang aklatan.
+1. Magkadto sa Aklatan sang Dakbanwa sa ikaduha nga panalgan sang Koronadal Multipurpose Building sa oras sang aklatan.
 2. Magparehistro bilang gumagamit ukon miyembro sang aklatan kon kinahanglan para sa serbisyo nga imo gustong kuhaon.
 3. Magtan-aw sa koleksyon ukon magpangabay sa mga kawani para sa bulig sa pagpangita sang mga materyales.
 4. Gamita ang mga materyales kag kapanguhaan suno sa mga pagsulundan kag polisiya sang aklatan.
@@ -55,7 +55,7 @@ Bilang pangpubliko nga aklatan sang Gobyerno sang Dakbanwa sang Koronadal, ang A
 **City Library**
 City Government of Koronadal
 
-- **Adres:** New City Hall Grounds, Purok Villegas, Brgy. Zone III, Koronadal City, South Cotabato 9506
+- **Adres:** 2/F Koronadal Multipurpose Building, Gensan Drive cor. Morales Ave., Brgy. Zone II, Koronadal City, South Cotabato 9506
 - **Trunkline:** (083) 228-6095
 - **Email:** info.koronadalcity@gmail.com
 - **Facebook:** facebook.com/CityGovernmentofKoronadal

@@ -1,19 +1,19 @@
 # Magkuha sang Bulig para sa mga Manunudlo sa Gwa sang Pungsod ukon Nadula ang Trabaho — Dakbanwa sang Koronadal
 
-Ang Public Employment Service Office (PESO) nagasuporta sa mga Overseas Filipino Workers (OFWs) kag sa mga manunudlo nga nadulaan sang ila palangabuhi-an. Nagabulig ang PESO sa pag-file sang mga reklamo parte sa kaayuhan sang OFW sa OWWA, nagapadalagan sang emergency-employment assistance (TUPAD) para sa mga kabos kag nadula ang trabaho, kag nagabulig sa mga POEA-licensed nga ahensya sa paghimo sang overseas recruitment activities (SRA) diri sa dakbanwa.
+Ang Public Employment Service Office (PESO) nagasuporta sa mga Overseas Filipino Workers (OFWs) kag sa mga manunudlo nga nadulaan sang ila palangabuhi-an. Nagabulig ang PESO sa pag-file sang mga reklamo parte sa kaayuhan sang OFW sa OWWA, nagapadalagan sang emergency-employment assistance (TUPAD) para sa mga kabos kag nadula ang trabaho, kag nagabulig sa mga DMW-licensed (anay POEA) nga ahensya sa paghimo sang overseas recruitment activities (SRA) diri sa dakbanwa.
 
 ---
 
 ## Ang Dapat Mo Mahibal-an
 
-| Impormasyon                   | Detalye                                                                                                                                                                                                                                                                                                                                                                                                          |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Diin**                      | Public Employment Service Office (PESO), New City Hall, Brgy. Zone III, Koronadal City                                                                                                                                                                                                                                                                                                                           |
-| **San-o**                     | Lunes tubtob Biyernes, 8:00 a.m. tubtob 5:00 p.m.                                                                                                                                                                                                                                                                                                                                                                |
-| **Sin-o ang sarang makakuha** | Mga OFW ukon ila awtorisado nga representante (mga reklamo parte sa kaayuhan); kulang sa trabaho, ginpapahuway/gintapos, ukon nagakaugalingon nga manunudlo — lakip ang mga mangunguma kag mangingisda — nga nadulaan sang palangabuhi-an tungod sa kalamidad, krisis sa ekonomiya, armado nga inaway, ukon panahonon nga trabaho (TUPAD); mga POEA-licensed nga ahensya sa overseas placement/recruitment (SRA) |
-| **Mga Kinahanglanon**         | Nagakalain-lain depende sa serbisyo — tan-awa ang seksyon sang mga Kinahanglanon sa ubos                                                                                                                                                                                                                                                                                                                         |
-| **Mga Bayad**                 | Mga reklamo parte sa kaayuhan sang OFW: Wala — libre. TUPAD: Wala — libre. Bulig sa overseas recruitment activity (SRA) para sa mga ahensya: PHP 300                                                                                                                                                                                                                                                             |
-| **Tig- on sang Pagproseso**   | Reklamo parte sa kaayuhan sang OFW: mga 1 ka oras, 7 ka minuto. TUPAD: mga 2 ka adlaw, 34 ka minuto (lakip ang mga gintalana nga hut-ong). Bulig sa SRA: mga 1 ka adlaw, 8 ka minuto                                                                                                                                                                                                                             |
+| Impormasyon                   | Detalye                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Diin**                      | Public Employment Service Office (PESO), New City Hall, Brgy. Zone III, Koronadal City                                                                                                                                                                                                                                                                                                                          |
+| **San-o**                     | Lunes tubtob Biyernes, 8:00 a.m. tubtob 5:00 p.m.                                                                                                                                                                                                                                                                                                                                                               |
+| **Sin-o ang sarang makakuha** | Mga OFW ukon ila awtorisado nga representante (mga reklamo parte sa kaayuhan); kulang sa trabaho, ginpapahuway/gintapos, ukon nagakaugalingon nga manunudlo — lakip ang mga mangunguma kag mangingisda — nga nadulaan sang palangabuhi-an tungod sa kalamidad, krisis sa ekonomiya, armado nga inaway, ukon panahonon nga trabaho (TUPAD); mga DMW-licensed nga ahensya sa overseas placement/recruitment (SRA) |
+| **Mga Kinahanglanon**         | Nagakalain-lain depende sa serbisyo — tan-awa ang seksyon sang mga Kinahanglanon sa ubos                                                                                                                                                                                                                                                                                                                        |
+| **Mga Bayad**                 | Mga reklamo parte sa kaayuhan sang OFW: Wala — libre. TUPAD: Wala — libre. Bulig sa overseas recruitment activity (SRA) para sa mga ahensya: PHP 300                                                                                                                                                                                                                                                            |
+| **Tig- on sang Pagproseso**   | Reklamo parte sa kaayuhan sang OFW: mga 1 ka oras, 7 ka minuto. TUPAD: mga 2 ka adlaw, 34 ka minuto (lakip ang mga gintalana nga hut-ong). Bulig sa SRA: mga 1 ka adlaw, 8 ka minuto                                                                                                                                                                                                                            |
 
 ---
 
@@ -32,7 +32,7 @@ Ang Public Employment Service Office (PESO) nagasuporta sa mga Overseas Filipino
 - **Hut-ong 3:** Sulati ang DOLE Profile Form. Ginaengkod sang PESO ang imo datos kag ginahanda ang imo aplikasyon sa DOLE.
 - **Hut-ong 4:** Kon kwalipikado, pahibalu-on ka sang PESO kag laygayan nga magreport para sa orientation. Magtambong sa orientation, dayon hulata ang paghatag sang DOLE KABUHAYAN nga bulig.
 
-### Pagbulig sa overseas recruitment activity (para sa mga POEA-licensed nga ahensya)
+### Pagbulig sa overseas recruitment activity (para sa mga DMW-licensed nga ahensya)
 
 - **Hut-ong 1:** Isumiter ang tanan nga ginakinahanglan nga dokumento sa PESO. Tan-awon ini sang staff kag italana ang Special Recruitment Activity (SRA).
 - **Hut-ong 2:** Bayari ang PHP 300 nga bayad sa City Treasurer's Office kag tipigi ang Official Receipt.
@@ -56,11 +56,11 @@ Ang Public Employment Service Office (PESO) nagasuporta sa mga Overseas Filipino
 ### Para sa Bulig sa Special Recruitment Activity (SRA) — mga ahensya
 
 - [ ] Letter of Intent nga ginaprobaran sang City Mayor (1 orihinal, 1 photocopy)
-- [ ] Sworn Affidavit of Undertaking (1 orihinal, 1 photocopy, gikan sa POEA)
-- [ ] Special Recruitment Authority nga inisyu sang POEA (1 orihinal, 1 photocopy)
-- [ ] Appointment nga inisyu sang POEA (1 orihinal, 1 photocopy)
-- [ ] Aprobado nga Job Order (1 orihinal, 1 photocopy, gikan sa POEA)
-- [ ] POEA License (1 orihinal, 1 photocopy)
+- [ ] Sworn Affidavit of Undertaking (1 orihinal, 1 photocopy, gikan sa DMW)
+- [ ] Special Recruitment Authority nga inisyu sang DMW (1 orihinal, 1 photocopy)
+- [ ] Appointment nga inisyu sang DMW (1 orihinal, 1 photocopy)
+- [ ] Aprobado nga Job Order (1 orihinal, 1 photocopy, gikan sa DMW)
+- [ ] DMW License (1 orihinal, 1 photocopy)
 - [ ] Business Permit sa pagpadalagan (1 orihinal, 1 photocopy, gikan sa CMO-BPLS)
 - [ ] Para sa branch office: Authority to Operate as Branch Office (1 orihinal, 1 photocopy)
 
@@ -68,7 +68,7 @@ Ang Public Employment Service Office (PESO) nagasuporta sa mga Overseas Filipino
 
 - **Mga reklamo sang OFW:** OFW ukon awtorisado nga representante.
 - **TUPAD:** Kulang sa trabaho, ginpapahuway ukon gintapos nga manunudlo (tungod sa retrenchment ukon permanente nga pagsira), kag nagakaugalingon nga manunudlo — lakip ang mga mangunguma kag mangingisda — nga nadulaan sang palangabuhi-an tungod sa natural nga kalamidad/disaster, krisis sa ekonomiya, armado nga inaway, kag/ukon panahonon nga trabaho.
-- **Bulig sa SRA:** Tanan nga POEA-licensed nga ahensya sa overseas placement/recruitment.
+- **Bulig sa SRA:** Tanan nga DMW-licensed nga ahensya sa overseas placement/recruitment.
 
 ---
 
@@ -111,7 +111,7 @@ S: Minimum nga 10 ka adlaw kag maximum nga 30 ka adlaw, depende sa trabaho.
 S: Wala. Pareho ini libre.
 
 **P: Ang amon ahensya gusto magrekrut sang OFW sa Koronadal. Ano ang bayad kag lead time?**
-S: Ang bayad sa bulig sa SRA amo ang PHP 300. Ang inyo ahensya dapat POEA-licensed kag dapat pahibalu-on ang PESO paagi sa Letter of Intent isa ka semana antes sang hitabo.
+S: Ang bayad sa bulig sa SRA amo ang PHP 300. Ang inyo ahensya dapat DMW-licensed kag dapat pahibalu-on ang PESO paagi sa Letter of Intent isa ka semana antes sang hitabo.
 
 ---
 

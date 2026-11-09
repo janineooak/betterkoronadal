@@ -1,6 +1,6 @@
 # Paano Humiling ng mga Dokumento sa Civil Registry — Lungsod ng Koronadal
 
-Tinutulungan ng gabay na ito ang mga residente na humiling ng mga dokumento sa civil registry — tulad ng mga sertipiko ng kapanganakan, kasal, at kamatayan, CENOMAR, at huling pagpaparehistro (late registration) — mula sa City Civil Registrar ng Koronadal.
+Tinutulungan ng gabay na ito ang mga residente na humiling ng mga dokumento sa civil registry — tulad ng mga sertipiko ng kapanganakan, kasal, at kamatayan, CENOMAR, at huling pagpaparehistro (late registration) — mula sa City Civil Registrar ng Koronadal. Paalala: ang CENOMAR ay inilalabas lamang ng Philippine Statistics Authority (PSA); maaaring i-endorso ng City Civil Registrar ang iyong kahilingan sa PSA.
 
 ---
 
