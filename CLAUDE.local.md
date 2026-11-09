@@ -42,7 +42,7 @@ Charles Ronn C. Trinidad (SK Federation President)
 | --------------------------------------------------- | ----------------------------- |
 | City Administrator's Office                         | Vicente De Jesus              |
 | DILG (City)                                         | Jennifer C. Fernandez         |
-| City Planning & Development Office (CPDO)           | Jonathan B. Enmanuel          |
+| City Planning & Development Office (CPDO)           | Nanette B. Sese (since Aug 2026) |
 | City Information Office                             | Romar A. Olivares             |
 | City Environment & Natural Resources Office (CENRO) | Augustus L. Bretaña           |
 | City Treasurer's Office                             | Marloun C. Gumbao             |
