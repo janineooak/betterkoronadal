@@ -345,7 +345,7 @@ const DEFAULT_SOURCES = ['flood-control', 'procurements'];
 async function main() {
   const only = process.argv[2];
   const names = only ? [only] : DEFAULT_SOURCES;
-  let failures = 0;
+  const failed = [];
   for (const name of names) {
     const fn = SOURCES[name];
     if (!fn) {
@@ -355,14 +355,23 @@ async function main() {
     }
     console.log(`Refreshing ${name}...`);
     try {
-      await fn();
+      // writeOrKeep returns false when a source produced 0 rows.
+      if ((await fn()) === false) failed.push(`${name}: 0 rows produced`);
     } catch (err) {
-      failures++;
+      failed.push(`${name}: ${err.message}`);
       console.warn(`  ! ${name} failed: ${err.message} — keeping existing file`);
     }
   }
-  // Don't fail CI for a flaky upstream; surface it in logs instead.
-  console.log(`Done. ${failures} source(s) failed.`);
+  console.log(`Done. ${failed.length} source(s) failed.`);
+
+  // Sources that succeeded are already written, so the workflow can still
+  // commit them. Exit non-zero so a broken source shows up as a failed run.
+  if (failed.length) {
+    for (const msg of failed) {
+      if (process.env.GITHUB_ACTIONS) console.log(`::error::${msg}`);
+    }
+    process.exitCode = 1;
+  }
 }
 
 main();

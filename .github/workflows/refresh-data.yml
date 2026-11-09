@@ -28,7 +28,11 @@ jobs:
         with:
           node-version: 20
 
+      # Keep going on failure so sources that did refresh still get committed;
+      # the last step then fails the run.
       - name: Fetch latest data
+        id: fetch
+        continue-on-error: true
         run: node scripts/refresh-data.mjs
 
       - name: Commit changes if any
@@ -42,3 +46,9 @@ jobs:
           else
             echo "No data changes."
           fi
+
+      - name: Fail if any source failed
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "::error::One or more data sources failed to refresh. See the 'Fetch latest data' step."
+          exit 1
