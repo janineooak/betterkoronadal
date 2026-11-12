@@ -13,10 +13,6 @@ import History from './pages/History';
 import CityOfficials from './pages/CityOfficials';
 import CityOfficialProfile from './pages/CityOfficialProfile';
 import ProvincialOfficialProfile from './pages/ProvincialOfficialProfile';
-import OfficialsCheatsheet from './pages/OfficialsCheatsheet';
-import OfficialProfile from './pages/OfficialProfile';
-import ContributeOfficial from './pages/ContributeOfficial';
-import AdminDashboard from './pages/AdminDashboard';
 import Contact from './pages/Contact';
 import Hotlines from './pages/Hotlines';
 import Barangays from './pages/Barangays';
@@ -40,6 +36,36 @@ const Competitiveness = lazy(
 const MunicipalIncome = lazy(
   () => import('./pages/statistics/MunicipalIncome')
 );
+
+// Bantay Opisyal pages are only bundled when the feature flag is on (the env
+// check is inlined, not imported from config/features, so the bundler can drop
+// the chunks entirely). When it is off, their routes redirect to the plain
+// officials directory.
+const OfficialsCheatsheet =
+  import.meta.env.VITE_ENABLE_BANTAY_OPISYAL === 'true'
+    ? lazy(() => import('./pages/OfficialsCheatsheet'))
+    : null;
+const OfficialProfile =
+  import.meta.env.VITE_ENABLE_BANTAY_OPISYAL === 'true'
+    ? lazy(() => import('./pages/OfficialProfile'))
+    : null;
+const ContributeOfficial =
+  import.meta.env.VITE_ENABLE_BANTAY_OPISYAL === 'true'
+    ? lazy(() => import('./pages/ContributeOfficial'))
+    : null;
+const AdminDashboard =
+  import.meta.env.VITE_ENABLE_BANTAY_OPISYAL === 'true'
+    ? lazy(() => import('./pages/AdminDashboard'))
+    : null;
+
+const bantayOpisyalRoute = (Page: React.ComponentType | null) =>
+  Page ? (
+    <Suspense fallback={<div className="min-h-screen" />}>
+      <Page />
+    </Suspense>
+  ) : (
+    <Navigate to="/government/city-officials" replace />
+  );
 
 function App() {
   return (
@@ -75,13 +101,22 @@ function App() {
                 path="/provincial-officials/:slug"
                 element={<ProvincialOfficialProfile />}
               />
-              <Route path="/officials" element={<OfficialsCheatsheet />} />
+              <Route
+                path="/officials"
+                element={bantayOpisyalRoute(OfficialsCheatsheet)}
+              />
               <Route
                 path="/officials/contribute"
-                element={<ContributeOfficial />}
+                element={bantayOpisyalRoute(ContributeOfficial)}
               />
-              <Route path="/officials/:id" element={<OfficialProfile />} />
-              <Route path="/admin" element={<AdminDashboard />} />
+              <Route
+                path="/officials/:id"
+                element={bantayOpisyalRoute(OfficialProfile)}
+              />
+              <Route
+                path="/admin"
+                element={bantayOpisyalRoute(AdminDashboard)}
+              />
               <Route
                 path="/statistics"
                 element={

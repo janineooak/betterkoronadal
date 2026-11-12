@@ -1,3 +1,5 @@
+import { BANTAY_OPISYAL_ENABLED } from '../config/features';
+
 // South Cotabato provincial officials — profile directory data.
 //
 // This powers /provincial-officials (a directory of cards) and
@@ -50,10 +52,7 @@ export interface Legislation {
 }
 
 export type LegislationRole =
-  | 'authored'
-  | 'co-authored'
-  | 'sponsored'
-  | 'supported';
+  'authored' | 'co-authored' | 'sponsored' | 'supported';
 
 export interface ProvincialOfficial {
   /** kebab-case, used in the URL: /provincial-officials/:slug */
@@ -97,10 +96,7 @@ export interface ProvincialOfficial {
 }
 
 export type OfficialGroup =
-  | 'executive'
-  | 'congressional'
-  | 'board-1st'
-  | 'board-2nd';
+  'executive' | 'congressional' | 'board-1st' | 'board-2nd';
 
 // Ordered groups for the directory page. `title` keys resolve via i18n with an
 // English fallback baked in here for safety.
@@ -139,45 +135,47 @@ export const provincialOfficials: ProvincialOfficial[] = [
       'Reportedly became governor at age 39, the youngest in the province’s history.',
     ],
     concerns: [],
-    courtCases: [
-      {
-        title: 'PFP party-leadership dispute',
-        summary:
-          'A rival faction within the ruling Partido Federal ng Pilipinas contested Tamayo’s party presidency — an internal party-leadership matter, not a criminal or graft case. The Supreme Court ruled in his favor, affirming the COMELEC’s recognition of him as PFP National President under the party’s 2022 constitution.',
-        status: 'dismissed',
-        forum: 'Supreme Court (affirming COMELEC), Aug 2025',
-        sources: [
+    courtCases: BANTAY_OPISYAL_ENABLED
+      ? [
           {
-            label: 'GMA News — SC affirms Tamayo presidency of PFP',
-            href: 'https://www.gmanetwork.com/news/topstories/nation/952323/sc-reynaldo-tamayo-marcos-partido-federal-ng-pilipinas/story/',
+            title: 'PFP party-leadership dispute',
+            summary:
+              'A rival faction within the ruling Partido Federal ng Pilipinas contested Tamayo’s party presidency — an internal party-leadership matter, not a criminal or graft case. The Supreme Court ruled in his favor, affirming the COMELEC’s recognition of him as PFP National President under the party’s 2022 constitution.',
+            status: 'dismissed',
+            forum: 'Supreme Court (affirming COMELEC), Aug 2025',
+            sources: [
+              {
+                label: 'GMA News — SC affirms Tamayo presidency of PFP',
+                href: 'https://www.gmanetwork.com/news/topstories/nation/952323/sc-reynaldo-tamayo-marcos-partido-federal-ng-pilipinas/story/',
+              },
+              {
+                label:
+                  'South Cotabato — SC affirms recognition of Gov. Tamayo as PFP President',
+                href: 'https://southcotabato.gov.ph/supreme-court-affirms-recognition-of-gov-tamayo-as-pfp-president/',
+              },
+            ],
           },
           {
-            label:
-              'South Cotabato — SC affirms recognition of Gov. Tamayo as PFP President',
-            href: 'https://southcotabato.gov.ph/supreme-court-affirms-recognition-of-gov-tamayo-as-pfp-president/',
+            title: '2025 gubernatorial election protest (Miguel v. Tamayo)',
+            summary:
+              'Defeated candidate Shine Miguel filed an election protest alleging fraud and irregularities in the May 2025 election. The COMELEC First Division summarily dismissed the protest in May 2026 for failing to comply with mandatory requirements under the COMELEC rules. Tamayo was the respondent (winner), not the protestant.',
+            status: 'dismissed',
+            forum: 'COMELEC First Division, May 2026',
+            sources: [
+              {
+                label:
+                  'Politiko Mindanao — Comelec junks poll protest vs Gov. Tamayo',
+                href: 'https://mindanao.politiko.com.ph/governor-reynaldo-tamayo-jr-election-protest-dismissed-comelec/',
+              },
+              {
+                label:
+                  'South Cotabato — Gov. Tamayo wins legal battle against election protest',
+                href: 'https://southcotabato.gov.ph/gov-tamayo-wins-legal-battle-against-election-protest/',
+              },
+            ],
           },
-        ],
-      },
-      {
-        title: '2025 gubernatorial election protest (Miguel v. Tamayo)',
-        summary:
-          'Defeated candidate Shine Miguel filed an election protest alleging fraud and irregularities in the May 2025 election. The COMELEC First Division summarily dismissed the protest in May 2026 for failing to comply with mandatory requirements under the COMELEC rules. Tamayo was the respondent (winner), not the protestant.',
-        status: 'dismissed',
-        forum: 'COMELEC First Division, May 2026',
-        sources: [
-          {
-            label:
-              'Politiko Mindanao — Comelec junks poll protest vs Gov. Tamayo',
-            href: 'https://mindanao.politiko.com.ph/governor-reynaldo-tamayo-jr-election-protest-dismissed-comelec/',
-          },
-          {
-            label:
-              'South Cotabato — Gov. Tamayo wins legal battle against election protest',
-            href: 'https://southcotabato.gov.ph/gov-tamayo-wins-legal-battle-against-election-protest/',
-          },
-        ],
-      },
-    ],
+        ]
+      : [],
     sources: [
       {
         label:
@@ -264,30 +262,34 @@ export const provincialOfficials: ProvincialOfficial[] = [
     notableNotes: [
       'Ran unopposed in 2025, reflecting PFP’s dominance in the province.',
     ],
-    concerns: [
-      'As 2nd District Representative of South Cotabato (2007–2010), Pingoy was named in the Priority Development Assistance Fund (PDAF / "pork barrel") scam linked to Janet Lim Napoles, with allegations that part of his 2007–2008 PDAF was coursed through Napoles-linked NGOs. He denied wrongdoing and was acquitted by the Sandiganbayan in 2023.',
-    ],
-    courtCases: [
-      {
-        title:
-          'People v. Arthur Yusay Pingoy Jr., et al. (PDAF / pork barrel scam)',
-        summary:
-          'The Ombudsman charged Pingoy in 2016 with graft (RA 3019 Sec. 3(e)), malversation, and bribery over alleged misuse of about P20.91 million of his 2007–2008 PDAF via Napoles-linked NGOs. He pleaded not guilty. On October 20, 2023, the Sandiganbayan Special Second Division acquitted him for insufficient evidence that he received kickbacks.',
-        status: 'acquitted',
-        forum: 'Sandiganbayan Special Second Division, 2023 (charged 2016)',
-        sources: [
+    concerns: BANTAY_OPISYAL_ENABLED
+      ? [
+          'As 2nd District Representative of South Cotabato (2007–2010), Pingoy was named in the Priority Development Assistance Fund (PDAF / "pork barrel") scam linked to Janet Lim Napoles, with allegations that part of his 2007–2008 PDAF was coursed through Napoles-linked NGOs. He denied wrongdoing and was acquitted by the Sandiganbayan in 2023.',
+        ]
+      : [],
+    courtCases: BANTAY_OPISYAL_ENABLED
+      ? [
           {
-            label:
-              'Office of the Ombudsman — charges vs ex-Rep. Pingoy, Napoles for PDAF scam',
-            href: 'https://www.ombudsman.gov.ph/ombudsman-charges-ex-rep-pingoy-napoles-for-pdaf-scam/',
+            title:
+              'People v. Arthur Yusay Pingoy Jr., et al. (PDAF / pork barrel scam)',
+            summary:
+              'The Ombudsman charged Pingoy in 2016 with graft (RA 3019 Sec. 3(e)), malversation, and bribery over alleged misuse of about P20.91 million of his 2007–2008 PDAF via Napoles-linked NGOs. He pleaded not guilty. On October 20, 2023, the Sandiganbayan Special Second Division acquitted him for insufficient evidence that he received kickbacks.',
+            status: 'acquitted',
+            forum: 'Sandiganbayan Special Second Division, 2023 (charged 2016)',
+            sources: [
+              {
+                label:
+                  'Office of the Ombudsman — charges vs ex-Rep. Pingoy, Napoles for PDAF scam',
+                href: 'https://www.ombudsman.gov.ph/ombudsman-charges-ex-rep-pingoy-napoles-for-pdaf-scam/',
+              },
+              {
+                label: 'Sandiganbayan decision (SB-16-CRM-0254 to 0263)',
+                href: 'https://sb.judiciary.gov.ph/wp-content/uploads/2024/04/J_Crim_SB-16-CRM-0254-to-0263_People-vs-Arthur-Yusay-Pingoy-Jr-et-al_10_20_2023-compressed.pdf',
+              },
+            ],
           },
-          {
-            label: 'Sandiganbayan decision (SB-16-CRM-0254 to 0263)',
-            href: 'https://sb.judiciary.gov.ph/wp-content/uploads/2024/04/J_Crim_SB-16-CRM-0254-to-0263_People-vs-Arthur-Yusay-Pingoy-Jr-et-al_10_20_2023-compressed.pdf',
-          },
-        ],
-      },
-    ],
+        ]
+      : [],
     sources: [
       {
         label: 'Inquirer — South Cotabato gov gets reelected',
@@ -457,32 +459,36 @@ export const provincialOfficials: ProvincialOfficial[] = [
       'Represents the district that contains Koronadal City, the provincial capital.',
       'A licensed lawyer and among the most senior figures in House leadership for the 20th Congress.',
     ],
-    concerns: [
-      'In 2019 social-media posts, blogger-lawyer Berteni Causing accused Hernandez of misusing funds intended for Marawi siege victims. The accusation was never adjudicated as true in any court; Hernandez denied it and instead filed a cyber libel complaint against Causing. It remains an unproven allegation.',
-    ],
-    courtCases: [
-      {
-        title:
-          'Causing v. People (cyber libel arising from allegations against Rep. Hernandez)',
-        summary:
-          'Hernandez was the private complainant (not the accused) in a cyber libel case he filed in December 2020 against blogger Berteni Causing over 2019 posts. The Supreme Court (G.R. No. 258524) addressed the prescription question, holding cyber libel prescribes one year from discovery. The underlying allegation against Hernandez was never proven and he disputes it.',
-        status: 'pending',
-        forum:
-          'Supreme Court (G.R. No. 258524); originating from Quezon City RTC',
-        sources: [
+    concerns: BANTAY_OPISYAL_ENABLED
+      ? [
+          'In 2019 social-media posts, blogger-lawyer Berteni Causing accused Hernandez of misusing funds intended for Marawi siege victims. The accusation was never adjudicated as true in any court; Hernandez denied it and instead filed a cyber libel complaint against Causing. It remains an unproven allegation.',
+        ]
+      : [],
+    courtCases: BANTAY_OPISYAL_ENABLED
+      ? [
           {
-            label:
-              'Rappler — SC decision, Causing v. People (cyber libel prescription)',
-            href: 'https://www.rappler.com/philippines/supreme-court-decision-cyber-libel-causing-versus-people/',
+            title:
+              'Causing v. People (cyber libel arising from allegations against Rep. Hernandez)',
+            summary:
+              'Hernandez was the private complainant (not the accused) in a cyber libel case he filed in December 2020 against blogger Berteni Causing over 2019 posts. The Supreme Court (G.R. No. 258524) addressed the prescription question, holding cyber libel prescribes one year from discovery. The underlying allegation against Hernandez was never proven and he disputes it.',
+            status: 'pending',
+            forum:
+              'Supreme Court (G.R. No. 258524); originating from Quezon City RTC',
+            sources: [
+              {
+                label:
+                  'Rappler — SC decision, Causing v. People (cyber libel prescription)',
+                href: 'https://www.rappler.com/philippines/supreme-court-decision-cyber-libel-causing-versus-people/',
+              },
+              {
+                label:
+                  'Supreme Court — Cyber libel prescribes one year from discovery',
+                href: 'https://sc.judiciary.gov.ph/sc-affirms-cyber-libel-prescribes-one-year-from-discovery/',
+              },
+            ],
           },
-          {
-            label:
-              'Supreme Court — Cyber libel prescribes one year from discovery',
-            href: 'https://sc.judiciary.gov.ph/sc-affirms-cyber-libel-prescribes-one-year-from-discovery/',
-          },
-        ],
-      },
-    ],
+        ]
+      : [],
     sources: [
       {
         label: 'Rappler — Ferdinand Hernandez elected senior deputy speaker',
