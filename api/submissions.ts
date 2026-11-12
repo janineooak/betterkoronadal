@@ -1,6 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { getPool, audit } from './_lib/db';
 import { requireAdmin } from './_lib/auth';
+import { bantayOpisyalEnabled } from './_lib/feature';
 
 const KINDS = [
   'new_person',
@@ -14,6 +15,10 @@ const KINDS = [
 // POST  /api/submissions          — public: file a contribution (moderated)
 // GET   /api/submissions          — admin: list submissions
 export default async function handler(req: VercelRequest, res: VercelResponse) {
+  // Feature hidden: stop accepting public contributions.
+  if (req.method === 'POST' && !bantayOpisyalEnabled())
+    return res.status(404).json({ error: 'Not found.' });
+
   const pool = getPool();
   if (!pool)
     return res.status(503).json({ error: 'Backend is not configured.' });

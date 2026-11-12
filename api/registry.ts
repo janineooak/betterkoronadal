@@ -1,5 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { getPool } from './_lib/db';
+import { bantayOpisyalEnabled } from './_lib/feature';
 
 // GET /api/registry — public. Returns admin-published additions/edits plus
 // APPROVED sensitive items (court cases / concerns). The client merges these
@@ -8,6 +9,9 @@ import { getPool } from './_lib/db';
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'GET')
     return res.status(405).json({ error: 'Method not allowed.' });
+
+  // Feature hidden: publish nothing, not even approved sensitive items.
+  if (!bantayOpisyalEnabled()) return res.json({ entries: [], sensitive: [] });
 
   const pool = getPool();
   if (!pool) return res.json({ entries: [], sensitive: [] });

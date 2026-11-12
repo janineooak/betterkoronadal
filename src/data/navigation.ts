@@ -1,4 +1,5 @@
 import type { NavigationItem } from '../types';
+import { BANTAY_OPISYAL_ENABLED } from '../config/features';
 import { serviceCategories as servicesData } from './yamlLoader';
 
 interface Subcategory {
@@ -53,12 +54,16 @@ export const mainNavigation: NavigationItem[] = [
         href: '/government/city-officials',
         icon: 'Contact',
       },
-      {
-        label: 'Officials Registry',
-        labelKey: 'nav.registry',
-        href: '/officials',
-        icon: 'History',
-      },
+      ...(BANTAY_OPISYAL_ENABLED
+        ? [
+            {
+              label: 'Officials Registry',
+              labelKey: 'nav.registry',
+              href: '/officials',
+              icon: 'History',
+            },
+          ]
+        : []),
       {
         label: 'Barangays',
         labelKey: 'nav.barangays',
